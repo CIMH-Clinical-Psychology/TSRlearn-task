@@ -13,7 +13,7 @@ import os
 import random
 import pandas as pd
 from collections import deque, Counter, defaultdict
-from typing import Dict, List
+from typing import Dict, List, Tuple 
 
 # ============================================================================
 # settings
@@ -334,29 +334,79 @@ def validate_translations(concepts: List[str], german_map: dict, french_map: dic
 # helper functions for during trial list generation
 # ============================================================================
 
-def pick_nonmatching_word(
-    concept: str,
-    used_mismatches: dict,
-    rng: random.Random,
-    concepts: List[str]
-) -> str:
+def initialize_mismatch_pair_tracker():
+    """Track frequency of each (image_concept, word_concept) mismatch pair."""
+    return Counter()
+
+
+def calculate_pair_weight(pair: Tuple[str, str], pair_counter: Counter, power: float = 2.0) -> float:
     """
-    Pick a non-matching word from available concepts.
-    Tracks usage to ensure balanced mismatch partner distribution.
-    """
-    candidates = [w for w in concepts if w != concept and w not in used_mismatches[concept]]
+    Calculate weight for mismatch pair based on prior usage.
+    Lower weight = more likely to be selected.
     
-    if not candidates:
-        used_mismatches[concept].clear()
-        candidates = [w for w in concepts if w != concept]
+    When power=2.0:
+        frequency=0 → weight=1.0 (most likely)
+        frequency=1 → weight=0.25 (1/4 as likely)
+        frequency=2 → weight=0.11 (1/9 as likely)
+    
+    When power=3.0: Even stronger penalty for frequent pairs
+    """
+    frequency = pair_counter[pair]
+    weight = 1.0 / ((frequency + 1) ** power)
+    return weight
+
+def pick_nonmatching_word_balanced(
+    concept: str,
+    used_mismatches: Dict[str, set],
+    pair_counter: Counter,
+    rng: random.Random,
+    concepts: List[str],
+    pair_power: float = 2.0
+) -> str:
+    """    
+    Uses weighted probability for mismatch partner selection based on (image_concept, word_concept) pair frequency.
+    """
+    # Find candidate words (exclude the image concept)
+    candidates = [w for w in concepts if w != concept]
     
     if not candidates:
         raise ValueError(f"No candidates for mismatch word for concept '{concept}'")
     
-    chosen = rng.choice(candidates)
+    # Reset exhaustion if all pairs tried once
+    all_pairs_tried = all(
+        (concept, w) in pair_counter or (w, concept) in pair_counter 
+        for w in candidates
+    )
+    if all_pairs_tried and all(w in used_mismatches[concept] for w in candidates):
+        used_mismatches[concept].clear()
+    
+    # Get available words (not yet exhausted)
+    available = [w for w in candidates if w not in used_mismatches[concept]]
+    
+    if not available:
+        # Fallback: reset and use all candidates
+        used_mismatches[concept].clear()
+        available = [w for w in candidates if w != concept]
+    
+    # Calculate weights based on pair frequency
+    weights = []
+    for w in available:
+        pair = (concept, w)
+        weight = calculate_pair_weight(pair, pair_counter, power=pair_power)
+        weights.append(weight)
+    
+    # Normalize weights
+    total_weight = sum(weights)
+    if total_weight == 0:
+        weights = [1.0 / len(available)] * len(available)
+    else:
+        weights = [w / total_weight for w in weights]
+    
+    # Select word using weighted probability
+    chosen = rng.choices(available, weights=weights, k=1)[0]
     used_mismatches[concept].add(chosen)
+    
     return chosen
-
 
 def calculate_transition_targets(n_concepts: int, n_trials: int) -> float:
     """
@@ -383,18 +433,15 @@ def build_valid_schedule(
     global_counters: dict,
     n_blocks: int = 4,
     n_position_segments: int = 10,
-    block_tol: int = 0 # no tolerance when trying to fullfill constraints
+    block_tol: int = 0,
+    pair_power: float = 2.0  # <-- ADD THIS LINE
 ) -> List[Dict]:
     """
     Build valid schedule satisfying all individual AND group-level constraints.
     
-    Uses progressive constraint relaxation:
-    - Early attempts: Strict enforcement of all constraints
-    - Later attempts: Gradual relaxation of soft constraints
-    - Final attempts: Only hard constraints enforced
-    
-    Returns:
-        List of trials in valid order, or empty list if failed
+    Now includes:
+    - Mismatch partner balance (via pair_power weighting during enrichment)
+    - Mismatch word streak (no identical word in consecutive mismatches)
     """
     total = len(trials)
     if total == 0:
@@ -442,6 +489,7 @@ def build_valid_schedule(
         # Streak trackers
         last_concepts = deque(maxlen=max_streak)
         last_words = deque(maxlen=max_streak)
+        last_mismatch_word = None
         last_transitions_local = Counter()
         
         # Per-block counters
@@ -504,6 +552,12 @@ def build_valid_schedule(
                 w_streak = sum(1 for prev_w in reversed(last_words) if prev_w == w)
                 if w_streak >= max_streak:
                     continue
+                
+                # Mismatch word streak 
+                if is_mismatch and last_mismatch_word is not None:
+                    if w == last_mismatch_word:
+                        continue  # Skip this candidate - would violate mismatch word streak
+                
                 
                 # CONSTRAINT 03: Per-block balance of concept use
                 if concept_counts_block[c][block_num] >= concept_target_per_block[c] + block_tol:
@@ -626,6 +680,10 @@ def build_valid_schedule(
             
             last_concepts.append(item["concept"])
             last_words.append(item["word_shown_english"])
+            
+            # Update last mismatch word if this trial is a mismatch
+            if item.get("is_mismatch", 0) == 1:  # 
+                last_mismatch_word = item["word_shown_english"]
             
             # Update local transition tracker
             if len(last_concepts) > 1:
@@ -776,9 +834,10 @@ def build_localizer_for_participant(
     if total_mismatches_assigned != 20:
         raise RuntimeError(f"Expected 20 total mismatches, got {total_mismatches_assigned}")
     
-    # add word assignments
-    enriched = []
+    # add word assignments with balanced mismatch partner selection
     used_mismatches = {c: set() for c in concepts}
+    pair_counter = Counter()  # Track pair frequencies
+    enriched = []
     
     for base in trials:
         c = base["concept"]
@@ -787,9 +846,18 @@ def build_localizer_for_participant(
         
         is_mismatch = 1 if ex_id in mismatch_index_by_concept[c] else 0
         
-        # Choose the word
+        # Choose the word using BALANCED selection
         if is_mismatch == 1:
-            w_en = pick_nonmatching_word(c, used_mismatches, rng, concepts)
+            w_en = pick_nonmatching_word_balanced(
+                c, 
+                used_mismatches, 
+                pair_counter,
+                rng, 
+                concepts,
+                pair_power=2.0  # Use 3.0 for stronger balancing
+            )
+            # Track this pair for balancing statistics
+            pair_counter[(c, w_en)] += 1
         else:
             w_en = c
         
@@ -819,7 +887,7 @@ def build_localizer_for_participant(
             f"all trials have {enriched_mismatch_count} mismatches, expected 20"
         )
     
-    # Build valid schedule with global balancing
+    # Build valid schedule with streak constraint and global balancing
     sched = build_valid_schedule(
         enriched,
         rng=rng,
@@ -830,7 +898,8 @@ def build_localizer_for_participant(
         global_counters=global_counters,
         n_blocks=N_BLOCKS,
         n_position_segments=N_POSITION_SEGMENTS,
-        block_tol=0
+        block_tol=0,
+        pair_power=2.0  # Exponent for pair weighting (2.0 or 3.0)
     )
     
     if not sched:

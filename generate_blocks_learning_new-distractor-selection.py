@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 28 17:50:47 2026
+
+@author: Sianna.Groesser
+"""
+
 """
 Learning trial generation for TSRlearn experiment 
 """
@@ -7,13 +14,20 @@ import json
 import pandas as pd
 from collections import deque, Counter
 from typing import Dict, List, Tuple
+import numpy as np
 
+from distractor_selection_new import (
+    select_two_distractors_ULTRA_BALANCE,
+    prepare_distractor_selection_tracking,
+    update_distractor_tracking,
+    print_distractor_selection_report,
+    validate_distractor_difficulties
+)
 from balanced_sequence_generation import (
     generate_all_sequences_A_balanced,
     generate_sequence_B_with_constraints,
-    validate_sequences
+    validate_sequences,
 )
-
 # ============================================================================
 # SETTINGS
 # ============================================================================
@@ -294,17 +308,26 @@ def _exemplar_from_file(path: str):
 # functions for validating constraints
 # ============================================================================
 
-def print_participant_distance_distribution(df_learning: pd.DataFrame, seqA: List[str], seqB: List[str], ppt_id: str) -> None:
+def print_participant_difficulty_distribution(df_learning: pd.DataFrame, seqA: List[str], seqB: List[str], ppt_id: str) -> None:
     """
-    Print the distribution of distance differences for a participant.
-    Shows how many times each distance difference (dist02 - dist01) occurs.
+    Print the distribution of difficulty scores for a participant.
+    Shows how many times each difficulty score occurs for dist01 and dist02.
+    
+    Difficulty scoring:
+      Before distractors: score = -distance (negative = harder)
+      After distractors: score = +distance (positive = easier)
+    
+    Constraint: dist01_difficulty < dist02_difficulty
+    (dist01 should be harder, dist02 should be easier)
     """
+    from distractor_selection_new import get_difficulty_score
+    
     seqA_lookup = {concept: idx for idx, concept in enumerate(seqA)}
     seqB_lookup = {concept: idx for idx, concept in enumerate(seqB)}
     
-    distance_diffs = Counter()
-    dist01_distances = Counter()
-    dist02_distances = Counter()
+    difficulty_diffs = Counter()
+    dist01_difficulties = Counter()
+    dist02_difficulties = Counter()
     
     for _, row in df_learning.iterrows():
         seq_name = row['learningSeq']
@@ -314,95 +337,316 @@ def print_participant_distance_distribution(df_learning: pd.DataFrame, seqA: Lis
         dist01_idx = seq_lookup[row['dist01Concept']]
         dist02_idx = seq_lookup[row['dist02Concept']]
         
+        # Calculate distances
         dist01_distance = abs(dist01_idx - prompt_idx)
         dist02_distance = abs(dist02_idx - prompt_idx)
+        
+        # Determine direction (before or after current)
+        dist01_is_before = dist01_idx < prompt_idx
+        dist02_is_before = dist02_idx < prompt_idx
+        
+        # Calculate difficulty scores
+        dist01_difficulty = get_difficulty_score(dist01_distance, dist01_is_before)
+        dist02_difficulty = get_difficulty_score(dist02_distance, dist02_is_before)
         
         # Track difference
-        diff = dist02_distance - dist01_distance
-        distance_diffs[diff] += 1
+        diff = dist02_difficulty - dist01_difficulty
+        difficulty_diffs[diff] += 1
         
-        # Track individual distances
-        dist01_distances[dist01_distance] += 1
-        dist02_distances[dist02_distance] += 1
+        # Track individual difficulties
+        dist01_difficulties[dist01_difficulty] += 1
+        dist02_difficulties[dist02_difficulty] += 1
     
-    print(f"\nDistance Distribution for Participant {ppt_id}")
+    print(f"\n{'='*70}")
+    print(f"Difficulty Distribution for Participant {ppt_id}")
+    print(f"{'='*70}")
     print(f"Total trials: {len(df_learning)}")
     
-    print(" dist01 (near distractor) distances:")
-    for dist in sorted(dist01_distances.keys()):
-        count = dist01_distances[dist]
+    print(f"\ndist01 (HARDER distractor) difficulties:")
+    print(f"(Lower/more negative = harder to discriminate)")
+    for diff in sorted(dist01_difficulties.keys()):
+        count = dist01_difficulties[diff]
         pct = (count / len(df_learning)) * 100
-        bar = "█" * (count // 6)
-        print(f"Distance {dist:2d}: {count:3d} ({pct:5.1f}%) {bar}")
+        bar = "█" * max(1, count // 3)
+        print(f"  Difficulty {diff:+3.0f}: {count:3d} ({pct:5.1f}%) {bar}")
     
-    print("dist02 (far distractor) distances:")
-    for dist in sorted(dist02_distances.keys()):
-        count = dist02_distances[dist]
+    print(f"\ndist02 (EASIER distractor) difficulties:")
+    print(f"(Higher/more positive = easier to discriminate)")
+    for diff in sorted(dist02_difficulties.keys()):
+        count = dist02_difficulties[diff]
         pct = (count / len(df_learning)) * 100
-        bar = "█" * (count // 6)
-        print(f"Distance {dist:2d}: {count:3d} ({pct:5.1f}%) {bar}")
+        bar = "█" * max(1, count // 3)
+        print(f"  Difficulty {diff:+3.0f}: {count:3d} ({pct:5.1f}%) {bar}")
     
-    print("Difference between dist02 and dist01:")
-    for diff in sorted(distance_diffs.keys()):
-        count = distance_diffs[diff]
+    print(f"\nDifficulty difference (dist02 - dist01):")
+    print(f"(Should be ALL positive if constraint satisfied)")
+    for diff in sorted(difficulty_diffs.keys()):
+        count = difficulty_diffs[diff]
         pct = (count / len(df_learning)) * 100
-        bar = "█" * (count // 6)
-        print(f" Diff {diff:2d}: {count:3d} ({pct:5.1f}%) {bar}")
+        status = "✓" if diff > 0 else "✗"
+        bar = "█" * max(1, count // 3)
+        print(f"  Diff {diff:+3.0f}: {count:3d} ({pct:5.1f}%) {status} {bar}")
+    
+    # Convert to arrays for statistics
+    dist01_scores = np.array([d for diffs in [[k]*v for k, v in dist01_difficulties.items()] for d in diffs])
+    dist02_scores = np.array([d for diffs in [[k]*v for k, v in dist02_difficulties.items()] for d in diffs])
+    all_diffs = np.array([d for diffs in [[k]*v for k, v in difficulty_diffs.items()] for d in diffs])
+    
+    # Summary statistics
+    print(f"Summary Statistics")
+    print(f"dist01 (harder):")
+    print(f"  Mean:     {np.mean(dist01_scores):+7.2f}")
+    print(f"  Std dev:  {np.std(dist01_scores):7.2f}")
+    print(f"  Min:      {np.min(dist01_scores):+7.2f}")
+    print(f"  Max:      {np.max(dist01_scores):+7.2f}")
+    
+    print(f"\ndist02 (easier):")
+    print(f"  Mean:     {np.mean(dist02_scores):+7.2f}")
+    print(f"  Std dev:  {np.std(dist02_scores):7.2f}")
+    print(f"  Min:      {np.min(dist02_scores):+7.2f}")
+    print(f"  Max:      {np.max(dist02_scores):+7.2f}")
+    
+    print(f"\nDifference (dist02 - dist01):")
+    print(f"  Mean:     {np.mean(all_diffs):+7.2f}")
+    print(f"  Std dev:  {np.std(all_diffs):7.2f}")
+    print(f"  Min:      {np.min(all_diffs):+7.2f}")
+    print(f"  Max:      {np.max(all_diffs):+7.2f}")
+    
+    # Constraint check
+    violations = sum(1 for d in all_diffs if d <= 0)
+    valid = len(all_diffs) - violations
+    print(f"\nConstraint check (dist01_difficulty < dist02_difficulty):")
+    print(f"  Valid:      {valid:3d} ({valid/len(all_diffs)*100:5.1f}%)")
+    print(f"  Violations: {violations:3d} ({violations/len(all_diffs)*100:5.1f}%)")
+    if violations == 0:
+        print(f"  ✓ PASS: All trials satisfy constraint")
+    else:
+        print(f"  ✗ FAIL: {violations} trials violate constraint")
+    print(f"{'='*70}")
 
 
-def validate_learning_distractor_distances(df_learning: pd.DataFrame, seqA: List[str], seqB: List[str], *, verbose=False) -> None:
+
+def reconstruct_sequences(df):
     """
-    Validates that for EVERY learning trial, dist01_distance < dist02_distance.
-    
+    Reconstruct the sequences from the file by analyzing the prompt-correct pairs.
+    Since each trial's correct becomes the next trial's prompt, we can build the sequence.
+    Also include all distractor concepts to get the complete picture.
     """
-    seqA_lookup = {concept: idx for idx, concept in enumerate(seqA)}
-    seqB_lookup = {concept: idx for idx, concept in enumerate(seqB)}
+    seqA_order = []
+    seqB_order = []
+    seqA_all = set()
+    seqB_all = set()
     
-    violations = []
+    # First pass: get prompt-correct pairs to establish order
+    df_A = df[df['learningSeq'] == 'A'].reset_index(drop=True)
+    df_B = df[df['learningSeq'] == 'B'].reset_index(drop=True)
     
-    for trial_idx, (_, row) in enumerate(df_learning.iterrows()):
-        seq_name = row['learningSeq']
-        seq = seqA if seq_name == 'A' else seqB
-        seq_lookup = seqA_lookup if seq_name == 'A' else seqB_lookup
-        
-        prompt_idx = seq_lookup[row['promptConcept']]
-        dist01_idx = seq_lookup[row['dist01Concept']]
-        dist02_idx = seq_lookup[row['dist02Concept']]
-        
-        dist01_distance = abs(dist01_idx - prompt_idx)
-        dist02_distance = abs(dist02_idx - prompt_idx)
-        
-        # dist01 should always be closer (smaller distance) than dist02
-        if dist01_distance >= dist02_distance:
-            violations.append({
-                'trial': trial_idx,
-                'seq': seq_name,
-                'prompt': row['promptConcept'],
-                'dist01': row['dist01Concept'],
-                'dist02': row['dist02Concept'],
-                'dist01_distance': dist01_distance,
-                'dist02_distance': dist02_distance,
-            })
+    # For Seq A: build order from prompt-correct pairs
+    if len(df_A) > 0:
+        for i, (_, row) in enumerate(df_A.iterrows()):
+            prompt = row['promptConcept']
+            correct = row['correctConcept']
+            dist01 = row['dist01Concept']
+            dist02 = row['dist02Concept']
+            
+            seqA_all.add(prompt)
+            seqA_all.add(correct)
+            seqA_all.add(dist01)
+            seqA_all.add(dist02)
+            
+            if i == 0:
+                seqA_order.append(prompt)
+            if correct not in seqA_order:
+                seqA_order.append(correct)
     
-    if violations:
-        print(f"Selection of distractors does not make sense")
-        print(f"Found {len(violations)} trials where dist01_distance >= dist02_distance:")
-        print(f"(This violates the constraint: dist01 should ALWAYS be closer than dist02)\n")
+    # For Seq B: build order from prompt-correct pairs
+    if len(df_B) > 0:
+        for i, (_, row) in enumerate(df_B.iterrows()):
+            prompt = row['promptConcept']
+            correct = row['correctConcept']
+            dist01 = row['dist01Concept']
+            dist02 = row['dist02Concept']
+            
+            seqB_all.add(prompt)
+            seqB_all.add(correct)
+            seqB_all.add(dist01)
+            seqB_all.add(dist02)
+            
+            if i == 0:
+                seqB_order.append(prompt)
+            if correct not in seqB_order:
+                seqB_order.append(correct)
+    else:
+        seqB_all = seqA_all
+        seqB_order = seqA_order
+    
+    # If we still have missing concepts (distractors that aren't in sequence order),
+    # add them at the end (they might be buffers)
+    for concept in sorted(seqA_all):
+        if concept not in seqA_order:
+            seqA_order.append(concept)
+    
+    for concept in sorted(seqB_all):
+        if concept not in seqB_order:
+            seqB_order.append(concept)
+    
+    return seqA_order, seqB_order
+
+def validate_all_participants(out_dir, n_participants):
+    """
+    Load and validate distractor selections across all participants.
+    
+    Reads directly from learning trial files instead of relying on 
+    separate report JSON files (which may not exist).
+    """
+    import json
+    import numpy as np
+    import pandas as pd
+    from distractor_selection_new import get_difficulty_score
+    
+    all_difficulties = []
+    all_direction_usage = {"before": 0, "after": 0}
+    all_violations = []
+    
+    for ppt in range(n_participants):
+        ppt_id = f"{ppt:02d}"
         
-        for v in violations[:10]:  # Show first 10
-            print(f"  Trial {v['trial']:3d} (Seq {v['seq']}): prompt={v['prompt']:10s}, "
-                  f"dist01={v['dist01']:10s} ({v['dist01_distance']}) vs "
-                  f"dist02={v['dist02']:10s} ({v['dist02_distance']})")
-        
-            print(f"  number of violations: {len(violations)}")
+        # Try both blockA and blockB files
+        for block in ['A', 'B']:
+            learning_file = os.path.join(out_dir, f"learning_block{block}_fixed-middle-10_{ppt_id}.xlsx")
+            
+            if not os.path.exists(learning_file):
+                print(f"⚠ File not found: {learning_file}")
+                continue
+            
+            try:
+                df_learning = pd.read_excel(learning_file, sheet_name='learning')
                 
-        raise AssertionError(
-            f"Distractor distance constraint violated in {len(violations)} trials. "
-            f"dist01_distance must always be < dist02_distance."
-        )
+                # Reconstruct sequences from the file
+                seqA, seqB = reconstruct_sequences(df_learning)
+                seqA_lookup = {concept: idx for idx, concept in enumerate(seqA)}
+                seqB_lookup = {concept: idx for idx, concept in enumerate(seqB)}
+                
+                # Extract difficulty information from trials
+                for trial_idx, (_, row) in enumerate(df_learning.iterrows()):
+                    seq_name = row['learningSeq']
+                    seq_lookup = seqA_lookup if seq_name == 'A' else seqB_lookup
+                    
+                    prompt_idx = seq_lookup[row['promptConcept']]
+                    dist01_idx = seq_lookup[row['dist01Concept']]
+                    dist02_idx = seq_lookup[row['dist02Concept']]
+                    
+                    # Calculate distances
+                    dist01_distance = abs(dist01_idx - prompt_idx)
+                    dist02_distance = abs(dist02_idx - prompt_idx)
+                    
+                    # Determine direction
+                    dist01_is_before = dist01_idx < prompt_idx
+                    dist02_is_before = dist02_idx < prompt_idx
+                    
+                    # Calculate difficulty scores
+                    dist01_difficulty = get_difficulty_score(dist01_distance, dist01_is_before)
+                    dist02_difficulty = get_difficulty_score(dist02_distance, dist02_is_before)
+                    
+                    # Track for group-level statistics
+                    all_difficulties.append(dist01_difficulty)
+                    all_difficulties.append(dist02_difficulty)
+                    
+                    # Track direction usage
+                    all_direction_usage["before"] += 1 if dist01_is_before else 0
+                    all_direction_usage["after"] += 1 if not dist01_is_before else 0
+                    all_direction_usage["before"] += 1 if dist02_is_before else 0
+                    all_direction_usage["after"] += 1 if not dist02_is_before else 0
+                    
+                    # Check constraint
+                    if dist01_difficulty >= dist02_difficulty:
+                        all_violations.append({
+                            'participant': ppt_id,
+                            'block': block,
+                            'trial': trial_idx,
+                            'dist01_difficulty': dist01_difficulty,
+                            'dist02_difficulty': dist02_difficulty,
+                        })
+                
+                print(f"✓ Loaded Participant {ppt_id} Block {block}: "
+                      f"{len(df_learning)} trials, {len(seqA)} concepts")
+                
+            except Exception as e:
+                print(f"✗ Error loading {learning_file}: {e}")
+                continue
     
-
-
+    # Print group-level report
+    print("\n" + "="*70)
+    print("GROUP-LEVEL VALIDATION")
+    print("="*70)
+    
+    if not all_difficulties:
+        print("⚠ No difficulties calculated - check file paths")
+        return
+    
+    print(f"\nDifficulty Distribution (across all participants):")
+    print(f"  Total distractors sampled: {len(all_difficulties)}")
+    print(f"  Mean:   {np.mean(all_difficulties):7.2f} (target: 0.00)")
+    print(f"  Std:    {np.std(all_difficulties):7.2f}")
+    print(f"  Min:    {np.min(all_difficulties):7.2f}")
+    print(f"  Max:    {np.max(all_difficulties):7.2f}")
+    
+    # Histogram
+    print(f"\n  Distribution by difficulty bins:")
+    bins = [-10, -5, -3, -1, 0, 1, 3, 5, 10]
+    for i in range(len(bins) - 1):
+        count = sum(1 for d in all_difficulties if bins[i] <= d < bins[i+1])
+        pct = (count / len(all_difficulties) * 100) if all_difficulties else 0
+        bar = "█" * (count // 20) if count > 0 else ""
+        print(f"    [{bins[i]:3d}, {bins[i+1]:3d}): {count:4d} ({pct:5.1f}%) {bar}")
+    
+    total_dir = all_direction_usage["before"] + all_direction_usage["after"]
+    before_pct = (all_direction_usage["before"] / total_dir * 100) if total_dir > 0 else 0
+    after_pct = (all_direction_usage["after"] / total_dir * 100) if total_dir > 0 else 0
+    
+    print(f"\nDirection usage (all participants combined):")
+    print(f"  Before (harder): {all_direction_usage['before']:4d} ({before_pct:5.1f}%)")
+    print(f"  After (easier):  {all_direction_usage['after']:4d} ({after_pct:5.1f}%)")
+    
+    # Quality checks
+    print(f"\nQuality Checks:")
+    
+    if abs(np.mean(all_difficulties)) < 0.5:
+        print(f"  ✓ Difficulty mean is well-centered (±0.5 of target)")
+    else:
+        dev = np.mean(all_difficulties)
+        print(f"  ⚠ Difficulty mean is {dev:+.2f} away from target (0.0)")
+        if dev > 0.5:
+            print(f"    → Overall too easy (shift toward harder distractors)")
+        else:
+            print(f"    → Overall too hard (shift toward easier distractors)")
+    
+    if np.std(all_difficulties) < 3.0:
+        print(f"  ✓ Difficulty std dev is reasonable ({np.std(all_difficulties):.2f})")
+    else:
+        print(f"  ⚠ Difficulty std dev is high ({np.std(all_difficulties):.2f})")
+        print(f"    → Consider more consistent difficulty selection")
+    
+    if all_violations:
+        print(f"\n  ✗ Found {len(all_violations)} constraint violations:")
+        print(f"    (dist01_difficulty >= dist02_difficulty)")
+        print(f"\n    First 5 violations:")
+        for v in all_violations[:5]:
+            print(f"      Ppt {v['participant']} Block {v['block']} Trial {v['trial']:2d}: "
+                  f"{v['dist01_difficulty']:+5.1f} >= {v['dist02_difficulty']:+5.1f}")
+        if len(all_violations) > 5:
+            print(f"      ... and {len(all_violations) - 5} more")
+        print(f"\n    ✗ FAILED - Fix distractor selection")
+    else:
+        print(f"  ✓ All distractors satisfy dist01 < dist02 constraint")
+    
+    # Summary
+    print("\n" + "="*70)
+    if all_violations == 0 and abs(np.mean(all_difficulties)) < 1.0:
+        print("✓ GROUP-LEVEL VALIDATION PASSED")
+    else:
+        print("⚠ GROUP-LEVEL VALIDATION HAS ISSUES - REVIEW ABOVE")
+    print("="*70)
 
 def print_participant_distance_histogram(df_learning: pd.DataFrame, seqA: List[str], seqB: List[str], ppt_id: str) -> Dict[int, int]:
     """
@@ -433,7 +677,7 @@ def print_participant_distance_histogram(df_learning: pd.DataFrame, seqA: List[s
     
     # Print histogram
     print(f"\n  Distance histogram for participant {ppt_id}:")
-    print(f"  Distance: Count")
+    print("  Distance: Count")
     for dist in sorted(distance_counts.keys()):
         count = distance_counts[dist]
         bar = "█" * (count // 5)  # Visual bar (each █ = 5 trials)
@@ -442,145 +686,6 @@ def print_participant_distance_histogram(df_learning: pd.DataFrame, seqA: List[s
     return dict(distance_counts)
     
 
-
-# ============================================================================
-# functions for selecting distractor stimuli on each trial 
-# ============================================================================
-
-
-def _select_two_distractors_balanced(
-    seq: List[str],
-    current_idx: int,
-    rng: random.Random,
-    exclude_indices: set = None,
-    min_gap: int = 1,
-    distance_difference_usage: Counter = None,
-    debug: bool = False
-) -> Tuple[int, int] | None:
-    """
-    Select two distractors (dist01, dist02) with independent probabilistic weighting such that:
-    1. dist01 is closer to current than dist02 (dist01_distance < dist02_distance)
-    2. dist02 - dist01 >= min_gap (depends on if they came before or after current in sequence)
-       - Forward (after current): distance >= 2
-       - Backward (before current): distance >= 3
-    3. PROBABILISTIC WEIGHTING applied independently to both:
-       - Forward distractors: uniform probability
-       - Backward distractors: weighted by distance (further back = higher probability)
-    4. BALANCES distance DIFFERENCES between dist01 and dist02 (prefer less-used differences)
-    
-    Logic:
-    - Create weighted pool for dist01 (backward weighted by distance)
-    - For each dist01 option, create weighted pool for dist02 with constraint dist02 > dist01
-    - Apply same probabilistic weighting to dist02 (backward weighted by distance)
-    - Select pair that best balances the difference
-    
-    Args:
-        distance_difference_usage: Counter tracking (dist02_distance - dist01_distance) for balancing
-                                   Goal: make all differences occur equally often
-    
-    Returns:
-        (dist01_idx, dist02_idx) or None if selection fails
-    """
-    
-    if exclude_indices is None:
-        exclude_indices = set()
-    if distance_difference_usage is None:
-        distance_difference_usage = Counter()
-    
-    max_attempts = 10000 # could be increased
-    
-    for attempt in range(max_attempts):
-        # Step 1: Get all valid candidates for each position
-        all_candidates = []
-        
-        for j in range(len(seq)):
-            if j in exclude_indices or j == current_idx:
-                continue
-            
-            # Determine if forward or backward
-            if j > current_idx:
-                # Forward: distance >= 2
-                dist = j - current_idx
-                if dist >= MIN_DISTANCE_DIS_CUR_FORWARD:
-                    all_candidates.append((j, dist, "forward"))
-            else:
-                # Backward: distance >= 3
-                dist = current_idx - j
-                if dist >= MIN_DISTANCE_DIS_CUR_BACKWARD:
-                    all_candidates.append((j, dist, "backward"))
-        
-        if len(all_candidates) < 2:
-            if debug and attempt == 0:
-                print(f"    WARNING: Only {len(all_candidates)} candidates available at pos {current_idx}")
-            return None
-        
-        # Step 2: Separate forward and backward for probabilistic weighting
-        forward_candidates = [(j, d) for j, d, direction in all_candidates if direction == "forward"]
-        backward_candidates = [(j, d) for j, d, direction in all_candidates if direction == "backward"]
-        
-        # Helper function to calculate custom weight
-        def get_backward_weight(distance):
-            """Custom weighting for backward candidates."""
-            # could do more elaborate weights here?
-            if distance == 3:
-                return 0.3 # simple, just lower prob for distances of 3
-            else:  # distance >= 3
-                return 1.0
-        
-        # Step 3: Create weighted pools for DIST01 (with probabilistic selection)
-        weighted_dist01 = []
-        for j, d in forward_candidates:
-            weighted_dist01.extend([(j, d, "forward")] * 1)
-        for j, d in backward_candidates:
-            weight = get_backward_weight(d)
-            # Convert float weight to integer repetitions (multiply by 4 and round)
-            weight_int = max(1, int(round(weight * 4)))
-            weighted_dist01.extend([(j, d, "backward")] * weight_int)
-        
-        # Step 4: For each possible dist01, create weighted pool for DIST02
-        # and find the best pair (dist01 < dist02, with difference balancing)
-        best_pair = None
-        best_score = float('inf')
-        
-        # Shuffle dist01 pool for randomness
-        rng.shuffle(weighted_dist01)
-        
-        # Try different dist01 options
-        for idx1_idx, (idx1, dist1, dir1) in enumerate(weighted_dist01):
-            # Create weighted pool for dist02 with constraint: dist02_distance > dist01_distance
-            weighted_dist02 = []
-            
-            for j, d in forward_candidates:
-                if d > dist1:  # Constraint: dist02 > dist01
-                    weighted_dist02.extend([(j, d, "forward")] * 1)
-            
-            for j, d in backward_candidates:
-                if d > dist1:  # Constraint: dist02 > dist01
-                    weight = get_backward_weight(d)
-                    weight_int = max(1, int(round(weight * 4)))
-                    weighted_dist02.extend([(j, d, "backward")] * weight_int)
-            
-            if not weighted_dist02:
-                continue  # No valid dist02 for this dist01, try next dist01
-            
-            # Shuffle dist02 pool
-            rng.shuffle(weighted_dist02)
-            
-            # Find best dist02 that balances the difference
-            for idx2_idx, (idx2, dist2, dir2) in enumerate(weighted_dist02):
-                if idx2 != idx1 and (dist2 - dist1) >= min_gap:
-                    # Score by how often THIS DIFFERENCE has been used
-                    diff = dist2 - dist1
-                    usage_score = distance_difference_usage[diff]
-                    if usage_score < best_score:
-                        best_score = usage_score
-                        best_pair = (idx1, idx2)
-        
-        if best_pair is not None:
-            return best_pair
-    
-    
-    return None
 
 
 # ============================================================================
@@ -686,8 +791,6 @@ def _sample_positions(
     return None
 
 
-
-
 # ============================================================================
 # main function to build the learning trials
 # ============================================================================
@@ -699,7 +802,7 @@ def build_trials_with_fixed_middle(
     participant_idx: int = 0,
     debug: bool = True,
     precomputed_sequences_A: List[Tuple[List[str], List[str]]] | None = None,
-    middle_10_fixed: List[str] = None  # NEW: needed for Seq B generation
+    middle_10_fixed: List[str] = None  
 ) -> Tuple[pd.DataFrame, List[str], List[str], Dict[str, int], Dict[str, int]]:
     """Build learning trials with fixed middle 10 concepts."""
     
@@ -720,7 +823,7 @@ def build_trials_with_fixed_middle(
         buffers_A=buffers_A,
         middle_10_fixed=middle_10_fixed,
         rng=rng,
-        max_tries=1000000,
+        max_tries=MAX_SIM_ATTEMPTS,
         verbose=debug
     )
     
@@ -728,7 +831,11 @@ def build_trials_with_fixed_middle(
     is_valid = validate_sequences(seqA, seqB)
     print(f"VALID: {is_valid}")
     
-    
+    distractor_tracking = prepare_distractor_selection_tracking(
+       n_trials_expected=(stim_per_seq - 1) * sum(SEQUENCE_RUNS.values()),
+       seq_length=14       # Length of your sequence
+   )
+        
     # Pick exemplars for all concepts in both sequences
     all_unique_concepts = list(set(seqA + seqB))
     
@@ -764,13 +871,13 @@ def build_trials_with_fixed_middle(
     # Distance DIFFERENCE usage tracking (for balancing all diffs equally within participant)
     participant_distance_difference_usage = Counter()
 
-    for attempt in range(1, MAX_SIM_ATTEMPTS + 1):
+    for attempt in range(1, 1000 + 1):
         rng_attempt = random.Random(seed + attempt)
         
         if attempt == 1:
             print("  Generating learning trials...")
-        elif attempt % 10000 == 0:
-            print(f" attempt {attempt}/{MAX_SIM_ATTEMPTS}")
+        elif attempt % 100 == 0:
+            print(f" attempt {attempt}/1000")
         
         rows: list[dict] = []
 
@@ -804,22 +911,44 @@ def build_trials_with_fixed_middle(
             nonlocal prev_trial_info
             nonlocal attempt_failed, failure_reason, failure_location
             nonlocal participant_distance_difference_usage
+            
+            # Track which sequence positions used as distractors in this route
+            distractor_coverage = set()
 
+            # Track recent distractor concepts (ANY role) to prevent streaks
+            last_distractor_concepts = deque(maxlen=2)
+            
             for i in range(len(seq) - 1):
                 curr, nxt = seq[i], seq[i + 1]
 
                 # Select two distractors with distance DIFFERENCE balancing
                 try:
-                    result = _select_two_distractors_balanced(
-                        seq, i, rng_attempt,
-                        exclude_indices={i, i+1},
-                        min_gap=1,
-                        distance_difference_usage=participant_distance_difference_usage  # ← Balance differences
-                    )
+                    result = select_two_distractors_ULTRA_BALANCE(  
+                    seq=seq,
+                    current_idx=i,
+                    rng=rng_attempt,
+                    exclude_indices={i, i+1},
+                    direction_usage=distractor_tracking["direction_usage"],
+                    difficulty_usage=distractor_tracking["difficulty_usage"],
+                    distance_diff_usage=distractor_tracking["distance_diff_usage"],
+                    position_as_dist01_usage=distractor_tracking["position_as_dist01_usage"],
+                    position_as_dist02_usage=distractor_tracking["position_as_dist02_usage"],
+                    position_targets=distractor_tracking["position_targets"],
+                    target_difficulty_mean=5.0,
+                    target_difficulty_std=4.0,
+                    min_difficulty_difference=1.0,
+                    distractor_coverage=distractor_coverage,
+                    dist01_distance_usage=distractor_tracking["dist01_distance_usage"],  
+                    dist02_distance_usage=distractor_tracking["dist02_distance_usage"],  
+                    debug=True
+                )
+                
                     if result is None:
                         dist01_idx, dist02_idx = None, None
+                        selection_info = None
                     else:
-                        dist01_idx, dist02_idx = result
+                        (dist01_idx, dist02_idx), selection_info = result
+                        update_distractor_tracking(distractor_tracking, selection_info)
                 except Exception as e:
                     if debug and attempt < 10:
                         print(f"  Exception in distractor selection at seq={seq_label}, i={i}: {e}")
@@ -839,9 +968,38 @@ def build_trials_with_fixed_middle(
                     failure_location = f"seq={seq_label}, pos={i}"
                     return False
                 
+                
+
                 dist01 = seq[dist01_idx]
                 dist02 = seq[dist02_idx]
                 
+                # Check distractor concept streak constraint (ANY ROLE)
+                # A concept cannot appear as a distractor (dist01 OR dist02) more than 2 times in a row
+                if dist01 in last_distractor_concepts:
+                    consecutive_count = 0
+                    for recent_concept in reversed(last_distractor_concepts):
+                        if recent_concept == dist01:
+                            consecutive_count += 1
+                        else:
+                            break
+                    
+                    if consecutive_count >= 2:
+                        continue  # Try next pair
+                
+                if dist02 in last_distractor_concepts:
+                    consecutive_count = 0
+                    for recent_concept in reversed(last_distractor_concepts):
+                        if recent_concept == dist02:
+                            consecutive_count += 1
+                        else:
+                            break
+                    
+                    if consecutive_count >= 2:
+                        continue  # Try next pair
+                # track used distractors to ensure coverage within the route
+                distractor_coverage.add(dist01_idx)
+                distractor_coverage.add(dist02_idx)
+
                 # Update distance difference usage for balancing future selections
                 dist01_distance = abs(dist01_idx - i)
                 dist02_distance = abs(dist02_idx - i)
@@ -918,12 +1076,22 @@ def build_trials_with_fixed_middle(
                     "pairTargetPosInSeq": i + 2,
                 })
                 
+                # Update unified concept streak tracking (both dist01 and dist02)
+                last_distractor_concepts.append(dist01)
+                last_distractor_concepts.append(dist02)
+                
                 # Store for next iteration
                 prev_trial_info = (correct_file, dist01_file, dist02_file, cpos, d1pos, d2pos)
             
-            return True
+            # Check all sequence positions used as distractors at least once
+            if debug and len(distractor_coverage) < len(seq):
+               missing = set(range(len(seq))) - distractor_coverage
+               coverage_pct = len(distractor_coverage) / len(seq) * 100
+               print(f"  Route {seq_label} run {run_index}: Coverage {coverage_pct:.0f}% ({len(distractor_coverage)}/{len(seq)}), missing: {missing}")
+           
+            return True  #
 
-        def _add_routes_interleaved_B_then_A(seqA, exA, seqB, exB, reps_per_seq: int, block_label: str) -> bool:
+        def _add_routes_interleaved_B_then_A(seqA, exA, seqB, exB, reps_per_seq: int, block_label: str) -> Tuple[pd.DataFrame, List[str], List[str], Dict[str, int], Dict[str, int]]:
             for r in range(1, reps_per_seq + 1):
                 okB = _add_one_route("B", seqB, exB, seq_other=seqA, ex_other=exA, run_index=r, block_label=block_label)
                 if not okB:
@@ -952,14 +1120,14 @@ def build_trials_with_fixed_middle(
             df = pd.DataFrame(rows)
             if attempt > 1:
                 print(f"\n Success on attempt {attempt}")
-            return df, seqA, seqB, exA, exB
+            return df, seqA, seqB, exA, exB, distractor_tracking  
         else:
             if debug and attempt <= 3:
                 print(f"  Attempt {attempt} FAILED: {failure_reason} at {failure_location}")
 
     # Print summary
     print("TRIAL GENERATION FAILED")
-    print(f"Failed after {MAX_SIM_ATTEMPTS} attempts.")
+    print(f"Failed after 1000 attempts.")
     print(f"\nFailure breakdown:")
     for reason, count in sorted(failure_counts.items(), key=lambda x: -x[1]):
         if count > 0:
@@ -967,7 +1135,7 @@ def build_trials_with_fixed_middle(
             print(f"  {reason:35s}: {count:6d} ({pct:5.1f}%)")
     
     raise RuntimeError(
-        f"Failed to satisfy constraints within {MAX_SIM_ATTEMPTS} attempts.\n"
+        f"Failed to satisfy constraints within 1000 attempts.\n"
         f"Most common failure: {max(failure_counts.items(), key=lambda x: x[1])}"
     )
 
@@ -989,7 +1157,7 @@ if __name__ == "__main__":
     middle_concepts=MIDDLE_10_FIXED,
     buffer_pool=buffer_pool,
     seed=SEED,
-    max_attempts_per_ppt=100000,
+    max_attempts_per_ppt=MAX_SIM_ATTEMPTS,
     verbose=True
     )
 
@@ -1019,25 +1187,26 @@ if __name__ == "__main__":
         
         try:
             # Generate learning trials
-            df_learning, seqA, seqB, exA, exB = build_trials_with_fixed_middle(
+            df_learning, seqA, seqB, exA, exB, distractor_tracking = build_trials_with_fixed_middle( 
                 seed_ppt,
                 global_counters=global_counters,
                 exemplar_assignments=exemplar_assignments,
                 participant_idx=ppt,
                 debug=False,
                 precomputed_sequences_A=sequences_A_balanced,
-                middle_10_fixed=MIDDLE_10_FIXED  # NEW: pass this for Seq B generation
+                middle_10_fixed=MIDDLE_10_FIXED  
             )
             
             # Add trigger columns
             df_learning = _add_learn_trig_cols(df_learning)
             
             # Validate distractor distance constraint
-            validate_learning_distractor_distances(df_learning, seqA, seqB, verbose=False)
+            validate_distractor_difficulties(df_learning, seqA, seqB, verbose=False)
             
             # Print per-participant distance distribution
-            print_participant_distance_distribution(df_learning, seqA, seqB, ppt_id)
-            
+            print_participant_difficulty_distribution(df_learning, seqA, seqB, ppt_id)
+            print_distractor_selection_report(distractor_tracking, ppt_id)
+
             # Save learning files
             learning_a_filename = f"learning_blockA_fixed-middle-10_{ppt_id}.xlsx"
             learning_a_path = os.path.join(out_dir, learning_a_filename)
@@ -1051,6 +1220,7 @@ if __name__ == "__main__":
             df_learning_b.to_excel(learning_b_path, sheet_name='learning', index=False)
             print(f" Saved Block B: {len(df_learning_b)} trials")
             
+    
             # Update global counters
             global_counters = update_global_counters(global_counters, df_learning, seqA, seqB)
             
@@ -1072,3 +1242,6 @@ if __name__ == "__main__":
     
     # Print global monitoring report
     print_global_report(global_counters, len(successful_participants))
+    
+    
+    validate_all_participants(out_dir, n_participants)
