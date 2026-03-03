@@ -21,11 +21,16 @@ from distractor_selection_new import (
     prepare_distractor_selection_tracking,
     update_distractor_tracking,
     print_distractor_selection_report,
-    validate_distractor_difficulties
+    validate_distractor_difficulties,
+    reset_route_tracking,
+    finalize_route_tracking
 )
+
 from balanced_sequence_generation import (
     generate_all_sequences_A_balanced,
     generate_sequence_B_with_constraints,
+    construct_sequence_B_deterministic, 
+    SEQB_COMBOS, 
     validate_sequences,
 )
 # ============================================================================
@@ -37,17 +42,13 @@ from balanced_sequence_generation import (
 # buffer_pool includes remaining concepts that should be added as buffers (2 in the beginning, 2 at the end)
 
 buffer_pool = [
-  "bed",
-  "bird",
   "car",
-  "cat",
   "fish",
   "guitar",
-  "key",
   "lamp",
+  "key",
+  "pencil",
   "phone",
-  "train",
-  "tree"
 ]
 
 MIDDLE_10_FIXED = [
@@ -63,17 +64,17 @@ MIDDLE_10_FIXED = [
     "jacket",
 ]
 
-SEED = 42 # randomize properly!!
+SEED = 100 # randomize properly!!
 
 N_EXEMPLARS_PER_CONCEPT = 40
-MAX_SIM_ATTEMPTS = 1000000
+MAX_SIM_ATTEMPTS = 10000000
 
 n_participants = 20
 
 # map keys to positions on the screen 
 POSITION_KEYS = {"left": "left", "center": "center", "right": "right"}
 
-SEQUENCE_RUNS = {"A": 12, "B": 6}  # used to compute position targets
+SEQUENCE_RUNS = {"A": 20, "B": 10}  # used to compute position targets
 stim_per_seq = 14
 
 # constraints
@@ -143,6 +144,21 @@ def update_global_counters(counters, df_learning, seqA, seqB):
     seqB_lookup = {concept: idx for idx, concept in enumerate(seqB)}
     
     for _, row in df_learning.iterrows():
+        
+        seq = seqA if row['learningSeq'] == 'A' else seqB
+        seq_lookup = {c: i for i, c in enumerate(seq)}
+        
+        # combinations of positions as curr, dist0ß1 and dist02
+        current_seqpos = seq_lookup[row['promptConcept']]
+        dist01_seqpos  = seq_lookup[row['dist01Concept']]
+        dist02_seqpos  = seq_lookup[row['dist02Concept']]
+        
+        key = (current_seqpos, dist01_seqpos, dist02_seqpos)
+        group_distractor_tracking["pair_usage"][key] += 1
+        
+        # positions in the sequence used as distractor
+        group_distractor_tracking["position_usage"][dist01_seqpos] += 1
+        group_distractor_tracking["position_usage"][dist02_seqpos] += 1
         
         # Position assignments
         counters['position_assignments'][('correct', row['correct_pos'])] += 1
@@ -317,7 +333,7 @@ def print_participant_difficulty_distribution(df_learning: pd.DataFrame, seqA: L
       Before distractors: score = -distance (negative = harder)
       After distractors: score = +distance (positive = easier)
     
-    Constraint: dist01_difficulty < dist02_difficulty
+    Constraint: dist01_difficulty > dist02_difficulty
     (dist01 should be harder, dist02 should be easier)
     """
     from distractor_selection_new import get_difficulty_score
@@ -357,9 +373,7 @@ def print_participant_difficulty_distribution(df_learning: pd.DataFrame, seqA: L
         dist01_difficulties[dist01_difficulty] += 1
         dist02_difficulties[dist02_difficulty] += 1
     
-    print(f"\n{'='*70}")
     print(f"Difficulty Distribution for Participant {ppt_id}")
-    print(f"{'='*70}")
     print(f"Total trials: {len(df_learning)}")
     
     print(f"\ndist01 (HARDER distractor) difficulties:")
@@ -413,7 +427,7 @@ def print_participant_difficulty_distribution(df_learning: pd.DataFrame, seqA: L
     print(f"  Max:      {np.max(all_diffs):+7.2f}")
     
     # Constraint check
-    violations = sum(1 for d in all_diffs if d <= 0)
+    violations = sum(1 for d in all_diffs if d >= 0)
     valid = len(all_diffs) - violations
     print(f"\nConstraint check (dist01_difficulty < dist02_difficulty):")
     print(f"  Valid:      {valid:3d} ({valid/len(all_diffs)*100:5.1f}%)")
@@ -559,7 +573,7 @@ def validate_all_participants(out_dir, n_participants):
                     all_direction_usage["after"] += 1 if not dist02_is_before else 0
                     
                     # Check constraint
-                    if dist01_difficulty >= dist02_difficulty:
+                    if dist01_difficulty <= dist02_difficulty:
                         all_violations.append({
                             'participant': ppt_id,
                             'block': block,
@@ -611,17 +625,17 @@ def validate_all_participants(out_dir, n_participants):
     # Quality checks
     print(f"\nQuality Checks:")
     
-    if abs(np.mean(all_difficulties)) < 0.5:
+    if 0.4 < abs(np.mean(all_difficulties)) < 0.6:
         print(f"  ✓ Difficulty mean is well-centered (±0.5 of target)")
     else:
         dev = np.mean(all_difficulties)
         print(f"  ⚠ Difficulty mean is {dev:+.2f} away from target (0.0)")
-        if dev > 0.5:
+        if dev > 0.6:
             print(f"    → Overall too easy (shift toward harder distractors)")
         else:
             print(f"    → Overall too hard (shift toward easier distractors)")
     
-    if np.std(all_difficulties) < 3.0:
+    if np.std(all_difficulties) < 0.3:
         print(f"  ✓ Difficulty std dev is reasonable ({np.std(all_difficulties):.2f})")
     else:
         print(f"  ⚠ Difficulty std dev is high ({np.std(all_difficulties):.2f})")
@@ -629,11 +643,11 @@ def validate_all_participants(out_dir, n_participants):
     
     if all_violations:
         print(f"\n  ✗ Found {len(all_violations)} constraint violations:")
-        print(f"    (dist01_difficulty >= dist02_difficulty)")
+        print(f"    (dist01_difficulty <= dist02_difficulty)")
         print(f"\n    First 5 violations:")
         for v in all_violations[:5]:
             print(f"      Ppt {v['participant']} Block {v['block']} Trial {v['trial']:2d}: "
-                  f"{v['dist01_difficulty']:+5.1f} >= {v['dist02_difficulty']:+5.1f}")
+                  f"{v['dist01_difficulty']:+5.1f} <= {v['dist02_difficulty']:+5.1f}")
         if len(all_violations) > 5:
             print(f"      ... and {len(all_violations) - 5} more")
         print(f"\n    ✗ FAILED - Fix distractor selection")
@@ -802,7 +816,9 @@ def build_trials_with_fixed_middle(
     participant_idx: int = 0,
     debug: bool = True,
     precomputed_sequences_A: List[Tuple[List[str], List[str]]] | None = None,
-    middle_10_fixed: List[str] = None  
+    middle_10_fixed: List[str] = None,
+    exclude_patterns = None,
+    group_distractor_tracking=None,
 ) -> Tuple[pd.DataFrame, List[str], List[str], Dict[str, int], Dict[str, int]]:
     """Build learning trials with fixed middle 10 concepts."""
     
@@ -818,23 +834,23 @@ def build_trials_with_fixed_middle(
         print(f" participant: {participant_idx}, eror generating balanced sequence A, check if ther eis an error with ppt id")
     
     # generate permuted sequence B 
-    seqB = generate_sequence_B_with_constraints(
-        seqA=seqA,
-        buffers_A=buffers_A,
-        middle_10_fixed=middle_10_fixed,
-        rng=rng,
-        max_tries=MAX_SIM_ATTEMPTS,
-        verbose=debug
+    # seqB = generate_sequence_B_with_constraints(
+    #     seqA=seqA,
+    #     buffers_A=buffers_A,
+    #     middle_10_fixed=middle_10_fixed,
+    #     rng=rng,
+    #     max_tries=MAX_SIM_ATTEMPTS,
+    #     exclude_patterns=exclude_patterns,
+    #     verbose=debug
+    # )
+    combo_id = participant_idx % len(SEQB_COMBOS)
+    seqB = construct_sequence_B_deterministic(
+        seqA=seqA, buffers_A=buffers_A, combo_id=combo_id, verbose=debug
     )
-    
     # validate the two sequences
     is_valid = validate_sequences(seqA, seqB)
     print(f"VALID: {is_valid}")
     
-    distractor_tracking = prepare_distractor_selection_tracking(
-       n_trials_expected=(stim_per_seq - 1) * sum(SEQUENCE_RUNS.values()),
-       seq_length=14       # Length of your sequence
-   )
         
     # Pick exemplars for all concepts in both sequences
     all_unique_concepts = list(set(seqA + seqB))
@@ -871,13 +887,18 @@ def build_trials_with_fixed_middle(
     # Distance DIFFERENCE usage tracking (for balancing all diffs equally within participant)
     participant_distance_difference_usage = Counter()
 
-    for attempt in range(1, 1000 + 1):
+    for attempt in range(1, 100000 + 1):
         rng_attempt = random.Random(seed + attempt)
+        
+        distractor_tracking = prepare_distractor_selection_tracking(
+           n_trials_expected=(stim_per_seq - 1) * sum(SEQUENCE_RUNS.values()),
+           seq_length=14
+       )
         
         if attempt == 1:
             print("  Generating learning trials...")
         elif attempt % 100 == 0:
-            print(f" attempt {attempt}/1000")
+            print(f" attempt {attempt}/100000")
         
         rows: list[dict] = []
 
@@ -914,33 +935,57 @@ def build_trials_with_fixed_middle(
             
             # Track which sequence positions used as distractors in this route
             distractor_coverage = set()
+            
+            reset_route_tracking(distractor_tracking)
 
-            # Track recent distractor concepts (ANY role) to prevent streaks
-            last_distractor_concepts = deque(maxlen=2)
+            # Track recent distractor concepts to prevent streaks            
+            prev_dist01_idx = None
+            prev_dist02_idx = None
+            prev_difficulty_pair = None
             
             for i in range(len(seq) - 1):
                 curr, nxt = seq[i], seq[i + 1]
 
                 # Select two distractors with distance DIFFERENCE balancing
                 try:
-                    result = select_two_distractors_ULTRA_BALANCE(  
+                    result = select_two_distractors_ULTRA_BALANCE(
                     seq=seq,
                     current_idx=i,
                     rng=rng_attempt,
-                    exclude_indices={i, i+1},
+                    exclude_indices={i, i + 1},
+                    # Global tracking (still needed for position/distance balance across routes)
                     direction_usage=distractor_tracking["direction_usage"],
-                    difficulty_usage=distractor_tracking["difficulty_usage"],
                     distance_diff_usage=distractor_tracking["distance_diff_usage"],
                     position_as_dist01_usage=distractor_tracking["position_as_dist01_usage"],
                     position_as_dist02_usage=distractor_tracking["position_as_dist02_usage"],
                     position_targets=distractor_tracking["position_targets"],
-                    target_difficulty_mean=5.0,
-                    target_difficulty_std=4.0,
-                    min_difficulty_difference=1.0,
+                    # Hard constraints
+                    min_difficulty_difference=0.2,
+                    # Coverage
                     distractor_coverage=distractor_coverage,
-                    dist01_distance_usage=distractor_tracking["dist01_distance_usage"],  
-                    dist02_distance_usage=distractor_tracking["dist02_distance_usage"],  
-                    debug=True
+                    coverage_weight=1,
+                    # Distance tracking
+                    dist01_distance_usage=distractor_tracking["dist01_distance_usage"],
+                    dist02_distance_usage=distractor_tracking["dist02_distance_usage"],
+                    # Streak prevention
+                    prev_dist01_idx=prev_dist01_idx,
+                    prev_dist02_idx=prev_dist02_idx,
+                    prev_difficulty_pair=prev_difficulty_pair,
+                    # Per-route difficulty (mean + SD + difference — all per route)
+                    route_dist01_difficulties=distractor_tracking["current_route_dist01_difficulties"],
+                    route_dist02_difficulties=distractor_tracking["current_route_dist02_difficulties"],
+                    route_difficulty_diffs=distractor_tracking["current_route_difficulty_diffs"],
+                    target_route_dist01_mean=0.6,
+                    target_route_dist02_mean=0.3,
+                    route_difficulty_tolerance=0.19,
+                    target_route_dist01_std=0.2,
+                    target_route_dist02_std=0.2,
+                    route_std_tolerance=0.15,
+                    target_difficulty_diff_mean=0.3,
+                    # Position-relative direction balance
+                    tracking=distractor_tracking,
+                    group_tracking=group_distractor_tracking, 
+                    debug=True,
                 )
                 
                     if result is None:
@@ -949,6 +994,12 @@ def build_trials_with_fixed_middle(
                     else:
                         (dist01_idx, dist02_idx), selection_info = result
                         update_distractor_tracking(distractor_tracking, selection_info)
+                        # Update previous trial tracking for streak constraints
+                        prev_dist01_idx = dist01_idx
+                        prev_dist02_idx = dist02_idx
+                        prev_difficulty_pair = (selection_info["dist01_difficulty"], 
+                                                selection_info["dist02_difficulty"])
+                        
                 except Exception as e:
                     if debug and attempt < 10:
                         print(f"  Exception in distractor selection at seq={seq_label}, i={i}: {e}")
@@ -973,29 +1024,7 @@ def build_trials_with_fixed_middle(
                 dist01 = seq[dist01_idx]
                 dist02 = seq[dist02_idx]
                 
-                # Check distractor concept streak constraint (ANY ROLE)
-                # A concept cannot appear as a distractor (dist01 OR dist02) more than 2 times in a row
-                if dist01 in last_distractor_concepts:
-                    consecutive_count = 0
-                    for recent_concept in reversed(last_distractor_concepts):
-                        if recent_concept == dist01:
-                            consecutive_count += 1
-                        else:
-                            break
-                    
-                    if consecutive_count >= 2:
-                        continue  # Try next pair
-                
-                if dist02 in last_distractor_concepts:
-                    consecutive_count = 0
-                    for recent_concept in reversed(last_distractor_concepts):
-                        if recent_concept == dist02:
-                            consecutive_count += 1
-                        else:
-                            break
-                    
-                    if consecutive_count >= 2:
-                        continue  # Try next pair
+
                 # track used distractors to ensure coverage within the route
                 distractor_coverage.add(dist01_idx)
                 distractor_coverage.add(dist02_idx)
@@ -1072,24 +1101,24 @@ def build_trials_with_fixed_middle(
                     "correct_pos": cpos,
                     "dist01_pos":  d1pos,
                     "dist02_pos":  d2pos,
+                    "dist01_diff": selection_info["dist01_difficulty"],
+                    "dist02_diff": selection_info["dist02_difficulty"],
                     "correct_ans": POSITION_KEYS[cpos],
                     "pairTargetPosInSeq": i + 2,
                 })
                 
-                # Update unified concept streak tracking (both dist01 and dist02)
-                last_distractor_concepts.append(dist01)
-                last_distractor_concepts.append(dist02)
                 
                 # Store for next iteration
                 prev_trial_info = (correct_file, dist01_file, dist02_file, cpos, d1pos, d2pos)
-            
+                
             # Check all sequence positions used as distractors at least once
-            if debug and len(distractor_coverage) < len(seq):
-               missing = set(range(len(seq))) - distractor_coverage
-               coverage_pct = len(distractor_coverage) / len(seq) * 100
-               print(f"  Route {seq_label} run {run_index}: Coverage {coverage_pct:.0f}% ({len(distractor_coverage)}/{len(seq)}), missing: {missing}")
-           
-            return True  #
+            if len(distractor_coverage) < len(seq):
+                missing = set(range(len(seq))) - distractor_coverage
+                print(f"  Coverage FAILED: missing positions {missing}")
+                return False
+
+            finalize_route_tracking(distractor_tracking)
+            return True
 
         def _add_routes_interleaved_B_then_A(seqA, exA, seqB, exB, reps_per_seq: int, block_label: str) -> Tuple[pd.DataFrame, List[str], List[str], Dict[str, int], Dict[str, int]]:
             for r in range(1, reps_per_seq + 1):
@@ -1103,16 +1132,16 @@ def build_trials_with_fixed_middle(
 
         ok = True
 
-        # Block A: 6 runs of A
-        for r in range(1, 6 + 1):
+        # Block A: 10 runs of A
+        for r in range(1, 10 + 1):
             if not _add_one_route("A", seqA, exA, seq_other=seqB, ex_other=exB, run_index=r, block_label="A"):
                 ok = False
                 failure_reason = failure_reason or "block_A_route"
                 break
 
-        # Block B: interleave B and A, 6 runs each
+        # Block B: interleave B and A, 10 runs each
         if ok:
-            ok = _add_routes_interleaved_B_then_A(seqA, exA, seqB, exB, reps_per_seq=6, block_label="B")
+            ok = _add_routes_interleaved_B_then_A(seqA, exA, seqB, exB, reps_per_seq=10, block_label="B")
             if not ok:
                 failure_reason = failure_reason or "block_B_route"
 
@@ -1127,7 +1156,7 @@ def build_trials_with_fixed_middle(
 
     # Print summary
     print("TRIAL GENERATION FAILED")
-    print(f"Failed after 1000 attempts.")
+    print(f"Failed after 100000 attempts.")
     print(f"\nFailure breakdown:")
     for reason, count in sorted(failure_counts.items(), key=lambda x: -x[1]):
         if count > 0:
@@ -1135,7 +1164,7 @@ def build_trials_with_fixed_middle(
             print(f"  {reason:35s}: {count:6d} ({pct:5.1f}%)")
     
     raise RuntimeError(
-        f"Failed to satisfy constraints within 1000 attempts.\n"
+        f"Failed to satisfy constraints within 100000 attempts.\n"
         f"Most common failure: {max(failure_counts.items(), key=lambda x: x[1])}"
     )
 
@@ -1177,12 +1206,20 @@ if __name__ == "__main__":
     successful_participants = []
     failed_participants = []
     all_participant_distances = {}  # Track distances for each participant
+    used_patterns = []
     
+    # track group level parameters for group level balancing
+    group_distractor_tracking = {
+    "pair_usage": Counter(),        # (dist01_seqpos, dist02_seqpos, current_seqpos) → count
+    "position_usage": Counter(),    # no single sequence position is overused as a distractor across subjects
+    }
+
     # Generate for all 20 participants
     for ppt in range(n_participants):
-        ppt_id = f"{ppt:02d}"
-        seed_ppt = SEED + ppt
         
+        ppt_id = f"{ppt:02d}"
+        
+        seed_ppt = SEED* 1000  + ppt
         print(f"Participant {ppt_id} ({ppt+1}/{n_participants})")
         
         try:
@@ -1194,7 +1231,9 @@ if __name__ == "__main__":
                 participant_idx=ppt,
                 debug=False,
                 precomputed_sequences_A=sequences_A_balanced,
-                middle_10_fixed=MIDDLE_10_FIXED  
+                middle_10_fixed=MIDDLE_10_FIXED,
+                exclude_patterns=used_patterns,
+                group_distractor_tracking=group_distractor_tracking
             )
             
             # Add trigger columns
@@ -1224,6 +1263,12 @@ if __name__ == "__main__":
             # Update global counters
             global_counters = update_global_counters(global_counters, df_learning, seqA, seqB)
             
+            # update seq B tracking so each potential seq B is only used once
+            middle_A = [seqA[i] for i in range(2, 12)]
+            middle_B = seqB[2:12]
+            middle_A_pos = {c: i for i, c in enumerate(middle_A)}
+            pattern = tuple(middle_A_pos[c] for c in middle_B)
+            used_patterns.append(pattern)
             successful_participants.append(ppt_id)
             
         except Exception as e:
