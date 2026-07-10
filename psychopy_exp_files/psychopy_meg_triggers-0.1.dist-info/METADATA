@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: psychopy-meg-triggers
+Version: 0.1
+Summary: MEG triggers for CIMH
+Home-page: http://github.com/skjerns/psychopy-MEG-triggers
+Author: skjerns
+Author-email: nomail@nomail.com
+License: GNU 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyDAQmx
+
+MEG triggers for CIMH
