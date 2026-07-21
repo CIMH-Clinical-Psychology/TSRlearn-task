@@ -1,0 +1,21 @@
+﻿image_shown,word_shown_german,word_shown_french,word_shown_english,ITI_length,correct_response,match_idx,nonmatch_pres_side,ITI_length_raw,correct_response_raw,image_shown_raw,key_resp_prc.keys_raw,match_idx_raw,nonmatch_pres_side_raw,thisN_raw,thisRepN_raw,thisTrialN_raw,word_shown_english_raw,word_shown_french_raw,word_shown_german_raw
+anchor.jpg,Anker,ancre,anchor,0.75,y,1,right,0.75,y,anchor.jpg,,1,right,0,0,0,anchor,ancre,Anker
+ant.jpg,Ameise,fourmi,ant,0.89,r,1,left,0.89,r,ant.jpg,,1,left,1,0,1,ant,fourmi,Ameise
+axe.jpg,Pferd,cheval,horse,0.85,y,0,left,0.85,y,axe.jpg,,0,left,2,0,2,horse,cheval,Pferd
+bus.jpg,Bus,bus,bus,1.01,y,1,right,1.01,y,bus.jpg,,1,right,3,0,3,bus,bus,Bus
+ball.jpg,Gesicht,visage,face,1.04,r,0,right,1.04,r,ball.jpg,,0,right,4,0,4,face,visage,Gesicht
+banana.jpg,Banane,banane,banana,0.99,y,1,right,0.99,y,banana.jpg,,1,right,5,0,5,banana,banane,Banane
+glasses.jpg,Brille,lunettes,glasses,0.79,r,1,left,0.79,r,glasses.jpg,,1,left,6,0,6,glasses,lunettes,Brille
+basket.jpg,Korb,panier,basket,0.77,y,1,right,0.77,y,basket.jpg,,1,right,7,0,7,basket,panier,Korb
+bear.jpg,Milch,lait,milk,1.23,r,0,right,1.23,r,bear.jpg,,0,right,8,0,8,milk,lait,Milch
+belt.jpg,Gürtel,ceinture,belt,1.1,y,1,left,1.1,y,belt.jpg,,1,left,9,0,9,belt,ceinture,Gürtel
+bike.jpg,Fahrrad,vélo,bicycle,1.25,y,1,left,1.25,y,bike.jpg,,1,left,10,0,10,bicycle,vélo,Fahrrad
+
+extraInfo
+participant,0
+date,2026-07-21_11h54.48.673
+expName,TSRlearn_localizer-concepts
+expVersion,
+psychopyVersion,2025.2.4
+frameRate,60.042858590282506
+expStart,2026-07-21 11h54.49.731262 +0200

@@ -1,0 +1,332 @@
+subject	block_num	trial_num	component_label	onset	duration	type_of_stimulus	concept_label	concept_examplar	response_time	response	expected_response	wrd_img_match	correct
+0	n/a	n/a	instruction_part1	0.046641500000987435	5.493589099998644	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_part2	5.5617730999983905	0.15045129999998608	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_part3	5.7355323000010685	0.15975669999897946	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_part4	5.9165350000002945	0.1550954999984242	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_start	44.36150719999932	54.52261559999897	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_start_2	98.9011118999988	n/a	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	1	image	99.26179299999785	0.7561272666682868	image	chair	chair_35.jpg	n/a	n/a	n/a	1	n/a
+0	1	1	word	100.01792026666614	0.9510187999985646	word	chair_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	1	possible_button_press	101.71015070000067	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	1	fix_cross_after_trial	101.7269383999992	0.8771512666683208	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	2	image	102.63276179999957	0.7617561666668422	image	hand	hand_29.jpg	n/a	n/a	n/a	1	n/a
+0	1	2	word	103.39451796666641	0.8502741000011156	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	2	possible_button_press	105.11483130000124	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	2	fix_cross_after_trial	105.12650719999874	1.0048785666661075	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	3	image	106.1514184000007	0.7562510666650866	image	bicycle	bicycle_04.jpg	n/a	n/a	n/a	0	n/a
+0	1	3	word	106.90766946666578	0.9506585000017367	word	ball_en	n/a	n/a	n/a	n/a	0	n/a
+0	1	3	possible_button_press	108.6087308999995	0.0	response	n/a	n/a	[]	m	r	0	0
+0	1	3	fix_cross_after_trial	108.62504229999831	0.8846313666692964	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	4	image	109.55417630000011	0.7558593666656321	image	house	house_42.jpg	n/a	n/a	n/a	1	n/a
+0	1	4	word	110.31003566666574	0.9762087000017345	word	house_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	4	possible_button_press	112.00167339999825	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	4	fix_cross_after_trial	112.01866289999816	0.8763016666673735	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	5	image	112.94064849999995	0.7603022666664998	image	jacket	jacket_29.jpg	n/a	n/a	n/a	1	n/a
+0	1	5	word	113.70095076666645	0.978922700000112	word	jacket_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	5	possible_button_press	115.40471179999804	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	5	fix_cross_after_trial	115.41942909999852	1.2200886666689854	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	6	image	116.66419350000069	0.7582162666660821	image	dog	dog_40.jpg	n/a	n/a	n/a	1	n/a
+0	1	6	word	117.42240976666677	0.9110857999985456	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	6	possible_button_press	119.14191779999965	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	6	fix_cross_after_trial	119.15838789999907	0.9153699666678818	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	7	image	120.1532933999988	0.758676166668252	image	jacket	jacket_50.jpg	n/a	n/a	n/a	1	n/a
+0	1	7	word	120.91196956666705	0.9623444999997446	word	jacket_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	7	possible_button_press	122.62815240000054	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	7	fix_cross_after_trial	122.64235499999995	1.1018868666653958	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	8	image	123.78334209999957	0.7625381666660047	image	flower	flower_07.jpg	n/a	n/a	n/a	1	n/a
+0	1	8	word	124.54588026666558	0.9646649999995134	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	8	possible_button_press	126.25692759999947	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	8	fix_cross_after_trial	126.27316509999946	0.9010537666656688	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	9	image	127.18211840000004	0.7598601666652627	image	dog	dog_37.jpg	n/a	n/a	n/a	1	n/a
+0	1	9	word	127.9419785666653	0.9202289000022716	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	9	possible_button_press	129.64557530000093	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	9	fix_cross_after_trial	129.6645724000009	0.9515949666640893	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	10	image	130.64031429999886	0.7600045666661401	image	bicycle	bicycle_31.jpg	n/a	n/a	n/a	1	n/a
+0	1	10	word	131.400318866665	1.0223877000025823	word	bicycle_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	10	possible_button_press	133.0874593999979	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	10	fix_cross_after_trial	133.0963523999999	1.2013614666650767	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	11	image	134.31639350000114	0.7651640666665855	image	jacket	jacket_16.jpg	n/a	n/a	n/a	1	n/a
+0	1	11	word	135.08155756666773	0.9678107999970962	word	jacket_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	11	possible_button_press	136.79893710000033	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	11	fix_cross_after_trial	136.81591219999973	1.2251508666670645	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	12	image	138.08618600000045	0.749190766666544	image	bread	bread_13.jpg	n/a	n/a	n/a	1	n/a
+0	1	12	word	138.835376766667	0.9036253999984183	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	12	possible_button_press	140.52810490000047	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	12	fix_cross_after_trial	140.54313619999812	1.2347565666680396	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	13	image	141.88805879999927	0.7499795666665534	image	ball	ball_12.jpg	n/a	n/a	n/a	1	n/a
+0	1	13	word	142.63803836666582	0.9353289999999106	word	ball_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	13	possible_button_press	144.33866080000007	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	13	fix_cross_after_trial	144.35622330000115	0.9169182666667268	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	14	image	145.29334999999992	0.7521430666677418	image	dog	dog_03.jpg	n/a	n/a	n/a	1	n/a
+0	1	14	word	146.04549306666766	0.9255037999973865	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	14	possible_button_press	147.74877539999943	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	14	fix_cross_after_trial	147.76580130000002	0.9357252666671059	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	15	image	148.75065360000008	0.7616162666675166	image	bread	bread_19.jpg	n/a	n/a	n/a	1	n/a
+0	1	15	word	149.5122698666676	0.8959990999974252	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	15	possible_button_press	151.23226169999907	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	15	fix_cross_after_trial	151.25218329999916	1.1432394666665289	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	16	image	152.40335839999898	0.7601597666655664	image	chair	chair_21.jpg	n/a	n/a	n/a	0	n/a
+0	1	16	word	153.16351816666455	0.9170414000000164	word	dog_en	n/a	n/a	n/a	n/a	0	n/a
+0	1	16	possible_button_press	154.8516869999985	0.0	response	n/a	n/a	[]	m	r	0	0
+0	1	16	fix_cross_after_trial	154.87205370000083	1.0199302666663073	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	17	image	155.9340032	0.7558912666648041	image	bread	bread_14.jpg	n/a	n/a	n/a	1	n/a
+0	1	17	word	156.6898944666648	0.9059032000004663	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	17	possible_button_press	158.3931608999992	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	17	fix_cross_after_trial	158.40540880000117	0.8203903666656345	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	18	image	159.2459912000013	0.7569667666651014	image	chair	chair_25.jpg	n/a	n/a	n/a	1	n/a
+0	1	18	word	160.0029579666664	0.9391402000001108	word	chair_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	18	possible_button_press	161.68799729999955	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	18	fix_cross_after_trial	161.7043663000004	1.1998324666640485	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	19	image	162.9420930999986	0.7658309666660728	image	hammer	hammer_44.jpg	n/a	n/a	n/a	1	n/a
+0	1	19	word	163.70792406666467	0.9557034999997995	word	hammer_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	19	possible_button_press	165.39561859999958	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	19	fix_cross_after_trial	165.41427589999876	1.1116109666657223	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	20	image	166.55108159999872	0.7673311666660823	image	house	house_11.jpg	n/a	n/a	n/a	1	n/a
+0	1	20	word	167.3184127666648	0.9730426000023726	word	house_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	20	possible_button_press	169.0119670999993	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	20	fix_cross_after_trial	169.028465899999	0.7815918666676964	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	21	image	169.81862009999895	0.7596409666660122	image	hand	hand_34.jpg	n/a	n/a	n/a	1	n/a
+0	1	21	word	170.57826106666496	0.8404793000008794	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	21	possible_button_press	172.26294100000086	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	21	fix_cross_after_trial	172.27864879999834	0.9075918666679001	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	22	image	173.20511790000091	0.7490205666656777	image	bicycle	bicycle_46.jpg	n/a	n/a	n/a	1	n/a
+0	1	22	word	173.9541384666666	1.020404700000654	word	bicycle_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	22	possible_button_press	175.6555722000012	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	22	fix_cross_after_trial	175.66819010000108	0.82381466666655	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	23	image	176.51224000000002	0.7566671666648119	image	hammer	hammer_35.jpg	n/a	n/a	n/a	1	n/a
+0	1	23	word	177.26890716666483	0.9490614000023925	word	hammer_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	23	possible_button_press	178.9687845999979	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	23	fix_cross_after_trial	178.98542269999962	1.0172142666672528	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	24	image	180.03305499999988	0.75337986666662	image	flower	flower_38.jpg	n/a	n/a	n/a	1	n/a
+0	1	24	word	180.7864348666665	0.9783810000008089	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	24	possible_button_press	182.49600250000003	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	24	fix_cross_after_trial	182.5116725000007	1.017949266665056	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	25	image	183.58764800000063	0.7584507666654474	image	hand	hand_46.jpg	n/a	n/a	n/a	1	n/a
+0	1	25	word	184.34609876666607	0.8448739999985264	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	25	possible_button_press	186.04879040000014	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	25	fix_cross_after_trial	186.06516320000082	0.9439351666663072	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	26	image	187.04294980000122	0.74924606666562	image	dog	dog_28.jpg	n/a	n/a	n/a	1	n/a
+0	1	26	word	187.79219586666684	0.9178437999980815	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	26	possible_button_press	189.4937635999995	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	26	fix_cross_after_trial	189.51104489999852	1.0899443666678792	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	27	image	190.6224512000008	0.7640071666649249	image	bicycle	bicycle_29.jpg	n/a	n/a	n/a	1	n/a
+0	1	27	word	191.38645836666572	1.019899599999917	word	bicycle_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	27	possible_button_press	193.08120059999783	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	27	fix_cross_after_trial	193.09808079999857	1.2574258666684557	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	28	image	194.40511559999868	0.7633009666681403	image	ball	ball_48.jpg	n/a	n/a	n/a	0	n/a
+0	1	28	word	195.16841656666682	0.9733405000006314	word	jacket_en	n/a	n/a	n/a	n/a	0	n/a
+0	1	28	possible_button_press	196.86800510000103	0.0	response	n/a	n/a	[]	m	r	0	0
+0	1	28	fix_cross_after_trial	196.88538929999777	1.1318455666699094	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	29	image	198.03988129999925	0.7621516666661421	image	flower	flower_05.jpg	n/a	n/a	n/a	1	n/a
+0	1	29	word	198.8020329666654	0.9765366999999969	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	29	possible_button_press	200.4905508999982	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	29	fix_cross_after_trial	200.50512159999926	0.8047205666664752	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	30	image	201.3574891999997	0.7567260666658342	image	bread	bread_48.jpg	n/a	n/a	n/a	1	n/a
+0	1	30	word	202.11421526666552	0.9066186000018206	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	30	possible_button_press	203.81420050000088	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	30	fix_cross_after_trial	203.82810750000135	0.8677318666634903	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	31	image	204.72776099999828	0.7626643666665416	image	flower	flower_10.jpg	n/a	n/a	n/a	1	n/a
+0	1	31	word	205.49042536666482	0.9767276000020502	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	31	possible_button_press	207.19723539999904	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	31	fix_cross_after_trial	207.21331559999817	1.1041030666677045	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	32	image	208.35379610000018	0.763115566664311	image	dog	dog_10.jpg	n/a	n/a	n/a	1	n/a
+0	1	32	word	209.1169116666645	0.9331777000006696	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	32	possible_button_press	210.80600200000117	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	32	fix_cross_after_trial	210.82183720000103	0.7501775666644619	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	33	image	211.59201969999776	0.7562553666687393	image	ball	ball_29.jpg	n/a	n/a	n/a	1	n/a
+0	1	33	word	212.3482750666665	0.9535022999989451	word	ball_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	33	possible_button_press	214.0389757999983	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	33	fix_cross_after_trial	214.0550602000003	1.0615107666674533	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	34	image	215.13282999999865	0.7568296666688923	image	chair	chair_05.jpg	n/a	n/a	n/a	1	n/a
+0	1	34	word	215.88965966666754	0.9338372999991407	word	chair_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	34	possible_button_press	217.5774429000012	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	34	fix_cross_after_trial	217.5900201000004	0.9847493666641469	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	35	image	218.60062710000057	0.7577145666657827	image	flower	flower_15.jpg	n/a	n/a	n/a	1	n/a
+0	1	35	word	219.35834166666635	0.9773324999987381	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	35	possible_button_press	221.04519829999845	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	35	fix_cross_after_trial	221.06149979999827	0.8798022666672125	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	36	image	221.99046530000123	0.7650181666652145	image	hammer	hammer_43.jpg	n/a	n/a	n/a	1	n/a
+0	1	36	word	222.75548346666645	0.9396711000008509	word	hammer_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	36	possible_button_press	224.4573175000005	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	36	fix_cross_after_trial	224.4744236000006	1.0662127666658137	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	37	image	225.54815999999846	0.762077166666387	image	house	house_06.jpg	n/a	n/a	n/a	1	n/a
+0	1	37	word	226.31023716666485	0.9664030000021739	word	house_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	37	possible_button_press	228.00034809999852	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	37	fix_cross_after_trial	228.0177408999989	0.7855765666684249	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	38	image	228.88352690000102	0.7683323666645094	image	ball	ball_32.jpg	n/a	n/a	n/a	0	n/a
+0	1	38	word	229.65185926666553	0.9026999000016076	word	bread_en	n/a	n/a	n/a	n/a	0	n/a
+0	1	38	possible_button_press	231.3374189999995	0.0	response	n/a	n/a	[]	m	r	0	0
+0	1	38	fix_cross_after_trial	231.35009939999873	1.1203508666660866	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	39	image	232.51463239999794	0.7498528666694995	image	chair	chair_48.jpg	n/a	n/a	n/a	1	n/a
+0	1	39	word	233.26448526666744	0.9384782999986783	word	chair_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	39	possible_button_press	234.949776999998	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	39	fix_cross_after_trial	234.9659642000006	0.8559433666671623	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	40	image	235.843104399999	0.7573622666680251	image	dog	dog_11.jpg	n/a	n/a	n/a	1	n/a
+0	1	40	word	236.60046666666702	0.9173695999998017	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	40	possible_button_press	238.30789739999818	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	40	fix_cross_after_trial	238.32066599999962	1.0914573666671288	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	41	image	239.46530239999993	0.7615773666659891	image	hand	hand_47.jpg	n/a	n/a	n/a	1	n/a
+0	1	41	word	240.22687976666592	0.8457057999985409	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	41	possible_button_press	241.93816109999898	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	41	fix_cross_after_trial	241.95447950000016	0.7845438666666098	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	42	image	242.77907409999898	0.7611456666675451	image	bread	bread_45.jpg	n/a	n/a	n/a	1	n/a
+0	1	42	word	243.54021976666652	0.887526099999377	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	42	possible_button_press	245.23465690000012	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	42	fix_cross_after_trial	245.24912549999863	1.0985462666688193	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	43	image	246.38773260000016	0.7558350666661511	image	jacket	jacket_35.jpg	n/a	n/a	n/a	1	n/a
+0	1	43	word	247.1435676666663	0.9685281999991275	word	jacket_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	43	possible_button_press	248.83416790000047	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	43	fix_cross_after_trial	248.85180190000028	1.1653024666668728	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	44	image	250.0373213999992	0.7617424666680392	image	chair	chair_33.jpg	n/a	n/a	n/a	0	n/a
+0	1	44	word	250.79906386666724	1.0146562999980233	word	bicycle_en	n/a	n/a	n/a	n/a	0	n/a
+0	1	44	possible_button_press	252.49752660000013	0.0	response	n/a	n/a	[]	m	r	0	0
+0	1	44	fix_cross_after_trial	252.51392670000132	1.1736041666665926	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	45	image	253.71835089999877	0.765124066667596	image	house	house_19.jpg	n/a	n/a	n/a	1	n/a
+0	1	45	word	254.48347496666636	0.9778198999993037	word	house_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	45	possible_button_press	256.18645919999835	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	45	fix_cross_after_trial	256.2033812000009	1.054651866663562	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	46	image	257.2852273999997	0.7550953666652731	image	hand	hand_03.jpg	n/a	n/a	n/a	1	n/a
+0	1	46	word	258.040322766665	0.8458583999999973	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	46	possible_button_press	259.7533457999998	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	46	fix_cross_after_trial	259.76986810000017	1.0678652666649668	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	47	image	260.8699831999984	0.75695596666651	image	house	house_48.jpg	n/a	n/a	n/a	1	n/a
+0	1	47	word	261.6269391666649	0.970717500000319	word	house_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	47	possible_button_press	263.3240326000014	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	47	fix_cross_after_trial	263.34727790000034	0.9997487666662437	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	48	image	264.365675699999	0.7584942666655934	image	hammer	hammer_32.jpg	n/a	n/a	n/a	1	n/a
+0	1	48	word	265.12416996666457	0.949273300000641	word	hammer_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	48	possible_button_press	266.83391050000137	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	48	fix_cross_after_trial	266.8495746000008	1.2616537666656313	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	49	image	268.14138230000026	0.7563989666671205	image	jacket	jacket_40.jpg	n/a	n/a	n/a	1	n/a
+0	1	49	word	268.8977812666674	0.9675680999971519	word	jacket_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	49	possible_button_press	270.6005017999996	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	49	fix_cross_after_trial	270.6152288999983	0.9557239666685291	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	50	image	271.617229200001	0.7526541666668436	image	hand	hand_04.jpg	n/a	n/a	n/a	1	n/a
+0	1	50	word	272.36988336666786	0.8630616999980703	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	1	50	possible_button_press	274.0834427000009	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	50	fix_cross_after_trial	274.1065094000005	1.0827876666664906	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	50	break_instruction	275.18395529999907	15.011760166668182	break	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	51	image	540.3422628000008	0.7509218666639299	image	bread	bread_08.jpg	n/a	n/a	n/a	1	n/a
+0	2	51	word	541.0931846666647	0.8944554000008793	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	51	possible_button_press	542.7838566999999	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	51	fix_cross_after_trial	542.802491800001	0.9010338666669213	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	52	image	543.729222599999	0.7547322666689524	image	bicycle	bicycle_10.jpg	n/a	n/a	n/a	1	n/a
+0	2	52	word	544.483954866668	1.02433199999723	word	bicycle_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	52	possible_button_press	546.1696975000013	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	52	fix_cross_after_trial	546.1836417999984	1.2191798666683553	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	53	image	547.4216167000013	0.7612633666651618	image	ball	ball_26.jpg	n/a	n/a	n/a	1	n/a
+0	2	53	word	548.1828800666665	0.9493395999998029	word	ball_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	53	possible_button_press	549.8834060000008	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	53	fix_cross_after_trial	549.9003297999989	1.0337867666678449	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	54	image	550.9493426000008	0.7586421666640035	image	flower	flower_36.jpg	n/a	n/a	n/a	1	n/a
+0	2	54	word	551.7079847666648	0.9672318000011728	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	54	possible_button_press	553.4092569999993	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	54	fix_cross_after_trial	553.4257986999983	1.1802829666669368	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	55	image	554.6229055000003	0.7548078666661695	image	bicycle	bicycle_11.jpg	n/a	n/a	n/a	1	n/a
+0	2	55	word	555.3777133666665	1.0182161000011547	word	bicycle_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	55	possible_button_press	557.0792856000007	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	55	fix_cross_after_trial	557.0955031000012	0.9282687666639049	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	56	image	558.0567950000004	0.75041986666497	image	hammer	hammer_17.jpg	n/a	n/a	n/a	1	n/a
+0	2	56	word	558.8072148666654	0.951039600000513	word	hammer_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	56	possible_button_press	560.5156470000002	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	56	fix_cross_after_trial	560.532019899998	1.234247266668035	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	57	image	561.795601400001	0.7520988666658468	image	chair	chair_34.jpg	n/a	n/a	n/a	1	n/a
+0	2	57	word	562.5477002666669	0.9486357999994652	word	chair_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	57	possible_button_press	564.2545280999984	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	57	fix_cross_after_trial	564.2671098999999	1.135621666664747	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	58	image	565.4287579999982	0.7561606666679381	image	flower	flower_28.jpg	n/a	n/a	n/a	0	n/a
+0	2	58	word	566.1849186666661	0.9348357000017131	word	ball_en	n/a	n/a	n/a	n/a	0	n/a
+0	2	58	possible_button_press	567.8829002999992	0.0	response	n/a	n/a	[]	m	r	0	0
+0	2	58	fix_cross_after_trial	567.898919700001	0.884180866665929	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	59	image	568.8372648000004	0.7495539666672357	image	hammer	hammer_14.jpg	n/a	n/a	n/a	1	n/a
+0	2	59	word	569.5868187666676	0.9467008999999962	word	hammer_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	59	possible_button_press	571.2770874999987	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	59	fix_cross_after_trial	571.2887908000012	0.8490247666634332	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	60	image	572.2121565999987	0.7608031666679835	image	ball	ball_17.jpg	n/a	n/a	n/a	1	n/a
+0	2	60	word	572.9729597666667	0.9536866999987978	word	ball_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	60	possible_button_press	574.6714267999996	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	60	fix_cross_after_trial	574.6877189000006	0.833750566664321	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	61	image	575.5320423000012	0.7588154666666469	image	chair	chair_23.jpg	n/a	n/a	n/a	0	n/a
+0	2	61	word	576.2908577666678	0.8992100999967079	word	bread_en	n/a	n/a	n/a	n/a	0	n/a
+0	2	61	possible_button_press	577.9925364999981	0.0	response	n/a	n/a	[]	m	r	0	0
+0	2	61	fix_cross_after_trial	578.0114724999985	1.2196924666679934	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	62	image	579.2556359000009	0.756302566664317	image	dog	dog_29.jpg	n/a	n/a	n/a	1	n/a
+0	2	62	word	580.0119384666652	0.9207348000018101	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	62	possible_button_press	581.700364100001	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	62	fix_cross_after_trial	581.7165796000008	1.1317535666642016	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	63	image	582.8698203999993	0.7588400666684265	image	bicycle	bicycle_32.jpg	n/a	n/a	n/a	1	n/a
+0	2	63	word	583.6286604666677	1.0174233999969147	word	bicycle_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	63	possible_button_press	585.3142221999988	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	63	fix_cross_after_trial	585.3310997999979	0.8830881666692676	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	64	image	586.2388700999982	0.7647011666670096	image	flower	flower_33.jpg	n/a	n/a	n/a	1	n/a
+0	2	64	word	587.0035712666652	0.9675564999997732	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	64	possible_button_press	588.7226453000003	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	64	fix_cross_after_trial	588.7392106999978	0.9615812666672809	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	65	image	589.7762771999987	0.7644581666684189	image	bread	bread_15.jpg	n/a	n/a	n/a	1	n/a
+0	2	65	word	590.5407353666671	0.9065412999989348	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	65	possible_button_press	592.2360593999983	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	65	fix_cross_after_trial	592.253575499999	0.800056166666991	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	66	image	593.0923664000002	0.7615032666656134	image	hand	hand_20.jpg	n/a	n/a	n/a	1	n/a
+0	2	66	word	593.8538696666658	0.8506034000020009	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	66	possible_button_press	595.5392121000004	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	66	fix_cross_after_trial	595.5560727000011	1.0899972666668418	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	67	image	596.6832359	0.76107366666497	image	bread	bread_31.jpg	n/a	n/a	n/a	1	n/a
+0	2	67	word	597.444309566665	0.9028290999995079	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	67	possible_button_press	599.1483659000005	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	67	fix_cross_after_trial	599.1646163000005	1.0843315666645594	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	68	image	600.306764500001	0.7539038666657234	image	jacket	jacket_46.jpg	n/a	n/a	n/a	1	n/a
+0	2	68	word	601.0606683666667	0.9673504999991565	word	jacket_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	68	possible_button_press	602.7622602999982	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	68	fix_cross_after_trial	602.7786416999988	1.1884896666672375	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	69	image	604.0185080999981	0.7499667666672849	image	hand	hand_25.jpg	n/a	n/a	n/a	1	n/a
+0	2	69	word	604.7684748666654	0.8481649999994261	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	69	possible_button_press	606.4569497000011	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	69	fix_cross_after_trial	606.4692945999996	1.0215159666661293	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	70	image	607.5285666999989	0.7605596666655856	image	jacket	jacket_19.jpg	n/a	n/a	n/a	1	n/a
+0	2	70	word	608.2891263666645	0.9759048000014445	word	jacket_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	70	possible_button_press	609.9742796999999	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	70	fix_cross_after_trial	609.9905728999984	0.9787176666688993	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	71	image	610.9931293000009	0.7597848666666778	image	ball	ball_13.jpg	n/a	n/a	n/a	1	n/a
+0	2	71	word	611.7529141666676	0.9396735999980592	word	ball_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	71	possible_button_press	613.4438195000002	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	71	fix_cross_after_trial	613.4602651999994	0.8301679666658401	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	72	image	614.2997953999984	0.7619638666694755	image	hammer	hammer_16.jpg	n/a	n/a	n/a	0	n/a
+0	2	72	word	615.0617592666679	0.9608833999991475	word	flower_en	n/a	n/a	n/a	n/a	0	n/a
+0	2	72	possible_button_press	616.7634494999984	0.0	response	n/a	n/a	[]	m	r	0	0
+0	2	72	fix_cross_after_trial	616.7798259999981	0.9672548666678722	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	73	image	617.7919203999991	0.756057066668518	image	house	house_46.jpg	n/a	n/a	n/a	1	n/a
+0	2	73	word	618.5479774666676	0.9633205999998609	word	house_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	73	possible_button_press	620.2457560000003	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	73	fix_cross_after_trial	620.2625103999999	1.165465466667456	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	74	image	621.4471850000009	0.7639620666670908	image	chair	chair_18.jpg	n/a	n/a	n/a	1	n/a
+0	2	74	word	622.211147066668	0.9512273999971512	word	chair_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	74	possible_button_press	623.9194100999994	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	74	fix_cross_after_trial	623.9357717999992	0.7502689666655442	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	75	image	624.7224620999987	0.7646491666675956	image	dog	dog_16.jpg	n/a	n/a	n/a	1	n/a
+0	2	75	word	625.4871112666663	0.9172394000015629	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	75	possible_button_press	627.189074599999	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	75	fix_cross_after_trial	627.2075187999981	0.9254505666688146	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	76	image	628.1567551999979	0.7607657666669638	image	bread	bread_23.jpg	n/a	n/a	n/a	1	n/a
+0	2	76	word	628.9175209666648	0.8989491000029375	word	bread_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	76	possible_button_press	630.6043671999978	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	76	fix_cross_after_trial	630.6230178000005	1.1526024666638932	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	77	image	631.8003562000013	0.7585256666645819	image	house	house_36.jpg	n/a	n/a	n/a	1	n/a
+0	2	77	word	632.5588818666658	0.9657647000021825	word	house_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	77	possible_button_press	634.263848999999	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	77	fix_cross_after_trial	634.2773086999987	0.9681110666681434	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	78	image	635.2933712999984	0.7526241666676015	image	hand	hand_05.jpg	n/a	n/a	n/a	1	n/a
+0	2	78	word	636.045995466666	0.8445474000000104	word	hand_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	78	possible_button_press	637.7425073999984	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	78	fix_cross_after_trial	637.7573712000012	1.2008780666658367	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	79	image	638.9937047999993	0.7495149666685847	image	flower	flower_41.jpg	n/a	n/a	n/a	1	n/a
+0	2	79	word	639.7432197666678	0.9706312999987858	word	flower_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	79	possible_button_press	641.4320683000005	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	79	fix_cross_after_trial	641.4480531000008	0.8367180666648437	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	80	image	642.3305951000002	0.7574276666675814	image	hammer	hammer_42.jpg	n/a	n/a	n/a	1	n/a
+0	2	80	word	643.0880227666678	0.963508400000137	word	hammer_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	80	possible_button_press	644.7877956999982	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	80	fix_cross_after_trial	644.8034966000014	1.0053543666656424	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	2	81	image	645.8418714	0.757453566664708	image	dog	dog_34.jpg	n/a	n/a	n/a	1	n/a
+0	2	81	word	646.5993249666647	0.918064500001492	word	dog_en	n/a	n/a	n/a	n/a	1	n/a
+0	2	81	possible_button_press	648.2898390999981	0.0	response	n/a	n/a	[]	m	m	1	1
+0	2	81	fix_cross_after_trial	648.3062828000002	n/a	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
