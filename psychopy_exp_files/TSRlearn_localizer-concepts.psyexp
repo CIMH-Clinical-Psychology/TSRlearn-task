@@ -1397,7 +1397,7 @@
         <Param val="False" valType="str" updates="None" name="resample"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="$f&quot;sounds/{word_shown}.mp3&quot;" valType="str" updates="set every repeat" name="sound"/>
-        <Param val="" valType="code" updates="None" name="speakerIndex"/>
+        <Param val="7.0" valType="code" updates="None" name="speakerIndex"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="condition" valType="str" updates="None" name="startType"/>
         <Param val="9999" valType="code" updates="None" name="startVal"/>
@@ -1620,7 +1620,7 @@
         <Param val="False" valType="str" updates="None" name="resample"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="$ &quot;sounds//&quot; + word_shown + &quot;.mp3&quot;" valType="str" updates="set every repeat" name="sound"/>
-        <Param val="" valType="code" updates="None" name="speakerIndex"/>
+        <Param val="7.0" valType="code" updates="None" name="speakerIndex"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
