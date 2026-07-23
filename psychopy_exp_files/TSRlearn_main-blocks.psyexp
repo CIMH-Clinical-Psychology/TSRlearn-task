@@ -20,12 +20,12 @@
     <Param val="True" valType="bool" updates="None" name="Save log file"/>
     <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
     <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
-    <Param val="2" valType="num" updates="None" name="Screen"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
     <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
     <Param val="False" valType="bool" updates="None" name="Show mouse"/>
     <Param val="height" valType="str" updates="None" name="Units"/>
     <Param val="2025.1" valType="str" updates="None" name="Use version"/>
-    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="[1920, 1080]" valType="list" updates="None" name="Window size (pixels)"/>
     <Param val="none" valType="str" updates="None" name="backgroundFit"/>
     <Param val="" valType="str" updates="None" name="backgroundImg"/>
     <Param val="nofbo" valType="str" updates="None" name="blendMode"/>
@@ -68,7 +68,7 @@
     <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
     <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
     <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
-    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
     <Param val="False" valType="bool" updates="None" name="rush"/>
     <Param val="time" valType="str" updates="None" name="sortColumns"/>
     <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
@@ -132,7 +132,7 @@
       <CodeComponent name="exp_settings" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="## set main experimental variables&amp;#10;&amp;#10;# set exp ppt id&amp;#10;participant_ID = expInfo['participant_ID']&amp;#10;&amp;#10;# instruction language&amp;#10;language = &quot;german&quot; # &quot;french&quot; or &quot;english&quot;&amp;#10;font_name = &quot;Sans Sherif&quot;&amp;#10;&amp;#10;# &quot;Left&quot; &quot;right&quot; etc. are the arrow keys on the key board&amp;#10;# these are the keys for selecting the images in different positions&amp;#10;left_key = &quot;g&quot;&amp;#10;center_key = &quot;r&quot;&amp;#10;right_key = &quot;b&quot; &amp;#10;down_key = &quot;y&quot;&amp;#10;&amp;#10;# pos of images (x-coord, y-coord)&amp;#10;#left_pos   = (-0.2, 0.1)&amp;#10;#right_pos  = (0.2, 0.1)&amp;#10;#center_pos = (0.0, 0.1)&amp;#10;prompt_pos = (0, -0.1) &amp;#10;&amp;#10;# pos on retrieval trials&amp;#10;leftside_retr = (-0.06,0)&amp;#10;rightside_retr = (0.06,0)&amp;#10;&amp;#10;# pos of instructions to choose the next image&amp;#10;instruc_pos = (0,0.2)&amp;#10;&amp;#10;# response time on learning trials&amp;#10;max_response_time = 5 # [s]&amp;#10; &amp;#10;# feedback on learning trials&amp;#10;feedback_steps  =  0.06   # steps out of 1 (percent)&amp;#10;rest_jump       =  0.004 # abs distance to target pos&amp;#10;animation_time   = 1    # [s]&amp;#10; &amp;#10;# breaks (indicate after which learning route you want task break)&amp;#10;break_after_route = 4&amp;#10;break_dur = 30 # [s]&amp;#10;&amp;#10;# replay breaks during learning&amp;#10;replay_break_dur = 5&amp;#10;trials_per_run = 13 # after 13 trials because we have 14 image sequences&amp;#10;&amp;#10;# number of learning runs&amp;#10;# one run is 13 trials (learn 14-image sequence in pairs)&amp;#10;n_learn_route = 4&amp;#10;&amp;#10;# duration of response time on retrieval trials&amp;#10;retr_dur = 3 # [s]&amp;#10;&amp;#10;# too slow message duration&amp;#10;too_slow_dur = 0.5 # [s]&amp;#10;&amp;#10;retr_dur_slider = 3 # [s] response time on retrieval questions with slider&amp;#10;instr_newroute_dur = 1 # [s]&amp;#10;image_dur_retr_new = 1&amp;#10;#fix_dur_retr = 0.5 are defined in condition file&amp;#10;&amp;#10;# timing for fast image presentations at the end&amp;#10;fast_img_dur = 0.075 # [s]&amp;#10;mask_dur = 0.05 # [s]&amp;#10;&amp;#10;max_read_dur = 180; " valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="## set main experimental variables&amp;#10;&amp;#10;# set exp ppt id&amp;#10;participant_ID = expInfo['participant_ID']&amp;#10;&amp;#10;# instruction language&amp;#10;language = &quot;german&quot; # &quot;french&quot; or &quot;english&quot;&amp;#10;font_name = &quot;Sans Sherif&quot;&amp;#10;&amp;#10;# &quot;Left&quot; &quot;right&quot; etc. are the arrow keys on the key board&amp;#10;# these are the keys for selecting the images in different positions&amp;#10;left_key = &quot;g&quot;&amp;#10;center_key = &quot;r&quot;&amp;#10;right_key = &quot;b&quot; &amp;#10;down_key = &quot;y&quot;&amp;#10;&amp;#10;# pos of images (x-coord, y-coord)&amp;#10;#left_pos   = (-0.2, 0.1)&amp;#10;#right_pos  = (0.2, 0.1)&amp;#10;#center_pos = (0.0, 0.1)&amp;#10;prompt_pos = (0, -0.1) &amp;#10;&amp;#10;# pos on retrieval trials&amp;#10;leftside_retr = (-0.05,0)&amp;#10;rightside_retr = (0.05,0)&amp;#10;&amp;#10;# pos of instructions to choose the next image&amp;#10;instruc_pos = (0,0.2)&amp;#10;&amp;#10;# response time on learning trials&amp;#10;max_response_time = 5 # [s]&amp;#10; &amp;#10;# feedback on learning trials&amp;#10;feedback_steps  =  0.06   # steps out of 1 (percent)&amp;#10;rest_jump       =  0.004 # abs distance to target pos&amp;#10;animation_time   = 1    # [s]&amp;#10; &amp;#10;# breaks (indicate after which learning route you want task break)&amp;#10;break_after_route = 4&amp;#10;break_dur = 30 # [s]&amp;#10;&amp;#10;# replay breaks during learning&amp;#10;replay_break_dur = 5&amp;#10;trials_per_run = 13 # after 13 trials because we have 14 image sequences&amp;#10;&amp;#10;# number of learning runs&amp;#10;# one run is 13 trials (learn 14-image sequence in pairs)&amp;#10;n_learn_route = 4&amp;#10;&amp;#10;# duration of response time on retrieval trials&amp;#10;retr_dur = 3 # [s]&amp;#10;&amp;#10;# too slow message duration&amp;#10;too_slow_dur = 0.5 # [s]&amp;#10;&amp;#10;retr_dur_slider = 3 # [s] response time on retrieval questions with slider&amp;#10;instr_newroute_dur = 1 # [s]&amp;#10;image_dur_retr_new = 1&amp;#10;#fix_dur_retr = 0.5 are defined in condition file&amp;#10;&amp;#10;# timing for fast image presentations at the end&amp;#10;fast_img_dur = 0.075 # [s]&amp;#10;mask_dur = 0.05 # [s]&amp;#10;&amp;#10;max_read_dur = 180; " valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="language = &quot;english&quot;;&amp;#10;left_key = &quot;left&quot;;&amp;#10;center_key = &quot;up&quot;;&amp;#10;right_key = &quot;right&quot;;&amp;#10;down_key = &quot;down&quot;;&amp;#10;left_pos = [(- 0.2), 0.1];&amp;#10;right_pos = [0.2, 0.1];&amp;#10;center_pos = [0.0, 0.1];&amp;#10;prompt_pos = [0, (- 0.1)];&amp;#10;instruc_pos = [0, 0];&amp;#10;max_response_time = 3;&amp;#10;feedback_steps = 0.06;&amp;#10;rest_jump = 0.004;&amp;#10;animation_time = 1.4;&amp;#10;break_after_route = 10;&amp;#10;break_dur = 30;&amp;#10;replay_break_dur = 5;&amp;#10;trials_per_run = 13;&amp;#10;n_learn_route = 6;&amp;#10;retr_dur = 5;&amp;#10;too_slow_dur = 0.5;&amp;#10;retrieval_quest_dur = 5.5;&amp;#10;retr_dur_slider = 5;&amp;#10;instr_newroute_dur = 1;&amp;#10;fast_img_dur = 0.075;&amp;#10;mask_dur = 0.05;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
@@ -293,7 +293,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part1" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -621,7 +621,7 @@
         <Param val="window.responded = false;&amp;#10;&amp;#10;window.delayClock = null;&amp;#10;&amp;#10;// Begin Routine&amp;#10;window.delayDone = false;&amp;#10;window.chosenPos = null;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="responded = False&amp;#10;delayClock = None&amp;#10;delayDone = False&amp;#10;chosenPos = None" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
-        <Param val="if routClock.getTime() &gt;= max_response_time:&amp;#10;    # Timeout&amp;#10;    responded = False&amp;#10;    continueRoutine = False&amp;#10;&amp;#10;if not responded:&amp;#10;    key_list = key_resp.getKeys(keyList=[left_key, right_key, center_key], waitRelease=False)&amp;#10;&amp;#10;    if len(key_list) &gt; 0:&amp;#10;        responded = True&amp;#10;        thisResp = key_list[0]&amp;#10;        key_resp.keys = thisResp.name&amp;#10;        key_resp.rt = thisResp.rt&amp;#10;        key_resp.duration = thisResp.duration&amp;#10;&amp;#10;&amp;#10;        if thisResp.name == left_key:&amp;#10;            chosenPos = left_pos&amp;#10;            KeyMeaning = &quot;left&quot;&amp;#10;        elif thisResp.name == right_key:&amp;#10;            chosenPos = right_pos&amp;#10;            KeyMeaning = &quot;right&quot;&amp;#10;        elif thisResp.name == center_key:&amp;#10;            chosenPos = center_pos&amp;#10;            KeyMeaning = &quot;center&quot;&amp;#10;&amp;#10;        print(chosenPos) &amp;#10;        print(KeyMeaning)&amp;#10;        key_resp.corr = 1 if (KeyMeaning == correct_pos) else 0&amp;#10;        print(key_resp.corr)&amp;#10;        polygon_4.setPos(chosenPos)&amp;#10;        polygon_4.setOpacity(1.0)&amp;#10;&amp;#10;        # change color of polygon for correct responses&amp;#10;        if key_resp.corr == 1:&amp;#10;            polygonCol = [0, 1, 0]&amp;#10;            polygon_4.setFillColor(polygonCol)&amp;#10;            polygon_4.setLineColor(polygonCol)&amp;#10;        elif key_resp.corr == 0:&amp;#10;            polygonCol = [1, -1, -1]&amp;#10;            polygon_4.setFillColor(polygonCol)&amp;#10;            polygon_4.setLineColor(polygonCol)&amp;#10;        else:&amp;#10;            polygonCol = [0, 0, 0]&amp;#10;            polygon_4.setFillColor(polygonCol)&amp;#10;            polygon_4.setLineColor(polygonCol)&amp;#10;&amp;#10;        delayClock = core.Clock()&amp;#10;&amp;#10;if responded and not delayDone and delayClock is not None and delayClock.getTime() &gt;= 0.1:&amp;#10;    delayDone = True&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if routClock.getTime() &gt;= max_response_time:&amp;#10;    # Timeout&amp;#10;    responded = False&amp;#10;    continueRoutine = False&amp;#10;&amp;#10;if not responded:&amp;#10;    key_list = key_resp.getKeys(keyList=[left_key, right_key, center_key], waitRelease=False)&amp;#10;&amp;#10;    if len(key_list) &gt; 0:&amp;#10;        responded = True&amp;#10;        thisResp = key_list[0]&amp;#10;        key_resp.keys = thisResp.name&amp;#10;        key_resp.rt = thisResp.rt&amp;#10;        key_resp.duration = thisResp.duration&amp;#10;&amp;#10;&amp;#10;        if thisResp.name == left_key:&amp;#10;            chosenPos = left_pos&amp;#10;            KeyMeaning = &quot;left&quot;&amp;#10;        elif thisResp.name == right_key:&amp;#10;            chosenPos = right_pos&amp;#10;            KeyMeaning = &quot;right&quot;&amp;#10;        elif thisResp.name == center_key:&amp;#10;            chosenPos = center_pos&amp;#10;            KeyMeaning = &quot;center&quot;&amp;#10;&amp;#10;        print(chosenPos) &amp;#10;        print(KeyMeaning)&amp;#10;        key_resp.corr = 1 if (KeyMeaning == correct_pos) else 0&amp;#10;        print(key_resp.corr)&amp;#10;        polygon_4.setPos(chosenPos)&amp;#10;        polygon_4.setOpacity(1.0)&amp;#10;&amp;#10;        # change color of polygon for correct responses&amp;#10;        if key_resp.corr == 1:&amp;#10;            polygonCol = [0, 1, 0]&amp;#10;            polygon_4.setFillColor(polygonCol)&amp;#10;            polygon_4.setLineColor(polygonCol)&amp;#10;        elif key_resp.corr == 0:&amp;#10;            polygonCol = [1, -1, -1]&amp;#10;            polygon_4.setFillColor(polygonCol)&amp;#10;            polygon_4.setLineColor(polygonCol)&amp;#10;        else:&amp;#10;            polygonCol = [0, 0, 0]&amp;#10;            polygon_4.setFillColor(polygonCol)&amp;#10;            polygon_4.setLineColor(polygonCol)&amp;#10;&amp;#10;        delayClock = core.Clock()&amp;#10;&amp;#10;if responded and not delayDone and delayClock is not None and delayClock.getTime() &gt;= 0.1:&amp;#10;    delayDone = True&amp;#10;    continueRoutine = False&amp;#10;    &amp;#10;&amp;#10;if not responded and routClock.getTime() &gt;= (max_response_time-1):&amp;#10;    chooseNowText.setOpacity(1)" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="&amp;#10;&amp;#10;if (!responded) {&amp;#10;  //let key_list = key_resp_2.getKeys({ keyList: [&quot;left&quot;, &quot;right&quot;, &quot;up&quot;], waitRelease: false });&amp;#10;  &amp;#10;  if (key_list.length &gt; 0) {&amp;#10;    responded = true;&amp;#10;    let thisResp = key_list[0];&amp;#10;    key_resp_2.keys = thisResp.name;&amp;#10;    key_resp_2.rt = thisResp.rt;&amp;#10;    key_resp_2.corr = (thisResp.name === correct_ans) ? 1 : 0;&amp;#10;&amp;#10;    if (thisResp.name === window.left_key)        chosenPos = window.left_pos;&amp;#10;    else if (thisResp.name === window.right_key)  chosenPos = window.right_pos;&amp;#10;    else if (thisResp.name === window.center_key) chosenPos = window.center_pos;&amp;#10;    &amp;#10;    key_resp_2.stop()&amp;#10;    polygon.setPos(chosenPos);&amp;#10;    polygon.setOpacity(1.0);&amp;#10;    &amp;#10;    // change color of polygon for correct responses&amp;#10;    if (key_resp_2.corr === 1) {&amp;#10;      window.polygonCol = [0, 1, 0];&amp;#10;      polygon.setFillColor(new util.Color(window.polygonCol));&amp;#10;      polygon.setLineColor(new util.Color(window.polygonCol));&amp;#10;    } else if (key_resp_2.corr === 0) {&amp;#10;      window.polygonCol = [1, -1, -1];&amp;#10;&amp;#10;      polygon.setFillColor(new util.Color(window.polygonCol));&amp;#10;      polygon.setLineColor(new util.Color(window.polygonCol));&amp;#10;    } else  {&amp;#10;      window.polygonCol = [0, 0, 0];&amp;#10;&amp;#10;      polygon.setFillColor(new util.Color(window.polygonCol));&amp;#10;      polygon.setLineColor(new util.Color(window.polygonCol));&amp;#10;    }&amp;#10;        &amp;#10;    delayClock = new util.Clock();&amp;#10;  }&amp;#10;}&amp;#10;&amp;#10;if (responded &amp;&amp; !delayDone &amp;&amp; delayClock !== null &amp;&amp; delayClock.getTime() &gt;= 0.1) {&amp;#10;  delayDone = true;&amp;#10;  continueRoutine = false;&amp;#10;}" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
@@ -661,7 +661,7 @@
         <Param val="chooseNowText" valType="code" updates="None" name="name"/>
         <Param val="0" valType="num" updates="set every repeat" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0.7)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.15)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -1359,7 +1359,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="tooSlowtext_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1455,7 +1455,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="break_instruction" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1551,7 +1551,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_text_newroute" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1630,7 +1630,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instructions_end_text" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1652,8 +1652,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instructions_end_text.text = &quot;The task is almost over now.\n To finish, you are going to have to answer 3 questionnaires. This will only take 5 minutes.\n\nYou will be redirected to a new browser window, so please accept that the current window will be closed.\nWhen the questionnaires are over, you can just close the browser window.\n\nPlease press the RETURN key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instructions_end_text.text = &quot;Die Aufgabe ist nun fast vorbei.\nZum Abschluss bitten wir Sie, noch 3 weitere Frageb\u00f6gen zu beantworten. Dies dauert nur 5 Minuten.\n\nDaf\u00fcr m\u00fcssen sie warten, bis die Daten hochgeladen sind. Sobald 'thank you for your patience' erscheint, klicken Sie auf 'okay'.\nDann werden Sie weitergeleitet. Schlie\u00dfen Sie das Browser-Fenster nicht!\n\nBitte dr\u00fccken Sie die EINGABETASTE, um weiterzukommen. &quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;:&amp;#10;    instructions_end_text.text = (&quot;The task is almost over now.\n To finish, you are going to have to answer 3 questionnaires. &quot;&amp;#10;    &quot;This will only take 5 minutes.\n\n&quot;&amp;#10;    &quot;You will be redirected to a new browser window, so please accept that the current window will be closed.\n&quot;&amp;#10;    &quot;When the questionnaires are over, you can just close the browser window.\n\n&quot;&amp;#10;    &quot;Please press the RETURN key to continue.&quot;)&amp;#10;if language == &quot;german&quot;:&amp;#10;    instructions_end_text.text = (&quot;Die Aufgabe ist nun fast vorbei.\n&quot;&amp;#10;    &quot;Zum Abschluss bitten wir Sie, noch 3 weitere Fragebögen zu beantworten. &quot;&amp;#10;    &quot;Dies dauert nur 5 Minuten.\n\n&quot;&amp;#10;    &quot;Dafür müssen sie warten, bis die Daten hochgeladen sind. Sobald 'thank you for your patience' erscheint, klicken Sie auf 'okay'.\n&quot;&amp;#10;    &quot;Dann werden Sie weitergeleitet. Schließen Sie das Browser-Fenster nicht!\n\n&quot;&amp;#10;    &quot;Bitte drücken Sie die EINGABETASTE, um weiterzukommen. &quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instructions_end_text.text = &quot;The task is over now. Thank you for your participation.\nPress any key to exit&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instructions_end_text.text = &quot;Die Aufgabe ist nun vorbei.\nVielen Dank f\u00fcr die Teilnahme. Dr\u00fccken Sie eine beliebige Taste, um das Experiment zu beenden.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;:&amp;#10;    instructions_end_text.text = (&quot;The task is over now. Thank you for your participation.\n&quot;&amp;#10;    &quot;Press any key to exit&quot;)&amp;#10;if language == &quot;german&quot;:&amp;#10;    instructions_end_text.text = (&quot;Die Aufgabe ist nun vorbei.\n&quot;&amp;#10;    &quot;Vielen Dank für die Teilnahme. Drücken Sie eine beliebige Taste, um das Experiment zu beenden.&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -2581,7 +2581,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -2663,7 +2663,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part3" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -2745,7 +2745,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part4" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -2827,7 +2827,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part5" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -2909,7 +2909,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part6" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -3207,7 +3207,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instructions_choose_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -3680,7 +3680,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.8,0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.65,None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -3756,7 +3756,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.8,0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.65,None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -3795,7 +3795,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part7" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -3877,7 +3877,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part8" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -4058,7 +4058,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instructions_part7" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -4298,7 +4298,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_info" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -4387,10 +4387,10 @@
         <Param val="None" valType="color" updates="constant" name="fillColor"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="Sans Sherif" valType="str" updates="constant" name="font"/>
         <Param val="False" valType="bool" updates="constant" name="italic"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
         <Param val="textbox_feedback" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
@@ -4447,7 +4447,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.85,0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.7,None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="condition" valType="str" updates="None" name="startType"/>
         <Param val="resp_2.corr==0" valType="code" updates="None" name="startVal"/>
@@ -4512,10 +4512,10 @@
         <Param val="None" valType="color" updates="constant" name="fillColor"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="Sans Sherif" valType="str" updates="constant" name="font"/>
         <Param val="False" valType="bool" updates="constant" name="italic"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
         <Param val="textbox_continue" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
@@ -4582,7 +4582,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instructions_part8" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -4701,7 +4701,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.8,0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.65,None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -4777,7 +4777,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.8,0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.65,None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -5050,7 +5050,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.8,0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.65,None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -5151,7 +5151,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.8,0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.65,None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -5667,11 +5667,11 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="chooseNowText_2" valType="code" updates="None" name="name"/>
         <Param val="0" valType="num" updates="set every repeat" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0.7)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.15)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -5854,11 +5854,11 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="chooseNowText_3" valType="code" updates="None" name="name"/>
         <Param val="0" valType="num" updates="set every repeat" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0.7)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.15)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -6078,7 +6078,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="tooSlowtext_4" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -6140,7 +6140,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part10" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -6222,7 +6222,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part11" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -6304,7 +6304,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part12" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -6386,7 +6386,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_now_retr" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
