@@ -24,22 +24,22 @@ CONCEPT x POSITION COUNTS (each cell should be near n_ppt / 10):
 
 Concept      |    3    4    5    6    7    8    9   10   11   12 | Total
 ------------------------------------------------------------------------
-ball         |    7    8    6    6    6    7    7    8    5    5 |    65
-bicycle      |    7    8    5    7    6    6    7    7    6    6 |    65
-bread        |    7    6    7    7    6    8    5    7    6    6 |    65
-chair        |    6    7    7    6    8    5    7    5    8    6 |    65
-dog          |    6    7    7    7    7    6    6    6    6    7 |    65
-flower       |    7    5    6    6    5    7    6    7    8    8 |    65
-hammer       |    6    6    7    5    7    6    6    7    6    9 |    65
-hand         |    5    7    7    5    8    7    6    7    8    5 |    65
-house        |    8    6    7    8    6    7    6    6    5    6 |    65
-jacket       |    6    5    6    8    6    6    9    5    7    7 |    65
+ball         |    7    6    8    7    6    7    6    7    6    5 |    65
+bicycle      |    7    6    6    7    7    7    6    7    5    7 |    65
+bread        |    6    4    6    6    7    7    8    7    7    7 |    65
+chair        |    5    6    8    6    6    5    8    7    7    7 |    65
+dog          |    8    6    7    6    6    6    7    6    6    7 |    65
+flower       |    7    7    4    7    7    7    5    8    7    6 |    65
+hammer       |    6    7    7    6    7    6    7    7    6    6 |    65
+hand         |    6    7    6    7    4    8    7    6    7    7 |    65
+house        |    8    7    6    6    8    6    6    6    7    5 |    65
+jacket       |    5    9    7    7    7    6    5    4    7    8 |    65
 
 Position Evenness Stats:
   Participants: 65
   Expected count per concept x position cell: 6.50
-  Observed min / mean / max: 5 / 6.50 / 9
-  Std dev across cells: 0.96
+  Observed min / mean / max: 4 / 6.50 / 9
+  Std dev across cells: 0.95
 
 ----------------------------------------------------------------------------------------------------
 BUFFER CONCEPT USAGE ANALYSIS: Sequence A
@@ -49,20 +49,21 @@ BUFFER CONCEPT FREQUENCY (4 buffers per participant x 65 participants = 260 tota
 
 Concept         | Uses     | Pct       |  slot1  slot2  slot3  slot4
 ----------------+----------+-----------+-----------------------------
-car             | 38       |    14.6% |     11      9      9      9
-fish            | 38       |    14.6% |      9     11      9      9
-guitar          | 38       |    14.6% |      9      9     11      9
-key             | 36       |    13.8% |      9      9      9      9
-lamp            | 38       |    14.6% |      9      9      9     11
-pencil          | 36       |    13.8% |      9      9      9      9
-phone           | 36       |    13.8% |      9      9      9      9
+car             | 33       |    12.7% |      9      8      8      8
+fish            | 33       |    12.7% |      8      9      8      8
+glasses         | 32       |    12.3% |      8      8      8      8
+guitar          | 33       |    12.7% |      8      8      9      8
+key             | 32       |    12.3% |      8      8      8      8
+lamp            | 32       |    12.3% |      8      8      8      8
+pencil          | 32       |    12.3% |      8      8      8      8
+phone           | 33       |    12.7% |      8      8      8      9
 
 Buffer Usage Balance:
   Total participants: 65
-  Unique buffer concepts: 7
-  Expected uses per concept: 37.1
-  Actual std dev: 0.99
-  Min uses: 36, Max uses: 38
+  Unique buffer concepts: 8
+  Expected uses per concept: 32.5
+  Actual std dev: 0.50
+  Min uses: 32, Max uses: 33
 
 ----------------------------------------------------------------------------------------------------
 TRANSITION BALANCING ANALYSIS: Sequence A
@@ -71,75 +72,75 @@ TRANSITION BALANCING ANALYSIS: Sequence A
 
 GAP-1 TRANSITIONS (distance = 1):
 Transition                     | Count    | Avg per Ppt 
-jacket -> hand                 | 14       | 0.22        
-bicycle -> bread               | 13       | 0.20        
-jacket -> dog                  | 12       | 0.18        
-chair -> hammer                | 11       | 0.17        
-bread -> jacket                | 11       | 0.17        
-dog -> ball                    | 10       | 0.15        
-hand -> chair                  | 10       | 0.15        
-ball -> flower                 | 10       | 0.15        
-house -> bread                 | 9        | 0.14        
-flower -> ball                 | 9        | 0.14        
-house -> ball                  | 9        | 0.14        
-flower -> house                | 9        | 0.14        
+flower -> bicycle              | 9        | 0.14        
+chair -> jacket                | 9        | 0.14        
+dog -> chair                   | 9        | 0.14        
+house -> hand                  | 9        | 0.14        
+bicycle -> hammer              | 9        | 0.14        
 hammer -> dog                  | 9        | 0.14        
-hammer -> house                | 9        | 0.14        
-bread -> bicycle               | 8        | 0.12        
+ball -> flower                 | 9        | 0.14        
+ball -> hammer                 | 9        | 0.14        
+house -> bread                 | 8        | 0.12        
+jacket -> chair                | 8        | 0.12        
+hand -> chair                  | 8        | 0.12        
+bicycle -> jacket              | 8        | 0.12        
+hand -> ball                   | 8        | 0.12        
+jacket -> bicycle              | 8        | 0.12        
+chair -> bread                 | 8        | 0.12        
 
   Transition balance (gap-1):
-    Unique transitions: 89
-    Avg per transition: 6.57
-    Std dev: 2.33
-    Min / Max: 2 / 14
+    Unique transitions: 90
+    Avg per transition: 6.50
+    Std dev: 1.33
+    Min / Max: 3 / 9
 
 GAP-2 TRANSITIONS (distance = 2):
 Transition                     | Count    | Avg per Ppt 
-bicycle -> house               | 12       | 0.18        
-hand -> dog                    | 11       | 0.17        
-dog -> bicycle                 | 11       | 0.17        
-bread -> dog                   | 10       | 0.15        
-jacket -> chair                | 10       | 0.15        
-house -> hand                  | 9        | 0.14        
-flower -> hammer               | 9        | 0.14        
-hammer -> flower               | 9        | 0.14        
-ball -> hammer                 | 9        | 0.14        
-hammer -> jacket               | 8        | 0.12        
-flower -> bread                | 8        | 0.12        
+flower -> bread                | 9        | 0.14        
+bicycle -> chair               | 9        | 0.14        
+dog -> bread                   | 8        | 0.12        
+ball -> hammer                 | 8        | 0.12        
+hand -> flower                 | 8        | 0.12        
+hammer -> house                | 8        | 0.12        
+bicycle -> hammer              | 8        | 0.12        
+dog -> flower                  | 8        | 0.12        
 ball -> house                  | 8        | 0.12        
-ball -> bread                  | 7        | 0.11        
-bicycle -> jacket              | 7        | 0.11        
-dog -> hand                    | 7        | 0.11        
+house -> bicycle               | 7        | 0.11        
+jacket -> dog                  | 7        | 0.11        
+bread -> chair                 | 7        | 0.11        
+house -> hand                  | 7        | 0.11        
+hand -> bread                  | 7        | 0.11        
+chair -> house                 | 7        | 0.11        
 
   Transition balance (gap-2):
-    Unique transitions: 89
-    Avg per transition: 5.84
-    Std dev: 2.06
-    Min / Max: 2 / 12
+    Unique transitions: 90
+    Avg per transition: 5.78
+    Std dev: 1.34
+    Min / Max: 3 / 9
 
 GAP-3 TRANSITIONS (distance = 3):
 Transition                     | Count    | Avg per Ppt 
-bicycle -> jacket              | 11       | 0.17        
-hammer -> bicycle              | 10       | 0.15        
-hand -> house                  | 9        | 0.14        
-bread -> ball                  | 9        | 0.14        
-chair -> hammer                | 9        | 0.14        
-chair -> hand                  | 8        | 0.12        
-dog -> ball                    | 8        | 0.12        
-house -> chair                 | 8        | 0.12        
-bread -> flower                | 8        | 0.12        
-hand -> flower                 | 8        | 0.12        
-hammer -> bread                | 7        | 0.11        
-ball -> chair                  | 7        | 0.11        
-hand -> bread                  | 7        | 0.11        
-house -> dog                   | 7        | 0.11        
-house -> jacket                | 7        | 0.11        
+bicycle -> chair               | 10       | 0.15        
+hand -> bicycle                | 10       | 0.15        
+dog -> ball                    | 9        | 0.14        
+ball -> bicycle                | 8        | 0.12        
+hand -> jacket                 | 8        | 0.12        
+chair -> hammer                | 8        | 0.12        
+house -> ball                  | 8        | 0.12        
+jacket -> dog                  | 8        | 0.12        
+hammer -> hand                 | 8        | 0.12        
+bicycle -> bread               | 8        | 0.12        
+bread -> jacket                | 7        | 0.11        
+jacket -> hammer               | 7        | 0.11        
+flower -> hand                 | 7        | 0.11        
+bread -> house                 | 7        | 0.11        
+chair -> bread                 | 7        | 0.11        
 
   Transition balance (gap-3):
     Unique transitions: 89
     Avg per transition: 5.11
-    Std dev: 2.06
-    Min / Max: 1 / 11
+    Std dev: 2.04
+    Min / Max: 1 / 10
 
 
 ====================================================================================================
@@ -154,21 +155,21 @@ CONCEPT x POSITION COUNTS (each cell should be near n_ppt / 10):
 
 Concept      |    3    4    5    6    7    8    9   10   11   12 | Total
 ------------------------------------------------------------------------
-ball         |    7    8    6    6    7    6    5    8    5    7 |    65
-bicycle      |    6    6    6    7    7    7    7    6    7    6 |    65
-bread        |    5    6    7    8    8    7    7    6    6    5 |    65
-chair        |    6    7    8    7    5    5    8    6    6    7 |    65
-dog          |    8    7    6    7    6    8    5    7    7    4 |    65
-flower       |    7    6    6    6    7    7    6    6    7    7 |    65
-hammer       |    6    7    7    5    5    7    6    6    8    8 |    65
-hand         |    8    5    6    6    6    5    8    6    6    9 |    65
-house        |    6    7    7    6    7    7    5    7    6    7 |    65
-jacket       |    6    6    6    7    7    6    8    7    7    5 |    65
+ball         |    6    8    5    7    6    5    7    8    7    6 |    65
+bicycle      |    6    7    6    5    7    6    7    6    7    8 |    65
+bread        |    8    5    5    8    7    7    7    6    7    5 |    65
+chair        |    7    5    7    7    6    7    6    6    7    7 |    65
+dog          |    6    7    7    6    5    7    7    6    7    7 |    65
+flower       |    5    6    7    7    7    7    7    6    5    8 |    65
+hammer       |    8    7    7    5    5    7    8    7    5    6 |    65
+hand         |    7    5    8    6    8    6    6    7    7    5 |    65
+house        |    5    8    5    7    8    7    5    7    7    6 |    65
+jacket       |    7    7    8    7    6    6    5    6    6    7 |    65
 
 Position Evenness Stats:
   Participants: 65
   Expected count per concept x position cell: 6.50
-  Observed min / mean / max: 4 / 6.50 / 9
+  Observed min / mean / max: 5 / 6.50 / 8
   Std dev across cells: 0.94
 
 ----------------------------------------------------------------------------------------------------
@@ -179,20 +180,21 @@ BUFFER CONCEPT FREQUENCY (4 buffers per participant x 65 participants = 260 tota
 
 Concept         | Uses     | Pct       |  slot1  slot2  slot3  slot4
 ----------------+----------+-----------+-----------------------------
-car             | 38       |    14.6% |      9     12      9      8
-fish            | 38       |    14.6% |     11      7      8     12
-guitar          | 38       |    14.6% |      8     10     11      9
-key             | 36       |    13.8% |      9      7     11      9
-lamp            | 38       |    14.6% |     10     11      8      9
-pencil          | 36       |    13.8% |      9     11      7      9
-phone           | 36       |    13.8% |      9      7     11      9
+car             | 33       |    12.7% |      7      9     10      7
+fish            | 33       |    12.7% |      7      9     10      7
+glasses         | 33       |    12.7% |      9      8      9      7
+guitar          | 32       |    12.3% |      8      8      6     10
+key             | 32       |    12.3% |      9      8      7      8
+lamp            | 33       |    12.7% |      8      8      7     10
+pencil          | 32       |    12.3% |      9      7      7      9
+phone           | 32       |    12.3% |      8      8      9      7
 
 Buffer Usage Balance:
   Total participants: 65
-  Unique buffer concepts: 7
-  Expected uses per concept: 37.1
-  Actual std dev: 0.99
-  Min uses: 36, Max uses: 38
+  Unique buffer concepts: 8
+  Expected uses per concept: 32.5
+  Actual std dev: 0.50
+  Min uses: 32, Max uses: 33
 
 ----------------------------------------------------------------------------------------------------
 TRANSITION BALANCING ANALYSIS: Sequence B
@@ -201,75 +203,75 @@ TRANSITION BALANCING ANALYSIS: Sequence B
 
 GAP-1 TRANSITIONS (distance = 1):
 Transition                     | Count    | Avg per Ppt 
-chair -> jacket                | 13       | 0.20        
-hammer -> chair                | 13       | 0.20        
-bicycle -> flower              | 12       | 0.18        
-ball -> bicycle                | 12       | 0.18        
-flower -> ball                 | 11       | 0.17        
-hand -> jacket                 | 11       | 0.17        
-house -> hand                  | 10       | 0.15        
-jacket -> dog                  | 10       | 0.15        
-bread -> hammer                | 10       | 0.15        
-dog -> bread                   | 9        | 0.14        
-dog -> hand                    | 9        | 0.14        
-house -> bread                 | 9        | 0.14        
-bread -> house                 | 9        | 0.14        
-flower -> hammer               | 9        | 0.14        
-bicycle -> hand                | 9        | 0.14        
+chair -> bicycle               | 9        | 0.14        
+bicycle -> chair               | 9        | 0.14        
+hammer -> ball                 | 9        | 0.14        
+dog -> bicycle                 | 9        | 0.14        
+hand -> dog                    | 9        | 0.14        
+bread -> dog                   | 8        | 0.12        
+jacket -> hand                 | 8        | 0.12        
+bread -> hand                  | 8        | 0.12        
+ball -> flower                 | 8        | 0.12        
+flower -> house                | 8        | 0.12        
+flower -> hammer               | 8        | 0.12        
+house -> bread                 | 8        | 0.12        
+bread -> bicycle               | 8        | 0.12        
+hand -> house                  | 8        | 0.12        
+house -> ball                  | 8        | 0.12        
 
   Transition balance (gap-1):
     Unique transitions: 90
     Avg per transition: 6.50
-    Std dev: 2.24
-    Min / Max: 3 / 13
+    Std dev: 1.19
+    Min / Max: 4 / 9
 
 GAP-2 TRANSITIONS (distance = 2):
 Transition                     | Count    | Avg per Ppt 
-flower -> bicycle              | 12       | 0.18        
-jacket -> flower               | 12       | 0.18        
-ball -> bread                  | 12       | 0.18        
-hammer -> bread                | 9        | 0.14        
-bread -> chair                 | 9        | 0.14        
-dog -> hammer                  | 9        | 0.14        
-ball -> jacket                 | 9        | 0.14        
-flower -> hand                 | 9        | 0.14        
-jacket -> hand                 | 9        | 0.14        
-house -> chair                 | 9        | 0.14        
-bread -> jacket                | 8        | 0.12        
-dog -> chair                   | 8        | 0.12        
-chair -> hand                  | 8        | 0.12        
-bread -> house                 | 8        | 0.12        
-bread -> ball                  | 8        | 0.12        
+hammer -> chair                | 8        | 0.12        
+bicycle -> flower              | 8        | 0.12        
+dog -> bread                   | 8        | 0.12        
+jacket -> bicycle              | 8        | 0.12        
+chair -> ball                  | 8        | 0.12        
+flower -> ball                 | 8        | 0.12        
+dog -> house                   | 7        | 0.11        
+ball -> bicycle                | 7        | 0.11        
+hand -> flower                 | 7        | 0.11        
+bicycle -> dog                 | 7        | 0.11        
+hammer -> dog                  | 7        | 0.11        
+hand -> chair                  | 7        | 0.11        
+bread -> bicycle               | 7        | 0.11        
+ball -> hammer                 | 7        | 0.11        
+bicycle -> jacket              | 7        | 0.11        
 
   Transition balance (gap-2):
     Unique transitions: 90
     Avg per transition: 5.78
-    Std dev: 2.16
-    Min / Max: 2 / 12
+    Std dev: 1.19
+    Min / Max: 3 / 8
 
 GAP-3 TRANSITIONS (distance = 3):
 Transition                     | Count    | Avg per Ppt 
-bicycle -> house               | 11       | 0.17        
-flower -> jacket               | 10       | 0.15        
-dog -> jacket                  | 9        | 0.14        
-house -> hammer                | 9        | 0.14        
-flower -> house                | 9        | 0.14        
-jacket -> ball                 | 9        | 0.14        
-hammer -> chair                | 8        | 0.12        
-flower -> dog                  | 8        | 0.12        
-chair -> hand                  | 8        | 0.12        
-chair -> hammer                | 8        | 0.12        
-ball -> hand                   | 8        | 0.12        
+chair -> dog                   | 10       | 0.15        
+jacket -> bread                | 9        | 0.14        
+ball -> bicycle                | 9        | 0.14        
+bread -> flower                | 9        | 0.14        
+flower -> bicycle              | 8        | 0.12        
+dog -> chair                   | 8        | 0.12        
+bicycle -> house               | 8        | 0.12        
+house -> hammer                | 8        | 0.12        
+bread -> chair                 | 8        | 0.12        
+jacket -> house                | 8        | 0.12        
+hand -> jacket                 | 7        | 0.11        
 house -> ball                  | 7        | 0.11        
-bicycle -> hammer              | 7        | 0.11        
-hand -> bread                  | 7        | 0.11        
-house -> jacket                | 7        | 0.11        
+bicycle -> jacket              | 7        | 0.11        
+chair -> hand                  | 7        | 0.11        
+hand -> flower                 | 7        | 0.11        
 
   Transition balance (gap-3):
     Unique transitions: 90
     Avg per transition: 5.06
-    Std dev: 2.13
-    Min / Max: 1 / 11
+    Std dev: 1.87
+    Min / Max: 1 / 10
 
 
 ====================================================================================================
@@ -284,22 +286,22 @@ CONCEPT x POSITION COUNTS (each cell should be near n_ppt / 10):
 
 Concept      |    3    4    5    6    7    8    9   10   11   12 | Total
 ------------------------------------------------------------------------
-ball         |    7    7    8    6    6    6    6    7    6    6 |    65
-bicycle      |    7    7    5    7    8    7    5    7    7    5 |    65
-bread        |    6    7    6    7    6    7    6    6    6    8 |    65
-chair        |    7    7    8    6    7    5    5    7    6    7 |    65
-dog          |    7    6    5    5    7    8    8    6    7    6 |    65
-flower       |    6    7    6    7    6    6    6    6    7    8 |    65
-hammer       |    7    5    8    6    5    8    7    7    6    6 |    65
-hand         |    7    5    7    6    7    6    8    6    7    6 |    65
-house        |    6    8    6    8    6    7    7    6    5    6 |    65
-jacket       |    5    6    6    7    7    5    7    7    8    7 |    65
+ball         |    8    6    6    6    6    7    6    6    8    6 |    65
+bicycle      |    5    8    7    6    7    6    8    6    6    6 |    65
+bread        |    5    4    8    8    5    7    7    7    7    7 |    65
+chair        |    6    8    8    6    7    7    7    5    6    5 |    65
+dog          |    6    5    6    8    6    8    7    6    7    6 |    65
+flower       |    6    5    5    9    8    4    5   10    7    6 |    65
+hammer       |    8    8    7    6    6    6    6    6    5    7 |    65
+hand         |    6    7    5    4    7    6    7    7    7    9 |    65
+house        |    7    8    5    6    6    7    6    7    5    8 |    65
+jacket       |    8    6    8    6    7    7    6    5    7    5 |    65
 
 Position Evenness Stats:
   Participants: 65
   Expected count per concept x position cell: 6.50
-  Observed min / mean / max: 5 / 6.50 / 8
-  Std dev across cells: 0.88
+  Observed min / mean / max: 4 / 6.50 / 10
+  Std dev across cells: 1.14
 
 ----------------------------------------------------------------------------------------------------
 BUFFER CONCEPT USAGE ANALYSIS: Sequence C
@@ -309,20 +311,21 @@ BUFFER CONCEPT FREQUENCY (4 buffers per participant x 65 participants = 260 tota
 
 Concept         | Uses     | Pct       |  slot1  slot2  slot3  slot4
 ----------------+----------+-----------+-----------------------------
-car             | 38       |    14.6% |      9      9     10     10
-fish            | 38       |    14.6% |     10      9     10      9
-guitar          | 38       |    14.6% |      9     10      9     10
-key             | 36       |    13.8% |      9      9      9      9
-lamp            | 38       |    14.6% |     10     10      9      9
-pencil          | 36       |    13.8% |      9      9      9      9
-phone           | 36       |    13.8% |      9      9      9      9
+car             | 33       |    12.7% |      8      8      9      8
+fish            | 32       |    12.3% |     11      6      9      6
+glasses         | 32       |    12.3% |      9      7      7      9
+guitar          | 33       |    12.7% |     11      6      9      7
+key             | 33       |    12.7% |      6     11      8      8
+lamp            | 33       |    12.7% |      6     11      9      7
+pencil          | 32       |    12.3% |      7      8      8      9
+phone           | 32       |    12.3% |      7      8      6     11
 
 Buffer Usage Balance:
   Total participants: 65
-  Unique buffer concepts: 7
-  Expected uses per concept: 37.1
-  Actual std dev: 0.99
-  Min uses: 36, Max uses: 38
+  Unique buffer concepts: 8
+  Expected uses per concept: 32.5
+  Actual std dev: 0.50
+  Min uses: 32, Max uses: 33
 
 ----------------------------------------------------------------------------------------------------
 TRANSITION BALANCING ANALYSIS: Sequence C
@@ -331,75 +334,75 @@ TRANSITION BALANCING ANALYSIS: Sequence C
 
 GAP-1 TRANSITIONS (distance = 1):
 Transition                     | Count    | Avg per Ppt 
-ball -> house                  | 12       | 0.18        
-house -> dog                   | 12       | 0.18        
-jacket -> house                | 11       | 0.17        
-bicycle -> dog                 | 11       | 0.17        
-hand -> chair                  | 11       | 0.17        
-hand -> bicycle                | 10       | 0.15        
-bicycle -> jacket              | 10       | 0.15        
-hammer -> flower               | 10       | 0.15        
-hammer -> ball                 | 10       | 0.15        
-bicycle -> ball                | 10       | 0.15        
-hammer -> hand                 | 10       | 0.15        
-house -> hand                  | 10       | 0.15        
-ball -> dog                    | 9        | 0.14        
-dog -> flower                  | 9        | 0.14        
-bread -> flower                | 9        | 0.14        
+jacket -> hand                 | 9        | 0.14        
+bicycle -> house               | 8        | 0.12        
+jacket -> ball                 | 8        | 0.12        
+ball -> dog                    | 8        | 0.12        
+flower -> dog                  | 8        | 0.12        
+bread -> house                 | 8        | 0.12        
+hammer -> jacket               | 8        | 0.12        
+chair -> bread                 | 8        | 0.12        
+hand -> chair                  | 8        | 0.12        
+ball -> flower                 | 8        | 0.12        
+dog -> bicycle                 | 8        | 0.12        
+bicycle -> bread               | 8        | 0.12        
+bread -> chair                 | 8        | 0.12        
+bread -> bicycle               | 8        | 0.12        
+flower -> jacket               | 8        | 0.12        
 
   Transition balance (gap-1):
     Unique transitions: 90
     Avg per transition: 6.50
-    Std dev: 2.51
-    Min / Max: 1 / 12
+    Std dev: 1.05
+    Min / Max: 4 / 9
 
 GAP-2 TRANSITIONS (distance = 2):
 Transition                     | Count    | Avg per Ppt 
-flower -> dog                  | 12       | 0.18        
-bicycle -> house               | 12       | 0.18        
-house -> chair                 | 12       | 0.18        
-hand -> jacket                 | 10       | 0.15        
-bread -> ball                  | 10       | 0.15        
-ball -> bread                  | 10       | 0.15        
-bicycle -> hammer              | 9        | 0.14        
-hammer -> bicycle              | 9        | 0.14        
-dog -> hand                    | 9        | 0.14        
-dog -> flower                  | 9        | 0.14        
-dog -> jacket                  | 9        | 0.14        
-chair -> bicycle               | 8        | 0.12        
-bread -> house                 | 8        | 0.12        
-hand -> flower                 | 8        | 0.12        
-jacket -> hammer               | 8        | 0.12        
+bicycle -> jacket              | 9        | 0.14        
+house -> bread                 | 9        | 0.14        
+jacket -> dog                  | 8        | 0.12        
+flower -> hammer               | 8        | 0.12        
+dog -> house                   | 8        | 0.12        
+chair -> ball                  | 8        | 0.12        
+bicycle -> flower              | 8        | 0.12        
+hammer -> dog                  | 8        | 0.12        
+jacket -> hand                 | 8        | 0.12        
+ball -> bread                  | 8        | 0.12        
+hand -> ball                   | 7        | 0.11        
+ball -> flower                 | 7        | 0.11        
+hammer -> flower               | 7        | 0.11        
+dog -> bicycle                 | 7        | 0.11        
+ball -> hand                   | 7        | 0.11        
 
   Transition balance (gap-2):
     Unique transitions: 90
     Avg per transition: 5.78
-    Std dev: 2.23
-    Min / Max: 2 / 12
+    Std dev: 1.37
+    Min / Max: 3 / 9
 
 GAP-3 TRANSITIONS (distance = 3):
 Transition                     | Count    | Avg per Ppt 
-hammer -> bread                | 11       | 0.17        
-hand -> dog                    | 9        | 0.14        
-house -> flower                | 9        | 0.14        
-ball -> house                  | 9        | 0.14        
-jacket -> hammer               | 9        | 0.14        
-house -> hand                  | 8        | 0.12        
+dog -> bread                   | 10       | 0.15        
+flower -> hand                 | 9        | 0.14        
+chair -> jacket                | 9        | 0.14        
+bicycle -> hand                | 8        | 0.12        
+jacket -> flower               | 8        | 0.12        
+ball -> bread                  | 8        | 0.12        
 dog -> bicycle                 | 8        | 0.12        
-dog -> chair                   | 8        | 0.12        
-bicycle -> bread               | 8        | 0.12        
-bicycle -> hand                | 7        | 0.11        
+bicycle -> chair               | 8        | 0.12        
+flower -> chair                | 8        | 0.12        
+jacket -> bicycle              | 8        | 0.12        
+ball -> dog                    | 8        | 0.12        
+house -> flower                | 8        | 0.12        
+hammer -> jacket               | 8        | 0.12        
+house -> bicycle               | 8        | 0.12        
 house -> jacket                | 7        | 0.11        
-jacket -> ball                 | 7        | 0.11        
-hand -> ball                   | 7        | 0.11        
-bread -> jacket                | 7        | 0.11        
-bicycle -> dog                 | 7        | 0.11        
 
   Transition balance (gap-3):
-    Unique transitions: 90
-    Avg per transition: 5.06
-    Std dev: 1.91
-    Min / Max: 1 / 11
+    Unique transitions: 89
+    Avg per transition: 5.11
+    Std dev: 2.03
+    Min / Max: 1 / 10
 
 
 ====================================================================================================
@@ -414,22 +417,22 @@ CONCEPT x POSITION COUNTS (each cell should be near n_ppt / 10):
 
 Concept      |    3    4    5    6    7    8    9   10   11   12 | Total
 ------------------------------------------------------------------------
-ball         |    5    6    8    6    5    8    6    8    6    7 |    65
-bicycle      |    9    6    5    7    6    6    6    7    7    6 |    65
-bread        |    6    6    7    6    5    7    6    8    7    7 |    65
-chair        |    7    7    6    6    7    7    7    5    7    6 |    65
-dog          |    7    6    7    6    8    6    7    6    6    6 |    65
-flower       |    5    6    8    7    8    5    7    7    6    6 |    65
-hammer       |    6    7    6    5    8    6    7    6    8    6 |    65
-hand         |    7    7    6    8    6    7    6    6    6    6 |    65
-house        |    6    9    5    8    7    6    6    5    6    7 |    65
-jacket       |    7    5    7    6    5    7    7    7    6    8 |    65
+ball         |    8    5    6    7    7    8    6    5    5    8 |    65
+bicycle      |    5    8    7    6    8    4    6    6    7    8 |    65
+bread        |    7    6    5    6    7    6    7    8    7    6 |    65
+chair        |    4    6    6    7    5    7    7    9    8    6 |    65
+dog          |    6    6    8    5    6    7    7    7    7    6 |    65
+flower       |    8    5    6    7    7    7    6    6    7    6 |    65
+hammer       |    6    7    8    6    6    7    8    5    5    7 |    65
+hand         |    9    6    7    7    8    5    6    5    6    6 |    65
+house        |    6    7    7    8    5    7    6    7    6    6 |    65
+jacket       |    6    9    5    6    6    7    6    7    7    6 |    65
 
 Position Evenness Stats:
   Participants: 65
   Expected count per concept x position cell: 6.50
-  Observed min / mean / max: 5 / 6.50 / 9
-  Std dev across cells: 0.92
+  Observed min / mean / max: 4 / 6.50 / 9
+  Std dev across cells: 1.05
 
 ----------------------------------------------------------------------------------------------------
 BUFFER CONCEPT USAGE ANALYSIS: Sequence D
@@ -439,20 +442,21 @@ BUFFER CONCEPT FREQUENCY (4 buffers per participant x 65 participants = 260 tota
 
 Concept         | Uses     | Pct       |  slot1  slot2  slot3  slot4
 ----------------+----------+-----------+-----------------------------
-car             | 38       |    14.6% |      9      8     10     11
-fish            | 38       |    14.6% |      8     11     11      8
-guitar          | 38       |    14.6% |     12      9      7     10
-key             | 36       |    13.8% |      9     11      7      9
-lamp            | 38       |    14.6% |      9      8     12      9
-pencil          | 36       |    13.8% |      9      7     11      9
-phone           | 36       |    13.8% |      9     11      7      9
+car             | 32       |    12.3% |      5     10      5     12
+fish            | 33       |    12.7% |      9     11      7      6
+glasses         | 32       |    12.3% |     10      5      9      8
+guitar          | 33       |    12.7% |      9      9      6      9
+key             | 32       |    12.3% |      7      6      9     10
+lamp            | 33       |    12.7% |      9      5     13      6
+pencil          | 33       |    12.7% |      7     10      5     11
+phone           | 32       |    12.3% |      9      9     11      3
 
 Buffer Usage Balance:
   Total participants: 65
-  Unique buffer concepts: 7
-  Expected uses per concept: 37.1
-  Actual std dev: 0.99
-  Min uses: 36, Max uses: 38
+  Unique buffer concepts: 8
+  Expected uses per concept: 32.5
+  Actual std dev: 0.50
+  Min uses: 32, Max uses: 33
 
 ----------------------------------------------------------------------------------------------------
 TRANSITION BALANCING ANALYSIS: Sequence D
@@ -461,75 +465,75 @@ TRANSITION BALANCING ANALYSIS: Sequence D
 
 GAP-1 TRANSITIONS (distance = 1):
 Transition                     | Count    | Avg per Ppt 
-chair -> bread                 | 13       | 0.20        
-house -> bicycle               | 13       | 0.20        
-bicycle -> hammer              | 12       | 0.18        
-bread -> ball                  | 12       | 0.18        
-hammer -> hand                 | 11       | 0.17        
-jacket -> bicycle              | 10       | 0.15        
-flower -> jacket               | 10       | 0.15        
-bicycle -> dog                 | 10       | 0.15        
-hand -> dog                    | 9        | 0.14        
-bread -> hand                  | 9        | 0.14        
-ball -> chair                  | 8        | 0.12        
-dog -> hammer                  | 8        | 0.12        
-hammer -> jacket               | 8        | 0.12        
-jacket -> chair                | 8        | 0.12        
-hand -> house                  | 8        | 0.12        
+bread -> chair                 | 9        | 0.14        
+hammer -> bicycle              | 9        | 0.14        
+chair -> house                 | 9        | 0.14        
+ball -> jacket                 | 9        | 0.14        
+house -> hammer                | 9        | 0.14        
+bread -> ball                  | 8        | 0.12        
+house -> dog                   | 8        | 0.12        
+jacket -> bread                | 8        | 0.12        
+hand -> jacket                 | 8        | 0.12        
+jacket -> flower               | 8        | 0.12        
+dog -> bicycle                 | 8        | 0.12        
+jacket -> ball                 | 8        | 0.12        
+flower -> chair                | 8        | 0.12        
+hand -> ball                   | 8        | 0.12        
+jacket -> bicycle              | 7        | 0.11        
 
   Transition balance (gap-1):
     Unique transitions: 90
     Avg per transition: 6.50
-    Std dev: 2.09
-    Min / Max: 1 / 13
+    Std dev: 1.18
+    Min / Max: 4 / 9
 
 GAP-2 TRANSITIONS (distance = 2):
 Transition                     | Count    | Avg per Ppt 
-chair -> hand                  | 16       | 0.25        
-jacket -> bread                | 12       | 0.18        
-bicycle -> chair               | 11       | 0.17        
-ball -> hammer                 | 11       | 0.17        
-house -> flower                | 11       | 0.17        
-ball -> dog                    | 10       | 0.15        
-hand -> dog                    | 10       | 0.15        
-bicycle -> jacket              | 10       | 0.15        
-flower -> jacket               | 9        | 0.14        
-dog -> chair                   | 9        | 0.14        
-hand -> bread                  | 9        | 0.14        
-chair -> ball                  | 8        | 0.12        
+jacket -> chair                | 9        | 0.14        
+ball -> dog                    | 9        | 0.14        
+hand -> bread                  | 8        | 0.12        
+ball -> hand                   | 8        | 0.12        
+dog -> house                   | 8        | 0.12        
 chair -> bicycle               | 8        | 0.12        
-bread -> jacket                | 8        | 0.12        
-hammer -> chair                | 8        | 0.12        
+jacket -> house                | 8        | 0.12        
+hammer -> bicycle              | 8        | 0.12        
+jacket -> flower               | 8        | 0.12        
+bicycle -> flower              | 8        | 0.12        
+chair -> jacket                | 8        | 0.12        
+jacket -> hammer               | 7        | 0.11        
+hand -> house                  | 7        | 0.11        
+flower -> dog                  | 7        | 0.11        
+ball -> hammer                 | 7        | 0.11        
 
   Transition balance (gap-2):
     Unique transitions: 90
     Avg per transition: 5.78
-    Std dev: 2.55
-    Min / Max: 1 / 16
+    Std dev: 1.35
+    Min / Max: 3 / 9
 
 GAP-3 TRANSITIONS (distance = 3):
 Transition                     | Count    | Avg per Ppt 
-hand -> jacket                 | 10       | 0.15        
-bread -> flower                | 9        | 0.14        
-bread -> dog                   | 9        | 0.14        
-chair -> dog                   | 9        | 0.14        
-hammer -> ball                 | 8        | 0.12        
-flower -> hammer               | 8        | 0.12        
-ball -> bicycle                | 8        | 0.12        
-flower -> hand                 | 8        | 0.12        
-hammer -> bread                | 8        | 0.12        
-dog -> bicycle                 | 8        | 0.12        
-dog -> hand                    | 8        | 0.12        
-bicycle -> chair               | 8        | 0.12        
-dog -> flower                  | 8        | 0.12        
-jacket -> chair                | 7        | 0.11        
-bicycle -> bread               | 7        | 0.11        
+bread -> ball                  | 11       | 0.17        
+bicycle -> hand                | 11       | 0.17        
+hand -> dog                    | 10       | 0.15        
+house -> chair                 | 10       | 0.15        
+ball -> bicycle                | 10       | 0.15        
+jacket -> hand                 | 10       | 0.15        
+hammer -> flower               | 10       | 0.15        
+jacket -> house                | 9        | 0.14        
+bicycle -> bread               | 8        | 0.12        
+ball -> house                  | 8        | 0.12        
+flower -> chair                | 8        | 0.12        
+hammer -> ball                 | 7        | 0.11        
+hammer -> bread                | 7        | 0.11        
+hand -> jacket                 | 7        | 0.11        
+dog -> jacket                  | 7        | 0.11        
 
   Transition balance (gap-3):
-    Unique transitions: 90
-    Avg per transition: 5.06
-    Std dev: 2.07
-    Min / Max: 1 / 10
+    Unique transitions: 89
+    Avg per transition: 5.11
+    Std dev: 2.28
+    Min / Max: 1 / 11
 
 
 ====================================================================================================
@@ -542,15 +546,15 @@ Participants included: 65
 
 Category                 keys    total    min     mean    max     std
 ------------------------------------------------------------------
-2bwd_as_direct             90     1258      6    13.98     25    3.54
-3bwd_as_direct             90      889      4     9.88     15    2.51
-3fwd_as_direct             90      566      2     6.29     14    2.30
-dist2_match                45      684      4    15.20     32    6.88
-dist2_match_rev            39      208      2     5.33     14    3.24
-dist3_match                43      346      2     8.05     20    4.39
-dist3_match_rev            43      294      2     6.84     14    3.74
-dist4_match                37      184      2     4.97     14    2.85
-dist4_match_rev            33      148      2     4.48     10    2.51
+2bwd_as_direct             90     1258      8    13.98     20    2.97
+3bwd_as_direct             90      889      3     9.88     20    2.56
+3fwd_as_direct             90      566      1     6.29     13    2.38
+dist2_match                45      684      6    15.20     26    4.68
+dist2_match_rev            40      208      2     5.20     10    2.56
+dist3_match                45      346      2     7.69     20    4.19
+dist3_match_rev            44      294      2     6.68     16    3.49
+dist4_match                39      184      2     4.72     10    2.37
+dist4_match_rev            38      148      2     3.89     10    2.47
 same_position              10      334     22    33.40     44    6.93
 
   Hard constraints clean: no 1-step or 2-step-forward events as direct transitions.
@@ -585,19 +589,19 @@ MOST-LOADED INDIVIDUAL EVENTS (specific edges carrying the most weight)
      36  same_position          6
      34  same_position          5
      32  same_position          7
-     32  dist2_match            flower - hand
-     32  dist2_match            ball - bread
      30  same_position          3
-     26  dist2_match            bicycle - jacket
-     26  dist2_match            ball - dog
-     25  2bwd_as_direct         hand -> chair
-     24  dist2_match            bicycle - chair
-     24  dist2_match            dog - hand
-     22  2bwd_as_direct         house -> bicycle
-     22  dist2_match            house - jacket
-     22  2bwd_as_direct         bicycle -> dog
+     26  dist2_match            bread - hand
+     24  dist2_match            bicycle - hammer
+     22  dist2_match            hammer - jacket
+     22  dist2_match            flower - hammer
+     22  dist2_match            bread - house
      22  same_position          9
      22  dist2_match            chair - house
+     22  same_position          0
+     20  3bwd_as_direct         chair -> bicycle
+     20  2bwd_as_direct         flower -> bicycle
+     20  2bwd_as_direct         hammer -> ball
+     20  2bwd_as_direct         flower -> jacket
 
   Full event list saved to: C:\sync_folder\TSRlearn-MEG-prep\task\sequences\residual_confound_balance.txt
 
@@ -613,21 +617,21 @@ Participants analysed: 65
   Sequence D loaded: 65
 
 Position distribution (concept x position cell counts):
-  Seq A - expected 6.50 per cell, observed 5-9, std 0.96
-  Seq B - expected 6.50 per cell, observed 4-9, std 0.94
-  Seq C - expected 6.50 per cell, observed 5-8, std 0.88
-  Seq D - expected 6.50 per cell, observed 5-9, std 0.92
+  Seq A - expected 6.50 per cell, observed 4-9, std 0.95
+  Seq B - expected 6.50 per cell, observed 5-8, std 0.94
+  Seq C - expected 6.50 per cell, observed 4-10, std 1.14
+  Seq D - expected 6.50 per cell, observed 4-9, std 1.05
 
 Buffer usage balance (std dev across concepts, lower = better):
-  Seq A - std dev: 0.99
-  Seq B - std dev: 0.99
-  Seq C - std dev: 0.99
-  Seq D - std dev: 0.99
+  Seq A - std dev: 0.50
+  Seq B - std dev: 0.50
+  Seq C - std dev: 0.50
+  Seq D - std dev: 0.50
 
 Transition balance (gap-1):
-  Seq A - 89 unique, std dev: 2.33, min/max: 2/14
-  Seq B - 90 unique, std dev: 2.24, min/max: 3/13
-  Seq C - 90 unique, std dev: 2.51, min/max: 1/12
-  Seq D - 90 unique, std dev: 2.09, min/max: 1/13
+  Seq A - 90 unique, std dev: 1.33, min/max: 3/9
+  Seq B - 90 unique, std dev: 1.19, min/max: 4/9
+  Seq C - 90 unique, std dev: 1.05, min/max: 4/9
+  Seq D - 90 unique, std dev: 1.18, min/max: 4/9
 
 ====================================================================================================
