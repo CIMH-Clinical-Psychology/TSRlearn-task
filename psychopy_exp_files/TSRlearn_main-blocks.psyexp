@@ -315,8 +315,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part1.text = &quot;Welcome to the task.\n\nIn this experiment, you will learn sequences of images.\n\nLearning phases are interleaved with retrieval phases, in which you will answer questions about the sequences you learned.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part1.text = &quot;Willkommen zu der Aufgabe.\n\nIn diesem Experiment werden Sie Bildsequenzen lernen.\n\nDie Lernphasen werden mit Abrufphasen abgewechselt, in denen Sie\nFragen zu den gelernten Sequenzen beantworten.\n\nDr\u00fccke Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part1.text = (&amp;#10;    &quot;Welcome to the task.\n\n&quot;&amp;#10;&quot;In this experiment, you will learn sequences of images.\n\n&quot;&amp;#10;&quot;Learning phases are interleaved with retrieval phases, in which you will answer questions about the sequences you learned.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part1.text = (&amp;#10;&quot;Willkommen zu der Aufgabe.\n\n&quot;&amp;#10;&quot;In diesem Experiment werden Sie Bildsequenzen lernen.\n\n&quot;&amp;#10;&quot;Die Lernphasen werden mit Abrufphasen abgewechselt, in denen Sie\n&quot;&amp;#10;&quot;Fragen zu den gelernten Sequenzen beantworten.\n\n&quot;&amp;#10;&quot;Drücke Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part1.text = &quot;Welcome to the task.\n\nIn this experiment, you will learn sequences of images.\n\nLearning phases are interleaved with retrieval phases, in which you will answer questions about the sequences you learned.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part1.text = &quot;Willkommen zu der Aufgabe.\n\nIn diesem Experiment lernen Sie verschiedene Bildsequenzen.\n\nDie Lernphasen wechseln sich mit Abrufphasen ab.\nIn den Abrufphasen beantworten Sie Fragen zu den zuvor\ngelernten Sequenzen.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part1.text = (&amp;#10;    &quot;Welcome to the task.\n\n&quot;&amp;#10;&quot;In this experiment, you will learn sequences of images.\n\n&quot;&amp;#10;&quot;Learning phases are interleaved with retrieval phases, in which you will answer questions about the sequences you learned.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part1.text = (&amp;#10;&quot;Willkommen zu der Aufgabe.\n\n&quot;&amp;#10;&quot;In diesem Experiment lernen Sie verschiedene Bildsequenzen.\n\n&quot;&amp;#10;&quot;Die Lernphasen wechseln sich mit Abrufphasen ab.\n&quot;&amp;#10;&quot;In den Abrufphasen beantworten Sie Fragen zu den zuvor\n&quot;&amp;#10;&quot;gelernten Sequenzen.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -384,6 +384,22 @@
       </CodeComponent>
     </Routine>
     <Routine name="choice_display">
+      <RoutineSettingsComponent name="choice_display" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="choice_display" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="scene_image_2" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -413,22 +429,6 @@
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
-      <RoutineSettingsComponent name="choice_display" plugin="None">
-        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
-        <Param val="" valType="str" updates="None" name="backgroundImg"/>
-        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
-        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
-        <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
-        <Param val="choice_display" valType="code" updates="None" name="name"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="constant" name="skipIf"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="" valType="code" updates="constant" name="stopVal"/>
-        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
-      </RoutineSettingsComponent>
       <CodeComponent name="set_trigger_image" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
@@ -742,6 +742,22 @@
       </CodeComponent>
     </Routine>
     <Routine name="feedback">
+      <RoutineSettingsComponent name="feedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="feedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="scene_image_3" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -771,22 +787,6 @@
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
-      <RoutineSettingsComponent name="feedback" plugin="None">
-        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
-        <Param val="" valType="str" updates="None" name="backgroundImg"/>
-        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
-        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
-        <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
-        <Param val="feedback" valType="code" updates="None" name="name"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="constant" name="skipIf"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="" valType="code" updates="constant" name="stopVal"/>
-        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
-      </RoutineSettingsComponent>
       <CodeComponent name="control__polygon_2" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
@@ -2690,8 +2690,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part2.text = &quot;To help you remember the order of the images, please try to connect them into a story in your head.\n\nFor example: the dog is playing guitar, and then the lamp turns on.\n\nYou will now first practice the learning phases.\n\nPress any key to learn how the learning phases work.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part2.text = &quot;Um sich die Reihenfolge der Bilder besser zu merken, versuchen Sie bitte,\ndie Bilder zu einer Geschichte in Ihrem Kopf zu verbinden.\n\nZum Beispiel: Der Hund spielt Gitarre und dann geht die Lampe an.\n\nZun\u00e4chst werden Sie die Lernphasen \u00fcben.\n\nDr\u00fccken Sie eine beliebige Taste, um zu erfahren, wie die Lernphasen funktionieren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part2.text = (&amp;#10;&quot;To help you remember the order of the images, please try to connect them into a story in your head.\n\n&quot;&amp;#10;&quot;For example: the dog is playing guitar, and then the lamp turns on.\n\n&quot;&amp;#10;&quot;You will now first practice the learning phases.\n\n&quot;&amp;#10;&quot;Press any key to learn how the learning phases work.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part2.text = (&amp;#10;&quot;Um sich die Reihenfolge der Bilder besser zu merken, versuchen Sie bitte,\n&quot;&amp;#10;&quot;die Bilder zu einer Geschichte in Ihrem Kopf zu verbinden.\n\n&quot;&amp;#10;&quot;Zum Beispiel: Der Hund spielt Gitarre und dann geht die Lampe an.\n\n&quot;&amp;#10;&quot;Zunächst werden Sie die Lernphasen üben.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um zu erfahren, wie die Lernphasen funktionieren.&quot;&amp;#10;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part2.text = &quot;To help you remember the order of the images, please try to connect them into a story in your head.\n\nFor example: the dog is playing guitar, and then the lamp turns on.\n\nYou will now first practice the learning phases.\n\nPress any key to learn how the learning phases work.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part2.text = &quot;Um sich die Reihenfolge besser zu merken, verbinden Sie die\nBilder gedanklich zu einer Geschichte.\n\nZum Beispiel: Der Hund spielt Gitarre, danach geht die Lampe an.\n\nZun\u00e4chst \u00fcben Sie die Lernphasen.\n\nDr\u00fccken Sie eine beliebige Taste, um zu erfahren, wie diese ablaufen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part2.text = (&amp;#10;&quot;To help you remember the order of the images, please try to connect them into a story in your head.\n\n&quot;&amp;#10;&quot;For example: the dog is playing guitar, and then the lamp turns on.\n\n&quot;&amp;#10;&quot;You will now first practice the learning phases.\n\n&quot;&amp;#10;&quot;Press any key to learn how the learning phases work.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part2.text = (&amp;#10;&quot;Um sich die Reihenfolge besser zu merken, verbinden Sie die\n&quot;&amp;#10;&quot;Bilder gedanklich zu einer Geschichte.\n\n&quot;&amp;#10;&quot;Zum Beispiel: Der Hund spielt Gitarre, danach geht die Lampe an.\n\n&quot;&amp;#10;&quot;Zunächst üben Sie die Lernphasen.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um zu erfahren, wie diese ablaufen.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -2772,8 +2772,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part3.text = &quot;In each learning trial, you start with the current image\nin the sequence. This image is shown at the bottom of the\nscreen. At the top of the screen, you will see three\ndifferent images. Your task is to choose which of these\nimages comes next in the sequence.\n\nPress any key to continue. &quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part3.text = &quot;In jedem Lerndurchgang beginnen Sie mit dem aktuellen Bild\nder Sequenz. Dieses Bild wird unten auf dem Bildschirm angezeigt.\n\nOben auf dem Bildschirm sehen Sie drei verschiedene Bilder.\n\nIhre Aufgabe ist es, auszuw\u00e4hlen, welches Bild als\nn\u00e4chstes in der Sequenz folgt.\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part3.text = (&amp;#10;&quot;In each learning trial, you start with the current image\n&quot;&amp;#10;&quot;in the sequence. This image is shown at the bottom of the\n&quot;&amp;#10;&quot;screen. At the top of the screen, you will see three\n&quot;&amp;#10;&quot;different images. Your task is to choose which of these\n&quot;&amp;#10;&quot;images comes next in the sequence.\n\n&quot;&amp;#10;&quot;Press any key to continue. &quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part3.text = (&amp;#10;&quot;In jedem Lerndurchgang beginnen Sie mit dem aktuellen Bild\n&quot;&amp;#10;&quot;der Sequenz. Dieses Bild wird unten auf dem Bildschirm angezeigt.\n\n&quot;&amp;#10;&quot;Oben auf dem Bildschirm sehen Sie drei verschiedene Bilder.\n\n&quot;&amp;#10;&quot;Ihre Aufgabe ist es, auszuwählen, welches Bild als\n&quot;&amp;#10;&quot;nächstes in der Sequenz folgt.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part3.text = &quot;In each learning trial, you start with the current image\nin the sequence. This image is shown at the bottom of the\nscreen. At the top of the screen, you will see three\ndifferent images. Your task is to choose which of these\nimages comes next in the sequence.\n\nPress any key to continue. &quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part3.text = &quot;In jedem Lerndurchgang sehen Sie unten das aktuelle Bild\nder Sequenz. Oben werden drei Bilder angezeigt.\n\nW\u00e4hlen Sie das Bild aus, das als N\u00e4chstes in der Sequenz folgt.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part3.text = (&amp;#10;&quot;In each learning trial, you start with the current image\n&quot;&amp;#10;&quot;in the sequence. This image is shown at the bottom of the\n&quot;&amp;#10;&quot;screen. At the top of the screen, you will see three\n&quot;&amp;#10;&quot;different images. Your task is to choose which of these\n&quot;&amp;#10;&quot;images comes next in the sequence.\n\n&quot;&amp;#10;&quot;Press any key to continue. &quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part3.text = (&amp;#10;&quot;In jedem Lerndurchgang sehen Sie unten das aktuelle Bild\n&quot;&amp;#10;&quot;der Sequenz. Oben werden drei Bilder angezeigt.\n\n&quot;&amp;#10;&quot;Wählen Sie das Bild aus, das als Nächstes in der Sequenz folgt.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -2854,8 +2854,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part4.text = &quot;Use the left, right, and up keys to select the image in the left, right, or middle position.\n\nThe position of the images on the screen does not indicate their order in the sequence.\nAny image can appear in any position.\n\nPlease do not write down the associations you learn. Try to keep the sequences in your head.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part4.text = &quot;Verwenden Sie die linke (gr\u00fcn), rechte (blau) und\nobere (rot) Taste, um das Bild links, rechts oder in der\nMitte auszuw\u00e4hlen. Die Position der Bilder auf dem Bildschirm\nhat keine Bedeutung f\u00fcr die Struktur der Sequenz.\nJedes Bild kann an jeder Position erscheinen\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen. &quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part4.text = (&amp;#10;&quot;Use the left, right, and up keys to select the image in the left, right, or middle position.\n\n&quot;&amp;#10;&quot;The position of the images on the screen does not indicate their order in the sequence.\n&quot;&amp;#10;&quot;Any image can appear in any position.\n\n&quot;&amp;#10;&quot;Please do not write down the associations you learn. Try to keep the sequences in your head.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part4.text = (&amp;#10;&quot;Verwenden Sie die linke (grün), rechte (blau) und\n&quot;&amp;#10;&quot;obere (rot) Taste, um das Bild links, rechts oder in der\n&quot;&amp;#10;&quot;Mitte auszuwählen. Die Position der Bilder auf dem Bildschirm\n&quot;&amp;#10;&quot;hat keine Bedeutung für die Struktur der Sequenz.\n&quot;&amp;#10;&quot;Jedes Bild kann an jeder Position erscheinen\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen. &quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part4.text = &quot;Use the left, right, and up keys to select the image in the left, right, or middle position.\n\nThe position of the images on the screen does not indicate their order in the sequence.\nAny image can appear in any position.\n\nPlease do not write down the associations you learn. Try to keep the sequences in your head.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part4.text = &quot;Verwenden Sie die linke gr\u00fcne, die rechte blaue\nund die obere rote Taste, um das linke, rechte oder mittlere\nBild auszuw\u00e4hlen.\n\nDie Position der Bilder auf dem Bildschirm\nhat keine Bedeutung f\u00fcr die Reihenfolge der Sequenz.\nJedes Bild kann an jeder Position erscheinen.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part4.text = (&amp;#10;&quot;Use the left, right, and up keys to select the image in the left, right, or middle position.\n\n&quot;&amp;#10;&quot;The position of the images on the screen does not indicate their order in the sequence.\n&quot;&amp;#10;&quot;Any image can appear in any position.\n\n&quot;&amp;#10;&quot;Please do not write down the associations you learn. Try to keep the sequences in your head.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part4.text = (&amp;#10;&quot;Verwenden Sie die linke grüne, die rechte blaue\n&quot;&amp;#10;&quot;und die obere rote Taste, um das linke, rechte oder mittlere\n&quot;&amp;#10;&quot;Bild auszuwählen.\n\n&quot;&amp;#10;&quot;Die Position der Bilder auf dem Bildschirm\n&quot;&amp;#10;&quot;hat keine Bedeutung für die Reihenfolge der Sequenz.\n&quot;&amp;#10;&quot;Jedes Bild kann an jeder Position erscheinen.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -2904,6 +2904,23 @@
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
+      <CodeComponent name="instruction_part5_text" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part5.text = &quot;After you make a choice, you will receive feedback:\nThe correct next image in the sequence will move down \nand replace the current image.\n\nThe next learning trial then starts from this new current image.\n\nPress any key to continue. &quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part5.text = &quot;Nach Ihrer Auswahl erhalten Sie Feedback:\nDas richtige n\u00e4chste Bild bewegt sich nach unten\nund wird zum aktuellen Bild f\u00fcr den n\u00e4chsten Lerndurchgang.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part5.text = (&amp;#10;&quot;After you make a choice, you will receive feedback:\n&quot;&amp;#10;&quot;The correct next image in the sequence will move down \n&quot;&amp;#10;&quot;and replace the current image.\n\n&quot;&amp;#10;&quot;The next learning trial then starts from this new current image.\n\n&quot;&amp;#10;&quot;Press any key to continue. &quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part5.text = (&amp;#10;&quot;Nach Ihrer Auswahl erhalten Sie Feedback:\n&quot;&amp;#10;&quot;Das richtige nächste Bild bewegt sich nach unten\n&quot;&amp;#10;&quot;und wird zum aktuellen Bild für den nächsten Lerndurchgang.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="instruction_part5_text" valType="code" updates="None" name="name"/>
+      </CodeComponent>
       <TextComponent name="instruction_part5" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -2931,23 +2948,6 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <CodeComponent name="instruction_part5_text" plugin="None">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part5.text = &quot;After you make a choice, you will receive feedback:\nThe correct next image in the sequence will move down \nand replace the current image.\n\nThe next learning trial then starts from this new current image.\n\nPress any key to continue. &quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part5.text = &quot;Nachdem Sie eine Auswahl getroffen haben, erhalten Sie Feedback:\nDas korrekte n\u00e4chste Bild der Sequenz bewegt sich nach unten\nund ersetzt das aktuelle Bild. Der n\u00e4chste Lerndurchgang beginnt\ndann mit diesem neuen aktuellen Bild.\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen. &quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part5.text = (&amp;#10;&quot;After you make a choice, you will receive feedback:\n&quot;&amp;#10;&quot;The correct next image in the sequence will move down \n&quot;&amp;#10;&quot;and replace the current image.\n\n&quot;&amp;#10;&quot;The next learning trial then starts from this new current image.\n\n&quot;&amp;#10;&quot;Press any key to continue. &quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part5.text = (&amp;#10;&quot;Nachdem Sie eine Auswahl getroffen haben, erhalten Sie Feedback:\n&quot;&amp;#10;&quot;Das korrekte nächste Bild der Sequenz bewegt sich nach unten\n&quot;&amp;#10;&quot;und ersetzt das aktuelle Bild. Der nächste Lerndurchgang beginnt\n&quot;&amp;#10;&quot;dann mit diesem neuen aktuellen Bild.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen. &quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="instruction_part5_text" valType="code" updates="None" name="name"/>
-      </CodeComponent>
       <KeyboardComponent name="continue_button_6" plugin="None">
         <Param val="left_key, right_key, center_key, down_key" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
@@ -2986,6 +2986,23 @@
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
+      <CodeComponent name="instruction_part6_text" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part6.text = &quot;Importantly, the image that moves down is always the correct next image, even if you chose incorrectly.\nIn this way, you will learn the entire sequence step by step through trial and error.\n\nPlease respond as quickly and accurately as possible.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part6.text = &quot;Wichtig: Auch bei einer falschen Antwort bewegt\nsich immer das richtige n\u00e4chste Bild nach unten.\n\nSo lernen Sie die Sequenz schrittweise durch Versuch\nund Irrtum. Antworten Sie bitte so schnell und genau wie m\u00f6glich.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part6.text = (&amp;#10;&quot;Importantly, the image that moves down is always the correct next image, even if you chose incorrectly.\n&quot;&amp;#10;&quot;In this way, you will learn the entire sequence step by step through trial and error.\n\n&quot;&amp;#10;&quot;Please respond as quickly and accurately as possible.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part6.text = (&amp;#10;&quot;Wichtig: Auch bei einer falschen Antwort bewegt\n&quot;&amp;#10;&quot;sich immer das richtige nächste Bild nach unten.\n\n&quot;&amp;#10;&quot;So lernen Sie die Sequenz schrittweise durch Versuch\n&quot;&amp;#10;&quot;und Irrtum. Antworten Sie bitte so schnell und genau wie möglich.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren&quot;&amp;#10;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="instruction_part6_text" valType="code" updates="None" name="name"/>
+      </CodeComponent>
       <TextComponent name="instruction_part6" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -3013,23 +3030,6 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <CodeComponent name="instruction_part6_text" plugin="None">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part6.text = &quot;Importantly, the image that moves down is always the correct next image, even if you chose incorrectly.\nIn this way, you will learn the entire sequence step by step through trial and error.\n\nPlease respond as quickly and accurately as possible.\n\nPress any key to start practicing the learning trials.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part6.text = &quot;Wichtig ist, dass immer das korrekte n\u00e4chste Bild\nnach unten bewegt wird \u2013 auch dann, wenn Sie falsch gew\u00e4hlt haben.\nAuf diese Weise lernen Sie die gesamte Sequenz schrittweise durch Versuch\nund Irrtum. Bitte reagieren Sie so schnell und so genau wie m\u00f6glich.\n\nDr\u00fccken Sie eine beliebige Taste, um mit der \u00dcbung der Lernphasen zu beginnen. &quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part6.text = (&amp;#10;&quot;Importantly, the image that moves down is always the correct next image, even if you chose incorrectly.\n&quot;&amp;#10;&quot;In this way, you will learn the entire sequence step by step through trial and error.\n\n&quot;&amp;#10;&quot;Please respond as quickly and accurately as possible.\n\n&quot;&amp;#10;&quot;Press any key to start practicing the learning trials.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part6.text = (&amp;#10;&quot;Wichtig ist, dass immer das korrekte nächste Bild\n&quot;&amp;#10;&quot;nach unten bewegt wird – auch dann, wenn Sie falsch gewählt haben.\n&quot;&amp;#10;&quot;Auf diese Weise lernen Sie die gesamte Sequenz schrittweise durch Versuch\n&quot;&amp;#10;&quot;und Irrtum. Bitte reagieren Sie so schnell und so genau wie möglich.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um mit der Übung der Lernphasen zu beginnen. &quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="instruction_part6_text" valType="code" updates="None" name="name"/>
-      </CodeComponent>
       <KeyboardComponent name="continue_button_7" plugin="None">
         <Param val="left_key, right_key, center_key, down_key" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
@@ -3856,22 +3856,6 @@
       </ImageComponent>
     </Routine>
     <Routine name="instruction_retrieval_trials">
-      <RoutineSettingsComponent name="instruction_retrieval_trials" plugin="None">
-        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
-        <Param val="" valType="str" updates="None" name="backgroundImg"/>
-        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
-        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
-        <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
-        <Param val="instruction_retrieval_trials" valType="code" updates="None" name="name"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="constant" name="skipIf"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="" valType="code" updates="constant" name="stopVal"/>
-        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
-      </RoutineSettingsComponent>
       <TextComponent name="instruction_part7" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -3904,8 +3888,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part7.text = &quot;Good job!\n\nThe learning phases are interleaved with retrieval phases, in which you will answer questions about the learned sequences.\nIn a retrieval trial, you will always be presented with two images from the sequence.\nOne is presented after the other\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part7.text = &quot;Gut gemacht!\n\nDie Lernphasen werden mit Abrufphasen abgewechselt, in denen Sie Fragen\nzu den gelernten Sequenzen beantworten. In den Abrufdurchg\u00e4ngen sehen sie\nimmer zwei Bilder aus der Sequenz nacheinander.\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part7.text = (&amp;#10;   &quot;Good job!\n\n&quot;&amp;#10;&quot;The learning phases are interleaved with retrieval phases, in which you will answer questions about the learned sequences.\n&quot;&amp;#10;&quot;In a retrieval trial, you will always be presented with two images from the sequence.\n&quot;&amp;#10;&quot;One is presented after the other\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part7.text = (&amp;#10;&quot;Gut gemacht!\n\n&quot;&amp;#10;&quot;Die Lernphasen werden mit Abrufphasen abgewechselt, in denen Sie Fragen\n&quot;&amp;#10;&quot;zu den gelernten Sequenzen beantworten. In den Abrufdurchgängen sehen sie\n&quot;&amp;#10;&quot;immer zwei Bilder aus der Sequenz nacheinander.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part7.text = &quot;Good job!\n\nThe learning phases are interleaved with retrieval phases, in which you will answer questions about the learned sequences.\nIn a retrieval trial, you will always be presented with two images from the sequence.\nOne is presented after the other\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part7.text = &quot;Gut gemacht!\n\nDie Lernphasen wechseln sich mit Abrufphasen ab.\nDabei beantworten Sie Fragen zu den gelernten Sequenzen.\n\nIn jedem Abrufdurchgang sehen Sie nacheinander zwei\nBilder aus einer Sequenz.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part7.text = (&amp;#10;   &quot;Good job!\n\n&quot;&amp;#10;&quot;The learning phases are interleaved with retrieval phases, in which you will answer questions about the learned sequences.\n&quot;&amp;#10;&quot;In a retrieval trial, you will always be presented with two images from the sequence.\n&quot;&amp;#10;&quot;One is presented after the other\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part7.text = (&amp;#10;&quot;Gut gemacht!\n\n&quot;&amp;#10;&quot;Die Lernphasen wechseln sich mit Abrufphasen ab.\n&quot;&amp;#10;&quot;Dabei beantworten Sie Fragen zu den gelernten Sequenzen.\n\n&quot;&amp;#10;&quot;In jedem Abrufdurchgang sehen Sie nacheinander zwei\n&quot;&amp;#10;&quot;Bilder aus einer Sequenz.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -3916,6 +3900,22 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="instruction_part7_text" valType="code" updates="None" name="name"/>
       </CodeComponent>
+      <RoutineSettingsComponent name="instruction_retrieval_trials" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction_retrieval_trials" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <KeyboardComponent name="continue_button_8" plugin="None">
         <Param val="left_key, right_key, center_key, down_key" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
@@ -3986,8 +3986,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part8.text = &quot;You are now ready to practice the retrieval trials.\n\nPlese remember to use the periods after the two images were shown to think\nabout the order and distance questions.\n\nPress any key to start the retrieval practice&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part8.text = &quot;Sie sind nun bereit, die Abrufdurchg\u00e4nge zu \u00fcben.\n\nDenken Sie daran, in der kurzen Pause nach dem Pr\u00e4sentieren der Bilder,\n\u00fcber die Reihenfolgefrage und die Distanzfrage nachzudenken.\n\n\nDr\u00fccken Sie eine beliebige Taste, um das \u00dcben des Abrufs zu starten.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part8.text = (&amp;#10;    &quot;You are now ready to practice the retrieval trials.\n\n&quot;&amp;#10;    &quot;Plese remember to use the periods after the two images were shown to think\n&quot;&amp;#10;    &quot;about the order and distance questions.\n\n&quot;&amp;#10;    &quot;Press any key to start the retrieval practice&quot;)  &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part8.text = (&amp;#10;    &quot;Sie sind nun bereit, die Abrufdurchgänge zu üben.\n\n&quot;&amp;#10;    &quot;Denken Sie daran, in der kurzen Pause nach dem Präsentieren der Bilder,\n&quot;&amp;#10;    &quot;über die Reihenfolgefrage und die Distanzfrage nachzudenken.\n\n\n&quot;&amp;#10;    &quot;Drücken Sie eine beliebige Taste, um das Üben des Abrufs zu starten.&quot;&amp;#10;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part8.text = &quot;You are now ready to practice the retrieval trials.\n\nPlese remember to use the periods after the two images were shown to think\nabout the order and distance questions.\n\nPress any key to start the retrieval practice&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part8.text = &quot;Sie sind nun bereit, die Abrufdurchg\u00e4nge zu \u00fcben.\n\nNutzen Sie die kurze Pause nach der Bildpr\u00e4sentation,\num bereits \u00fcber die Reihenfolge und die Distanz nachzudenken.\n\nDr\u00fccken Sie eine beliebige Taste, um die \u00dcbung zu starten.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part8.text = (&amp;#10;    &quot;You are now ready to practice the retrieval trials.\n\n&quot;&amp;#10;    &quot;Plese remember to use the periods after the two images were shown to think\n&quot;&amp;#10;    &quot;about the order and distance questions.\n\n&quot;&amp;#10;    &quot;Press any key to start the retrieval practice&quot;)  &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part8.text = (&amp;#10;&quot;Sie sind nun bereit, die Abrufdurchgänge zu üben.\n\n&quot;&amp;#10;&quot;Nutzen Sie die kurze Pause nach der Bildpräsentation,\n&quot;&amp;#10;&quot;um bereits über die Reihenfolge und die Distanz nachzudenken.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um die Übung zu starten.&quot;&amp;#10;&amp;#10;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -4167,8 +4167,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instructions_part7.text = &quot;You finished all the practice trials.\nThe main task starts now.\n\nPlease minimize movement during the main task phases.\n\nReminder: At the beginning, you will not yet know the correct sequence and will learn through trial and error over time.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instructions_part7.text = &quot;Sie haben alle \u00dcbungsdurchg\u00e4nge beendet.\nNun beginnt die Hauptaufgabe.\n\nBitte stellen Sie sicher, dass Sie Bewegungen des K\u00f6rpers und der\nAugen in den Aufgabenphasen so weit wie m\u00f6glich reduzieren.\n\nZur Erinnerung: Zu Beginn werden Sie die korrekte Sequenz noch nicht kennen\nund mit der Zeit \u00fcber Versuch und Irrtum lernen.\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instructions_part7.text = (&amp;#10;&quot;You finished all the practice trials.\nThe main task starts now.\n\n&quot;&amp;#10;&quot;Please minimize movement during the main task phases.\n\n&quot;&amp;#10;&quot;Reminder: At the beginning, you will not yet know the correct sequence and will learn through trial and error over time.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instructions_part7.text = (&amp;#10;&quot;Sie haben alle Übungsdurchgänge beendet.\nNun beginnt die Hauptaufgabe.\n\n&quot;&amp;#10;&quot;Bitte stellen Sie sicher, dass Sie Bewegungen des Körpers und der\n&quot;&amp;#10;&quot;Augen in den Aufgabenphasen so weit wie möglich reduzieren.\n\n&quot;&amp;#10;&quot;Zur Erinnerung: Zu Beginn werden Sie die korrekte Sequenz noch nicht kennen\n&quot;&amp;#10;&quot;und mit der Zeit über Versuch und Irrtum lernen.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instructions_part7.text = &quot;You finished all the practice trials.\nThe main task starts now.\n\nPlease minimize movement during the main task phases.\n\nReminder: At the beginning, you will not yet know the correct sequence and will learn through trial and error over time.\n\nPress any key to start the main task.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instructions_part7.text = &quot;Sie haben alle \u00dcbungsdurchg\u00e4nge beendet.\nNun beginnt die Hauptaufgabe.\n\nBitte bewegen Sie K\u00f6rper und Augen w\u00e4hrend der\nAufgabenphasen so wenig wie m\u00f6glich.\n\nZu Beginn kennen Sie die richtige Sequenz noch nicht.\nSie lernen sie schrittweise durch Versuch und Irrtum.\n\nDr\u00fccken Sie eine beliebige Taste, um die Hauptaufgabe zu starten.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instructions_part7.text = (&amp;#10;&quot;You finished all the practice trials.\nThe main task starts now.\n\n&quot;&amp;#10;&quot;Please minimize movement during the main task phases.\n\n&quot;&amp;#10;&quot;Reminder: At the beginning, you will not yet know the correct sequence and will learn through trial and error over time.\n\n&quot;&amp;#10;&quot;Press any key to start the main task.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instructions_part7.text = (&amp;#10;&quot;Sie haben alle Übungsdurchgänge beendet.\n&quot;&amp;#10;&quot;Nun beginnt die Hauptaufgabe.\n\n&quot;&amp;#10;&quot;Bitte bewegen Sie Körper und Augen während der\n&quot;&amp;#10;&quot;Aufgabenphasen so wenig wie möglich.\n\n&quot;&amp;#10;&quot;Zu Beginn kennen Sie die richtige Sequenz noch nicht.\n&quot;&amp;#10;&quot;Sie lernen sie schrittweise durch Versuch und Irrtum.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um die Hauptaufgabe zu starten.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -4407,8 +4407,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_info.text = &quot;In the practice of the retrieval trials, you will get some background information on how the sequence of images is structured.\nThis will appear at the bottom.\n\nIn the main trials, there will be no additional information.\nYou should extract this information from the pairwise associations learned.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_info.text = &quot;In der \u00dcbungsphase zu den Abrufdurchg\u00e4ngen erhalten Sie einige\nHintergrundinformationen dar\u00fcber, wie die Bildsequenz aufgebaut ist.\nDies wird unten am Bildschirm angezeigt. In der Hauptaufgabe gibt\nes keine zus\u00e4tzlichen Informationen. Sie sollten diese Informationen\naus den gelernten paarweisen Assoziationen extrahieren.\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="&amp;#10;if language == &quot;english&quot;: &amp;#10;    instruction_info.text = (&amp;#10;    &quot;In the practice of the retrieval trials, you will get some background information on how the sequence of images is structured.\n&quot;&amp;#10;    &quot;This will appear at the bottom.\n\nIn the main trials, there will be no additional information.\n&quot; &amp;#10;    &quot;You should extract this information from the pairwise associations learned.\n\n&quot;&amp;#10;    &quot;Press any key to continue.&quot;&amp;#10;)  &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_info.text = (&amp;#10;&quot;In der Übungsphase zu den Abrufdurchgängen erhalten Sie einige\n&quot;&amp;#10;&quot;Hintergrundinformationen darüber, wie die Bildsequenz aufgebaut ist.\n&quot;&amp;#10;&quot;Dies wird unten am Bildschirm angezeigt. In der Hauptaufgabe gibt\n&quot;&amp;#10;&quot;es keine zusätzlichen Informationen. Sie sollten diese Informationen\n&quot;&amp;#10;&quot;aus den gelernten paarweisen Assoziationen extrahieren.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;)  " valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_info.text = &quot;In the practice of the retrieval trials, you will get some background information on how the sequence of images is structured.\nThis will appear at the bottom.\n\nIn the main trials, there will be no additional information.\nYou should extract this information from the pairwise associations learned.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_info.text = &quot;In den \u00dcbungsdurchg\u00e4ngen erhalten Sie unten\nauf dem Bildschirm zus\u00e4tzliche Hinweise zur Struktur\nder Bildsequenz.\n\nIn der Hauptaufgabe werden diese Hinweise nicht\nmehr angezeigt. Dort m\u00fcssen Sie die Struktur aus\nden gelernten Bildpaaren ableiten.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;if language == &quot;english&quot;: &amp;#10;    instruction_info.text = (&amp;#10;    &quot;In the practice of the retrieval trials, you will get some background information on how the sequence of images is structured.\n&quot;&amp;#10;    &quot;This will appear at the bottom.\n\nIn the main trials, there will be no additional information.\n&quot; &amp;#10;    &quot;You should extract this information from the pairwise associations learned.\n\n&quot;&amp;#10;    &quot;Press any key to continue.&quot;&amp;#10;)  &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_info.text = (&amp;#10;&quot;In den Übungsdurchgängen erhalten Sie unten\n&quot;&amp;#10;&quot;auf dem Bildschirm zusätzliche Hinweise zur Struktur\n&quot;&amp;#10;&quot;der Bildsequenz.\n\n&quot;&amp;#10;&quot;In der Hauptaufgabe werden diese Hinweise nicht\n&quot;&amp;#10;&quot;mehr angezeigt. Dort müssen Sie die Struktur aus\n&quot;&amp;#10;&quot;den gelernten Bildpaaren ableiten.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;)  " valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -4661,8 +4661,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instructions_part8.text = &quot;After each learning run, there will be short waiting periods, in which you will see a fixation cross.\nThese periods are not a break. Please just wait for a short moment, but don't take a break.\n\nPress any key to start the main task.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instructions_part8.text = &quot;Nach jedem Lerndurchlauf gibt es kurze Wartezeiten, in denen ein\nFixationskreuz pr\u00e4sentiert wird. Diese Wartezeiten sind keine Pause.\nBitte warten Sie nur einen kurzen Moment, machen Sie aber keine Pause.\n\nDr\u00fccken Sie eine beliebige Taste, um die Hauptaufgabe zu beginnen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instructions_part8.text = (&amp;#10;&quot;After each learning run, there will be short waiting periods, in which you will see a fixation cross.\n&quot;&amp;#10;&quot;These periods are not a break. Please just wait for a short moment, but don't take a break.\n\n&quot;&amp;#10;&quot;Press any key to start the main task.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instructions_part8.text = (&amp;#10;&quot;Nach jedem Lerndurchlauf gibt es kurze Wartezeiten, in denen ein\n&quot;&amp;#10;&quot;Fixationskreuz präsentiert wird. Diese Wartezeiten sind keine Pause.\n&quot;&amp;#10;&quot;Bitte warten Sie nur einen kurzen Moment, machen Sie aber keine Pause.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um die Hauptaufgabe zu beginnen.&quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instructions_part8.text = &quot;After each learning run, there will be short waiting periods, in which you will see a fixation cross.\nThese periods are not a break. Please just wait for a short moment, but don't take a break.\n\nPress any key to start the main task.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instructions_part8.text = &quot;Nach jedem Lerndurchlauf erscheint f\u00fcr kurze Zeit\nein Fixationskreuz.\n\nDiese Wartezeit ist keine Pause.\nBitte bleiben Sie weiterhin ruhig sitzen und schauen\nSie auf das Fixationskreuz.\n\nDr\u00fccken Sie eine beliebige Taste, um die Hauptaufgabe zu beginnen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instructions_part8.text = (&amp;#10;&quot;After each learning run, there will be short waiting periods, in which you will see a fixation cross.\n&quot;&amp;#10;&quot;These periods are not a break. Please just wait for a short moment, but don't take a break.\n\n&quot;&amp;#10;&quot;Press any key to start the main task.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instructions_part8.text = (&amp;#10;&quot;Nach jedem Lerndurchlauf erscheint für kurze Zeit\n&quot;&amp;#10;&quot;ein Fixationskreuz.\n\n&quot;&amp;#10;&quot;Diese Wartezeit ist keine Pause.\n&quot;&amp;#10;&quot;Bitte bleiben Sie weiterhin ruhig sitzen und schauen\n&quot;&amp;#10;&quot;Sie auf das Fixationskreuz.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um die Hauptaufgabe zu beginnen.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -6219,8 +6219,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part10.text = &quot;Retrieval Part 1: Order\n\nAfter seeing the two images, your first task is to indicate\nif the two images were presented in the learned sequence in the presented order\nor not. For this, use the left (green) and right (blue) button\n.The assignment of correct / incorrect to left / right can change, so please\ncheck on the screen which side corresponds to correct / incorrect on this trial.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part10.text = &quot;Abruf Teil 1: Reihenfolge\n\nNachdem die beiden Bilder pr\u00e4sentiert wurden, ist die erste Aufgabe, \nanzugeben, ob die beiden Bilder in der gelernten Sequenz in der pr\u00e4sentierten\nReihenfolge vorkamen oder nicht. Daf\u00fcr nutzen Sie die linke (gr\u00fcn) und rechte\n (blau) Taste f\u00fcr ja/nein. Die Zuordnung von ja/nein zu links/rechts ver\u00e4ndert\nsich je nach Durchgang, daher schauen sie bitte auf dem Bildschirm nach, \nwelche Seite welcher Antwortoption zuzuordnen ist.\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part10.text = (&amp;#10;   &quot;Retrieval Part 1: Order\n\n&quot;&amp;#10;&quot;After seeing the two images, your first task is to indicate\n&quot;&amp;#10;&quot;if the two images were presented in the learned sequence in the presented order\n&quot;&amp;#10;&quot;or not. For this, use the left (green) and right (blue) button\n.&quot;&amp;#10;&quot;The assignment of correct / incorrect to left / right can change, so please\n&quot;&amp;#10;&quot;check on the screen which side corresponds to correct / incorrect on this trial.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part10.text = (&amp;#10;&quot;Abruf Teil 1: Reihenfolge\n\n&quot;&amp;#10;&quot;Nachdem die beiden Bilder präsentiert wurden, ist die erste Aufgabe, \n&quot;&amp;#10;&quot;anzugeben, ob die beiden Bilder in der gelernten Sequenz in der präsentierten\n&quot;&amp;#10;&quot;Reihenfolge vorkamen oder nicht. Dafür nutzen Sie die linke (grün) und rechte\n&quot;&amp;#10;&quot; (blau) Taste für ja/nein. Die Zuordnung von ja/nein zu links/rechts verändert\n&quot;&amp;#10;&quot;sich je nach Durchgang, daher schauen sie bitte auf dem Bildschirm nach, \n&quot;&amp;#10;&quot;welche Seite welcher Antwortoption zuzuordnen ist.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part10.text = &quot;Retrieval Part 1: Order\n\nAfter seeing the two images, your first task is to indicate\nif the two images were presented in the learned sequence\nin the presented order or not.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part10.text = &quot;Abruf Teil 1: Reihenfolge\n\nNach der Pr\u00e4sentation der beiden Bilder geben Sie an,\nob sie in der gelernten Sequenz in dieser Reihenfolge\nvorkamen.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part10.text = (&amp;#10;   &quot;Retrieval Part 1: Order\n\n&quot;&amp;#10;&quot;After seeing the two images, your first task is to indicate\n&quot;&amp;#10;&quot;if the two images were presented in the learned sequence\n&quot;&amp;#10;&quot;in the presented order or not.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part10.text = (&amp;#10;&quot;Abruf Teil 1: Reihenfolge\n\n&quot;&amp;#10;&quot;Nach der Präsentation der beiden Bilder geben Sie an,\n&quot;&amp;#10;&quot;ob sie in der gelernten Sequenz in dieser Reihenfolge\n&quot;&amp;#10;&quot;vorkamen.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -6301,8 +6301,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part11.text = &quot;Retrieval Part 2: Distance\n\nAfter seeing the two images, your first task is to indicate\nif the two images were presented in the learned sequence in the presented order\nor not. For this, use the left (green) and right (blue) button\n.The assignment of correct / incorrect to left / right can change, so please\ncheck on the screen which side corresponds to correct / incorrect on this trial.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part11.text = &quot;Abruf Teil 2: Distanz\n\nUnmittelbar nach der Antwort, ob die pr\u00e4sentierte Reihenfolge\nder Bilder der Sequenzreihenfolge entspricht, soll eine weitere Frage\nbeantworten werden. Und zwar sollen Sie angeben, wie weit die beiden Bilder\nin der Sequenz voneinander entfernt liegen. M\u00f6gliche Distanzen sind 2 \n(ein Bild liegt dazwischen) bis 5 (4 Bilder liegen dazwischen).\nAntworten sie mit den vier Tasten, die Tastenbelegungen erscheinen wieder auf dem Bildschirm.\n\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part11.text = (&amp;#10;   &quot;Retrieval Part 2: Distance\n\n&quot;&amp;#10;&quot;After seeing the two images, your first task is to indicate\n&quot;&amp;#10;&quot;if the two images were presented in the learned sequence in the presented order\n&quot;&amp;#10;&quot;or not. For this, use the left (green) and right (blue) button\n.&quot;&amp;#10;&quot;The assignment of correct / incorrect to left / right can change, so please\n&quot;&amp;#10;&quot;check on the screen which side corresponds to correct / incorrect on this trial.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part11.text = (&amp;#10;&quot;Abruf Teil 2: Distanz\n\n&quot;&amp;#10;&quot;Unmittelbar nach der Antwort, ob die präsentierte Reihenfolge\n&quot;&amp;#10;&quot;der Bilder der Sequenzreihenfolge entspricht, soll eine weitere Frage\n&quot;&amp;#10;&quot;beantworten werden. Und zwar sollen Sie angeben, wie weit die beiden Bilder\n&quot;&amp;#10;&quot;in der Sequenz voneinander entfernt liegen. Mögliche Distanzen sind 2 \n&quot;&amp;#10;&quot;(ein Bild liegt dazwischen) bis 5 (4 Bilder liegen dazwischen).\n&quot;&amp;#10;&quot;Antworten sie mit den vier Tasten, die Tastenbelegungen erscheinen wieder auf dem Bildschirm.\n\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part11.text = &quot;Retrieval Part 2: Distance\n\nAfter the order question, indicate\nhow far apart the two images are\nin the sequence.\n\nPossible distances range from 2 to 5.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part11.text = &quot;Abruf Teil 2: Distanz\n\nNach der Frage zur Reihenfolge geben Sie an,\nwie weit die beiden Bilder in der Sequenz voneinander\nentfernt sind.\n\nDie m\u00f6glichen Distanzen reichen von 2 bis 5.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part11.text = (&amp;#10;&quot;Retrieval Part 2: Distance\n\n&quot;&amp;#10;&quot;After the order question, indicate\n&quot;&amp;#10;&quot;how far apart the two images are\n&quot;&amp;#10;&quot;in the sequence.\n\n&quot;&amp;#10;&quot;Possible distances range from 2 to 5.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part11.text = (&amp;#10;&quot;Abruf Teil 2: Distanz\n\n&quot;&amp;#10;&quot;Nach der Frage zur Reihenfolge geben Sie an,\n&quot;&amp;#10;&quot;wie weit die beiden Bilder in der Sequenz voneinander\n&quot;&amp;#10;&quot;entfernt sind.\n\n&quot;&amp;#10;&quot;Die möglichen Distanzen reichen von 2 bis 5.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -6383,8 +6383,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part12.text = &quot;Retrieval: Reflection Period\n\nAfter seeing the two images, your first task is to indicate\nif the two images were presented in the learned sequence in the presented order\nor not. For this, use the left (green) and right (blue) button\n.The assignment of correct / incorrect to left / right can change, so please\ncheck on the screen which side corresponds to correct / incorrect on this trial.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part12.text = &quot;Abruf: Reflektionsperiode\n\nVor der Antwort auf die Reihenfolgen- und Distanzfrage liegt eine\nkurze Reflektionsperiode. Hier wird nur ein Fixationskreuz pr\u00e4sentiert und Sie\nsollen schon einmal \u00fcberlegen, ob die Bilder in dieser Reihenfolge in der\nSequenz auftraten (Antwort 1) und welche Distanz die Bilder in der Sequenz haben\n(Antwort 2). Es ist wichtig, dass sie hier schon \u00fcber die Fragen nachdenken,\nda die Antwortzeiten f\u00fcr die Reihenfolgen und Distanzfragen relativ kurz sind.\n\n\nDr\u00fccken Sie eine beliebige Taste, um weiterzumachen.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part12.text = (&amp;#10;   &quot;Retrieval: Reflection Period\n\n&quot;&amp;#10;&quot;After seeing the two images, your first task is to indicate\n&quot;&amp;#10;&quot;if the two images were presented in the learned sequence in the presented order\n&quot;&amp;#10;&quot;or not. For this, use the left (green) and right (blue) button\n.&quot;&amp;#10;&quot;The assignment of correct / incorrect to left / right can change, so please\n&quot;&amp;#10;&quot;check on the screen which side corresponds to correct / incorrect on this trial.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part12.text = (&amp;#10;&quot;Abruf: Reflektionsperiode\n\n&quot;&amp;#10;&quot;Vor der Antwort auf die Reihenfolgen- und Distanzfrage liegt eine\n&quot;&amp;#10;&quot;kurze Reflektionsperiode. Hier wird nur ein Fixationskreuz präsentiert und Sie\n&quot;&amp;#10;&quot;sollen schon einmal überlegen, ob die Bilder in dieser Reihenfolge in der\n&quot;&amp;#10;&quot;Sequenz auftraten (Antwort 1) und welche Distanz die Bilder in der Sequenz haben\n&quot;&amp;#10;&quot;(Antwort 2). Es ist wichtig, dass sie hier schon über die Fragen nachdenken,\n&quot;&amp;#10;&quot;da die Antwortzeiten für die Reihenfolgen und Distanzfragen relativ kurz sind.\n\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um weiterzumachen.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part12.text = &quot;Retrieval: Reflection Period\n\nBefore answering the order and distance questions,\na fixation cross will briefly appear.\n\nPress any button to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part12.text = &quot;Abruf: Reflexionsperiode\n\nBevor Sie die Fragen zur Reihenfolge und Distanz\nbeantworten, erscheint kurz ein Fixationskreuz.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part12.text = (&amp;#10;   &quot;Retrieval: Reflection Period\n\n&quot;&amp;#10;&quot;Before answering the order and distance questions,\n&quot;&amp;#10;&quot;a fixation cross will briefly appear.\n\n&quot;&amp;#10;&quot;Press any button to continue.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part12.text = (&amp;#10;&quot;Abruf: Reflexionsperiode\n\n&quot;&amp;#10;&quot;Bevor Sie die Fragen zur Reihenfolge und Distanz\n&quot;&amp;#10;&quot;beantworten, erscheint kurz ein Fixationskreuz.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -6498,48 +6498,6 @@
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
     </Routine>
-    <PavloviaSurveyRoutine name="navigation_questionnaire">
-      <Param name="disabled" updates="None" val="False" valType="bool"/>
-      <Param name="name" updates="None" val="navigation_questionnaire" valType="code"/>
-      <Param name="surveyId" updates="None" val="0de7a7de-e9ac-44d2-9398-866c0bd18dc7" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="dream_questionnaire">
-      <Param name="disabled" updates="None" val="False" valType="bool"/>
-      <Param name="name" updates="None" val="dream_questionnaire" valType="code"/>
-      <Param name="surveyId" updates="None" val="4499d6a1-b422-480c-a305-f440a53994bf" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="stanford_sleepiness">
-      <Param name="disabled" updates="None" val="False" valType="bool"/>
-      <Param name="name" updates="None" val="stanford_sleepiness" valType="code"/>
-      <Param name="surveyId" updates="None" val="bde6c016-22d5-428b-9ef2-a3c2c9cf7c35" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="consent_form_tsrlearn">
-      <Param name="disabled" updates="None" val="True" valType="bool"/>
-      <Param name="name" updates="None" val="consent_form_tsrlearn" valType="code"/>
-      <Param name="surveyId" updates="None" val="eda19275-997a-457e-a29d-f41391593141" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="Demographics_Survey">
-      <Param name="disabled" updates="None" val="True" valType="bool"/>
-      <Param name="name" updates="None" val="Demographics_Survey" valType="code"/>
-      <Param name="surveyId" updates="None" val="0444fbd5-4304-4137-9662-752b56f98500" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="retrieval_questions_survey">
-      <Param name="disabled" updates="None" val="True" valType="bool"/>
-      <Param name="name" updates="None" val="retrieval_questions_survey" valType="code"/>
-      <Param name="surveyId" updates="None" val="8f317ce8-b71a-4e79-b5f1-4c69a712b0a4" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
     <Routine name="show_context">
       <RoutineSettingsComponent name="show_context" plugin="None">
         <Param val="none" valType="str" updates="None" name="backgroundFit"/>
@@ -6587,6 +6545,465 @@
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
     </Routine>
+    <PavloviaSurveyRoutine name="navigation_questionnaire">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="navigation_questionnaire" valType="code"/>
+      <Param name="surveyId" updates="None" val="0de7a7de-e9ac-44d2-9398-866c0bd18dc7" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="dream_questionnaire">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="dream_questionnaire" valType="code"/>
+      <Param name="surveyId" updates="None" val="4499d6a1-b422-480c-a305-f440a53994bf" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="stanford_sleepiness">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="stanford_sleepiness" valType="code"/>
+      <Param name="surveyId" updates="None" val="bde6c016-22d5-428b-9ef2-a3c2c9cf7c35" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="consent_form_tsrlearn">
+      <Param name="disabled" updates="None" val="True" valType="bool"/>
+      <Param name="name" updates="None" val="consent_form_tsrlearn" valType="code"/>
+      <Param name="surveyId" updates="None" val="eda19275-997a-457e-a29d-f41391593141" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="Demographics_Survey">
+      <Param name="disabled" updates="None" val="True" valType="bool"/>
+      <Param name="name" updates="None" val="Demographics_Survey" valType="code"/>
+      <Param name="surveyId" updates="None" val="0444fbd5-4304-4137-9662-752b56f98500" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="retrieval_questions_survey">
+      <Param name="disabled" updates="None" val="True" valType="bool"/>
+      <Param name="name" updates="None" val="retrieval_questions_survey" valType="code"/>
+      <Param name="surveyId" updates="None" val="8f317ce8-b71a-4e79-b5f1-4c69a712b0a4" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <Routine name="rest_practice">
+      <RoutineSettingsComponent name="rest_practice" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="rest_practice" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="fix_cross_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fix_cross_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="replay_break_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="rest_instruction" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="rest_instruction" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="replay_break_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="set_text_rest_instruction" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    rest_instruction.text = &quot;Short Break. Please wait,\nthis is not a rest break.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    rest_instruction.text = &quot;Kurze Pause. Bitte warten Sie.\nDies ist keine Ruhepause&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;:&amp;#10;    rest_instruction.text = (&amp;#10;    &quot;Short Break. Please wait,\n&quot;&amp;#10;    &quot;this is not a rest break.&quot;)&amp;#10;    &amp;#10;if language == &quot;german&quot;:&amp;#10;    rest_instruction.text = (&amp;#10;    &quot;Kurze Pause. Bitte warten Sie.\n&quot;&amp;#10;    &quot;Dies ist keine Ruhepause&quot;)&amp;#10;   " valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_text_rest_instruction" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instruction_retrievalques1_02">
+      <RoutineSettingsComponent name="instruction_retrievalques1_02" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction_retrievalques1_02" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruction_part13" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_part13" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="instruction_part13_text" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part13.text = &quot;For this, use the left (green) and right (blue) button\n.The assignment of correct / incorrect to left / right can change, so please\ncheck on the screen which side corresponds to correct / incorrect on this trial.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part13.text = &quot;W\u00e4hlen Sie \u201eJa\u201c oder \u201eNein\u201c mit der linken\ngr\u00fcnen oder rechten blauen Taste. Die Zuordnung\nwechselt zwischen den Durchg\u00e4ngen. Beachten Sie daher\ndie Anzeige auf dem Bildschirm.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part13.text = (&amp;#10;&quot;For this, use the left (green) and right (blue) button\n.&quot;&amp;#10;&quot;The assignment of correct / incorrect to left / right can change, so please\n&quot;&amp;#10;&quot;check on the screen which side corresponds to correct / incorrect on this trial.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part13.text = (&amp;#10;&quot;Wählen Sie „Ja“ oder „Nein“ mit der linken\n&quot;&amp;#10;&quot;grünen oder rechten blauen Taste. Die Zuordnung\n&quot;&amp;#10;&quot;wechselt zwischen den Durchgängen. Beachten Sie daher\n&quot;&amp;#10;&quot;die Anzeige auf dem Bildschirm.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="instruction_part13_text" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_19" plugin="None">
+        <Param val="left_key, right_key, center_key, down_key" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_19" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instruction_retrievalques2_02">
+      <RoutineSettingsComponent name="instruction_retrievalques2_02" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction_retrievalques2_02" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruction_part14" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_part14" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="instruction_part14_text" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part14.text = &quot;At distance 2, there is one image in between,\nand at distance 5, there are four images in between.\n\nRespond using the four buttons.\nThe corresponding button assignments will be shown on the screen.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part14.text = &quot;Bei Distanz 2 liegt ein Bild dazwischen,\nbei Distanz 5 liegen vier Bilder dazwischen.\n\nAntworten Sie mit den vier Tasten.\nDie jeweilige Tastenbelegung wird auf dem Bildschirm angezeigt.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part14.text = (&amp;#10;&quot;At distance 2, there is one image in between,\n&quot;&amp;#10;&quot;and at distance 5, there are four images in between.\n\n&quot;&amp;#10;&quot;Respond using the four buttons.\n&quot;&amp;#10;&quot;The corresponding button assignments will be shown on the screen.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part14.text = (&amp;#10;&quot;Bei Distanz 2 liegt ein Bild dazwischen,\n&quot;&amp;#10;&quot;bei Distanz 5 liegen vier Bilder dazwischen.\n\n&quot;&amp;#10;&quot;Antworten Sie mit den vier Tasten.\n&quot;&amp;#10;&quot;Die jeweilige Tastenbelegung wird auf dem Bildschirm angezeigt.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="instruction_part14_text" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_20" plugin="None">
+        <Param val="left_key, right_key, center_key, down_key" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_20" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instruction_refl_period_02">
+      <RoutineSettingsComponent name="instruction_refl_period_02" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction_refl_period_02" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruction_part15" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_part15" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="instruction_part15_text" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part15.text = &quot;During this time, already consider whether the images\nappeared in this order and how far apart they are\nin the sequence.\n\nThis is important because the time available for the\nsubsequent responses is short.\n\nPress any key to continue.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part15.text = &quot;\u00dcberlegen Sie in dieser Zeit bereits, ob die Bilder\nin dieser Reihenfolge vorkamen und wie weit sie in\nder Sequenz voneinander entfernt sind.\n\nDies ist wichtig, da die Zeit f\u00fcr die anschlie\u00dfenden\nAntworten kurz ist.\n\nDr\u00fccken Sie eine beliebige Taste, um fortzufahren.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part15.text = (&amp;#10;   &quot;During this time, already consider whether the images\n&quot;&amp;#10;&quot;appeared in this order and how far apart they are\n&quot;&amp;#10;&quot;in the sequence.\n\n&quot;&amp;#10;&quot;This is important because the time available for the\n&quot;&amp;#10;&quot;subsequent responses is short.\n\n&quot;&amp;#10;&quot;Press any key to continue.&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part15.text = (&amp;#10;&quot;Überlegen Sie in dieser Zeit bereits, ob die Bilder\n&quot;&amp;#10;&quot;in dieser Reihenfolge vorkamen und wie weit sie in\n&quot;&amp;#10;&quot;der Sequenz voneinander entfernt sind.\n\n&quot;&amp;#10;&quot;Dies ist wichtig, da die Zeit für die anschließenden\n&quot;&amp;#10;&quot;Antworten kurz ist.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um fortzufahren.&quot;&amp;#10;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="instruction_part15_text" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_21" plugin="None">
+        <Param val="left_key, right_key, center_key, down_key" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_21" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions_replay_break">
+      <RoutineSettingsComponent name="instructions_replay_break" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instructions_replay_break" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instructions_part16" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instructions_part16" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="instruction_part16_text" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instructions_part16.text = &quot;After each learning run, there will be short waiting periods, in which you will see a fixation cross.\nThese periods are not a break. Please just wait for a short moment, but don't take a break.\n\nPress any key to start practicing the learning trials&quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instructions_part16.text = &quot;Nach jedem Lerndurchlauf erscheint f\u00fcr kurze Zeit\nein Fixationskreuz.\n\nDiese Wartezeit ist keine Pause.\nBitte bleiben Sie weiterhin ruhig sitzen und schauen\nSie auf das Fixationskreuz.\n\nDr\u00fccken Sie eine beliebige Taste, um das Lernen zu \u00fcben.&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instructions_part16.text = (&amp;#10;&quot;After each learning run, there will be short waiting periods, in which you will see a fixation cross.\n&quot;&amp;#10;&quot;These periods are not a break. Please just wait for a short moment, but don't take a break.\n\n&quot;&amp;#10;&quot;Press any key to start practicing the learning trials&quot;&amp;#10;)&amp;#10;&amp;#10;   &amp;#10;if language == &quot;german&quot;: &amp;#10;    instructions_part16.text = (&amp;#10;&quot;Nach jedem Lerndurchlauf erscheint für kurze Zeit\n&quot;&amp;#10;&quot;ein Fixationskreuz.\n\n&quot;&amp;#10;&quot;Diese Wartezeit ist keine Pause.\n&quot;&amp;#10;&quot;Bitte bleiben Sie weiterhin ruhig sitzen und schauen\n&quot;&amp;#10;&quot;Sie auf das Fixationskreuz.\n\n&quot;&amp;#10;&quot;Drücken Sie eine beliebige Taste, um das Lernen zu üben.&quot;&amp;#10;&amp;#10;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="instruction_part16_text" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_22" plugin="None">
+        <Param val="left_key, right_key, center_key, down_key" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_22" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="max_read_dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="startup_settings"/>
@@ -6596,6 +7013,7 @@
     <Routine name="instructions_04"/>
     <Routine name="instructions_05"/>
     <Routine name="instructions_06"/>
+    <Routine name="instructions_replay_break"/>
     <LoopInitiator loopType="TrialHandler" name="practice_learning">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'promptFile': 'stimuli/practice_images/anchor.jpg', 'correctFile': 'stimuli/practice_images/cow.jpg', 'dist_01File': 'stimuli/practice_images/bread.jpg', 'dist_02File': 'stimuli/practice_images/plane.jpg', 'correct_pos': 'right', 'dist01_pos': 'left', 'dist02_pos': 'center', 'correct_ans': 'right'}, {'promptFile': 'stimuli/practice_images/cow.jpg', 'correctFile': 'stimuli/practice_images/ant.jpg', 'dist_01File': 'stimuli/practice_images/banana.jpg', 'dist_02File': 'stimuli/practice_images/glasses.jpg', 'correct_pos': 'left', 'dist01_pos': 'right', 'dist02_pos': 'center', 'correct_ans': 'left'}, {'promptFile': 'stimuli/practice_images/ant.jpg', 'correctFile': 'stimuli/practice_images/basket.jpg', 'dist_01File': 'stimuli/practice_images/axe.jpg', 'dist_02File': 'stimuli/practice_images/duck.jpg', 'correct_pos': 'center', 'dist01_pos': 'left', 'dist02_pos': 'right', 'correct_ans': 'up'}, {'promptFile': 'stimuli/practice_images/basket.jpg', 'correctFile': 'stimuli/practice_images/bed.jpg', 'dist_01File': 'stimuli/practice_images/belt.jpg', 'dist_02File': 'stimuli/practice_images/bread.jpg', 'correct_pos': 'center', 'dist01_pos': 'right', 'dist02_pos': 'left', 'correct_ans': 'up'}, {'promptFile': 'stimuli/practice_images/bed.jpg', 'correctFile': 'stimuli/practice_images/belt.jpg', 'dist_01File': 'stimuli/practice_images/anchor.jpg', 'dist_02File': 'stimuli/practice_images/desk.jpg', 'correct_pos': 'left', 'dist01_pos': 'center', 'dist02_pos': 'right', 'correct_ans': 'left'}, {'promptFile': 'stimuli/practice_images/belt.jpg', 'correctFile': 'stimuli/practice_images/bird.jpg', 'dist_01File': 'stimuli/practice_images/ant.jpg', 'dist_02File': 'stimuli/practice_images/crocodile.jpg', 'correct_pos': 'right', 'dist01_pos': 'left', 'dist02_pos': 'center', 'correct_ans': 'right'}]" valType="str"/>
@@ -6611,10 +7029,14 @@
     <Routine name="practice_feedback"/>
     <Routine name="practice_too_slow_routine"/>
     <LoopTerminator name="practice_learning"/>
+    <Routine name="rest_practice"/>
     <Routine name="instruction_retrieval_trials"/>
     <Routine name="instruction_retrievalques1"/>
+    <Routine name="instruction_retrievalques1_02"/>
     <Routine name="instruction_retrievalques2"/>
+    <Routine name="instruction_retrievalques2_02"/>
     <Routine name="instruction_refl_period"/>
+    <Routine name="instruction_refl_period_02"/>
     <Routine name="retrieval_backg_info"/>
     <Routine name="instruction_practice_type1"/>
     <LoopInitiator loopType="TrialHandler" name="retrieval_prc_loop">
@@ -6651,7 +7073,6 @@
     <LoopTerminator name="retry_loop"/>
     <LoopTerminator name="retrieval_prc_loop"/>
     <Routine name="instructions_07"/>
-    <Routine name="instructions_08"/>
     <LoopInitiator loopType="TrialHandler" name="Block">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'condFileLearning': 'sequences/learning_block1_fixed-middle-10_0{participant_ID}.xlsx', 'condFileRetrieval': 'sequences/retrieval_block1_fixed-middle-10_0{participant_ID}.xlsx', 'n_routes_block': 6}, {'condFileLearning': 'sequences/learning_block2_fixed-middle-10_0{participant_ID}.xlsx', 'condFileRetrieval': 'sequences/retrieval_block2_fixed-middle-10_0{participant_ID}.xlsx', 'n_routes_block': 4}, {'condFileLearning': 'sequences/learning_block3_fixed-middle-10_0{participant_ID}.xlsx', 'condFileRetrieval': 'sequences/retrieval_block3_fixed-middle-10_0{participant_ID}.xlsx', 'n_routes_block': 4}, {'condFileLearning': 'sequences/learning_block4_fixed-middle-10_0{participant_ID}.xlsx', 'condFileRetrieval': 'sequences/retrieval_block4_fixed-middle-10_0{participant_ID}.xlsx', 'n_routes_block': 4}]" valType="str"/>

@@ -167,7 +167,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.15, 0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -223,7 +223,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part1" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -421,7 +421,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -592,7 +592,7 @@
       <CodeComponent name="functions_imports" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="&amp;#10;# log function that saves variables to log file&amp;#10;def log(*msgs, sep=' ', end='\n'):&amp;#10;    log_file = u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'] + '_print.log')&amp;#10;    print(*msgs, sep=sep, end=end, flush=True)&amp;#10;&amp;#10;    # Append to log file&amp;#10;    with open(log_file, 'a') as f:&amp;#10;        f.write(sep.join(str(msg) for msg in msgs) + end)&amp;#10;&amp;#10;&amp;#10;import meg_triggers&amp;#10;from meg_triggers import send_trigger&amp;#10;meg_triggers.set_default_duration(0.005)&amp;#10;meg_triggers.set_default_reset_value(0)  # set the value the trigger channel returns to for neutral state&amp;#10;# meg_triggers.enable_printing()     " valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="&amp;#10;# log function that saves variables to log file&amp;#10;def log(*msgs, sep=' ', end='\n'):&amp;#10;    log_file = u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'] + '_print.log')&amp;#10;    print(*msgs, sep=sep, end=end, flush=True)&amp;#10;&amp;#10;    # Append to log file&amp;#10;    with open(log_file, 'a') as f:&amp;#10;        f.write(sep.join(str(msg) for msg in msgs) + end)&amp;#10;&amp;#10;&amp;#10;import meg_triggers&amp;#10;from meg_triggers import send_trigger&amp;#10;meg_triggers.set_default_duration(0.005)&amp;#10;meg_triggers.set_default_reset_value(0)  # set the value the trigger channel returns to for neutral state&amp;#10;meg_triggers.enable_printing()     " valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
@@ -677,7 +677,7 @@
       <CodeComponent name="set_cond_file" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# zero-pad participant number for 0–9&amp;#10;p_num = int(expInfo['participant'])&amp;#10;conditions_file = f&quot;sequences/localizer_conditions_{p_num:02d}.xlsx&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="# zero-pad participant number for 0–9&amp;#10;p_num = int(expInfo['participant'])&amp;#10;conditions_file = f&quot;sequences/localizer_conditions_{p_num:02d}_old.xlsx&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
@@ -753,7 +753,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part3" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -869,7 +869,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_end" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -968,7 +968,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_startexp" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1058,7 +1058,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.15, 0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -1193,7 +1193,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="breaks_instruction" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1300,7 +1300,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_continuebreak" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1791,7 +1791,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_part4" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -1925,7 +1925,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="$font_name" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
         <Param val="instruction_startexp_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
