@@ -1,0 +1,8 @@
+subject	block_num	trial_num	component_label	onset	duration	type_of_stimulus	concept_label	concept_examplar	trigger_value	trigger_onset	trigger_delay	response_time	press_onset_est	response	expected_response	wrd_img_match	correct
+3	n/a	n/a	exp_start	0.0012830999912694097	0.0	trigger	n/a	n/a	255	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	instruction_part1	0.041411700018215925	51.25234860001365	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	instruction_part2	51.308341299998574	1.3854459000285715	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	instruction_part3	52.72336850001011	3.2695562000153586	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	instruction_part4	56.022423700022046	1.1198840999859385	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	instruction_start	94.11041940003633	0.9699842999689281	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	instruction_start_2	95.1103371999925	n/a	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a

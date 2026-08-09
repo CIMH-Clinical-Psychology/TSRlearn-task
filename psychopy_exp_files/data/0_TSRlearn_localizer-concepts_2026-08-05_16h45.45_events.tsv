@@ -1,0 +1,13 @@
+subject	block_num	trial_num	component_label	onset	duration	type_of_stimulus	concept_label	concept_examplar	response_time	response	expected_response	wrd_img_match	correct
+0	n/a	n/a	instruction_part1	0.05153179999979329	5.668705000000045	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_part2	5.80056539999714	0.7192127000016626	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_part3	6.549586699999054	0.48733329999959096	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_part4	7.066421600000467	0.8203139999968698	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_start	44.873234599999705	14.16666719999921	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	n/a	n/a	instruction_start_2	59.0674818999978	n/a	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	1	image	60.11074919999737	0.7572804666672397	image	hammer	hammer_47.jpg	n/a	n/a	n/a	1	n/a
+0	1	1	word	60.90136299999794	0.5164615666685393	word	Hammer_german	n/a	n/a	n/a	n/a	1	n/a
+0	1	1	possible_button_press	62.35555349999777	0.0	response	n/a	n/a	[]	m	m	1	1
+0	1	1	fix_cross_after_trial	62.36712110000008	0.9848761666655861	fixation cross	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+0	1	2	image	63.45344209999894	0.7637091666658904	image	hand	hand_50.jpg	n/a	n/a	n/a	1	n/a
+0	1	2	word	64.2338179333315	n/a	word	Hand_german	n/a	n/a	n/a	n/a	1	n/a

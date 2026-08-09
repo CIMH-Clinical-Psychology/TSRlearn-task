@@ -1,0 +1,1188 @@
+10.6237 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+10.6253 	INFO 	Loaded monitor calibration from ['2025_07_24 17:26']
+10.9682 	INFO 	Using renderer 'AMD Radeon (TM) Graphics' for graphics
+10.9682 	INFO 	OpenGL version supported by driver is 4..
+11.0082 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000268D99D5D60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000268D99D5D00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000268D9A6B220>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 240.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.0082 	EXP 	window1: backgroundImage = ''
+11.0083 	EXP 	window1: backgroundFit = 'none'
+11.0360 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.0532 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.0697 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.0876 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.1057 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.1225 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.1397 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.1577 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.1743 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.1951 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2131 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2343 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2523 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2718 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2892 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3060 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3263 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3443 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3615 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3785 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3946 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3952 	DEBUG 	Uploading Texture Font fontname to graphics card
+11.3979 	DEBUG 	Upload of Texture Font fontname complete
+11.4238 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4444 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4622 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4631 	DEBUG 	Uploading Texture Font fontname to graphics card
+11.4655 	DEBUG 	Upload of Texture Font fontname complete
+11.4694 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.4695 	EXP 	window1: recordFrameIntervals = False
+11.6470 	EXP 	window1: recordFrameIntervals = True
+11.7170 	WARNING 	t of last frame was 20.58ms (=1/48)
+11.8334 	WARNING 	t of last frame was 20.52ms (=1/48)
+11.9503 	WARNING 	t of last frame was 20.50ms (=1/48)
+12.0503 	WARNING 	t of last frame was 20.47ms (=1/48)
+12.1665 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.3133 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.3346 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3502 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3695 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3855 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4005 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4162 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4314 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4468 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4624 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4783 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.4788 	DEBUG 	Uploading Texture Font fontname to graphics card
+13.4805 	DEBUG 	Upload of Texture Font fontname complete
+13.7897 	INFO 	keyboard.Keyboard is using ptb backend.
+13.7898 	EXP 	TSRlearn_localizer-concepts: status = STARTED
+13.9378 	EXP 	Created instruction_part1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9392 	EXP 	Created instruction_part2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9404 	EXP 	Created instruction_part3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9414 	EXP 	Created instruction_part4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9488 	EXP 	Created image_prc = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_prc', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+14.1115 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976569
+14.4717 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Lautsprecher (Realtek(R) Audio)
+14.4718 	DEBUG 	Found speaker device: Lautsprecher (Realtek(R) Audio) (4.0)
+14.8547 	INFO 	Created stream for speaker device: Lautsprecher (Realtek(R) Audio) (4.0)
+14.8566 	EXP 	spoken_word_prc: sampleRate = 48000
+14.8566 	EXP 	spoken_word_prc: channels = None
+14.8693 	DEBUG 	Converted audio clip from mono to stereo
+14.8763 	EXP 	Sound spoken_word_prc set volume 1.000
+14.8848 	EXP 	Created fix_cross_prc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_prc', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8875 	EXP 	Created fix_cross_2_prc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_2_prc', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8890 	EXP 	Created instruction_startexp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_startexp', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8901 	EXP 	Created instruction_startexp_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_startexp_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8954 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+14.9347 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Lautsprecher (Realtek(R) Audio)
+14.9348 	DEBUG 	Found speaker device: Lautsprecher (Realtek(R) Audio) (4.0)
+14.9511 	INFO 	Created stream for speaker device: Lautsprecher (Realtek(R) Audio) (4.0)
+14.9536 	EXP 	spoken_word: sampleRate = 48000
+14.9536 	EXP 	spoken_word: channels = None
+14.9649 	DEBUG 	Converted audio clip from mono to stereo
+14.9719 	EXP 	Sound spoken_word set volume 1.000
+14.9757 	EXP 	Created fix_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.9781 	EXP 	Created fix_cross_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.9796 	EXP 	Created breaks_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='breaks_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9879 	EXP 	Created progress_bar_breaks = Progress(__class__=<class 'psychopy.visual.progress.Progress'>, anchor=('left', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=4.0, name='progress_bar_breaks', opacity=1.0, ori=0.0, pos=array([-0.2 , -0.07]), size=array([0.4  , 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.9898 	EXP 	Created progress_bar_breaksBar = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('left', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='progress_bar_breaksBar', opacity=1.0, ori=0.0, pos=array([-0.2 , -0.07]), size=array([0.4  , 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.9913 	EXP 	Created instruction_continuebreak = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_continuebreak', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9924 	EXP 	Created instruction_end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_end', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+2026-07-31_15:45:22.195026 	EXP 	progress_bar_breaks: direction = 'horizontal'
+2026-07-31_15:45:22.195026 	EXP 	progress_bar_breaks: progress = 0.0
+2026-07-31_15:45:22.243976 	EXP 	instruction_part1: height = 0.025
+2026-07-31_15:45:22.243976 	EXP 	instruction_part1: height = 0.025
+2026-07-31_15:45:22.243976 	EXP 	instruction_part1: height = 0.025
+2026-07-31_15:45:22.243976 	EXP 	instruction_part1: text = 'Willkommen zum ersten Teil des Experiments.\nIn diesem Teil sehen Sie verschiedene Bilder\nund hören Wörter.\nIhre Aufgabe ist es zu entscheiden, ob die Wörter\ndie Dinge beschreiben, die Sie auf den Bildern sehen.\n\n[Drücken Sie eine beliebige Taste, um fortzufahren.]'
+2026-07-31_15:45:22.243976 	EXP 	instruction_part1: autoDraw = True
+2026-07-31_15:45:22.712137 	INFO 	Keyboard events cleared
+2026-07-31_15:45:23.115224 	DATA 	Mouse: Left button down, pos=(464,222)
+2026-07-31_15:45:23.232344 	DATA 	Mouse:  Left button up, pos=(464,222)
+2026-07-31_15:45:23.921250 	EXP 	Device response: <KeyPress from None: t=1.736408400000073, value=f, duration=None>
+2026-07-31_15:45:23.922549 	DATA 	Keypress: f
+2026-07-31_15:45:24.031571 	EXP 	Device response: <KeyPress from None: t=1.736408400000073, value=f, duration=0.11410629999954836>
+2026-07-31_15:45:24.331471 	EXP 	Device response: <KeyPress from None: t=2.144372699996893, value=r, duration=None>
+2026-07-31_15:45:24.332433 	DATA 	Keypress: r
+2026-07-31_15:45:24.380866 	EXP 	Device response: <KeyPress from None: t=2.144372699996893, value=r, duration=0.05926050000198302>
+2026-07-31_15:45:24.399948 	EXP 	instruction_part1: autoDraw = False
+2026-07-31_15:45:24.399948 	EXP 	instruction_part2: height = 0.025
+2026-07-31_15:45:24.399948 	EXP 	instruction_part2: height = 0.025
+2026-07-31_15:45:24.399948 	EXP 	instruction_part2: height = 0.025
+2026-07-31_15:45:24.399948 	EXP 	instruction_part2: text = 'Sie sehen zuerst ein Bild.\nDanach hören Sie ein gesprochenes Wort.\nEntscheiden Sie, ob das Wort zu dem Bild passt oder nicht.\n\n[Drücken Sie eine beliebige Taste, um fortzufahren.]'
+2026-07-31_15:45:24.399948 	EXP 	instruction_part2: autoDraw = True
+2026-07-31_15:45:24.481268 	EXP 	Device response: <KeyPress from None: t=2.2993730999987747, value=r, duration=None>
+2026-07-31_15:45:24.482053 	DATA 	Keypress: r
+2026-07-31_15:45:24.564521 	EXP 	Device response: <KeyPress from None: t=2.2993730999987747, value=r, duration=0.07353599999987637>
+2026-07-31_15:45:24.664237 	EXP 	Device response: <KeyPress from None: t=2.4754553999991913, value=r, duration=None>
+2026-07-31_15:45:24.664990 	DATA 	Keypress: r
+2026-07-31_15:45:24.731531 	EXP 	Device response: <KeyPress from None: t=2.4754553999991913, value=r, duration=0.07780540000021574>
+2026-07-31_15:45:24.880853 	EXP 	Device response: <KeyPress from None: t=2.6992960999996285, value=r, duration=None>
+2026-07-31_15:45:24.881582 	DATA 	Keypress: r
+2026-07-31_15:45:24.894680 	INFO 	Keyboard events cleared
+2026-07-31_15:45:24.965304 	EXP 	Device response: <KeyPress from None: t=2.6992960999996285, value=r, duration=0.07729489999837824>
+2026-07-31_15:45:24.993573 	EXP 	instruction_part2: autoDraw = False
+2026-07-31_15:45:24.993573 	EXP 	instruction_part3: height = 0.025
+2026-07-31_15:45:24.993573 	EXP 	instruction_part3: height = 0.025
+2026-07-31_15:45:24.993573 	EXP 	instruction_part3: height = 0.025
+2026-07-31_15:45:24.993573 	EXP 	instruction_part3: text = 'Wenn das Wort nicht zu dem Bild passt, reagieren Sie bitte sofort.\nDrücken Sie die obere Taste (rot), wenn das Wort\nnicht zu dem Bild passt, das Sie gerade gesehen haben.\n\nWenn das Wort zu dem Bild passt, drücken Sie keine Taste.\n\nDas Fixationskreuz verändert kurz seine Farbe,\num anzuzeigen, ob Ihre Antwort richtig war.\n\n[Drücken Sie eine beliebige Taste, um fortzufahren.]'
+2026-07-31_15:45:24.993573 	EXP 	instruction_part3: autoDraw = True
+2026-07-31_15:45:25.130903 	EXP 	Device response: <KeyPress from None: t=2.9391151999989233, value=r, duration=None>
+2026-07-31_15:45:25.131680 	DATA 	Keypress: r
+2026-07-31_15:45:25.180949 	EXP 	Device response: <KeyPress from None: t=2.9391151999989233, value=r, duration=0.059455399998114444>
+2026-07-31_15:45:25.299335 	EXP 	Device response: <KeyPress from None: t=3.1161888999995426, value=r, duration=None>
+2026-07-31_15:45:25.299922 	DATA 	Keypress: r
+2026-07-31_15:45:25.368334 	EXP 	Device response: <KeyPress from None: t=3.1161888999995426, value=r, duration=0.06844599999749335>
+2026-07-31_15:45:25.496713 	EXP 	Device response: <KeyPress from None: t=3.2943930000001274, value=r, duration=None>
+2026-07-31_15:45:25.497775 	DATA 	Keypress: r
+2026-07-31_15:45:25.509861 	INFO 	Keyboard events cleared
+2026-07-31_15:45:25.564157 	EXP 	Device response: <KeyPress from None: t=3.2943930000001274, value=r, duration=0.09178159999646596>
+2026-07-31_15:45:25.593407 	EXP 	instruction_part3: autoDraw = False
+2026-07-31_15:45:25.593407 	EXP 	instruction_part4: height = 0.025
+2026-07-31_15:45:25.593407 	EXP 	instruction_part4: height = 0.025
+2026-07-31_15:45:25.593407 	EXP 	instruction_part4: height = 0.025
+2026-07-31_15:45:25.593407 	EXP 	instruction_part4: text = 'Bitte antworten Sie so schnell und genau wie möglich.\nWir beginnen nun mit einigen Übungsdurchgängen.\nNutzen Sie die obere Taste (rot) für Nicht-Übereinstimmungen.\n\n[Drücken Sie eine beliebige Taste, um fortzufahren.]'
+2026-07-31_15:45:25.593407 	EXP 	instruction_part4: autoDraw = True
+2026-07-31_15:45:25.696785 	EXP 	Device response: <KeyPress from None: t=3.5182049999966694, value=r, duration=None>
+2026-07-31_15:45:25.697697 	DATA 	Keypress: r
+2026-07-31_15:45:25.814016 	EXP 	Device response: <KeyPress from None: t=3.5182049999966694, value=r, duration=0.11571050000202376>
+2026-07-31_15:45:25.915317 	EXP 	Device response: <KeyPress from None: t=3.737195099998644, value=r, duration=None>
+2026-07-31_15:45:25.916130 	DATA 	Keypress: r
+2026-07-31_15:45:25.997754 	EXP 	Device response: <KeyPress from None: t=3.737195099998644, value=r, duration=0.0811199999989185>
+2026-07-31_15:45:26.060760 	INFO 	Keyboard events cleared
+2026-07-31_15:45:26.063582 	EXP 	Device response: <KeyPress from None: t=3.8875360999991244, value=r, duration=None>
+2026-07-31_15:45:26.064246 	DATA 	Keypress: r
+2026-07-31_15:45:26.167938 	EXP 	Device response: <KeyPress from None: t=3.8875360999991244, value=r, duration=0.0875503999995999>
+2026-07-31_15:45:26.176235 	DEBUG 	Read excel file with openpyxl: sequences/localiser_trials_prc.xlsx
+2026-07-31_15:45:26.177559 	EXP 	Imported sequences/localiser_trials_prc.xlsx as conditions, 11 conditions, 8 params
+2026-07-31_15:45:26.177938 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_shown': 'anchor.jpg', 'word_shown_german': 'Anker', 'word_shown_french': 'ancre', 'word_shown_english': 'anchor', 'ITI_length': 0.75, 'correct_response': 'y', 'match_idx': 1, 'nonmatch_pres_side': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2026-07-31_15:45:26.230924 	EXP 	instruction_part4: autoDraw = False
+2026-07-31_15:45:26.230924 	EXP 	image_prc: image = 'stimuli\\practice_images\\anchor.jpg'
+2026-07-31_15:45:26.230924 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:26.247627 	EXP 	Device response: <KeyPress from None: t=4.0629932999981975, value=r, duration=None>
+2026-07-31_15:45:26.248023 	DATA 	Keypress: r
+2026-07-31_15:45:26.331054 	EXP 	Device response: <KeyPress from None: t=4.0629932999981975, value=r, duration=0.07938690000082715>
+2026-07-31_15:45:26.430653 	EXP 	Device response: <KeyPress from None: t=4.2460823000001255, value=r, duration=None>
+2026-07-31_15:45:26.431610 	DATA 	Keypress: r
+2026-07-31_15:45:26.497405 	EXP 	Device response: <KeyPress from None: t=4.2460823000001255, value=r, duration=0.07372189999659895>
+2026-07-31_15:45:26.981228 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:26.985448 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:26.985489 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:26.986744 	EXP 	Sound spoken_word_prc reached end of file
+4.8178 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:26.994277 	INFO 	Keyboard events cleared
+2026-07-31_15:45:26.994126 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:26.994126 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:26.994126 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:26.994126 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:27.528337 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:27.546111 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:28.510683 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:45:28.726829 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:28.726829 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:29.462134 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'image_shown': 'ant.jpg', 'word_shown_german': 'Ameise', 'word_shown_french': 'fourmi', 'word_shown_english': 'ant', 'ITI_length': 0.89, 'correct_response': 'r', 'match_idx': 1, 'nonmatch_pres_side': 'left', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+2026-07-31_15:45:29.513351 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:29.513351 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:29.513351 	EXP 	image_prc: image = 'stimuli\\practice_images\\ant.jpg'
+2026-07-31_15:45:29.513351 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:30.263520 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:30.270537 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:30.270578 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:30.271367 	EXP 	Sound spoken_word_prc reached end of file
+8.1002 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:30.292382 	INFO 	Keyboard events cleared
+2026-07-31_15:45:30.292236 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:30.292236 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:30.292236 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:30.292236 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:30.986020 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:30.995745 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:31.775985 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:45:31.992898 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:31.992898 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:32.363225 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:32.363320 	EXP 	Device response: <KeyPress from None: t=10.172224099998857, value=unknown, duration=None>
+2026-07-31_15:45:32.461826 	EXP 	Device response: <KeyPress from None: t=10.172224099998857, value=unknown, duration=0.10974110000097426>
+2026-07-31_15:45:32.564697 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:32.564785 	EXP 	Device response: <KeyPress from None: t=10.382940099996631, value=unknown, duration=None>
+2026-07-31_15:45:32.645330 	EXP 	Device response: <KeyPress from None: t=10.382940099996631, value=unknown, duration=0.07951150000008056>
+2026-07-31_15:45:32.746489 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:32.746562 	EXP 	Device response: <KeyPress from None: t=10.557049099999858, value=unknown, duration=None>
+2026-07-31_15:45:32.811603 	EXP 	Device response: <KeyPress from None: t=10.557049099999858, value=unknown, duration=0.06532469999729074>
+2026-07-31_15:45:32.879211 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'image_shown': 'axe.jpg', 'word_shown_german': 'Pferd', 'word_shown_french': 'cheval', 'word_shown_english': 'horse', 'ITI_length': 0.85, 'correct_response': 'y', 'match_idx': 0, 'nonmatch_pres_side': 'left', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+2026-07-31_15:45:32.922206 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:32.922304 	EXP 	Device response: <KeyPress from None: t=10.720245599997725, value=unknown, duration=None>
+2026-07-31_15:45:32.946811 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:32.946811 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:32.946811 	EXP 	image_prc: image = 'stimuli\\practice_images\\axe.jpg'
+2026-07-31_15:45:32.946811 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:32.962594 	EXP 	Device response: <KeyPress from None: t=10.720245599997725, value=unknown, duration=0.06541289999950095>
+2026-07-31_15:45:33.050688 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:33.050776 	EXP 	Device response: <KeyPress from None: t=10.871411899999657, value=unknown, duration=None>
+2026-07-31_15:45:33.128876 	EXP 	Device response: <KeyPress from None: t=10.871411899999657, value=unknown, duration=0.07818129999941448>
+2026-07-31_15:45:33.214147 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:33.214233 	EXP 	Device response: <KeyPress from None: t=11.03044669999872, value=unknown, duration=None>
+2026-07-31_15:45:33.282102 	EXP 	Device response: <KeyPress from None: t=11.03044669999872, value=unknown, duration=0.06740720000016154>
+2026-07-31_15:45:33.365170 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:33.365281 	EXP 	Device response: <KeyPress from None: t=11.18081859999802, value=unknown, duration=None>
+2026-07-31_15:45:33.430961 	EXP 	Device response: <KeyPress from None: t=11.18081859999802, value=unknown, duration=0.06927720000021509>
+2026-07-31_15:45:33.513415 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:45:33.513508 	EXP 	Device response: <KeyPress from None: t=11.321659699999145, value=unknown, duration=None>
+2026-07-31_15:45:33.580616 	EXP 	Device response: <KeyPress from None: t=11.321659699999145, value=unknown, duration=0.07973009999841452>
+2026-07-31_15:45:33.701224 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:33.705125 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:33.705193 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:33.706159 	EXP 	Sound spoken_word_prc reached end of file
+11.5377 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:33.724890 	INFO 	Keyboard events cleared
+2026-07-31_15:45:33.724769 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:33.724769 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:33.724769 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:33.724769 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:34.251190 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:34.261780 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:35.229941 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+2026-07-31_15:45:35.424935 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:35.424935 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:36.261775 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'image_shown': 'bus.jpg', 'word_shown_german': 'Bus', 'word_shown_french': 'bus', 'word_shown_english': 'bus', 'ITI_length': 1.01, 'correct_response': 'y', 'match_idx': 1, 'nonmatch_pres_side': 'right', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+2026-07-31_15:45:36.310461 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:36.310461 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:36.310461 	EXP 	image_prc: image = 'stimuli\\practice_images\\bus.jpg'
+2026-07-31_15:45:36.310461 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:37.070893 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:37.074101 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:37.074123 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:37.074705 	EXP 	Sound spoken_word_prc reached end of file
+14.9069 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:37.091372 	INFO 	Keyboard events cleared
+2026-07-31_15:45:37.091171 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:37.091171 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:37.091171 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:37.091171 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:37.549031 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:37.566558 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:38.590271 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:45:38.807318 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:38.807318 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:39.813826 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'image_shown': 'ball.jpg', 'word_shown_german': 'Gesicht', 'word_shown_french': 'visage', 'word_shown_english': 'face', 'ITI_length': 1.04, 'correct_response': 'r', 'match_idx': 0, 'nonmatch_pres_side': 'right', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+2026-07-31_15:45:39.876752 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:39.876752 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:39.876752 	EXP 	image_prc: image = 'stimuli\\practice_images\\ball.jpg'
+2026-07-31_15:45:39.876752 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:40.624720 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:40.627097 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:40.627119 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:40.627683 	EXP 	Sound spoken_word_prc reached end of file
+18.4614 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:40.639612 	INFO 	Keyboard events cleared
+2026-07-31_15:45:40.639470 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:40.639470 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:40.639470 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:40.639470 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:41.248464 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:41.258429 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:42.138634 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+2026-07-31_15:45:42.338452 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:42.338452 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:43.375528 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'image_shown': 'banana.jpg', 'word_shown_german': 'Banane', 'word_shown_french': 'banane', 'word_shown_english': 'banana', 'ITI_length': 0.99, 'correct_response': 'y', 'match_idx': 1, 'nonmatch_pres_side': 'right', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+2026-07-31_15:45:43.441941 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:43.441941 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:43.441941 	EXP 	image_prc: image = 'stimuli\\practice_images\\banana.jpg'
+2026-07-31_15:45:43.441941 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:44.196387 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:44.202693 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:44.202749 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:44.203701 	EXP 	Sound spoken_word_prc reached end of file
+22.0329 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:44.220818 	INFO 	Keyboard events cleared
+2026-07-31_15:45:44.220629 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:44.220629 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:44.220629 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:44.220629 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:44.848307 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:44.858212 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:45.721468 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:45:45.974946 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:45.974946 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:46.953624 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'image_shown': 'glasses.jpg', 'word_shown_german': 'Brille', 'word_shown_french': 'lunettes', 'word_shown_english': 'glasses', 'ITI_length': 0.79, 'correct_response': 'r', 'match_idx': 1, 'nonmatch_pres_side': 'left', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+2026-07-31_15:45:47.030013 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:47.030013 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:47.030013 	EXP 	image_prc: image = 'stimuli\\practice_images\\glasses.jpg'
+2026-07-31_15:45:47.030013 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:47.785274 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:47.789032 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:47.789063 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:47.789727 	EXP 	Sound spoken_word_prc reached end of file
+25.6215 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:47.806437 	INFO 	Keyboard events cleared
+2026-07-31_15:45:47.806273 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:47.806273 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:47.806273 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:47.806273 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:48.290662 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:48.308179 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:49.331733 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:45:49.520896 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:49.520896 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:50.307867 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'image_shown': 'basket.jpg', 'word_shown_german': 'Korb', 'word_shown_french': 'panier', 'word_shown_english': 'basket', 'ITI_length': 0.77, 'correct_response': 'y', 'match_idx': 1, 'nonmatch_pres_side': 'right', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+2026-07-31_15:45:50.373518 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:50.373518 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:50.373518 	EXP 	image_prc: image = 'stimuli\\practice_images\\basket.jpg'
+2026-07-31_15:45:50.373518 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:50.432228 	DATA 	Mouse: Left button down, pos=(495,202)
+2026-07-31_15:45:50.574172 	DATA 	Mouse:  Left button up, pos=(495,202)
+2026-07-31_15:45:51.127589 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:51.130217 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:51.130245 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:51.131107 	EXP 	Sound spoken_word_prc reached end of file
+28.9631 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:51.155916 	INFO 	Keyboard events cleared
+2026-07-31_15:45:51.155758 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:51.155758 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:51.155758 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:51.155758 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:51.597743 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:51.621779 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:52.635699 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:45:52.852758 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:52.852758 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:53.626868 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'image_shown': 'bear.jpg', 'word_shown_german': 'Milch', 'word_shown_french': 'lait', 'word_shown_english': 'milk', 'ITI_length': 1.23, 'correct_response': 'r', 'match_idx': 0, 'nonmatch_pres_side': 'right', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+2026-07-31_15:45:53.688650 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:53.688650 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:53.688650 	EXP 	image_prc: image = 'stimuli\\practice_images\\bear.jpg'
+2026-07-31_15:45:53.688650 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:54.441587 	EXP 	spoken_word_prc: sampleRate = 44100
+2026-07-31_15:45:54.444488 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:45:54.444521 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:54.445254 	EXP 	Sound spoken_word_prc reached end of file
+32.2778 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:54.468072 	INFO 	Keyboard events cleared
+2026-07-31_15:45:54.467908 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:54.467908 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:54.467908 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:54.467908 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:54.988717 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:55.004797 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:55.968645 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+2026-07-31_15:45:56.185604 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:56.185604 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:45:57.404513 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'image_shown': 'belt.jpg', 'word_shown_german': 'Gürtel', 'word_shown_french': 'ceinture', 'word_shown_english': 'belt', 'ITI_length': 1.1, 'correct_response': 'y', 'match_idx': 1, 'nonmatch_pres_side': 'left', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+2026-07-31_15:45:57.454262 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:57.454262 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:45:57.454262 	EXP 	image_prc: image = 'stimuli\\practice_images\\belt.jpg'
+2026-07-31_15:45:57.454262 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:45:58.004537 	DATA 	Mouse: Left button down, pos=(347,316)
+2026-07-31_15:45:58.104215 	DATA 	Mouse:  Left button up, pos=(347,316)
+2026-07-31_15:45:58.205315 	EXP 	spoken_word_prc: sampleRate = 48000
+2026-07-31_15:45:58.206160 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:45:58.206675 	EXP 	Sound spoken_word_prc reached end of file
+36.0420 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:45:58.219402 	INFO 	Keyboard events cleared
+2026-07-31_15:45:58.219279 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:58.219279 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:45:58.219279 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:45:58.219279 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:45:58.778720 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:58.801902 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:45:59.733527 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:45:59.950440 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:45:59.950440 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:46:01.036306 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'image_shown': 'bike.jpg', 'word_shown_german': 'Fahrrad', 'word_shown_french': 'vélo', 'word_shown_english': 'bicycle', 'ITI_length': 1.25, 'correct_response': 'y', 'match_idx': 1, 'nonmatch_pres_side': 'left', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+2026-07-31_15:46:01.086180 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:46:01.086180 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:46:01.086180 	EXP 	image_prc: image = 'stimuli\\practice_images\\bike.jpg'
+2026-07-31_15:46:01.086180 	EXP 	image_prc: autoDraw = True
+2026-07-31_15:46:01.841395 	EXP 	spoken_word_prc: sampleRate = 48000
+2026-07-31_15:46:01.842316 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:01.843029 	EXP 	Sound spoken_word_prc reached end of file
+39.6784 	EXP 	Playing sound spoken_word_prc on speaker Lautsprecher (Realtek(R) Audio)
+2026-07-31_15:46:01.865813 	INFO 	Keyboard events cleared
+2026-07-31_15:46:01.865649 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:46:01.865649 	EXP 	image_prc: autoDraw = False
+2026-07-31_15:46:01.865649 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:01.865649 	EXP 	fix_cross_prc: autoDraw = True
+2026-07-31_15:46:02.536049 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:46:02.552624 	EXP 	Sound spoken_word_prc reached end of file
+2026-07-31_15:46:03.370737 	EXP 	fix_cross_prc: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:03.565976 	EXP 	fix_cross_prc: autoDraw = False
+2026-07-31_15:46:03.565976 	EXP 	fix_cross_2_prc: autoDraw = True
+2026-07-31_15:46:04.925003 	INFO 	saved data to C:\sync_folder\TSRlearn-task\psychopy_exp_files\data\1_TSRlearn_localizer-concepts_2026-07-31_15h45.13.497_trials_practice.csv
+2026-07-31_15:46:04.946971 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:46:04.946971 	EXP 	fix_cross_2_prc: autoDraw = False
+2026-07-31_15:46:04.946971 	EXP 	instruction_startexp: height = 0.025
+2026-07-31_15:46:04.946971 	EXP 	instruction_startexp: height = 0.025
+2026-07-31_15:46:04.946971 	EXP 	instruction_startexp: height = 0.025
+2026-07-31_15:46:04.946971 	EXP 	instruction_startexp: text = 'Sie haben alle Übungsdurchgänge abgeschlossen.\n\nDie Hauptaufgabe beginnt jetzt.\n\nDrücken Sie immer die obere Taste (rot), wenn das Wort\nnicht zu dem vorherigen Bild passt.\n\n[Drücken Sie eine beliebige Taste, um weiterzumachen.]'
+2026-07-31_15:46:04.946971 	EXP 	instruction_startexp: autoDraw = True
+2026-07-31_15:46:05.315457 	INFO 	Keyboard events cleared
+2026-07-31_15:46:05.752804 	DATA 	Mouse: Left button down, pos=(236,231)
+2026-07-31_15:46:05.885936 	DATA 	Mouse:  Left button up, pos=(236,231)
+2026-07-31_15:46:06.751276 	EXP 	Device response: <KeyPress from None: t=44.55968999999823, value=r, duration=None>
+2026-07-31_15:46:06.752409 	DATA 	Keypress: r
+2026-07-31_15:46:06.835372 	EXP 	Device response: <KeyPress from None: t=44.55968999999823, value=r, duration=0.0919462999991083>
+2026-07-31_15:46:06.863959 	EXP 	instruction_startexp: autoDraw = False
+2026-07-31_15:46:06.863959 	EXP 	instruction_startexp_2: height = 0.025
+2026-07-31_15:46:06.863959 	EXP 	instruction_startexp_2: height = 0.025
+2026-07-31_15:46:06.863959 	EXP 	instruction_startexp_2: height = 0.025
+2026-07-31_15:46:06.863959 	EXP 	instruction_startexp_2: text = 'Das MEG-Signal ist sehr empfindlich gegenüber\nAugen- und Körperbewegungen. Bitte bewegen und blinzeln Sie\nwährend der Aufgabenblöcke so wenig wie möglich.\n\nNach jedem Block gibt es eine kurze Pause, in der Sie sich\nbewegen und ausruhen können.\n\nSobald die Aufgabe wieder beginnt, sitzen Sie bitte wieder still.\n\n[Drücken Sie eine beliebige Taste, um die Hauptaufgabe zu starten.]'
+2026-07-31_15:46:06.863959 	EXP 	instruction_startexp_2: autoDraw = True
+2026-07-31_15:46:07.348408 	INFO 	Keyboard events cleared
+2026-07-31_15:46:07.702086 	DATA 	Mouse: Left button down, pos=(365,264)
+2026-07-31_15:46:07.834794 	DATA 	Mouse:  Left button up, pos=(365,264)
+2026-07-31_15:46:08.018717 	EXP 	Device response: <KeyPress from None: t=45.835172899998724, value=r, duration=None>
+2026-07-31_15:46:08.019309 	DATA 	Keypress: r
+2026-07-31_15:46:08.185059 	EXP 	Device response: <KeyPress from None: t=45.835172899998724, value=r, duration=0.157981699998345>
+2026-07-31_15:46:08.355790 	DEBUG 	Read excel file with openpyxl: sequences/localizer_conditions_01_old.xlsx
+2026-07-31_15:46:08.467322 	EXP 	Imported sequences/localizer_conditions_01_old.xlsx as conditions, 500 conditions, 15 params
+2026-07-31_15:46:08.474277 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'block': 1, 'trial_in_block': 1, 'concept': 'hammer', 'concept_num': 7, 'concept_num_word': 7, 'exemplar_num': 16, 'image_shown': 'hammer\\hammer_16.jpg', 'word_shown_english': 'hammer', 'word_shown_german': 'Hammer', 'word_shown_french': 'Marteau', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.14, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2026-07-31_15:46:08.518305 	EXP 	instruction_startexp_2: autoDraw = False
+2026-07-31_15:46:08.518305 	EXP 	image: image = 'stimuli\\hammer\\hammer_16.jpg'
+2026-07-31_15:46:08.518305 	EXP 	image: autoDraw = True
+2026-07-31_15:46:08.600963 	EXP 	Device response: <KeyPress from None: t=46.41275029999815, value=r, duration=None>
+2026-07-31_15:46:08.601975 	DATA 	Keypress: r
+2026-07-31_15:46:08.683638 	EXP 	Device response: <KeyPress from None: t=46.41275029999815, value=r, duration=0.08343750000130967>
+2026-07-31_15:46:09.269778 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:09.273222 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:09.273255 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:09.274951 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:09.277452 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:09.277482 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:09.298462 	INFO 	Keyboard events cleared
+2026-07-31_15:46:09.298159 	EXP 	image: autoDraw = False
+2026-07-31_15:46:09.298159 	EXP 	image: autoDraw = False
+2026-07-31_15:46:09.298159 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:09.298159 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.797310 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.797310 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:10.797310 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.813685 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.813685 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.834591 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.834591 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.846931 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.846931 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.864175 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.864175 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.880289 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.880289 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.896904 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.896904 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.913997 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.913997 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.933985 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.933985 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.946281 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.946281 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.963162 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.963162 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.980279 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.980279 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:10.996250 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:10.996250 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:11.013572 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:11.013572 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:11.013572 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:11.013572 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:12.157640 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'block': 1, 'trial_in_block': 2, 'concept': 'house', 'concept_num': 9, 'concept_num_word': 9, 'exemplar_num': 46, 'image_shown': 'house\\house_46.jpg', 'word_shown_english': 'house', 'word_shown_german': 'Haus', 'word_shown_french': 'Maison', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 0.8, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+2026-07-31_15:46:12.246023 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:12.246023 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:12.246023 	EXP 	breaks_instruction: height = 0.025
+2026-07-31_15:46:12.246023 	EXP 	breaks_instruction: height = 0.025
+2026-07-31_15:46:12.246023 	EXP 	breaks_instruction: height = 0.025
+2026-07-31_15:46:12.246023 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:12.246023 	EXP 	instruction_continuebreak: height = 0.025
+2026-07-31_15:46:12.246023 	EXP 	instruction_continuebreak: height = 0.025
+2026-07-31_15:46:12.246023 	EXP 	instruction_continuebreak: height = 0.025
+2026-07-31_15:46:12.246023 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:12.246023 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:12.246023 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:12.246023 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:12.246023 	EXP 	image: image = 'stimuli\\house\\house_46.jpg'
+2026-07-31_15:46:12.246023 	EXP 	image: autoDraw = True
+2026-07-31_15:46:12.984573 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:12.990321 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:12.990363 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:12.992895 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:12.997046 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:12.997072 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:13.014197 	INFO 	Keyboard events cleared
+2026-07-31_15:46:13.014019 	EXP 	image: autoDraw = False
+2026-07-31_15:46:13.014019 	EXP 	image: autoDraw = False
+2026-07-31_15:46:13.014019 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:13.014019 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.511971 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:14.528972 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.528972 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.550016 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.550016 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.562625 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.562625 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.579551 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.579551 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.595376 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.595376 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.611977 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.611977 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.628899 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.628899 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.645265 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.645265 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.666352 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.666352 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.678491 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.678491 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.695149 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.695149 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.712161 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.712161 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.728404 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.728404 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:14.728404 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:14.728404 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:15.516242 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'block': 1, 'trial_in_block': 3, 'concept': 'flower', 'concept_num': 6, 'concept_num_word': 6, 'exemplar_num': 29, 'image_shown': 'flower\\flower_29.jpg', 'word_shown_english': 'flower', 'word_shown_german': 'Blume', 'word_shown_french': 'Fleur', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.15, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+2026-07-31_15:46:15.681304 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:15.681304 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:15.681304 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:15.681304 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:15.681304 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:15.681304 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:15.681304 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:15.681304 	EXP 	image: image = 'stimuli\\flower\\flower_29.jpg'
+2026-07-31_15:46:15.681304 	EXP 	image: autoDraw = True
+2026-07-31_15:46:16.433378 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:16.435000 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:16.435039 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:16.436636 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:16.438153 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:16.438178 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:16.461787 	INFO 	Keyboard events cleared
+2026-07-31_15:46:16.461363 	EXP 	image: autoDraw = False
+2026-07-31_15:46:16.461363 	EXP 	image: autoDraw = False
+2026-07-31_15:46:16.461363 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:16.461363 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:17.949739 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:17.962245 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:17.962245 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:17.978926 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:17.978926 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:17.995327 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:17.995327 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.012494 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.012494 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.028048 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.028048 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.045408 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.045408 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.066796 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.066796 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.078511 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.078511 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.094665 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.094665 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.112367 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.112367 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.127763 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.127763 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.145759 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.145759 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.161331 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.161331 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:18.161331 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:18.161331 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:19.297326 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'block': 1, 'trial_in_block': 4, 'concept': 'ball', 'concept_num': 1, 'concept_num_word': 1, 'exemplar_num': 39, 'image_shown': 'ball\\ball_39.jpg', 'word_shown_english': 'ball', 'word_shown_german': 'Ball', 'word_shown_french': 'Ballon', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.06, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+2026-07-31_15:46:19.365016 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:19.365016 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:19.365016 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:19.365016 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:19.365016 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:19.365016 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:19.365016 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:19.365016 	EXP 	image: image = 'stimuli\\ball\\ball_39.jpg'
+2026-07-31_15:46:19.365016 	EXP 	image: autoDraw = True
+2026-07-31_15:46:20.116341 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:20.118453 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:20.118486 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:20.120206 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:20.121556 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:20.121572 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:20.144957 	INFO 	Keyboard events cleared
+2026-07-31_15:46:20.144791 	EXP 	image: autoDraw = False
+2026-07-31_15:46:20.144791 	EXP 	image: autoDraw = False
+2026-07-31_15:46:20.144791 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:20.144791 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:20.965304 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:46:20.965375 	EXP 	Device response: <KeyPress from None: t=58.7807178999974, value=unknown, duration=None>
+2026-07-31_15:46:21.096934 	EXP 	Device response: <KeyPress from None: t=58.7807178999974, value=unknown, duration=0.13598289999936242>
+2026-07-31_15:46:21.297497 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:46:21.297601 	EXP 	Device response: <KeyPress from None: t=59.1201951999974, value=unknown, duration=None>
+2026-07-31_15:46:21.351593 	EXP 	Device response: <KeyPress from None: t=59.1201951999974, value=unknown, duration=0.05128089999925578>
+2026-07-31_15:46:21.463361 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:46:21.463411 	EXP 	Device response: <KeyPress from None: t=59.28562239999883, value=unknown, duration=None>
+2026-07-31_15:46:21.513669 	EXP 	Device response: <KeyPress from None: t=59.28562239999883, value=unknown, duration=0.04267930000060005>
+2026-07-31_15:46:21.599187 	WARNING 	Keypress was given unknown key code (176)
+2026-07-31_15:46:21.599243 	EXP 	Device response: <KeyPress from None: t=59.41584349999903, value=unknown, duration=None>
+2026-07-31_15:46:21.629726 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:21.643477 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.643477 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.660653 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.660653 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.681374 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.681374 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.684303 	EXP 	Device response: <KeyPress from None: t=59.41584349999903, value=unknown, duration=0.07862430000022869>
+2026-07-31_15:46:21.692956 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.692956 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.710334 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.710334 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.726885 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.726885 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.743366 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.743366 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.759881 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.759881 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.781353 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.781353 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.794275 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.794275 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.810702 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.810702 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.830007 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.830007 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.843361 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.843361 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:21.843361 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:21.843361 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:22.897063 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'block': 1, 'trial_in_block': 5, 'concept': 'jacket', 'concept_num': 10, 'concept_num_word': 10, 'exemplar_num': 15, 'image_shown': 'jacket\\jacket_15.jpg', 'word_shown_english': 'jacket', 'word_shown_german': 'Jacke', 'word_shown_french': 'Veste', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 0.83, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+2026-07-31_15:46:22.945592 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:22.945592 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:22.945592 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:22.945592 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:22.945592 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:22.945592 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:22.945592 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:22.945592 	EXP 	image: image = 'stimuli\\jacket\\jacket_15.jpg'
+2026-07-31_15:46:22.945592 	EXP 	image: autoDraw = True
+2026-07-31_15:46:23.682815 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:23.686598 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:23.686622 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:23.688188 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:23.692086 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:23.692123 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:23.708779 	INFO 	Keyboard events cleared
+2026-07-31_15:46:23.708496 	EXP 	image: autoDraw = False
+2026-07-31_15:46:23.708496 	EXP 	image: autoDraw = False
+2026-07-31_15:46:23.708496 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:23.708496 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.192810 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:25.210069 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.210069 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.225987 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.225987 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.242705 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.242705 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.259234 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.259234 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.280633 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.280633 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.291961 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.291961 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.314190 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.314190 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.330654 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.330654 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.343442 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.343442 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.358769 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.358769 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.376236 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.376236 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.399514 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.399514 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.425473 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.425473 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:25.425473 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:25.425473 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:26.245628 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'block': 1, 'trial_in_block': 6, 'concept': 'chair', 'concept_num': 4, 'concept_num_word': 4, 'exemplar_num': 45, 'image_shown': 'chair\\chair_45.jpg', 'word_shown_english': 'chair', 'word_shown_german': 'Stuhl', 'word_shown_french': 'Chaise', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 0.88, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+2026-07-31_15:46:26.316978 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:26.316978 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:26.316978 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:26.316978 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:26.316978 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:26.316978 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:26.316978 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:26.316978 	EXP 	image: image = 'stimuli\\chair\\chair_45.jpg'
+2026-07-31_15:46:26.316978 	EXP 	image: autoDraw = True
+2026-07-31_15:46:27.062813 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:27.065641 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:27.065665 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:27.066776 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:27.069199 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:27.069231 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:27.091106 	INFO 	Keyboard events cleared
+2026-07-31_15:46:27.090918 	EXP 	image: autoDraw = False
+2026-07-31_15:46:27.090918 	EXP 	image: autoDraw = False
+2026-07-31_15:46:27.090918 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:27.090918 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.576887 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:28.597654 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.597654 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.611476 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.611476 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.627528 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.627528 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.643722 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.643722 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.660166 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.660166 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.679476 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.679476 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.693136 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.693136 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.709877 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.709877 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.726509 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.726509 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.743720 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.743720 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.759767 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.759767 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.780407 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.780407 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.792464 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.792464 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:28.792464 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:28.792464 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:29.665365 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'block': 1, 'trial_in_block': 7, 'concept': 'bread', 'concept_num': 3, 'concept_num_word': 3, 'exemplar_num': 2, 'image_shown': 'bread\\bread_02.jpg', 'word_shown_english': 'bread', 'word_shown_german': 'Brot', 'word_shown_french': 'Pain', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 0.89, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+2026-07-31_15:46:29.729591 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:29.729591 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:29.729591 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:29.729591 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:29.729591 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:29.729591 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:29.729591 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:29.729591 	EXP 	image: image = 'stimuli\\bread\\bread_02.jpg'
+2026-07-31_15:46:29.729591 	EXP 	image: autoDraw = True
+2026-07-31_15:46:30.485061 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:30.487124 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:30.487149 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:30.488628 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:30.490210 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:30.490229 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:30.507345 	INFO 	Keyboard events cleared
+2026-07-31_15:46:30.507171 	EXP 	image: autoDraw = False
+2026-07-31_15:46:30.507171 	EXP 	image: autoDraw = False
+2026-07-31_15:46:30.507171 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:30.507171 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.008341 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.008341 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:32.008341 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.024121 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.024121 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.045865 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.045865 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.064692 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.064692 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.089905 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.089905 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.107713 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.107713 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.124162 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.124162 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.139865 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.139865 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.156887 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.156887 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.178453 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.178453 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.190230 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.190230 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.206401 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.206401 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.223282 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.223282 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:32.223282 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:32.223282 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:33.110010 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'block': 1, 'trial_in_block': 8, 'concept': 'hand', 'concept_num': 8, 'concept_num_word': 8, 'exemplar_num': 10, 'image_shown': 'hand\\hand_10.jpg', 'word_shown_english': 'hand', 'word_shown_german': 'Hand', 'word_shown_french': 'Main', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.18, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+2026-07-31_15:46:33.176090 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:33.176090 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:33.176090 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:33.176090 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:33.176090 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:33.176090 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:33.176090 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:33.176090 	EXP 	image: image = 'stimuli\\hand\\hand_10.jpg'
+2026-07-31_15:46:33.176090 	EXP 	image: autoDraw = True
+2026-07-31_15:46:33.928284 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:33.930774 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:33.930801 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:33.932127 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:33.934414 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:33.934461 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:33.956234 	INFO 	Keyboard events cleared
+2026-07-31_15:46:33.955980 	EXP 	image: autoDraw = False
+2026-07-31_15:46:33.955980 	EXP 	image: autoDraw = False
+2026-07-31_15:46:33.955980 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:33.955980 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.461692 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.461692 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:35.461692 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.475522 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.475522 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.494677 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.494677 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.506697 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.506697 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.527187 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.527187 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.540622 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.540622 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.556382 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.556382 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.576841 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.576841 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.588888 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.588888 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.606018 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.606018 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.622868 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.622868 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.639653 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.639653 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.656199 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.656199 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.672525 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.672525 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:35.672525 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:35.672525 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:36.842433 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'block': 1, 'trial_in_block': 9, 'concept': 'bicycle', 'concept_num': 2, 'concept_num_word': 2, 'exemplar_num': 50, 'image_shown': 'bicycle\\bicycle_50.jpg', 'word_shown_english': 'bicycle', 'word_shown_german': 'Fahrrad', 'word_shown_french': 'Vélo', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.02, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+2026-07-31_15:46:36.931125 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:36.931125 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:36.931125 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:36.931125 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:36.931125 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:36.931125 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:36.931125 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:36.931125 	EXP 	image: image = 'stimuli\\bicycle\\bicycle_50.jpg'
+2026-07-31_15:46:36.931125 	EXP 	image: autoDraw = True
+2026-07-31_15:46:37.677153 	EXP 	spoken_word: sampleRate = 48000
+2026-07-31_15:46:37.678346 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:37.680082 	EXP 	spoken_word: sampleRate = 48000
+2026-07-31_15:46:37.680861 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:37.689145 	INFO 	Keyboard events cleared
+2026-07-31_15:46:37.688936 	EXP 	image: autoDraw = False
+2026-07-31_15:46:37.688936 	EXP 	image: autoDraw = False
+2026-07-31_15:46:37.688936 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:37.688936 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.192160 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.204651 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:39.204651 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.223740 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.223740 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.241100 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.241100 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.265463 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.265463 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.293135 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.293135 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.314499 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.314499 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.337531 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.337531 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.364537 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.364537 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.388714 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.388714 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.417555 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.417555 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.450325 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.450325 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:39.450325 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:39.450325 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:40.457573 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'block': 1, 'trial_in_block': 10, 'concept': 'house', 'concept_num': 9, 'concept_num_word': 7, 'exemplar_num': 22, 'image_shown': 'house\\house_22.jpg', 'word_shown_english': 'hammer', 'word_shown_german': 'Hammer', 'word_shown_french': 'Marteau', 'is_prompt': 1, 'is_mismatch': 1, 'ITI_length': 0.92, 'correct_response': 'r', 'nonmatch_pres_side': 'right', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+2026-07-31_15:46:40.511946 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:40.511946 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:40.511946 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:40.511946 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:40.511946 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:40.511946 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:40.511946 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:40.511946 	EXP 	image: image = 'stimuli\\house\\house_22.jpg'
+2026-07-31_15:46:40.511946 	EXP 	image: autoDraw = True
+2026-07-31_15:46:41.271567 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:41.274239 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:41.274269 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:41.275546 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:41.277690 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:41.277708 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:41.298167 	INFO 	Keyboard events cleared
+2026-07-31_15:46:41.297926 	EXP 	image: autoDraw = False
+2026-07-31_15:46:41.297926 	EXP 	image: autoDraw = False
+2026-07-31_15:46:41.297926 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:41.297926 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.792037 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+2026-07-31_15:46:42.803046 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.803046 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.819912 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.819912 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.837204 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.837204 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.853657 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.853657 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.870346 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.870346 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.886672 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.886672 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.907733 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.907733 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.921257 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.921257 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.937743 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.937743 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.953798 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.953798 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.970342 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.970342 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:42.986339 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:42.986339 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:43.007325 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:43.007325 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:43.007325 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:43.007325 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:43.923195 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'block': 1, 'trial_in_block': 11, 'concept': 'dog', 'concept_num': 5, 'concept_num_word': 5, 'exemplar_num': 7, 'image_shown': 'dog\\dog_07.jpg', 'word_shown_english': 'dog', 'word_shown_german': 'Hund', 'word_shown_french': 'Chien', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.1, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+2026-07-31_15:46:43.972576 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:43.972576 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:43.972576 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:43.972576 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:43.972576 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:43.972576 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:43.972576 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:43.972576 	EXP 	image: image = 'stimuli\\dog\\dog_07.jpg'
+2026-07-31_15:46:43.972576 	EXP 	image: autoDraw = True
+2026-07-31_15:46:44.723816 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:44.726403 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:44.726438 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:44.727946 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:44.730260 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:44.730281 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:44.752509 	INFO 	Keyboard events cleared
+2026-07-31_15:46:44.752228 	EXP 	image: autoDraw = False
+2026-07-31_15:46:44.752228 	EXP 	image: autoDraw = False
+2026-07-31_15:46:44.752228 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:44.752228 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.253042 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.253042 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:46.253042 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.270092 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.270092 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.286573 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.286573 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.307949 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.307949 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.324499 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.324499 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.340240 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.340240 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.353641 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.353641 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.378623 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.378623 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.405104 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.405104 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.425083 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.425083 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.439659 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.439659 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.452644 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.452644 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:46.452644 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:46.452644 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:47.555290 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'block': 1, 'trial_in_block': 12, 'concept': 'ball', 'concept_num': 1, 'concept_num_word': 1, 'exemplar_num': 22, 'image_shown': 'ball\\ball_22.jpg', 'word_shown_english': 'ball', 'word_shown_german': 'Ball', 'word_shown_french': 'Ballon', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.06, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+2026-07-31_15:46:47.744676 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:47.744676 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:47.744676 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:47.744676 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:47.744676 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:47.744676 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:47.744676 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:47.744676 	EXP 	image: image = 'stimuli\\ball\\ball_22.jpg'
+2026-07-31_15:46:47.744676 	EXP 	image: autoDraw = True
+2026-07-31_15:46:48.494189 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:48.495817 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:48.495851 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:48.497422 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:48.499132 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:48.499151 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:48.518109 	INFO 	Keyboard events cleared
+2026-07-31_15:46:48.517879 	EXP 	image: autoDraw = False
+2026-07-31_15:46:48.517879 	EXP 	image: autoDraw = False
+2026-07-31_15:46:48.517879 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:48.517879 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.033097 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.033097 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:50.033097 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.051037 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.051037 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.068341 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.068341 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.084278 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.084278 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.101942 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.101942 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.123059 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.123059 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.134063 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.134063 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.151312 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.151312 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.168391 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.168391 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.185065 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.185065 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.201923 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.201923 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.217352 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.217352 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.238755 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.238755 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:50.238755 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:50.238755 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:51.289999 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'block': 1, 'trial_in_block': 13, 'concept': 'hammer', 'concept_num': 7, 'concept_num_word': 7, 'exemplar_num': 32, 'image_shown': 'hammer\\hammer_32.jpg', 'word_shown_english': 'hammer', 'word_shown_german': 'Hammer', 'word_shown_french': 'Marteau', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 0.78, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+2026-07-31_15:46:51.339350 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:51.339350 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:51.339350 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:51.339350 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:51.339350 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:51.339350 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:51.339350 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:51.339350 	EXP 	image: image = 'stimuli\\hammer\\hammer_32.jpg'
+2026-07-31_15:46:51.339350 	EXP 	image: autoDraw = True
+2026-07-31_15:46:52.093490 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:52.095945 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:52.095979 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:52.097629 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:52.100155 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:52.100192 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:52.116952 	INFO 	Keyboard events cleared
+2026-07-31_15:46:52.116762 	EXP 	image: autoDraw = False
+2026-07-31_15:46:52.116762 	EXP 	image: autoDraw = False
+2026-07-31_15:46:52.116762 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:52.116762 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:52.254528 	EXP 	Device response: <KeyPress from None: t=90.06448929999897, value=0, duration=None>
+2026-07-31_15:46:52.353674 	EXP 	Device response: <KeyPress from None: t=90.06448929999897, value=0, duration=0.10339079999903333>
+2026-07-31_15:46:53.621885 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.621885 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:53.621885 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.634948 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.634948 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.654682 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.654682 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.667913 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.667913 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.688978 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.688978 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.700966 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.700966 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.717560 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.717560 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.733329 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.733329 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.754694 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.754694 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.766840 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.766840 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.783916 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.783916 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.801198 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.801198 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.816401 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.816401 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.838250 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.838250 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:53.838250 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:53.838250 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:54.620309 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'block': 1, 'trial_in_block': 14, 'concept': 'bread', 'concept_num': 3, 'concept_num_word': 3, 'exemplar_num': 46, 'image_shown': 'bread\\bread_46.jpg', 'word_shown_english': 'bread', 'word_shown_german': 'Brot', 'word_shown_french': 'Pain', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.14, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+2026-07-31_15:46:54.725518 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:54.725518 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:54.725518 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:54.725518 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:54.725518 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:54.725518 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:54.725518 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:54.725518 	EXP 	image: image = 'stimuli\\bread\\bread_46.jpg'
+2026-07-31_15:46:54.725518 	EXP 	image: autoDraw = True
+2026-07-31_15:46:55.471951 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:55.473637 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:55.473666 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:55.475195 	EXP 	spoken_word: sampleRate = 24000
+2026-07-31_15:46:55.476932 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:55.476955 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:55.498558 	INFO 	Keyboard events cleared
+2026-07-31_15:46:55.498183 	EXP 	image: autoDraw = False
+2026-07-31_15:46:55.498183 	EXP 	image: autoDraw = False
+2026-07-31_15:46:55.498183 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:55.498183 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:56.999612 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:56.999612 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+2026-07-31_15:46:56.999612 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.020134 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.020134 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.031985 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.031985 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.049597 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.049597 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.065755 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.065755 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.083055 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.083055 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.099010 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.099010 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.121208 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.121208 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.132678 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.132678 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.150059 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.150059 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.165869 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.165869 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.182519 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.182519 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.199340 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.199340 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.215466 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.215466 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:57.215466 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:46:57.215466 	EXP 	fix_cross_2: autoDraw = True
+2026-07-31_15:46:58.342597 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'block': 1, 'trial_in_block': 15, 'concept': 'chair', 'concept_num': 4, 'concept_num_word': 4, 'exemplar_num': 34, 'image_shown': 'chair\\chair_34.jpg', 'word_shown_english': 'chair', 'word_shown_german': 'Stuhl', 'word_shown_french': 'Chaise', 'is_prompt': 1, 'is_mismatch': 0, 'ITI_length': 1.07, 'correct_response': None, 'nonmatch_pres_side': None, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+2026-07-31_15:46:58.402923 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:58.402923 	EXP 	fix_cross_2: autoDraw = False
+2026-07-31_15:46:58.402923 	EXP 	breaks_instruction: text = 'Pause, die Aufgabe geht gleich weiter.\nEs sind noch 9 Blöcke übrig.'
+2026-07-31_15:46:58.402923 	EXP 	instruction_continuebreak: text = 'Die Pause ist vorbei.\nBitte drücken Sie eine beliebige Taste,\nsobald sie bereit sind, weiterzumachen.'
+2026-07-31_15:46:58.402923 	EXP 	breaks_instruction: autoDraw = False
+2026-07-31_15:46:58.402923 	EXP 	progress_bar_breaks: autoDraw = False
+2026-07-31_15:46:58.402923 	EXP 	instruction_continuebreak: autoDraw = False
+2026-07-31_15:46:58.402923 	EXP 	image: image = 'stimuli\\chair\\chair_34.jpg'
+2026-07-31_15:46:58.402923 	EXP 	image: autoDraw = True
+2026-07-31_15:46:59.152389 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:59.155160 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:59.155193 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:59.156688 	EXP 	spoken_word: sampleRate = 44100
+2026-07-31_15:46:59.158950 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+2026-07-31_15:46:59.158971 	DEBUG 	Converted audio clip from mono to stereo
+2026-07-31_15:46:59.181442 	INFO 	Keyboard events cleared
+2026-07-31_15:46:59.181147 	EXP 	image: autoDraw = False
+2026-07-31_15:46:59.181147 	EXP 	image: autoDraw = False
+2026-07-31_15:46:59.181147 	EXP 	fix_cross: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2026-07-31_15:46:59.181147 	EXP 	fix_cross: autoDraw = True
+2026-07-31_15:46:59.489343 	DATA 	Mouse: Left button down, pos=(374,213)
+2026-07-31_15:46:59.657231 	DATA 	Mouse:  Left button up, pos=(374,213)
+2026-07-31_15:46:59.918081 	EXP 	Device response: <KeyPress from None: t=97.74075829999856, value=escape, duration=None>
+2026-07-31_15:46:59.918625 	DATA 	Keypress: escape
+2026-07-31_15:47:00.018016 	EXP 	Device response: <KeyPress from None: t=97.74075829999856, value=escape, duration=0.09942410000076052>
+2026-07-31_15:47:00.018087 	EXP 	TSRlearn_localizer-concepts: status = STOPPED
+2026-07-31_15:47:00.030810 	EXP 	fix_cross: autoDraw = False
+2026-07-31_15:47:00.033536 	EXP 	TSRlearn_localizer-concepts: status = STOPPED
+2026-07-31_15:47:00.087862 	INFO 	saved data to 'C:\\sync_folder\\TSRlearn-task\\psychopy_exp_files\\data\\1_TSRlearn_localizer-concepts_2026-07-31_15h45.13.497.csv'
+2026-07-31_15:47:00.094457 	INFO 	saved data to C:\sync_folder\TSRlearn-task\psychopy_exp_files\data\1_TSRlearn_localizer-concepts_2026-07-31_15h45.13.497.psydat
+2026-07-31_15:47:00.364020 	DEBUG 	Saving data for TSRlearn_localizer-concepts ExperimentHandler
+2026-07-31_15:47:00.368016 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
