@@ -1,5 +1,0 @@
-subject	block_num	trial_num	component_label	onset	duration	type_of_stimulus	concept_label	concept_examplar	response_time	response	expected_response	wrd_img_match	correct
-0	n/a	n/a	instruction_part1	0.06517170000006445	1.5516208999979426	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
-0	n/a	n/a	instruction_part2	1.6338860999967437	0.6187662000011187	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
-0	n/a	n/a	instruction_part3	2.2818776999993133	0.554490700000315	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
-0	n/a	n/a	instruction_part4	2.8638297999968927	1.137058700001944	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a
