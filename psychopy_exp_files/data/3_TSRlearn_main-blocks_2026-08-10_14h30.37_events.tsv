@@ -1,0 +1,216 @@
+subject	trial_type	block_name	sequence_name	route_num	trial_num	component_label	concept_label	concept_exemplar	onset	duration	type_of_stimulus	trigger_value	trigger_onset	trigger_delay	response_time	press_onset_est	response	response_meaning	expected_response	correct	distance_correct
+3	instruction	n/a	n/a	n/a	n/a	instruction_part1	n/a	n/a	0.03310330002568662	3.3829197000013664	instruction_text	255	0.033136800047941506	3.350002225488424e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	exp_start	n/a	n/a	0.033136800047941506	0.0	trigger	255	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	1	current_image	lamp/lamp_01.jpg	lamp/lamp_01.jpg	139.72261130000697	2.032946399995126	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	1	corr_next_image	key/key_01.jpg	key/key_01.jpg	139.72261130000697	2.032953699992504	image	15	139.7226612000377	4.9900030717253685e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	1	distractor 01 (close)	bicycle/bicycle_06.jpg	bicycle/bicycle_06.jpg	139.72261130000697	2.032958800031338	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	1	distractor 02 (far)	bread/bread_29.jpg	bread/bread_29.jpg	139.72261130000697	2.03296360000968	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	139.7226612000377	0.0	trigger	15	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	1	n/a	n/a	n/a	141.63965320005082	0.0	choice	n/a	n/a	n/a	1.977839000057429	141.7004503000644	r	center	right	0	n/a
+3	n/a	1.0	A	1	1	image_selected	n/a	n/a	141.63968459999887	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	1	correct_moving	n/a	n/a	141.97212960000616	0.9833231000229716	feedback	52	141.9721867000335	5.7100027333945036e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	141.9721867000335	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	2	current_image	key/key_01.jpg	key/key_01.jpg	143.13800630002515	1.3334632000187412	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	2	corr_next_image	hand/hand_16.jpg	hand/hand_16.jpg	143.13800630002515	1.3334692000062205	image	8	143.1380473000463	4.1000021155923605e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	2	distractor 01 (close)	flower/flower_17.jpg	flower/flower_17.jpg	143.13800630002515	1.3334731999784708	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	2	distractor 02 (far)	chair/chair_11.jpg	chair/chair_11.jpg	143.13800630002515	1.3334772000089288	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	143.1380473000463	0.0	trigger	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	2	n/a	n/a	n/a	144.35561680002138	0.0	choice	n/a	n/a	n/a	1.2352759999921545	144.3732823000173	g	left	right	0	n/a
+3	n/a	1.0	A	1	2	image_selected	n/a	n/a	144.3556509000482	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	2	correct_moving	n/a	n/a	144.63760519999778	0.9835307000321336	feedback	52	144.63766820001183	6.3000014051795e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	144.63766820001183	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	3	current_image	hand/hand_16.jpg	hand/hand_16.jpg	145.85384170000907	0.7681574000162072	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	3	corr_next_image	ball/ball_11.jpg	ball/ball_11.jpg	145.85384170000907	0.7681698999949731	image	1	145.85389060003217	4.8900023102760315e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	3	distractor 01 (close)	dog/dog_49.jpg	dog/dog_49.jpg	145.85384170000907	0.7681753000360914	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	3	distractor 02 (far)	house/house_35.jpg	house/house_35.jpg	145.85384170000907	0.7681800000136718	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	145.85389060003217	0.0	trigger	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	3	n/a	n/a	n/a	146.52153540001018	0.0	choice	n/a	n/a	n/a	0.7033682000474073	146.55720990005648	b	right	center	0	n/a
+3	n/a	1.0	A	1	3	image_selected	n/a	n/a	146.52156439999817	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	3	correct_moving	n/a	n/a	146.82021700002952	0.9832977000041865	feedback	52	146.82028370001353	6.669998401775956e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	146.82028370001353	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	4	current_image	ball/ball_11.jpg	ball/ball_11.jpg	148.01979820005363	0.4182417999836616	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	4	corr_next_image	dog/dog_49.jpg	dog/dog_49.jpg	148.01979820005363	0.418249599984847	image	5	148.01984680001624	4.859996261075139e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	4	distractor 01 (close)	jacket/jacket_44.jpg	jacket/jacket_44.jpg	148.01979820005363	0.4182549999677576	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	4	distractor 02 (far)	phone/phone_01.jpg	phone/phone_01.jpg	148.01979820005363	0.41826029994990677	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	148.01984680001624	0.0	trigger	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	4	n/a	n/a	n/a	148.32122949999757	0.0	choice	n/a	n/a	n/a	0.3282558000064455	148.34805400006007	g	left	center	0	n/a
+3	n/a	1.0	A	1	4	image_selected	n/a	n/a	148.32126560003962	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	4	correct_moving	n/a	n/a	148.63637140003266	0.9834198000025935	feedback	52	148.63642610004172	5.470000905916095e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	148.63642610004172	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	5	current_image	dog/dog_49.jpg	dog/dog_49.jpg	149.78581540001323	0.5843342000152916	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	5	corr_next_image	flower/flower_17.jpg	flower/flower_17.jpg	149.78581540001323	0.5843418000149541	image	6	149.78584840003168	3.300001844763756e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	5	distractor 01 (close)	bread/bread_29.jpg	bread/bread_29.jpg	149.78581540001323	0.5843471999978647	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	5	distractor 02 (far)	hammer/hammer_16.jpg	hammer/hammer_16.jpg	149.78581540001323	0.5843521000351757	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	149.78584840003168	0.0	trigger	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	5	n/a	n/a	n/a	150.2540690000169	0.0	choice	n/a	n/a	n/a	0.49554879998322576	150.28136419999646	b	right	left	0	n/a
+3	n/a	1.0	A	1	5	image_selected	n/a	n/a	150.2540982000064	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	5	correct_moving	n/a	n/a	150.51902710000286	0.9837927000480704	feedback	52	150.5190715000499	4.440004704520106e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	150.5190715000499	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	6	current_image	flower/flower_17.jpg	flower/flower_17.jpg	151.66886710003018	1.466951499984134	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	6	corr_next_image	jacket/jacket_44.jpg	jacket/jacket_44.jpg	151.66886710003018	1.4669592999853194	image	10	151.66891020000912	4.309997893869877e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	6	distractor 01 (close)	chair/chair_11.jpg	chair/chair_11.jpg	151.66886710003018	1.4669649999705143	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	6	distractor 02 (far)	pencil/pencil_01.jpg	pencil/pencil_01.jpg	151.66886710003018	1.466970500012394	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	151.66891020000912	0.0	trigger	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	6	n/a	n/a	n/a	153.0196966000367	0.0	choice	n/a	n/a	n/a	1.3787638999638148	153.047630999994	g	left	right	0	n/a
+3	n/a	1.0	A	1	6	image_selected	n/a	n/a	153.01973430003272	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	6	correct_moving	n/a	n/a	153.2687548000249	0.9829769000061788	feedback	52	153.26880410005106	4.930002614855766e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	153.26880410005106	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	7	current_image	jacket/jacket_44.jpg	jacket/jacket_44.jpg	154.43443480000133	0.6175438000354916	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	7	corr_next_image	bicycle/bicycle_06.jpg	bicycle/bicycle_06.jpg	154.43443480000133	0.6175507000298239	image	2	154.43446830002358	3.350002225488424e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	7	distractor 01 (close)	hand/hand_16.jpg	hand/hand_16.jpg	154.43443480000133	0.6175553000066429	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	7	distractor 02 (far)	dog/dog_49.jpg	dog/dog_49.jpg	154.43443480000133	0.6175596000393853	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	154.43446830002358	0.0	trigger	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	7	n/a	n/a	n/a	154.93574680003803	0.0	choice	n/a	n/a	n/a	0.5271141999983229	154.96154899999965	b	right	left	0	n/a
+3	n/a	1.0	A	1	7	image_selected	n/a	n/a	154.93577450001612	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	7	correct_moving	n/a	n/a	155.2176367000211	0.9832139000063762	feedback	52	155.21769990003668	6.320001557469368e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	155.21769990003668	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	8	current_image	bicycle/bicycle_06.jpg	bicycle/bicycle_06.jpg	156.4338683000533	0.5673187999636866	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	8	corr_next_image	chair/chair_11.jpg	chair/chair_11.jpg	156.4338683000533	0.5673296999884769	image	4	156.43391500000143	4.669994814321399e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	8	distractor 01 (close)	key/key_01.jpg	key/key_01.jpg	156.4338683000533	0.5673346999683417	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	8	distractor 02 (far)	ball/ball_11.jpg	ball/ball_11.jpg	156.4338683000533	0.5673401999520138	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	156.43391500000143	0.0	trigger	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	8	n/a	n/a	n/a	156.88549410004634	0.0	choice	n/a	n/a	n/a	0.4959548999904655	156.92982320004376	g	left	left	1	n/a
+3	n/a	1.0	A	1	8	image_selected	n/a	n/a	156.8855227000313	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	8	correct_moving	n/a	n/a	157.21734470000956	0.9837115000118501	feedback	52	157.21740580000915	6.10999995842576e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	157.21740580000915	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	9	current_image	chair/chair_11.jpg	chair/chair_11.jpg	158.40003530000104	0.3014895000378601	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	9	corr_next_image	bread/bread_29.jpg	bread/bread_29.jpg	158.40003530000104	0.30149760004132986	image	3	158.40008930000477	5.400000372901559e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	9	distractor 01 (close)	lamp/lamp_01.jpg	lamp/lamp_01.jpg	158.40003530000104	0.3015031000250019	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	9	distractor 02 (far)	flower/flower_17.jpg	flower/flower_17.jpg	158.40003530000104	0.3015083000063896	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	158.40008930000477	0.0	trigger	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	9	n/a	n/a	n/a	158.58457500004442	0.0	choice	n/a	n/a	n/a	0.21553250000579283	158.61556780000683	b	right	right	1	n/a
+3	n/a	1.0	A	1	9	image_selected	n/a	n/a	158.58460729999933	0.0	trigger	51	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	9	correct_moving	n/a	n/a	158.88326870003948	0.9835036000004038	feedback	52	158.8833408000064	7.209996692836285e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	158.8833408000064	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	10	current_image	bread/bread_29.jpg	bread/bread_29.jpg	160.06601190002402	4.817877800029237	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	10	corr_next_image	house/house_35.jpg	house/house_35.jpg	160.06601190002402	4.817885400028899	image	9	160.06605840002885	4.650000482797623e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	10	distractor 01 (close)	ball/ball_11.jpg	ball/ball_11.jpg	160.06601190002402	4.817890300008003	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	10	distractor 02 (far)	bicycle/bicycle_06.jpg	bicycle/bicycle_06.jpg	160.06601190002402	4.817894899984822	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	160.06605840002885	0.0	trigger	9	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	10	correct_moving	n/a	n/a	165.06446690001758	0.9836765000363812	feedback	52	165.06453060003696	6.370001938194036e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	165.06453060003696	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	11	current_image	house/house_35.jpg	house/house_35.jpg	166.76418580004247	4.801291299983859	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	11	corr_next_image	hammer/hammer_16.jpg	hammer/hammer_16.jpg	166.76418580004247	4.801302200008649	image	7	166.76423610001802	5.029997555539012e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	11	distractor 01 (close)	key/key_01.jpg	key/key_01.jpg	166.76418580004247	4.801310000009835	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	11	distractor 02 (far)	dog/dog_49.jpg	dog/dog_49.jpg	166.76418580004247	4.801318399957381	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	166.76423610001802	0.0	trigger	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	11	correct_moving	n/a	n/a	171.77906440000515	0.9837624999927357	feedback	52	171.77914790000068	8.349999552592635e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	171.77914790000068	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	12	current_image	hammer/hammer_16.jpg	hammer/hammer_16.jpg	173.4784939000383	4.803283000015654	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	12	corr_next_image	pencil/pencil_01.jpg	pencil/pencil_01.jpg	173.4784939000383	4.803295699995942	image	16	173.47855710005388	6.320001557469368e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	12	distractor 01 (close)	lamp/lamp_01.jpg	lamp/lamp_01.jpg	173.4784939000383	4.803305600013118	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	12	distractor 02 (far)	jacket/jacket_44.jpg	jacket/jacket_44.jpg	173.4784939000383	4.803314699965995	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	173.47855710005388	0.0	trigger	16	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	12	correct_moving	n/a	n/a	178.49362740002107	0.9839521999820136	feedback	52	178.49371290003182	8.550001075491309e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	178.49371290003182	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	13	current_image	pencil/pencil_01.jpg	pencil/pencil_01.jpg	180.19302550004795	4.818276299978606	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	13	corr_next_image	phone/phone_01.jpg	phone/phone_01.jpg	180.19302550004795	4.818287700007204	image	17	180.19308400002774	5.849997978657484e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	13	distractor 01 (close)	hand/hand_16.jpg	hand/hand_16.jpg	180.19302550004795	4.818296499957796	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	13	distractor 02 (far)	bread/bread_29.jpg	bread/bread_29.jpg	180.19302550004795	4.8183044999605045	image	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	choice_display	n/a	n/a	180.19308400002774	0.0	trigger	17	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	13	correct_moving	n/a	n/a	185.15830680000363	0.9835803000023589	feedback	52	185.15839799999958	9.119999594986439e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	feedback	n/a	n/a	185.15839799999958	0.0	trigger	52	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	learn	1.0	A	1	13	fix_cross_replay_break	n/a	n/a	186.67428390000714	5.015295566703827	replay_break	53	186.67433360003633	4.970002919435501e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	replay_break	n/a	n/a	186.67433360003633	0.0	trigger	53	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	replay_break_end	n/a	n/a	191.67322200001217	0.0	trigger	54	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	0	retrieval_ITIcross	n/a	n/a	192.93901700002607	0.3332058666894966	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5
+3	retr_1	block1	A	n/a	0	image_1_retr	bread/bread_29.jpg	bread/bread_29.jpg	193.30553220002912	1.0004885666460552	image	3	193.30556040001102	2.8199981898069382e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	193.30556040001102	0.0	trigger	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	0	image_2_retr	dog/dog_49.jpg	dog/dog_49.jpg	194.62180610001087	1.0001896666983896	image	5	194.62185240001418	4.630000330507755e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	194.62185240001418	0.0	trigger	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	195.87137260002783	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	197.97100230003707	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	198.02077709999867	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	201.51961140002823	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	0	n/a	n/a	n/a	204.9710281000007	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	5	False	5
+3	retr_1	block1	A	n/a	1	retrieval_ITIcross	n/a	n/a	205.48512240004493	0.26664266665855507	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	3
+3	retr_1	block1	A	n/a	1	image_1_retr	flower/flower_17.jpg	flower/flower_17.jpg	205.78495140001178	0.9996531666877502	image	6	205.78498880000552	3.739999374374747e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	205.78498880000552	0.0	trigger	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	1	image_2_retr	hand/hand_16.jpg	hand/hand_16.jpg	207.06792820000555	0.9995561667058439	image	8	207.06797820003703	5.000003147870302e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	207.06797820003703	0.0	trigger	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	208.31770900002448	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	210.13392640004167	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	210.16683420003392	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	213.73244350001914	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	1	n/a	n/a	n/a	217.20211840001866	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	3	False	3
+3	retr_1	block1	A	n/a	2	retrieval_ITIcross	n/a	n/a	217.71458800003165	0.7331057666490608	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	4
+3	retr_1	block1	A	n/a	2	image_1_retr	bicycle/bicycle_06.jpg	bicycle/bicycle_06.jpg	218.46432910003932	0.9999428666817778	image	2	218.4643840000499	5.490001058205962e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	218.4643840000499	0.0	trigger	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	2	image_2_retr	hammer/hammer_16.jpg	hammer/hammer_16.jpg	219.73068520001834	0.9997778666477473	image	7	219.7307456000126	6.0399994254112244e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	219.7307456000126	0.0	trigger	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	220.9801808000193	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	223.16321820003213	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	223.21282810001867	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	226.7117300000391	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	2	n/a	n/a	n/a	230.16365800000494	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	4	False	4
+3	retr_1	block1	A	n/a	3	retrieval_ITIcross	n/a	n/a	230.6770436000079	0.43322566670056517	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2
+3	retr_1	block1	A	n/a	3	image_1_retr	jacket/jacket_44.jpg	jacket/jacket_44.jpg	231.1770617000293	1.0001014666670756	image	10	231.1771083000349	4.6600005589425564e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	231.1771083000349	0.0	trigger	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	3	image_2_retr	chair/chair_11.jpg	chair/chair_11.jpg	232.44335590000264	0.9995796667101615	image	4	232.44340510002803	4.9200025387108326e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	232.44340510002803	0.0	trigger	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	233.6928370000096	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	235.44249770004535	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	235.4755589000415	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	239.00785819999874	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	3	n/a	n/a	n/a	242.46104520000517	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	2	False	2
+3	retr_1	block1	A	n/a	4	retrieval_ITIcross	n/a	n/a	242.97320380003657	0.4498522666438305	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	4
+3	retr_1	block1	A	n/a	4	image_1_retr	bicycle/bicycle_06.jpg	bicycle/bicycle_06.jpg	243.4396443000296	0.999849466669076	image	2	243.43968180002412	3.749999450519681e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	243.43968180002412	0.0	trigger	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	4	image_2_retr	ball/ball_11.jpg	ball/ball_11.jpg	244.78948880004464	0.9995478666426436	image	1	244.7895388000179	4.999997327104211e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	244.7895388000179	0.0	trigger	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	246.0390778000001	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	247.9721819999977	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	248.00499740004307	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	251.52052640001057	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	4	n/a	n/a	n/a	254.97258700005477	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	4	False	4
+3	retr_1	block1	A	n/a	5	retrieval_ITIcross	n/a	n/a	255.48589830001583	0.6498730666974097	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5
+3	retr_1	block1	A	n/a	5	image_1_retr	house/house_35.jpg	house/house_35.jpg	256.169130000053	0.9998004666451834	image	9	256.1691788000171	4.8799964133650064e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	256.1691788000171	0.0	trigger	9	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	5	image_2_retr	flower/flower_17.jpg	flower/flower_17.jpg	257.45206590002635	0.999646166692628	image	6	257.45212160004303	5.570001667365432e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	257.45212160004303	0.0	trigger	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	258.7020269000204	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	260.8347187000327	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	260.8676910000504	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	264.38317280000774	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	5	n/a	n/a	n/a	267.85192480002297	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	5	False	5
+3	retr_1	block1	A	n/a	6	retrieval_ITIcross	n/a	n/a	268.3652835000539	0.2831899666382469	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2
+3	retr_1	block1	A	n/a	6	image_1_retr	dog/dog_49.jpg	dog/dog_49.jpg	268.71523200004594	0.9996373666256204	image	5	268.7152795000002	4.7499954234808683e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	268.7152795000002	0.0	trigger	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	6	image_2_retr	jacket/jacket_44.jpg	jacket/jacket_44.jpg	270.0315163000487	1.0006365666670263	image	10	270.0315643000067	4.799995804205537e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	270.0315643000067	0.0	trigger	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	271.2812145000207	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	273.2142165999976	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	273.24711720005143	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	276.76271010003984	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	6	n/a	n/a	n/a	280.2149035000475	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	2	False	2
+3	retr_1	block1	A	n/a	7	retrieval_ITIcross	n/a	n/a	280.7280696000089	0.43323946668920144	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	3
+3	retr_1	block1	A	n/a	7	image_1_retr	hammer/hammer_16.jpg	hammer/hammer_16.jpg	281.1946140000364	0.9995452666810252	image	7	281.1946696000523	5.560001591220498e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	281.1946696000523	0.0	trigger	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	7	image_2_retr	chair/chair_11.jpg	chair/chair_11.jpg	282.4607577000279	0.9997054666785061	image	4	282.4608055000426	4.780001472681761e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	282.4608055000426	0.0	trigger	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	283.71053660003236	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	285.6767787000281	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	285.70980080001755	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	289.2253636000096	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	7	n/a	n/a	n/a	292.69398900005035	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	3	False	3
+3	retr_1	block1	A	n/a	8	retrieval_ITIcross	n/a	n/a	293.20733590004966	0.3999023666294761	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2
+3	retr_1	block1	A	n/a	8	image_1_retr	dog/dog_49.jpg	dog/dog_49.jpg	293.67403190000914	0.9995592666712128	image	5	293.6741006000084	6.86999992467463e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	293.6741006000084	0.0	trigger	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	8	image_2_retr	hand/hand_16.jpg	hand/hand_16.jpg	294.9569060000358	0.9997176666549876	image	8	294.9569593000342	5.329999839887023e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	294.9569593000342	0.0	trigger	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	296.2065505000064	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	298.0894609000534	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	298.12244440003997	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	301.638236400031	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_distance	block1	A	n/a	8	n/a	n/a	n/a	305.0895923000062	0.0	choice	n/a	n/a	n/a	[]	n/a	m	n/a	2	False	2
+3	retr_1	block1	A	n/a	9	retrieval_ITIcross	n/a	n/a	305.6035547000356	0.5997232666743457	fixcross	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	4
+3	retr_1	block1	A	n/a	9	image_1_retr	flower/flower_17.jpg	flower/flower_17.jpg	306.2365020000143	0.9999295666968919	image	6	306.23654510005144	4.310003714635968e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_1_retr	n/a	n/a	306.23654510005144	0.0	trigger	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_1	block1	A	n/a	9	image_2_retr	bread/bread_29.jpg	bread/bread_29.jpg	307.53629690001253	0.9995561667058155	image	3	307.5363480000524	5.110003985464573e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	image_2_retr	n/a	n/a	307.5363480000524	0.0	trigger	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_start	n/a	n/a	308.78596410003956	0.0	trigger	31	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	reflection_end	n/a	n/a	310.5355017000111	0.0	trigger	32	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	order_options	n/a	n/a	310.5685612000525	0.0	trigger	59	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	retr_order	block1	A	n/a	9	n/a	n/a	n/a	313.0016370000085	0.0	choice	n/a	n/a	n/a	2.4179131999844685	n/a	b	n/a	left	False	4
+3	n/a	block1	A	n/a	9	order_response	n/a	n/a	313.0016794000403	0.0	trigger	55	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+3	n/a	n/a	n/a	n/a	n/a	distance_options	n/a	n/a	313.15109320002375	0.0	trigger	58	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a

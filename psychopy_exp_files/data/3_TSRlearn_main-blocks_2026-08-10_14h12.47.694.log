@@ -1,0 +1,1853 @@
+24.8104 	INFO 	Loaded monitor calibration from ['2025_07_24 17:26']
+24.8298 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+25.0975 	INFO 	Using renderer 'AMD Radeon (TM) Graphics' for graphics
+25.0975 	INFO 	OpenGL version supported by driver is 4..
+25.1281 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B50BEED700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B50BEED6A0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0.3255, 0.3255, 0.3255]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001B50BAB5BB0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+25.1282 	EXP 	window1: backgroundImage = ''
+25.1282 	EXP 	window1: backgroundFit = 'none'
+25.5637 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+25.5637 	EXP 	window1: recordFrameIntervals = False
+25.8022 	EXP 	window1: recordFrameIntervals = True
+25.9858 	EXP 	Screen (0) actual frame rate measured at 60.07Hz
+25.9858 	EXP 	window1: recordFrameIntervals = False
+26.2791 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2792 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2793 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2793 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2794 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2794 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2795 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2795 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2796 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2796 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2797 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2797 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2797 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2798 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2799 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2799 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2800 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2800 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2800 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2801 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2801 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2801 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2802 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2802 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2802 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2803 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2803 	INFO 	keyboard.Keyboard is using ptb backend.
+26.2803 	EXP 	TSRlearn_main-blocks: status = STARTED
+26.3739 	EXP 	Created instruction_part1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3750 	EXP 	Created instruction_part2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3761 	EXP 	Created instruction_part3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3771 	EXP 	Created instruction_part4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3780 	EXP 	Created instruction_part5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3790 	EXP 	Created instruction_part6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3800 	EXP 	Created instructions_part16 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instructions_part16', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3816 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.11, 0.11]), units='height', vertices=ndarray(...), win=Window(...))
+26.3863 	EXP 	Created prompt_prc = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='prompt_prc', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.3901 	EXP 	Created dist_01_prc = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_01_prc', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.3937 	EXP 	Created dist_02_prc = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_02_prc', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.3973 	EXP 	Created correct_prc = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='correct_prc', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.3986 	EXP 	Created instructions_choose_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instructions_choose_2', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.3995 	EXP 	Created polygon_7 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([0.0039, 0.0039, 0.0039]), lineColorSpace='rgb', lineRGB=array([0.0039, 0.0039, 0.0039]), lineWidth=1.0, name='polygon_7', opacity=0.0, ori=0.0, pos=array([0., 0.]), size=array([0.11, 0.11]), units='height', vertices=ndarray(...), win=Window(...))
+26.4033 	EXP 	Created prompt_prc_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='prompt_prc_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4070 	EXP 	Created dist_01_prc_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_01_prc_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4105 	EXP 	Created dist_02_prc_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_02_prc_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4145 	EXP 	Created correct_prc_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='correct_prc_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4195 	EXP 	Created fix_cross_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+26.4207 	EXP 	Created rest_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='rest_instruction', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4219 	EXP 	Created instruction_part7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4229 	EXP 	Created instruction_part10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part10', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4239 	EXP 	Created instruction_part13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part13', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4249 	EXP 	Created instruction_part11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part11', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4259 	EXP 	Created instruction_part14 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part14', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4269 	EXP 	Created instruction_part12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part12', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4279 	EXP 	Created instruction_part15 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part15', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4290 	EXP 	Created instruction_info = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_info', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4303 	EXP 	Created instruction_part8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_part8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4310 	EXP 	Created fix_cross_retrbegin = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_retrbegin', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4354 	EXP 	Created image_1_prc = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_prc', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4398 	EXP 	Created info_example_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='info_example_3', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+26.4447 	EXP 	Created mask_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/mask_images/mask_00.png', interpolate=True, mask=None, maskParams=None, name='mask_img1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4493 	EXP 	Created info_example_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='info_example_4', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+26.4532 	EXP 	Created image_2_prc = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_prc', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4573 	EXP 	Created info_example_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='info_example_5', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+26.4621 	EXP 	Created mask_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/mask_images/mask_01.png', interpolate=True, mask=None, maskParams=None, name='mask_img2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.4662 	EXP 	Created info_example_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='info_example_6', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+26.4680 	EXP 	Created fix_cross_reflretr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_reflretr_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+26.4784 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='Denken Sie jetzt über die Antworten nach. ', units='height', win=Window(...), wrapWidth=1)
+26.4797 	EXP 	Created yes_txt_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='yes_txt_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4807 	EXP 	Created no_txt_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='no_txt_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.4819 	EXP 	Created polygon_9 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([0.0039, 0.0039, 0.0039]), lineColorSpace='rgb', lineRGB=array([0.0039, 0.0039, 0.0039]), lineWidth=2.0, name='polygon_9', opacity=0.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+26.4869 	EXP 	Created info_example_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='info_example_7', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+26.4909 	EXP 	Created info_example = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='info_example', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+26.4942 	EXP 	Created opt_2_prc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_2_prc', opacity=1, ori=0.0, pos=array([0.  , 0.05]), rgb=UNKNOWN, text='2', units='height', win=Window(...), wrapWidth=1)
+26.4969 	EXP 	Created opt_3_prc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_3_prc', opacity=1, ori=0.0, pos=array([0.05, 0.  ]), rgb=UNKNOWN, text='3', units='height', win=Window(...), wrapWidth=1)
+26.4992 	EXP 	Created opt_4_prc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_4_prc', opacity=1, ori=0.0, pos=array([ 0.  , -0.05]), rgb=UNKNOWN, text='4', units='height', win=Window(...), wrapWidth=1)
+26.5016 	EXP 	Created opt_5_prc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_5_prc', opacity=1, ori=0.0, pos=array([-0.05,  0.  ]), rgb=UNKNOWN, text='5', units='height', win=Window(...), wrapWidth=1)
+26.5027 	EXP 	Created text_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='text_feedback', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5069 	EXP 	Created info_example_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='info_example_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.8, 0.8]), texRes=128.0, units='height', win=Window(...))
+26.5082 	EXP 	Created text_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='text_continue', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5111 	EXP 	Created instructions_part7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instructions_part7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5149 	EXP 	Created scene_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='scene_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+26.5185 	EXP 	Created scene_image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='scene_image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+26.5198 	EXP 	Created polygon_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon_4', opacity=0.0, ori=0.0, pos=array([0., 0.]), size=array([0.11, 0.11]), units='height', vertices=ndarray(...), win=Window(...))
+26.5233 	EXP 	Created prompt = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='prompt', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5273 	EXP 	Created dist_01 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_01', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5311 	EXP 	Created dist_02 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_02', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5348 	EXP 	Created correct = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='correct', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5399 	EXP 	Created chooseNowText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='chooseNowText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='Bitte antworten Sie jetzt', units='height', win=Window(...), wrapWidth=1)
+26.5446 	EXP 	Created scene_image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='scene_image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+26.5457 	EXP 	Created polygon_8 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([0.0039, 0.0039, 0.0039]), lineColorSpace='rgb', lineRGB=array([0.0039, 0.0039, 0.0039]), lineWidth=1.0, name='polygon_8', opacity=0.0, ori=0.0, pos=array([0., 0.]), size=array([0.11, 0.11]), units='height', vertices=ndarray(...), win=Window(...))
+26.5495 	EXP 	Created prompt_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='prompt_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5531 	EXP 	Created dist_01_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_01_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5569 	EXP 	Created dist_02_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='dist_02_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5607 	EXP 	Created correct_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='correct_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5646 	EXP 	Created scene_image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='scene_image_4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+26.5659 	EXP 	Created tooSlowtext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='tooSlowtext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5677 	EXP 	Created fix_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+26.5688 	EXP 	Created instruction_now_retr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_now_retr', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5695 	EXP 	Created fix_cross_retrbegin_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_retrbegin_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5737 	EXP 	Created image_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5788 	EXP 	Created mask_img1_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/mask_images/mask_00.png', interpolate=True, mask=None, maskParams=None, name='mask_img1_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5827 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5875 	EXP 	Created mask_img2_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/mask_images/mask_01.png', interpolate=True, mask=None, maskParams=None, name='mask_img2_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+26.5895 	EXP 	Created fix_cross_reflretr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fix_cross_reflretr', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+26.5906 	EXP 	Created polygon_6 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([0.0039, 0.0039, 0.0039]), lineColorSpace='rgb', lineRGB=array([0.0039, 0.0039, 0.0039]), lineWidth=1.5, name='polygon_6', opacity=0.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+26.5917 	EXP 	Created yes_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='yes_txt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5927 	EXP 	Created no_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='no_txt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.5984 	EXP 	Created chooseNowText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='chooseNowText_2', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Bitte antworten Sie jetzt', units='height', win=Window(...), wrapWidth=1)
+26.5997 	EXP 	Created tooSlowtext_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='tooSlowtext_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.6058 	EXP 	Created chooseNowText_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='chooseNowText_3', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Bitte antworten Sie jetzt', units='height', win=Window(...), wrapWidth=1)
+26.6094 	EXP 	Created opt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_2', opacity=1, ori=0.0, pos=array([0.  , 0.05]), rgb=UNKNOWN, text='2', units='height', win=Window(...), wrapWidth=1)
+26.6118 	EXP 	Created opt_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_3', opacity=1, ori=0.0, pos=array([0.05, 0.  ]), rgb=UNKNOWN, text='3', units='height', win=Window(...), wrapWidth=1)
+26.6142 	EXP 	Created opt_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_4', opacity=1, ori=0.0, pos=array([ 0.  , -0.05]), rgb=UNKNOWN, text='4', units='height', win=Window(...), wrapWidth=1)
+26.6167 	EXP 	Created opt_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_5', opacity=1, ori=0.0, pos=array([-0.05,  0.  ]), rgb=UNKNOWN, text='5', units='height', win=Window(...), wrapWidth=1)
+26.6178 	EXP 	Created tooSlowtext_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='tooSlowtext_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.6191 	EXP 	Created break_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='break_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.6251 	EXP 	Created instruction_text_newroute = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instruction_text_newroute', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+26.6261 	EXP 	Created instructions_end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Sans Sherif', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='instructions_end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0089 	EXP 	break_instruction: height = 0.025
+0.0089 	EXP 	break_instruction: height = 0.025
+0.0089 	EXP 	break_instruction: height = 0.025
+0.0089 	EXP 	break_instruction: text = 'Kurze Pause. Es geht gleich weiter.'
+0.0419 	EXP 	instruction_part1: height = 0.025
+0.0419 	EXP 	instruction_part1: height = 0.025
+0.0419 	EXP 	instruction_part1: height = 0.025
+0.0419 	EXP 	instruction_part1: text = 'Willkommen zu der Aufgabe.\n\nIn diesem Experiment lernen Sie verschiedene Bildsequenzen.\n\nDie Lernphasen wechseln sich mit Abrufphasen ab.\nIn den Abrufphasen beantworten Sie Fragen zu den zuvor\ngelernten Sequenzen.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+0.0419 	EXP 	instruction_part1: autoDraw = True
+0.7765 	DATA 	Mouse: Left button down, pos=(192,182)
+0.9099 	DATA 	Mouse:  Left button up, pos=(192,182)
+1.9483 	EXP 	Device response: <KeyPress from None: t=1.9371997999842279, value=r, duration=None>
+1.9489 	DATA 	Keypress: r
+2.1253 	EXP 	Device response: <KeyPress from None: t=1.9371997999842279, value=r, duration=0.1866759000113234>
+2.5753 	EXP 	Device response: <KeyPress from None: t=2.56053850002354, value=r, duration=None>
+2.5759 	DATA 	Keypress: r
+2.6585 	EXP 	Device response: <KeyPress from None: t=2.56053850002354, value=r, duration=0.08969429996795952>
+2.7919 	EXP 	Device response: <KeyPress from None: t=2.785296500020195, value=r, duration=None>
+2.7924 	DATA 	Keypress: r
+2.9085 	EXP 	Device response: <KeyPress from None: t=2.785296500020195, value=r, duration=0.11777839995920658>
+3.0251 	INFO 	Keyboard events cleared
+6.4245 	DATA 	Mouse: Left button down, pos=(304,1)
+6.5743 	DATA 	Mouse:  Left button up, pos=(304,1)
+7.1072 	EXP 	Device response: <KeyPress from None: t=7.091738799994346, value=r, duration=None>
+7.1177 	DATA 	Keypress: r
+7.1233 	EXP 	instruction_part1: autoDraw = False
+7.1233 	EXP 	instruction_part2: height = 0.025
+7.1233 	EXP 	instruction_part2: height = 0.025
+7.1233 	EXP 	instruction_part2: height = 0.025
+7.1233 	EXP 	instruction_part2: text = 'Um sich die Reihenfolge besser zu merken, verbinden Sie die\nBilder gedanklich zu einer Geschichte.\n\nZum Beispiel: Der Hund spielt Gitarre, danach geht die Lampe an.\n\nZunächst üben Sie die Lernphasen.\n\nDrücken Sie eine beliebige Taste, um zu erfahren, wie diese ablaufen.'
+7.1233 	EXP 	instruction_part2: autoDraw = True
+7.1902 	EXP 	Device response: <KeyPress from None: t=7.091738799994346, value=r, duration=0.0854733000160195>
+7.7899 	EXP 	Device response: <KeyPress from None: t=7.781550200015772, value=r, duration=None>
+7.7904 	DATA 	Keypress: r
+7.8566 	EXP 	Device response: <KeyPress from None: t=7.781550200015772, value=r, duration=0.06943510001292452>
+8.1066 	EXP 	Device response: <KeyPress from None: t=8.106135800015181, value=r, duration=None>
+8.1071 	DATA 	Keypress: r
+8.1899 	EXP 	Device response: <KeyPress from None: t=8.106135800015181, value=r, duration=0.07418699999107048>
+8.3566 	EXP 	Device response: <KeyPress from None: t=8.345599199994467, value=r, duration=None>
+8.3571 	DATA 	Keypress: r
+8.4734 	EXP 	Device response: <KeyPress from None: t=8.345599199994467, value=r, duration=0.12385370000265539>
+9.2563 	EXP 	Device response: <KeyPress from None: t=9.244933400012087, value=r, duration=None>
+9.2567 	DATA 	Keypress: r
+9.3229 	EXP 	Device response: <KeyPress from None: t=9.244933400012087, value=r, duration=0.06939939997391775>
+9.4561 	EXP 	Device response: <KeyPress from None: t=9.445336700009648, value=r, duration=None>
+9.4566 	DATA 	Keypress: r
+9.5730 	EXP 	Device response: <KeyPress from None: t=9.445336700009648, value=r, duration=0.12184279999928549>
+10.1225 	INFO 	Keyboard events cleared
+10.7058 	EXP 	Device response: <KeyPress from None: t=10.696189899987075, value=r, duration=None>
+10.7139 	DATA 	Keypress: r
+10.7222 	EXP 	instruction_part2: autoDraw = False
+10.7222 	EXP 	instruction_part3: height = 0.025
+10.7222 	EXP 	instruction_part3: height = 0.025
+10.7222 	EXP 	instruction_part3: height = 0.025
+10.7222 	EXP 	instruction_part3: text = 'In jedem Lerndurchgang sehen Sie unten das aktuelle Bild\nder Sequenz. Oben werden drei Bilder angezeigt.\n\nWählen Sie das Bild aus, das als Nächstes in der Sequenz folgt.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+10.7222 	EXP 	instruction_part3: autoDraw = True
+10.8726 	EXP 	Device response: <KeyPress from None: t=10.696189899987075, value=r, duration=0.1641819000360556>
+11.2056 	EXP 	Device response: <KeyPress from None: t=11.20098710001912, value=r, duration=None>
+11.2061 	DATA 	Keypress: r
+11.3224 	EXP 	Device response: <KeyPress from None: t=11.20098710001912, value=r, duration=0.10762119997525588>
+11.4723 	EXP 	Device response: <KeyPress from None: t=11.45755220000865, value=r, duration=None>
+11.4728 	DATA 	Keypress: r
+11.5558 	EXP 	Device response: <KeyPress from None: t=11.45755220000865, value=r, duration=0.08562289999099448>
+11.6554 	EXP 	Device response: <KeyPress from None: t=11.653035600029398, value=r, duration=None>
+11.6559 	DATA 	Keypress: r
+11.7887 	EXP 	Device response: <KeyPress from None: t=11.653035600029398, value=r, duration=0.11997699999483302>
+11.8721 	EXP 	Device response: <KeyPress from None: t=11.870546700025443, value=r, duration=None>
+11.8727 	DATA 	Keypress: r
+11.9889 	EXP 	Device response: <KeyPress from None: t=11.870546700025443, value=r, duration=0.1078404999570921>
+13.2885 	EXP 	Device response: <KeyPress from None: t=13.285633100022096, value=r, duration=None>
+13.2891 	DATA 	Keypress: r
+13.4718 	EXP 	Device response: <KeyPress from None: t=13.285633100022096, value=r, duration=0.17414769995957613>
+13.6383 	EXP 	Device response: <KeyPress from None: t=13.632038599986117, value=r, duration=None>
+13.6388 	DATA 	Keypress: r
+13.7214 	INFO 	Keyboard events cleared
+13.8050 	EXP 	Device response: <KeyPress from None: t=13.632038599986117, value=r, duration=0.1681891999905929>
+13.9050 	EXP 	Device response: <KeyPress from None: t=13.891955400002189, value=r, duration=None>
+13.9152 	DATA 	Keypress: r
+13.9212 	EXP 	instruction_part3: autoDraw = False
+13.9212 	EXP 	instruction_part4: height = 0.025
+13.9212 	EXP 	instruction_part4: height = 0.025
+13.9212 	EXP 	instruction_part4: height = 0.025
+13.9212 	EXP 	instruction_part4: text = 'Verwenden Sie die linke grüne, die rechte blaue\nund die obere rote Taste, um das linke, rechte oder mittlere\nBild auszuwählen.\n\nDie Position der Bilder auf dem Bildschirm\nhat keine Bedeutung für die Reihenfolge der Sequenz.\nJedes Bild kann an jeder Position erscheinen.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+13.9212 	EXP 	instruction_part4: autoDraw = True
+13.9549 	EXP 	Device response: <KeyPress from None: t=13.891955400002189, value=r, duration=0.053265700000338256>
+14.0049 	EXP 	Device response: <KeyPress from None: t=13.99361449998105, value=r, duration=None>
+14.0055 	DATA 	Keypress: r
+14.0881 	EXP 	Device response: <KeyPress from None: t=13.99361449998105, value=r, duration=0.0875711000408046>
+14.1881 	EXP 	Device response: <KeyPress from None: t=14.18726630002493, value=r, duration=None>
+14.1885 	DATA 	Keypress: r
+14.3049 	EXP 	Device response: <KeyPress from None: t=14.18726630002493, value=r, duration=0.1023945999913849>
+14.4384 	EXP 	Device response: <KeyPress from None: t=14.423614699975587, value=r, duration=None>
+14.4390 	DATA 	Keypress: r
+14.5381 	EXP 	Device response: <KeyPress from None: t=14.423614699975587, value=r, duration=0.10369870002614334>
+14.6549 	EXP 	Device response: <KeyPress from None: t=14.64014319999842, value=r, duration=None>
+14.6555 	DATA 	Keypress: r
+14.8212 	EXP 	Device response: <KeyPress from None: t=14.64014319999842, value=r, duration=0.16441810003016144>
+14.9377 	EXP 	Device response: <KeyPress from None: t=14.928290000010747, value=r, duration=None>
+14.9382 	DATA 	Keypress: r
+15.0210 	EXP 	Device response: <KeyPress from None: t=14.928290000010747, value=r, duration=0.08954169997014105>
+15.1376 	EXP 	Device response: <KeyPress from None: t=15.126538200012874, value=r, duration=None>
+15.1382 	DATA 	Keypress: r
+15.2210 	EXP 	Device response: <KeyPress from None: t=15.126538200012874, value=r, duration=0.08965049998369068>
+15.3543 	EXP 	Device response: <KeyPress from None: t=15.33817880001152, value=r, duration=None>
+15.3547 	DATA 	Keypress: r
+15.4544 	EXP 	Device response: <KeyPress from None: t=15.33817880001152, value=r, duration=0.10156559996539727>
+15.5543 	EXP 	Device response: <KeyPress from None: t=15.553904699976556, value=r, duration=None>
+15.5547 	DATA 	Keypress: r
+15.6879 	EXP 	Device response: <KeyPress from None: t=15.553904699976556, value=r, duration=0.11960120004368946>
+15.7876 	EXP 	Device response: <KeyPress from None: t=15.77725179999834, value=r, duration=None>
+15.7883 	DATA 	Keypress: r
+15.8876 	EXP 	Device response: <KeyPress from None: t=15.77725179999834, value=r, duration=0.10371180000947788>
+16.0042 	EXP 	Device response: <KeyPress from None: t=15.994821699976455, value=r, duration=None>
+16.0047 	DATA 	Keypress: r
+16.1041 	EXP 	Device response: <KeyPress from None: t=15.994821699976455, value=r, duration=0.10356820002198219>
+16.2208 	EXP 	Device response: <KeyPress from None: t=16.20622930000536, value=r, duration=None>
+16.2213 	DATA 	Keypress: r
+16.3040 	EXP 	Device response: <KeyPress from None: t=16.20622930000536, value=r, duration=0.09570920001715422>
+16.4207 	EXP 	Device response: <KeyPress from None: t=16.415775700006634, value=r, duration=None>
+16.4213 	DATA 	Keypress: r
+16.5206 	EXP 	Device response: <KeyPress from None: t=16.415775700006634, value=r, duration=0.0895557000185363>
+16.7372 	EXP 	Device response: <KeyPress from None: t=16.72596780001186, value=r, duration=None>
+16.7377 	DATA 	Keypress: r
+16.9205 	INFO 	Keyboard events cleared
+16.9873 	EXP 	Device response: <KeyPress from None: t=16.72596780001186, value=r, duration=0.25272449996555224>
+17.3537 	EXP 	Device response: <KeyPress from None: t=17.346317099989392, value=r, duration=None>
+17.3595 	DATA 	Keypress: r
+17.3700 	EXP 	instruction_part4: autoDraw = False
+17.3700 	EXP 	instruction_part5: height = 0.025
+17.3700 	EXP 	instruction_part5: height = 0.025
+17.3700 	EXP 	instruction_part5: height = 0.025
+17.3700 	EXP 	instruction_part5: text = 'Nach Ihrer Auswahl erhalten Sie Feedback:\nDas richtige nächste Bild bewegt sich nach unten\nund wird zum aktuellen Bild für den nächsten Lerndurchgang.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+17.3700 	EXP 	instruction_part5: autoDraw = True
+17.4870 	EXP 	Device response: <KeyPress from None: t=17.346317099989392, value=r, duration=0.1359358000336215>
+17.5704 	EXP 	Device response: <KeyPress from None: t=17.561825799988583, value=r, duration=None>
+17.5708 	DATA 	Keypress: r
+17.6702 	EXP 	Device response: <KeyPress from None: t=17.561825799988583, value=r, duration=0.10165480000432581>
+17.9368 	EXP 	Device response: <KeyPress from None: t=17.921502400015015, value=r, duration=None>
+17.9373 	DATA 	Keypress: r
+18.0369 	EXP 	Device response: <KeyPress from None: t=17.921502400015015, value=r, duration=0.10974019998684525>
+18.1368 	EXP 	Device response: <KeyPress from None: t=18.130879500007723, value=r, duration=None>
+18.1374 	DATA 	Keypress: r
+18.2537 	EXP 	Device response: <KeyPress from None: t=18.130879500007723, value=r, duration=0.11387429997557774>
+18.5700 	EXP 	Device response: <KeyPress from None: t=18.565991499985103, value=r, duration=None>
+18.5704 	DATA 	Keypress: r
+18.6699 	EXP 	Device response: <KeyPress from None: t=18.565991499985103, value=r, duration=0.09154920000582933>
+18.8031 	EXP 	Device response: <KeyPress from None: t=18.789504699991085, value=r, duration=None>
+18.8035 	DATA 	Keypress: r
+18.8865 	EXP 	Device response: <KeyPress from None: t=18.789504699991085, value=r, duration=0.09161080000922084>
+19.0032 	EXP 	Device response: <KeyPress from None: t=19.002034300006926, value=r, duration=None>
+19.0037 	DATA 	Keypress: r
+19.1197 	EXP 	Device response: <KeyPress from None: t=19.002034300006926, value=r, duration=0.10366099997190759>
+19.2368 	EXP 	Device response: <KeyPress from None: t=19.232745699991938, value=r, duration=None>
+19.2375 	DATA 	Keypress: r
+19.3199 	EXP 	Device response: <KeyPress from None: t=19.232745699991938, value=r, duration=0.07644660002551973>
+19.5198 	EXP 	Device response: <KeyPress from None: t=19.509716500004288, value=r, duration=None>
+19.5204 	DATA 	Keypress: r
+19.6030 	EXP 	Device response: <KeyPress from None: t=19.509716500004288, value=r, duration=0.08550069999182597>
+19.7196 	EXP 	Device response: <KeyPress from None: t=19.713196300028358, value=r, duration=None>
+19.7202 	DATA 	Keypress: r
+19.8196 	EXP 	Device response: <KeyPress from None: t=19.713196300028358, value=r, duration=0.10358709999127313>
+19.9363 	EXP 	Device response: <KeyPress from None: t=19.923646499984898, value=r, duration=None>
+19.9369 	DATA 	Keypress: r
+20.0530 	EXP 	Device response: <KeyPress from None: t=19.923646499984898, value=r, duration=0.11980839999159798>
+20.1527 	EXP 	Device response: <KeyPress from None: t=20.137062199995853, value=r, duration=None>
+20.1531 	DATA 	Keypress: r
+20.2528 	EXP 	Device response: <KeyPress from None: t=20.137062199995853, value=r, duration=0.10575360001530498>
+20.3693 	INFO 	Keyboard events cleared
+20.4861 	EXP 	Device response: <KeyPress from None: t=20.474617499974556, value=r, duration=None>
+20.5619 	EXP 	Device response: <KeyPress from None: t=20.474617499974556, value=r, duration=0.08155320002697408>
+20.5630 	DATA 	Keypress: r
+20.5691 	EXP 	instruction_part5: autoDraw = False
+20.5691 	EXP 	instruction_part6: height = 0.025
+20.5691 	EXP 	instruction_part6: height = 0.025
+20.5691 	EXP 	instruction_part6: height = 0.025
+20.5691 	EXP 	instruction_part6: text = 'Wichtig: Auch bei einer falschen Antwort bewegt\nsich immer das richtige nächste Bild nach unten.\n\nSo lernen Sie die Sequenz schrittweise durch Versuch\nund Irrtum. Antworten Sie bitte so schnell und genau wie möglich.\n\nDrücken Sie eine beliebige Taste, um fortzufahren'
+20.5691 	EXP 	instruction_part6: autoDraw = True
+20.7026 	EXP 	Device response: <KeyPress from None: t=20.701311499986332, value=r, duration=None>
+20.7031 	DATA 	Keypress: r
+20.8026 	EXP 	Device response: <KeyPress from None: t=20.701311499986332, value=r, duration=0.08736790000693873>
+20.9360 	EXP 	Device response: <KeyPress from None: t=20.923617799999192, value=r, duration=None>
+20.9365 	DATA 	Keypress: r
+21.0525 	EXP 	Device response: <KeyPress from None: t=20.923617799999192, value=r, duration=0.112043300003279>
+21.1524 	EXP 	Device response: <KeyPress from None: t=21.146215400018264, value=r, duration=None>
+21.1529 	DATA 	Keypress: r
+21.2857 	EXP 	Device response: <KeyPress from None: t=21.146215400018264, value=r, duration=0.12383439997211099>
+21.3690 	EXP 	Device response: <KeyPress from None: t=21.367752199992537, value=r, duration=None>
+21.3695 	DATA 	Keypress: r
+21.4690 	EXP 	Device response: <KeyPress from None: t=21.367752199992537, value=r, duration=0.09572099999058992>
+21.5858 	EXP 	Device response: <KeyPress from None: t=21.577272999973502, value=r, duration=None>
+21.5864 	DATA 	Keypress: r
+21.6858 	EXP 	Device response: <KeyPress from None: t=21.577272999973502, value=r, duration=0.10582440003054217>
+21.8191 	EXP 	Device response: <KeyPress from None: t=21.804050499980804, value=r, duration=None>
+21.8197 	DATA 	Keypress: r
+21.9188 	EXP 	Device response: <KeyPress from None: t=21.804050499980804, value=r, duration=0.10357289999956265>
+22.0355 	EXP 	Device response: <KeyPress from None: t=22.02544990001479, value=r, duration=None>
+22.0361 	DATA 	Keypress: r
+22.1854 	EXP 	Device response: <KeyPress from None: t=22.02544990001479, value=r, duration=0.15606040001148358>
+22.3690 	EXP 	Device response: <KeyPress from None: t=22.35295660002157, value=r, duration=None>
+22.3698 	DATA 	Keypress: r
+22.4690 	EXP 	Device response: <KeyPress from None: t=22.35295660002157, value=r, duration=0.1014753999770619>
+22.6022 	EXP 	Device response: <KeyPress from None: t=22.594516000011936, value=r, duration=None>
+22.6026 	DATA 	Keypress: r
+22.7356 	EXP 	Device response: <KeyPress from None: t=22.594516000011936, value=r, duration=0.13400479999836534>
+22.9692 	EXP 	Device response: <KeyPress from None: t=22.96758840000257, value=r, duration=None>
+22.9700 	DATA 	Keypress: r
+23.1021 	EXP 	Device response: <KeyPress from None: t=22.96758840000257, value=r, duration=0.12141119997249916>
+23.3519 	EXP 	Device response: <KeyPress from None: t=23.34282700001495, value=r, duration=None>
+23.3524 	DATA 	Keypress: r
+23.4685 	EXP 	Device response: <KeyPress from None: t=23.34282700001495, value=r, duration=0.1157668000087142>
+23.5019 	INFO 	Keyboard events cleared
+23.9017 	EXP 	Device response: <KeyPress from None: t=23.89072159997886, value=r, duration=None>
+23.9091 	DATA 	Keypress: r
+23.9180 	EXP 	instruction_part6: autoDraw = False
+23.9180 	EXP 	instructions_part16: height = 0.025
+23.9180 	EXP 	instructions_part16: height = 0.025
+23.9180 	EXP 	instructions_part16: height = 0.025
+23.9180 	EXP 	instructions_part16: text = 'Nach jedem Lerndurchlauf erscheint für kurze Zeit\nein Fixationskreuz.\n\nDiese Wartezeit ist keine Pause.\nBitte bleiben Sie weiterhin ruhig sitzen und schauen\nSie auf das Fixationskreuz.\n\nDrücken Sie eine beliebige Taste, um das Lernen zu üben.'
+23.9180 	EXP 	instructions_part16: autoDraw = True
+23.9683 	EXP 	Device response: <KeyPress from None: t=23.89072159997886, value=r, duration=0.06743819999974221>
+24.0852 	EXP 	Device response: <KeyPress from None: t=24.078050900017843, value=r, duration=None>
+24.0857 	DATA 	Keypress: r
+24.1519 	EXP 	Device response: <KeyPress from None: t=24.078050900017843, value=r, duration=0.06347180000739172>
+24.2686 	EXP 	Device response: <KeyPress from None: t=24.25839819997782, value=r, duration=None>
+24.2692 	DATA 	Keypress: r
+24.3517 	EXP 	Device response: <KeyPress from None: t=24.25839819997782, value=r, duration=0.0905481000081636>
+24.6847 	EXP 	Device response: <KeyPress from None: t=24.66945669997949, value=r, duration=None>
+24.6853 	DATA 	Keypress: r
+24.7847 	EXP 	Device response: <KeyPress from None: t=24.66945669997949, value=r, duration=0.09952710004290566>
+24.9013 	INFO 	Keyboard events cleared
+24.9019 	DATA 	Keypress: r
+25.3847 	EXP 	Device response: <KeyPress from None: t=25.373375500028487, value=r, duration=None>
+25.3923 	EXP 	Imported sequences/main_trials_prc.xlsx as conditions, 6 conditions, 8 params
+25.3926 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'promptFile': 'stimuli/practice_images/anchor.jpg', 'correctFile': 'stimuli/practice_images/cow.jpg', 'dist_01File': 'stimuli/practice_images/bread.jpg', 'dist_02File': 'stimuli/practice_images/plane.jpg', 'correct_pos': 'right', 'dist01_pos': 'left', 'dist02_pos': 'center', 'correct_ans': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+25.3927 	INFO 	Keyboard events cleared
+25.5348 	INFO 	Keyboard events cleared
+25.5395 	DATA 	Keypress: r
+25.5676 	EXP 	instructions_part16: autoDraw = False
+25.5676 	EXP 	prompt_prc: image = 'stimuli/practice_images/anchor.jpg'
+25.5676 	EXP 	dist_01_prc: image = 'stimuli/practice_images/bread.jpg'
+25.5676 	EXP 	dist_02_prc: image = 'stimuli/practice_images/plane.jpg'
+25.5676 	EXP 	correct_prc: image = 'stimuli/practice_images/cow.jpg'
+25.5676 	EXP 	instructions_choose_2: height = 0.025
+25.5676 	EXP 	instructions_choose_2: height = 0.025
+25.5676 	EXP 	instructions_choose_2: height = 0.025
+25.5676 	EXP 	instructions_choose_2: text = 'Wählen Sie das nächste Bild in der Sequenz.'
+25.5676 	EXP 	polygon: autoDraw = True
+25.5676 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+25.5676 	EXP 	prompt_prc: autoDraw = True
+25.5676 	EXP 	dist_01_prc: autoDraw = True
+25.5676 	EXP 	dist_02_prc: autoDraw = True
+25.5676 	EXP 	correct_prc: autoDraw = True
+25.5676 	EXP 	instructions_choose_2: autoDraw = True
+25.5845 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+25.6012 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+25.6017 	EXP 	Device response: <KeyPress from None: t=25.599894599989057, value=r, duration=None>
+25.6039 	DATA 	Keypress: r
+25.6176 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+25.6176 	EXP 	polygon: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+25.6176 	EXP 	polygon: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+25.6342 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+25.6509 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+25.6684 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+25.6844 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+25.7009 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+25.7176 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+25.7183 	EXP 	Device response: <KeyPress from None: t=25.373375500028487, value=r, duration=0.33825139998225495>
+25.8675 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+25.8675 	EXP 	polygon: autoDraw = False
+25.8675 	EXP 	prompt_prc: autoDraw = False
+25.8675 	EXP 	dist_01_prc: autoDraw = False
+25.8675 	EXP 	dist_02_prc: autoDraw = False
+25.8675 	EXP 	correct_prc: autoDraw = False
+25.8675 	EXP 	instructions_choose_2: autoDraw = False
+25.8675 	EXP 	polygon_7: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+25.8675 	EXP 	polygon_7: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+25.8675 	EXP 	prompt_prc_2: image = 'stimuli/practice_images/anchor.jpg'
+25.8675 	EXP 	dist_01_prc_2: image = 'stimuli/practice_images/bread.jpg'
+25.8675 	EXP 	dist_02_prc_2: image = 'stimuli/practice_images/plane.jpg'
+25.8675 	EXP 	correct_prc_2: image = 'stimuli/practice_images/cow.jpg'
+25.8675 	EXP 	polygon_7: autoDraw = True
+25.8675 	EXP 	prompt_prc_2: autoDraw = True
+25.8675 	EXP 	dist_01_prc_2: autoDraw = True
+25.8675 	EXP 	dist_02_prc_2: autoDraw = True
+25.8675 	EXP 	correct_prc_2: autoDraw = True
+25.8681 	EXP 	Device response: <KeyPress from None: t=25.83452799997758, value=r, duration=None>
+25.8697 	DATA 	Keypress: r
+25.9177 	EXP 	Device response: <KeyPress from None: t=25.599894599989057, value=r, duration=0.31004630000097677>
+26.8176 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'promptFile': 'stimuli/practice_images/cow.jpg', 'correctFile': 'stimuli/practice_images/ant.jpg', 'dist_01File': 'stimuli/practice_images/banana.jpg', 'dist_02File': 'stimuli/practice_images/glasses.jpg', 'correct_pos': 'left', 'dist01_pos': 'right', 'dist02_pos': 'center', 'correct_ans': 'left', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+26.8177 	INFO 	Keyboard events cleared
+26.9302 	INFO 	Keyboard events cleared
+26.9504 	EXP 	polygon_7: autoDraw = False
+26.9504 	EXP 	prompt_prc_2: autoDraw = False
+26.9504 	EXP 	dist_01_prc_2: autoDraw = False
+26.9504 	EXP 	dist_02_prc_2: autoDraw = False
+26.9504 	EXP 	correct_prc_2: autoDraw = False
+26.9504 	EXP 	prompt_prc: image = 'stimuli/practice_images/cow.jpg'
+26.9504 	EXP 	dist_01_prc: image = 'stimuli/practice_images/banana.jpg'
+26.9504 	EXP 	dist_02_prc: image = 'stimuli/practice_images/glasses.jpg'
+26.9504 	EXP 	correct_prc: image = 'stimuli/practice_images/ant.jpg'
+26.9504 	EXP 	instructions_choose_2: text = 'Wählen Sie das nächste Bild in der Sequenz.'
+26.9504 	EXP 	polygon: autoDraw = True
+26.9504 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+26.9504 	EXP 	prompt_prc: autoDraw = True
+26.9504 	EXP 	dist_01_prc: autoDraw = True
+26.9504 	EXP 	dist_02_prc: autoDraw = True
+26.9504 	EXP 	correct_prc: autoDraw = True
+26.9504 	EXP 	instructions_choose_2: autoDraw = True
+26.9672 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+26.9839 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.0009 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.0173 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.0338 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.0507 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.0672 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.0840 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.1008 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.1174 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.1341 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.1507 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.1676 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.1839 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.2005 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.2172 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.2339 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.2506 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.2673 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.2840 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.3005 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.3172 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.3338 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.3506 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.3673 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.3839 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.4006 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.4172 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.4340 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.4504 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.4672 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.4837 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.5006 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.5172 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.5338 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.5508 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.5676 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.5839 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.6006 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.6172 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.6339 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.6505 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.6673 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.6839 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.7005 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.7173 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.7339 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.7505 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.7672 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.7838 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.8005 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.8172 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.8336 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.8503 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.8671 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.8837 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.9004 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.9171 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.9338 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.9511 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.9669 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.9838 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+27.9844 	EXP 	Device response: <KeyPress from None: t=27.968777399975806, value=r, duration=None>
+27.9865 	DATA 	Keypress: r
+28.0002 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+28.0002 	EXP 	polygon: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+28.0002 	EXP 	polygon: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+28.0169 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+28.0336 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+28.0501 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+28.0668 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+28.0838 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+28.1002 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+28.2166 	EXP 	Device response: <KeyPress from None: t=25.83452799997758, value=r, duration=2.270100800029468>
+28.2503 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+28.2503 	EXP 	polygon: autoDraw = False
+28.2503 	EXP 	prompt_prc: autoDraw = False
+28.2503 	EXP 	dist_01_prc: autoDraw = False
+28.2503 	EXP 	dist_02_prc: autoDraw = False
+28.2503 	EXP 	correct_prc: autoDraw = False
+28.2503 	EXP 	instructions_choose_2: autoDraw = False
+28.2503 	EXP 	polygon_7: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+28.2503 	EXP 	polygon_7: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+28.2503 	EXP 	prompt_prc_2: image = 'stimuli/practice_images/cow.jpg'
+28.2503 	EXP 	dist_01_prc_2: image = 'stimuli/practice_images/banana.jpg'
+28.2503 	EXP 	dist_02_prc_2: image = 'stimuli/practice_images/glasses.jpg'
+28.2503 	EXP 	correct_prc_2: image = 'stimuli/practice_images/ant.jpg'
+28.2503 	EXP 	polygon_7: autoDraw = True
+28.2503 	EXP 	prompt_prc_2: autoDraw = True
+28.2503 	EXP 	dist_01_prc_2: autoDraw = True
+28.2503 	EXP 	dist_02_prc_2: autoDraw = True
+28.2503 	EXP 	correct_prc_2: autoDraw = True
+29.2004 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'promptFile': 'stimuli/practice_images/ant.jpg', 'correctFile': 'stimuli/practice_images/basket.jpg', 'dist_01File': 'stimuli/practice_images/axe.jpg', 'dist_02File': 'stimuli/practice_images/duck.jpg', 'correct_pos': 'center', 'dist01_pos': 'left', 'dist02_pos': 'right', 'correct_ans': 'up', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+29.2005 	INFO 	Keyboard events cleared
+29.3043 	INFO 	Keyboard events cleared
+29.3331 	EXP 	polygon_7: autoDraw = False
+29.3331 	EXP 	prompt_prc_2: autoDraw = False
+29.3331 	EXP 	dist_01_prc_2: autoDraw = False
+29.3331 	EXP 	dist_02_prc_2: autoDraw = False
+29.3331 	EXP 	correct_prc_2: autoDraw = False
+29.3331 	EXP 	prompt_prc: image = 'stimuli/practice_images/ant.jpg'
+29.3331 	EXP 	dist_01_prc: image = 'stimuli/practice_images/axe.jpg'
+29.3331 	EXP 	dist_02_prc: image = 'stimuli/practice_images/duck.jpg'
+29.3331 	EXP 	correct_prc: image = 'stimuli/practice_images/basket.jpg'
+29.3331 	EXP 	instructions_choose_2: text = 'Wählen Sie das nächste Bild in der Sequenz.'
+29.3331 	EXP 	polygon: autoDraw = True
+29.3331 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.3331 	EXP 	prompt_prc: autoDraw = True
+29.3331 	EXP 	dist_01_prc: autoDraw = True
+29.3331 	EXP 	dist_02_prc: autoDraw = True
+29.3331 	EXP 	correct_prc: autoDraw = True
+29.3331 	EXP 	instructions_choose_2: autoDraw = True
+29.3498 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.3665 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.3832 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.3997 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.4165 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.4333 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.4497 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.4663 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.4831 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.4997 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.5164 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.5335 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.5502 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.5666 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.5830 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.5834 	EXP 	Device response: <KeyPress from None: t=29.571047500008717, value=g, duration=None>
+29.5852 	DATA 	Keypress: g
+29.5999 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+29.5999 	EXP 	polygon: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+29.5999 	EXP 	polygon: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+29.6165 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+29.6329 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+29.6497 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+29.6664 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+29.6830 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+29.6995 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+29.8104 	EXP 	Device response: <KeyPress from None: t=29.571047500008717, value=g, duration=0.16413619997911155>
+29.8328 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+29.8328 	EXP 	polygon: autoDraw = False
+29.8328 	EXP 	prompt_prc: autoDraw = False
+29.8328 	EXP 	dist_01_prc: autoDraw = False
+29.8328 	EXP 	dist_02_prc: autoDraw = False
+29.8328 	EXP 	correct_prc: autoDraw = False
+29.8328 	EXP 	instructions_choose_2: autoDraw = False
+29.8328 	EXP 	polygon_7: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+29.8328 	EXP 	polygon_7: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+29.8328 	EXP 	prompt_prc_2: image = 'stimuli/practice_images/ant.jpg'
+29.8328 	EXP 	dist_01_prc_2: image = 'stimuli/practice_images/axe.jpg'
+29.8328 	EXP 	dist_02_prc_2: image = 'stimuli/practice_images/duck.jpg'
+29.8328 	EXP 	correct_prc_2: image = 'stimuli/practice_images/basket.jpg'
+29.8328 	EXP 	polygon_7: autoDraw = True
+29.8328 	EXP 	prompt_prc_2: autoDraw = True
+29.8328 	EXP 	dist_01_prc_2: autoDraw = True
+29.8328 	EXP 	dist_02_prc_2: autoDraw = True
+29.8328 	EXP 	correct_prc_2: autoDraw = True
+30.8163 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'promptFile': 'stimuli/practice_images/basket.jpg', 'correctFile': 'stimuli/practice_images/bed.jpg', 'dist_01File': 'stimuli/practice_images/belt.jpg', 'dist_02File': 'stimuli/practice_images/bread.jpg', 'correct_pos': 'center', 'dist01_pos': 'right', 'dist02_pos': 'left', 'correct_ans': 'up', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+30.8164 	INFO 	Keyboard events cleared
+30.9204 	INFO 	Keyboard events cleared
+30.9492 	EXP 	polygon_7: autoDraw = False
+30.9492 	EXP 	prompt_prc_2: autoDraw = False
+30.9492 	EXP 	dist_01_prc_2: autoDraw = False
+30.9492 	EXP 	dist_02_prc_2: autoDraw = False
+30.9492 	EXP 	correct_prc_2: autoDraw = False
+30.9492 	EXP 	prompt_prc: image = 'stimuli/practice_images/basket.jpg'
+30.9492 	EXP 	dist_01_prc: image = 'stimuli/practice_images/belt.jpg'
+30.9492 	EXP 	dist_02_prc: image = 'stimuli/practice_images/bread.jpg'
+30.9492 	EXP 	correct_prc: image = 'stimuli/practice_images/bed.jpg'
+30.9492 	EXP 	instructions_choose_2: text = 'Wählen Sie das nächste Bild in der Sequenz.'
+30.9492 	EXP 	polygon: autoDraw = True
+30.9492 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+30.9492 	EXP 	prompt_prc: autoDraw = True
+30.9492 	EXP 	dist_01_prc: autoDraw = True
+30.9492 	EXP 	dist_02_prc: autoDraw = True
+30.9492 	EXP 	correct_prc: autoDraw = True
+30.9492 	EXP 	instructions_choose_2: autoDraw = True
+30.9660 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+30.9825 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+30.9993 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.0158 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.0324 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.0494 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.0658 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.0825 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.0992 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.1158 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.1325 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.1493 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.1658 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.1827 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.1993 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.2159 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.2326 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.2343 	DATA 	Keypress: t
+31.2493 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.2497 	EXP 	Device response: <KeyPress from None: t=31.23305480001727, value=t, duration=None>
+31.2659 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.2824 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.2991 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.3159 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.3325 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.3491 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.3658 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.3824 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.3992 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.4159 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.4164 	EXP 	Device response: <KeyPress from None: t=31.23305480001727, value=t, duration=0.17591019999235868>
+31.4325 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.4492 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.4658 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.4825 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.4992 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.5158 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.5325 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.5492 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.5657 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.5825 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.5989 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.6156 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.6325 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.6490 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.6657 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.6824 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.6989 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.7157 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.7323 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.7489 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.7655 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.7823 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.7989 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.8156 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.8322 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.8490 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.8656 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.8822 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.9000 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.9157 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.9323 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.9492 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.9661 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.9825 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+31.9990 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.0161 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.0326 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.0496 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.0657 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.0833 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.0996 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.1160 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.1324 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.1489 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.1656 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.1823 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.1989 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.2157 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.2322 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.2488 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.2656 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.2822 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.2988 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.3155 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.3321 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.3490 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.3655 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.3823 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.3991 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.4155 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.4322 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.4488 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.4655 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.4822 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.4987 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.5154 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.5323 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.5488 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.5654 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.5822 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.5988 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.6154 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.6323 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.6488 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.6656 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.6821 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.6988 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.7155 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.7320 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.7487 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.7492 	EXP 	Device response: <KeyPress from None: t=32.734660500020254, value=g, duration=None>
+32.7513 	DATA 	Keypress: g
+32.7652 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+32.7652 	EXP 	polygon: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+32.7652 	EXP 	polygon: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+32.7820 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+32.7987 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+32.8153 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+32.8319 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+32.8487 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+32.8492 	EXP 	Device response: <KeyPress from None: t=32.734660500020254, value=g, duration=0.11383079999359325>
+32.8653 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+32.9985 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+32.9985 	EXP 	polygon: autoDraw = False
+32.9985 	EXP 	prompt_prc: autoDraw = False
+32.9985 	EXP 	dist_01_prc: autoDraw = False
+32.9985 	EXP 	dist_02_prc: autoDraw = False
+32.9985 	EXP 	correct_prc: autoDraw = False
+32.9985 	EXP 	instructions_choose_2: autoDraw = False
+32.9985 	EXP 	polygon_7: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+32.9985 	EXP 	polygon_7: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+32.9985 	EXP 	prompt_prc_2: image = 'stimuli/practice_images/basket.jpg'
+32.9985 	EXP 	dist_01_prc_2: image = 'stimuli/practice_images/belt.jpg'
+32.9985 	EXP 	dist_02_prc_2: image = 'stimuli/practice_images/bread.jpg'
+32.9985 	EXP 	correct_prc_2: image = 'stimuli/practice_images/bed.jpg'
+32.9985 	EXP 	polygon_7: autoDraw = True
+32.9985 	EXP 	prompt_prc_2: autoDraw = True
+32.9985 	EXP 	dist_01_prc_2: autoDraw = True
+32.9985 	EXP 	dist_02_prc_2: autoDraw = True
+32.9985 	EXP 	correct_prc_2: autoDraw = True
+33.9820 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'promptFile': 'stimuli/practice_images/bed.jpg', 'correctFile': 'stimuli/practice_images/belt.jpg', 'dist_01File': 'stimuli/practice_images/anchor.jpg', 'dist_02File': 'stimuli/practice_images/desk.jpg', 'correct_pos': 'left', 'dist01_pos': 'center', 'dist02_pos': 'right', 'correct_ans': 'left', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+33.9821 	INFO 	Keyboard events cleared
+34.0808 	INFO 	Keyboard events cleared
+34.0981 	EXP 	polygon_7: autoDraw = False
+34.0981 	EXP 	prompt_prc_2: autoDraw = False
+34.0981 	EXP 	dist_01_prc_2: autoDraw = False
+34.0981 	EXP 	dist_02_prc_2: autoDraw = False
+34.0981 	EXP 	correct_prc_2: autoDraw = False
+34.0981 	EXP 	prompt_prc: image = 'stimuli/practice_images/bed.jpg'
+34.0981 	EXP 	dist_01_prc: image = 'stimuli/practice_images/anchor.jpg'
+34.0981 	EXP 	dist_02_prc: image = 'stimuli/practice_images/desk.jpg'
+34.0981 	EXP 	correct_prc: image = 'stimuli/practice_images/belt.jpg'
+34.0981 	EXP 	instructions_choose_2: text = 'Wählen Sie das nächste Bild in der Sequenz.'
+34.0981 	EXP 	polygon: autoDraw = True
+34.0981 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.0981 	EXP 	prompt_prc: autoDraw = True
+34.0981 	EXP 	dist_01_prc: autoDraw = True
+34.0981 	EXP 	dist_02_prc: autoDraw = True
+34.0981 	EXP 	correct_prc: autoDraw = True
+34.0981 	EXP 	instructions_choose_2: autoDraw = True
+34.1148 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.1315 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.1483 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.1648 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.1816 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.1982 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.2148 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.2316 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.2482 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.2647 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.2816 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.2981 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.3149 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.3316 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.3482 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.3648 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.3815 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.3981 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.4150 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.4315 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.4481 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.4484 	EXP 	Device response: <KeyPress from None: t=34.444500699988566, value=r, duration=None>
+34.4502 	DATA 	Keypress: r
+34.4648 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+34.4648 	EXP 	polygon: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+34.4648 	EXP 	polygon: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+34.4814 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+34.4980 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+34.5148 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+34.5313 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+34.5481 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+34.5648 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+34.6813 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+34.6813 	EXP 	polygon: autoDraw = False
+34.6813 	EXP 	prompt_prc: autoDraw = False
+34.6813 	EXP 	dist_01_prc: autoDraw = False
+34.6813 	EXP 	dist_02_prc: autoDraw = False
+34.6813 	EXP 	correct_prc: autoDraw = False
+34.6813 	EXP 	instructions_choose_2: autoDraw = False
+34.6813 	EXP 	polygon_7: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+34.6813 	EXP 	polygon_7: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+34.6813 	EXP 	prompt_prc_2: image = 'stimuli/practice_images/bed.jpg'
+34.6813 	EXP 	dist_01_prc_2: image = 'stimuli/practice_images/anchor.jpg'
+34.6813 	EXP 	dist_02_prc_2: image = 'stimuli/practice_images/desk.jpg'
+34.6813 	EXP 	correct_prc_2: image = 'stimuli/practice_images/belt.jpg'
+34.6813 	EXP 	polygon_7: autoDraw = True
+34.6813 	EXP 	prompt_prc_2: autoDraw = True
+34.6813 	EXP 	dist_01_prc_2: autoDraw = True
+34.6813 	EXP 	dist_02_prc_2: autoDraw = True
+34.6813 	EXP 	correct_prc_2: autoDraw = True
+34.6817 	EXP 	Device response: <KeyPress from None: t=27.968777399975806, value=r, duration=6.694828600040637>
+35.6317 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'promptFile': 'stimuli/practice_images/belt.jpg', 'correctFile': 'stimuli/practice_images/bird.jpg', 'dist_01File': 'stimuli/practice_images/ant.jpg', 'dist_02File': 'stimuli/practice_images/crocodile.jpg', 'correct_pos': 'right', 'dist01_pos': 'left', 'dist02_pos': 'center', 'correct_ans': 'right', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+35.6318 	INFO 	Keyboard events cleared
+35.7357 	INFO 	Keyboard events cleared
+35.7643 	EXP 	polygon_7: autoDraw = False
+35.7643 	EXP 	prompt_prc_2: autoDraw = False
+35.7643 	EXP 	dist_01_prc_2: autoDraw = False
+35.7643 	EXP 	dist_02_prc_2: autoDraw = False
+35.7643 	EXP 	correct_prc_2: autoDraw = False
+35.7643 	EXP 	prompt_prc: image = 'stimuli/practice_images/belt.jpg'
+35.7643 	EXP 	dist_01_prc: image = 'stimuli/practice_images/ant.jpg'
+35.7643 	EXP 	dist_02_prc: image = 'stimuli/practice_images/crocodile.jpg'
+35.7643 	EXP 	correct_prc: image = 'stimuli/practice_images/bird.jpg'
+35.7643 	EXP 	instructions_choose_2: text = 'Wählen Sie das nächste Bild in der Sequenz.'
+35.7643 	EXP 	polygon: autoDraw = True
+35.7643 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.7643 	EXP 	prompt_prc: autoDraw = True
+35.7643 	EXP 	dist_01_prc: autoDraw = True
+35.7643 	EXP 	dist_02_prc: autoDraw = True
+35.7643 	EXP 	correct_prc: autoDraw = True
+35.7643 	EXP 	instructions_choose_2: autoDraw = True
+35.7810 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.7976 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.8144 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.8309 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.8476 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.8643 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.8810 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.8977 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.9143 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.9310 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.9478 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.9644 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.9811 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+35.9979 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.0145 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.0311 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.0476 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.0643 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.0812 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.0977 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.1144 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.1311 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.1476 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.1644 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.1811 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.1977 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.2146 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.2311 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.2477 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.2644 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.2810 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.2976 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.3143 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.3310 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.3478 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.3640 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.3809 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.3975 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.4143 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.4149 	EXP 	Device response: <KeyPress from None: t=36.414746800030116, value=g, duration=None>
+36.4168 	DATA 	Keypress: g
+36.4312 	EXP 	polygon: borderColor = <psychopy.colors.Color: none, alpha=0.0>
+36.4312 	EXP 	polygon: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+36.4312 	EXP 	polygon: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+36.4476 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+36.4642 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+36.4810 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+36.4975 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+36.5150 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+36.5315 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+36.6332 	EXP 	Device response: <KeyPress from None: t=36.414746800030116, value=g, duration=0.18623699998715892>
+36.6643 	EXP 	polygon: borderColor = <psychopy.colors.Color: (0.0, 0.0, 0.0, 1.0)>
+36.6643 	EXP 	polygon: autoDraw = False
+36.6643 	EXP 	prompt_prc: autoDraw = False
+36.6643 	EXP 	dist_01_prc: autoDraw = False
+36.6643 	EXP 	dist_02_prc: autoDraw = False
+36.6643 	EXP 	correct_prc: autoDraw = False
+36.6643 	EXP 	instructions_choose_2: autoDraw = False
+36.6643 	EXP 	polygon_7: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+36.6643 	EXP 	polygon_7: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+36.6643 	EXP 	prompt_prc_2: image = 'stimuli/practice_images/belt.jpg'
+36.6643 	EXP 	dist_01_prc_2: image = 'stimuli/practice_images/ant.jpg'
+36.6643 	EXP 	dist_02_prc_2: image = 'stimuli/practice_images/crocodile.jpg'
+36.6643 	EXP 	correct_prc_2: image = 'stimuli/practice_images/bird.jpg'
+36.6643 	EXP 	polygon_7: autoDraw = True
+36.6643 	EXP 	prompt_prc_2: autoDraw = True
+36.6643 	EXP 	dist_01_prc_2: autoDraw = True
+36.6643 	EXP 	dist_02_prc_2: autoDraw = True
+36.6643 	EXP 	correct_prc_2: autoDraw = True
+37.6304 	EXP 	polygon_7: autoDraw = False
+37.6304 	EXP 	prompt_prc_2: autoDraw = False
+37.6304 	EXP 	dist_01_prc_2: autoDraw = False
+37.6304 	EXP 	dist_02_prc_2: autoDraw = False
+37.6304 	EXP 	correct_prc_2: autoDraw = False
+37.6304 	EXP 	rest_instruction: height = 0.025
+37.6304 	EXP 	rest_instruction: height = 0.025
+37.6304 	EXP 	rest_instruction: height = 0.025
+37.6304 	EXP 	rest_instruction: text = 'Kurze Pause. Bitte warten Sie.\nDies ist keine Ruhepause'
+37.6304 	EXP 	fix_cross_2: autoDraw = True
+37.6304 	EXP 	rest_instruction: autoDraw = True
+42.6454 	EXP 	fix_cross_2: autoDraw = False
+42.6454 	EXP 	rest_instruction: autoDraw = False
+42.6454 	EXP 	fix_cross_2: autoDraw = False
+42.6454 	EXP 	rest_instruction: autoDraw = False
+42.6454 	EXP 	instruction_part7: height = 0.025
+42.6454 	EXP 	instruction_part7: height = 0.025
+42.6454 	EXP 	instruction_part7: height = 0.025
+42.6454 	EXP 	instruction_part7: text = 'Gut gemacht!\n\nDie Lernphasen wechseln sich mit Abrufphasen ab.\nDabei beantworten Sie Fragen zu den gelernten Sequenzen.\n\nIn jedem Abrufdurchgang sehen Sie nacheinander zwei\nBilder aus einer Sequenz.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+42.6454 	EXP 	instruction_part7: autoDraw = True
+43.5956 	EXP 	Device response: <KeyPress from None: t=43.59040380001534, value=h, duration=None>
+43.5962 	DATA 	Keypress: h
+43.7956 	EXP 	Device response: <KeyPress from None: t=43.59040380001534, value=h, duration=0.18839199998183176>
+44.2625 	EXP 	Device response: <KeyPress from None: t=44.24798849999206, value=h, duration=None>
+44.2632 	DATA 	Keypress: h
+44.4291 	EXP 	Device response: <KeyPress from None: t=44.24798849999206, value=h, duration=0.1682408000342548>
+45.0948 	EXP 	Device response: <KeyPress from None: t=45.07982639997499, value=r, duration=None>
+45.0952 	DATA 	Keypress: r
+45.1617 	EXP 	Device response: <KeyPress from None: t=34.444500699988566, value=r, duration=10.714884200016968>
+45.4617 	EXP 	Device response: <KeyPress from None: t=45.46084439998958, value=r, duration=None>
+45.4624 	DATA 	Keypress: r
+45.5450 	EXP 	Device response: <KeyPress from None: t=45.07982639997499, value=r, duration=0.45425650000106543>
+45.6448 	INFO 	Keyboard events cleared
+45.6614 	EXP 	Device response: <KeyPress from None: t=45.649892000015825, value=r, duration=None>
+45.6690 	DATA 	Keypress: r
+45.6778 	EXP 	instruction_part7: autoDraw = False
+45.6778 	EXP 	instruction_part10: height = 0.025
+45.6778 	EXP 	instruction_part10: height = 0.025
+45.6778 	EXP 	instruction_part10: height = 0.025
+45.6778 	EXP 	instruction_part10: text = 'Abruf Teil 1: Reihenfolge\n\nNach der Präsentation der beiden Bilder geben Sie an,\nob sie in der gelernten Sequenz in dieser Reihenfolge\nvorkamen.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+45.6778 	EXP 	instruction_part10: autoDraw = True
+45.7282 	EXP 	Device response: <KeyPress from None: t=45.46084439998958, value=r, duration=0.2625932000228204>
+46.2282 	EXP 	Device response: <KeyPress from None: t=46.22500570002012, value=r, duration=None>
+46.2287 	DATA 	Keypress: r
+46.2945 	EXP 	Device response: <KeyPress from None: t=45.649892000015825, value=r, duration=0.6303393999696709>
+46.4114 	EXP 	Device response: <KeyPress from None: t=46.39821720001055, value=r, duration=None>
+46.4118 	DATA 	Keypress: r
+46.4948 	EXP 	Device response: <KeyPress from None: t=46.22500570002012, value=r, duration=0.2628388999728486>
+46.5946 	EXP 	Device response: <KeyPress from None: t=46.58554030000232, value=r, duration=None>
+46.5950 	DATA 	Keypress: r
+46.7282 	EXP 	Device response: <KeyPress from None: t=46.39821720001055, value=r, duration=0.31917189998785034>
+46.8778 	EXP 	Device response: <KeyPress from None: t=46.87560959998518, value=r, duration=None>
+46.8783 	DATA 	Keypress: r
+47.0445 	EXP 	Device response: <KeyPress from None: t=46.58554030000232, value=r, duration=0.44809239997994155>
+47.1777 	EXP 	Device response: <KeyPress from None: t=47.16659849998541, value=r, duration=None>
+47.1782 	DATA 	Keypress: r
+47.2943 	EXP 	Device response: <KeyPress from None: t=46.87560959998518, value=r, duration=0.4148630000418052>
+47.4275 	EXP 	Device response: <KeyPress from None: t=47.41435430001002, value=r, duration=None>
+47.4280 	DATA 	Keypress: r
+47.5109 	EXP 	Device response: <KeyPress from None: t=47.16659849998541, value=r, duration=0.3355229000444524>
+47.6944 	EXP 	Device response: <KeyPress from None: t=47.68837639997946, value=r, duration=None>
+47.6952 	DATA 	Keypress: r
+47.7609 	EXP 	Device response: <KeyPress from None: t=47.41435430001002, value=r, duration=0.34350540000014007>
+47.9276 	EXP 	Device response: <KeyPress from None: t=47.912953399994876, value=r, duration=None>
+47.9283 	DATA 	Keypress: r
+48.0109 	EXP 	Device response: <KeyPress from None: t=47.68837639997946, value=r, duration=0.3063667000387795>
+48.1276 	EXP 	Device response: <KeyPress from None: t=48.12549589999253, value=r, duration=None>
+48.1281 	DATA 	Keypress: r
+48.2274 	EXP 	Device response: <KeyPress from None: t=47.912953399994876, value=r, duration=0.3041755000012927>
+48.3110 	DATA 	Keypress: r
+48.3272 	EXP 	Device response: <KeyPress from None: t=48.31025260000024, value=r, duration=None>
+48.4105 	EXP 	Device response: <KeyPress from None: t=48.12549589999253, value=r, duration=0.2818629000103101>
+48.5276 	EXP 	Device response: <KeyPress from None: t=48.513197600026615, value=r, duration=None>
+48.5282 	DATA 	Keypress: r
+48.5938 	EXP 	Device response: <KeyPress from None: t=48.31025260000024, value=r, duration=0.2828082999913022>
+48.6770 	INFO 	Keyboard events cleared
+48.7271 	EXP 	Device response: <KeyPress from None: t=48.72161190002225, value=r, duration=None>
+48.7352 	DATA 	Keypress: r
+48.7435 	EXP 	instruction_part10: autoDraw = False
+48.7435 	EXP 	instruction_part13: height = 0.025
+48.7435 	EXP 	instruction_part13: height = 0.025
+48.7435 	EXP 	instruction_part13: height = 0.025
+48.7435 	EXP 	instruction_part13: text = 'Wählen Sie „Ja“ oder „Nein“ mit der linken\ngrünen oder rechten blauen Taste. Die Zuordnung\nwechselt zwischen den Durchgängen. Beachten Sie daher\ndie Anzeige auf dem Bildschirm.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+48.7435 	EXP 	instruction_part13: autoDraw = True
+48.8272 	EXP 	Device response: <KeyPress from None: t=48.513197600026615, value=r, duration=0.30616399995051324>
+48.9438 	EXP 	Device response: <KeyPress from None: t=48.93930159998126, value=r, duration=None>
+48.9442 	DATA 	Keypress: r
+49.0439 	EXP 	Device response: <KeyPress from None: t=48.72161190002225, value=r, duration=0.3093102999846451>
+49.1438 	EXP 	Device response: <KeyPress from None: t=49.14174920000369, value=r, duration=None>
+49.1444 	DATA 	Keypress: r
+49.2603 	EXP 	Device response: <KeyPress from None: t=48.93930159998126, value=r, duration=0.30806510004913434>
+49.3438 	EXP 	Device response: <KeyPress from None: t=49.3391263000085, value=r, duration=None>
+49.3444 	DATA 	Keypress: r
+49.4104 	EXP 	Device response: <KeyPress from None: t=49.14174920000369, value=r, duration=0.2667671000235714>
+49.5604 	EXP 	Device response: <KeyPress from None: t=49.5445545000257, value=r, duration=None>
+49.5609 	DATA 	Keypress: r
+49.6437 	EXP 	Device response: <KeyPress from None: t=49.3391263000085, value=r, duration=0.2949551999918185>
+49.7604 	EXP 	Device response: <KeyPress from None: t=49.745890700025484, value=r, duration=None>
+49.7609 	DATA 	Keypress: r
+49.8435 	EXP 	Device response: <KeyPress from None: t=49.5445545000257, value=r, duration=0.2970085999695584>
+49.9602 	EXP 	Device response: <KeyPress from None: t=49.94432449998567, value=r, duration=None>
+49.9607 	DATA 	Keypress: r
+50.0767 	EXP 	Device response: <KeyPress from None: t=49.745890700025484, value=r, duration=0.314405299955979>
+50.1935 	EXP 	Device response: <KeyPress from None: t=50.19217739999294, value=r, duration=None>
+50.1939 	DATA 	Keypress: r
+50.3269 	EXP 	Device response: <KeyPress from None: t=49.94432449998567, value=r, duration=0.3796616999898106>
+50.4599 	EXP 	Device response: <KeyPress from None: t=50.44864369998686, value=r, duration=None>
+50.4604 	DATA 	Keypress: r
+50.5768 	EXP 	Device response: <KeyPress from None: t=50.19217739999294, value=r, duration=0.37761339999269694>
+50.6934 	EXP 	Device response: <KeyPress from None: t=50.68161179998424, value=r, duration=None>
+50.6939 	DATA 	Keypress: r
+50.8432 	EXP 	Device response: <KeyPress from None: t=50.44864369998686, value=r, duration=0.38095000002067536>
+50.9766 	EXP 	Device response: <KeyPress from None: t=50.96759600000223, value=r, duration=None>
+50.9771 	DATA 	Keypress: r
+51.0932 	EXP 	Device response: <KeyPress from None: t=50.68161179998424, value=r, duration=0.4058567000320181>
+51.2099 	EXP 	Device response: <KeyPress from None: t=51.20533099997556, value=r, duration=None>
+51.2105 	DATA 	Keypress: r
+51.2931 	EXP 	Device response: <KeyPress from None: t=50.96759600000223, value=r, duration=0.3111186000169255>
+51.5762 	EXP 	Device response: <KeyPress from None: t=51.564813199976925, value=r, duration=None>
+51.5767 	DATA 	Keypress: r
+51.6597 	EXP 	Device response: <KeyPress from None: t=51.20533099997556, value=r, duration=0.4411586000351235>
+51.7429 	INFO 	Keyboard events cleared
+51.7596 	EXP 	Device response: <KeyPress from None: t=51.754214100015815, value=r, duration=None>
+51.7680 	DATA 	Keypress: r
+51.7761 	EXP 	instruction_part13: autoDraw = False
+51.7761 	EXP 	instruction_part11: height = 0.025
+51.7761 	EXP 	instruction_part11: height = 0.025
+51.7761 	EXP 	instruction_part11: height = 0.025
+51.7761 	EXP 	instruction_part11: text = 'Abruf Teil 2: Distanz\n\nNach der Frage zur Reihenfolge geben Sie an,\nwie weit die beiden Bilder in der Sequenz voneinander\nentfernt sind.\n\nDie möglichen Distanzen reichen von 2 bis 5.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+51.7761 	EXP 	instruction_part11: autoDraw = True
+51.8429 	EXP 	Device response: <KeyPress from None: t=51.564813199976925, value=r, duration=0.2668915000394918>
+51.9762 	EXP 	Device response: <KeyPress from None: t=51.96974390000105, value=r, duration=None>
+51.9766 	DATA 	Keypress: r
+52.0596 	EXP 	Device response: <KeyPress from None: t=51.754214100015815, value=r, duration=0.2892884999746457>
+52.1761 	EXP 	Device response: <KeyPress from None: t=52.16006229998311, value=r, duration=None>
+52.1765 	DATA 	Keypress: r
+52.2426 	EXP 	Device response: <KeyPress from None: t=51.96974390000105, value=r, duration=0.26580370002193376>
+52.3594 	EXP 	Device response: <KeyPress from None: t=52.35347740002908, value=r, duration=None>
+52.3598 	DATA 	Keypress: r
+52.4760 	EXP 	Device response: <KeyPress from None: t=52.16006229998311, value=r, duration=0.31114460004027933>
+52.5759 	EXP 	Device response: <KeyPress from None: t=52.569948700023815, value=r, duration=None>
+52.5765 	DATA 	Keypress: r
+52.6759 	EXP 	Device response: <KeyPress from None: t=52.35347740002908, value=r, duration=0.314115299959667>
+52.7592 	EXP 	Device response: <KeyPress from None: t=52.75726849999046, value=r, duration=None>
+52.7598 	DATA 	Keypress: r
+52.9093 	EXP 	Device response: <KeyPress from None: t=52.569948700023815, value=r, duration=0.32331690000137314>
+52.9926 	EXP 	Device response: <KeyPress from None: t=52.98091550002573, value=r, duration=None>
+52.9931 	DATA 	Keypress: r
+53.1257 	EXP 	Device response: <KeyPress from None: t=52.75726849999046, value=r, duration=0.355438900005538>
+53.2257 	EXP 	Device response: <KeyPress from None: t=53.21648960001767, value=r, duration=None>
+53.2261 	DATA 	Keypress: r
+53.3257 	EXP 	Device response: <KeyPress from None: t=52.98091550002573, value=r, duration=0.34343809995334595>
+53.4424 	EXP 	Device response: <KeyPress from None: t=53.44015819998458, value=r, duration=None>
+53.4429 	DATA 	Keypress: r
+53.5422 	EXP 	Device response: <KeyPress from None: t=53.21648960001767, value=r, duration=0.3111390999983996>
+53.7089 	EXP 	Device response: <KeyPress from None: t=53.692969600029755, value=r, duration=None>
+53.7094 	DATA 	Keypress: r
+53.8088 	EXP 	Device response: <KeyPress from None: t=53.44015819998458, value=r, duration=0.3604674999951385>
+53.8923 	EXP 	Device response: <KeyPress from None: t=53.883272400009446, value=r, duration=None>
+53.8929 	DATA 	Keypress: r
+53.9755 	EXP 	Device response: <KeyPress from None: t=53.692969600029755, value=r, duration=0.2778365999693051>
+54.0754 	EXP 	Device response: <KeyPress from None: t=54.06553810002515, value=r, duration=None>
+54.0759 	DATA 	Keypress: r
+54.1755 	EXP 	Device response: <KeyPress from None: t=53.883272400009446, value=r, duration=0.27622950001386926>
+54.4919 	EXP 	Device response: <KeyPress from None: t=54.488497800019104, value=r, duration=None>
+54.4924 	DATA 	Keypress: r
+54.6252 	EXP 	Device response: <KeyPress from None: t=54.06553810002515, value=r, duration=0.5488381999894045>
+54.7585 	EXP 	Device response: <KeyPress from None: t=54.7493995000259, value=r, duration=None>
+54.7591 	DATA 	Keypress: r
+54.7750 	INFO 	Keyboard events cleared
+54.8418 	EXP 	Device response: <KeyPress from None: t=54.488497800019104, value=r, duration=0.3464414000045508>
+55.3751 	EXP 	Device response: <KeyPress from None: t=55.36070730001666, value=r, duration=None>
+55.3829 	DATA 	Keypress: r
+55.3915 	EXP 	instruction_part11: autoDraw = False
+55.3915 	EXP 	instruction_part14: height = 0.025
+55.3915 	EXP 	instruction_part14: height = 0.025
+55.3915 	EXP 	instruction_part14: height = 0.025
+55.3915 	EXP 	instruction_part14: text = 'Bei Distanz 2 liegt ein Bild dazwischen,\nbei Distanz 5 liegen vier Bilder dazwischen.\n\nAntworten Sie mit den vier Tasten.\nDie jeweilige Tastenbelegung wird auf dem Bildschirm angezeigt.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+55.3915 	EXP 	instruction_part14: autoDraw = True
+55.4750 	EXP 	Device response: <KeyPress from None: t=54.7493995000259, value=r, duration=0.7170625999569893>
+55.5916 	EXP 	Device response: <KeyPress from None: t=55.58632379997289, value=r, duration=None>
+55.5921 	DATA 	Keypress: r
+55.7083 	EXP 	Device response: <KeyPress from None: t=55.36070730001666, value=r, duration=0.3332962999702431>
+55.8249 	EXP 	Device response: <KeyPress from None: t=55.8089301, value=r, duration=None>
+55.8254 	DATA 	Keypress: r
+55.9249 	EXP 	Device response: <KeyPress from None: t=55.58632379997289, value=r, duration=0.3223778000101447>
+56.0581 	EXP 	Device response: <KeyPress from None: t=56.04860749997897, value=r, duration=None>
+56.0586 	DATA 	Keypress: r
+56.1414 	EXP 	Device response: <KeyPress from None: t=55.8089301, value=r, duration=0.3313931000302546>
+56.2749 	EXP 	Device response: <KeyPress from None: t=56.2681925999932, value=r, duration=None>
+56.2755 	DATA 	Keypress: r
+56.3749 	EXP 	Device response: <KeyPress from None: t=56.04860749997897, value=r, duration=0.32114650000585243>
+56.5080 	EXP 	Device response: <KeyPress from None: t=56.49195719999261, value=r, duration=None>
+56.5086 	DATA 	Keypress: r
+56.6413 	EXP 	Device response: <KeyPress from None: t=56.2681925999932, value=r, duration=0.36955300002591684>
+56.7414 	EXP 	Device response: <KeyPress from None: t=56.73543790000258, value=r, duration=None>
+56.7419 	DATA 	Keypress: r
+56.8745 	EXP 	Device response: <KeyPress from None: t=56.49195719999261, value=r, duration=0.3774682999937795>
+56.9912 	EXP 	Device response: <KeyPress from None: t=56.9862072999822, value=r, duration=None>
+56.9917 	DATA 	Keypress: r
+57.1077 	EXP 	Device response: <KeyPress from None: t=56.73543790000258, value=r, duration=0.3666215999983251>
+57.2244 	EXP 	Device response: <KeyPress from None: t=57.22292309999466, value=r, duration=None>
+57.2248 	DATA 	Keypress: r
+57.3077 	EXP 	Device response: <KeyPress from None: t=56.9862072999822, value=r, duration=0.32029609999153763>
+57.4411 	EXP 	Device response: <KeyPress from None: t=57.42936529999133, value=r, duration=None>
+57.4416 	DATA 	Keypress: r
+57.5411 	EXP 	Device response: <KeyPress from None: t=57.22292309999466, value=r, duration=0.31318060000194237>
+57.6576 	EXP 	Device response: <KeyPress from None: t=57.65398290002486, value=r, duration=None>
+57.6582 	DATA 	Keypress: r
+57.7744 	EXP 	Device response: <KeyPress from None: t=57.42936529999133, value=r, duration=0.3363698000321165>
+58.2407 	EXP 	Device response: <KeyPress from None: t=58.235044299974106, value=r, duration=None>
+58.2411 	DATA 	Keypress: r
+58.3574 	EXP 	Device response: <KeyPress from None: t=57.65398290002486, value=r, duration=0.6968874000012875>
+58.3905 	INFO 	Keyboard events cleared
+58.5573 	EXP 	Device response: <KeyPress from None: t=58.55234499997459, value=r, duration=None>
+58.5634 	DATA 	Keypress: r
+58.5737 	EXP 	instruction_part14: autoDraw = False
+58.5737 	EXP 	instruction_part12: height = 0.025
+58.5737 	EXP 	instruction_part12: height = 0.025
+58.5737 	EXP 	instruction_part12: height = 0.025
+58.5737 	EXP 	instruction_part12: text = 'Abruf: Reflexionsperiode\n\nBevor Sie die Fragen zur Reihenfolge und Distanz\nbeantworten, erscheint kurz ein Fixationskreuz.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+58.5737 	EXP 	instruction_part12: autoDraw = True
+58.6240 	EXP 	Device response: <KeyPress from None: t=58.235044299974106, value=r, duration=0.3829420000547543>
+58.7574 	EXP 	Device response: <KeyPress from None: t=58.75478690001182, value=r, duration=None>
+58.7582 	DATA 	Keypress: r
+58.8740 	EXP 	Device response: <KeyPress from None: t=58.55234499997459, value=r, duration=0.31219640001654625>
+59.0074 	EXP 	Device response: <KeyPress from None: t=58.99159340001643, value=r, duration=None>
+59.0080 	DATA 	Keypress: r
+59.1073 	EXP 	Device response: <KeyPress from None: t=58.75478690001182, value=r, duration=0.350567499990575>
+59.2404 	EXP 	Device response: <KeyPress from None: t=59.22425989998737, value=r, duration=None>
+59.2409 	DATA 	Keypress: r
+59.3237 	EXP 	Device response: <KeyPress from None: t=58.99159340001643, value=r, duration=0.3302178999874741>
+59.4570 	EXP 	Device response: <KeyPress from None: t=59.447687299980316, value=r, duration=None>
+59.4575 	DATA 	Keypress: r
+59.5738 	EXP 	Device response: <KeyPress from None: t=59.22425989998737, value=r, duration=0.3352493999991566>
+59.7569 	EXP 	Device response: <KeyPress from None: t=59.745781200006604, value=r, duration=None>
+59.7574 	DATA 	Keypress: r
+59.8402 	EXP 	Device response: <KeyPress from None: t=59.447687299980316, value=r, duration=0.3856493000057526>
+59.9903 	EXP 	Device response: <KeyPress from None: t=59.97464329999639, value=r, duration=None>
+59.9908 	DATA 	Keypress: r
+60.0902 	EXP 	Device response: <KeyPress from None: t=59.745781200006604, value=r, duration=0.3343022000044584>
+60.2236 	EXP 	Device response: <KeyPress from None: t=60.217163900029846, value=r, duration=None>
+60.2242 	DATA 	Keypress: r
+60.3236 	EXP 	Device response: <KeyPress from None: t=59.97464329999639, value=r, duration=0.3401700999820605>
+60.4567 	EXP 	Device response: <KeyPress from None: t=60.450852899986785, value=r, duration=None>
+60.4573 	DATA 	Keypress: r
+60.5568 	EXP 	Device response: <KeyPress from None: t=60.217163900029846, value=r, duration=0.32924789999378845>
+61.2233 	EXP 	Device response: <KeyPress from None: t=61.214152799977455, value=r, duration=None>
+61.2239 	DATA 	Keypress: r
+61.3065 	EXP 	Device response: <KeyPress from None: t=60.450852899986785, value=r, duration=0.8509322000318207>
+61.4565 	EXP 	Device response: <KeyPress from None: t=61.44884969998384, value=r, duration=None>
+61.4571 	DATA 	Keypress: r
+61.5565 	EXP 	Device response: <KeyPress from None: t=61.214152799977455, value=r, duration=0.3282939000055194>
+61.5731 	INFO 	Keyboard events cleared
+61.6732 	EXP 	Device response: <KeyPress from None: t=61.6654172000126, value=r, duration=None>
+61.6828 	DATA 	Keypress: r
+61.6894 	EXP 	instruction_part12: autoDraw = False
+61.6894 	EXP 	instruction_part15: height = 0.025
+61.6894 	EXP 	instruction_part15: height = 0.025
+61.6894 	EXP 	instruction_part15: height = 0.025
+61.6894 	EXP 	instruction_part15: text = 'Überlegen Sie in dieser Zeit bereits, ob die Bilder\nin dieser Reihenfolge vorkamen und wie weit sie in\nder Sequenz voneinander entfernt sind.\n\nDies ist wichtig, da die Zeit für die anschließenden\nAntworten kurz ist.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+61.6894 	EXP 	instruction_part15: autoDraw = True
+61.7564 	EXP 	Device response: <KeyPress from None: t=61.44884969998384, value=r, duration=0.30210640002042055>
+62.1735 	DATA 	Keypress: r
+62.1895 	EXP 	Device response: <KeyPress from None: t=62.17315560003044, value=r, duration=None>
+62.2896 	EXP 	Device response: <KeyPress from None: t=61.6654172000126, value=r, duration=0.6113092000014149>
+62.4062 	EXP 	Device response: <KeyPress from None: t=62.398598600004334, value=r, duration=None>
+62.4067 	DATA 	Keypress: r
+62.5228 	EXP 	Device response: <KeyPress from None: t=62.17315560003044, value=r, duration=0.3371750999940559>
+62.6562 	EXP 	Device response: <KeyPress from None: t=62.645389700017404, value=r, duration=None>
+62.6568 	DATA 	Keypress: r
+62.7395 	EXP 	Device response: <KeyPress from None: t=62.398598600004334, value=r, duration=0.3406332000158727>
+62.8560 	EXP 	Device response: <KeyPress from None: t=62.85379319998901, value=r, duration=None>
+62.8565 	DATA 	Keypress: r
+62.9559 	EXP 	Device response: <KeyPress from None: t=62.645389700017404, value=r, duration=0.3020525999600068>
+63.0559 	EXP 	Device response: <KeyPress from None: t=63.05553319997853, value=r, duration=None>
+63.0564 	DATA 	Keypress: r
+63.1893 	EXP 	Device response: <KeyPress from None: t=62.85379319998901, value=r, duration=0.32724870002130046>
+63.3059 	EXP 	Device response: <KeyPress from None: t=63.29290190001484, value=r, duration=None>
+63.3064 	DATA 	Keypress: r
+63.4226 	EXP 	Device response: <KeyPress from None: t=63.05553319997853, value=r, duration=0.3531522999983281>
+63.5392 	EXP 	Device response: <KeyPress from None: t=63.536709400010295, value=r, duration=None>
+63.5398 	DATA 	Keypress: r
+63.5893 	EXP 	Device response: <KeyPress from None: t=63.29290190001484, value=r, duration=0.2840026000048965>
+63.8558 	EXP 	Device response: <KeyPress from None: t=63.84684220002964, value=r, duration=None>
+63.8564 	DATA 	Keypress: r
+63.9226 	EXP 	Device response: <KeyPress from None: t=63.536709400010295, value=r, duration=0.37006190000101924>
+64.0557 	EXP 	Device response: <KeyPress from None: t=64.04826870001853, value=r, duration=None>
+64.0563 	DATA 	Keypress: r
+64.1724 	EXP 	Device response: <KeyPress from None: t=63.84684220002964, value=r, duration=0.3151477999635972>
+64.2889 	EXP 	Device response: <KeyPress from None: t=64.27892020001309, value=r, duration=None>
+64.2896 	DATA 	Keypress: r
+64.4056 	EXP 	Device response: <KeyPress from None: t=64.04826870001853, value=r, duration=0.3463836999726482>
+64.5888 	EXP 	Device response: <KeyPress from None: t=64.57500559999608, value=r, duration=None>
+64.5897 	DATA 	Keypress: r
+64.6721 	EXP 	Device response: <KeyPress from None: t=64.27892020001309, value=r, duration=0.38766449998365715>
+64.6886 	INFO 	Keyboard events cleared
+64.8555 	EXP 	Device response: <KeyPress from None: t=64.85304750001524, value=r, duration=None>
+64.8654 	DATA 	Keypress: r
+64.8718 	EXP 	instruction_part15: autoDraw = False
+64.8718 	EXP 	instruction_info: height = 0.025
+64.8718 	EXP 	instruction_info: height = 0.025
+64.8718 	EXP 	instruction_info: height = 0.025
+64.8718 	EXP 	instruction_info: text = 'In den Übungsdurchgängen erhalten Sie unten\nauf dem Bildschirm zusätzliche Hinweise zur Struktur\nder Bildsequenz.\n\nIn der Hauptaufgabe werden diese Hinweise nicht\nmehr angezeigt. Dort müssen Sie die Struktur aus\nden gelernten Bildpaaren ableiten.\n\nDrücken Sie eine beliebige Taste, um fortzufahren.'
+64.8718 	EXP 	instruction_info: autoDraw = True
+65.0054 	EXP 	Device response: <KeyPress from None: t=64.57500559999608, value=r, duration=0.4179110000259243>
+65.1720 	EXP 	Device response: <KeyPress from None: t=65.15925670001889, value=r, duration=None>
+65.1726 	DATA 	Keypress: r
+65.3052 	EXP 	Device response: <KeyPress from None: t=64.85304750001524, value=r, duration=0.4440343999885954>
+65.3552 	INFO 	Keyboard events cleared
+65.4719 	EXP 	Device response: <KeyPress from None: t=65.47034800000256, value=r, duration=None>
+65.4790 	DATA 	Keypress: r
+65.4882 	EXP 	instruction_info: autoDraw = False
+65.4882 	EXP 	instruction_part8: height = 0.025
+65.4882 	EXP 	instruction_part8: height = 0.025
+65.4882 	EXP 	instruction_part8: height = 0.025
+65.4882 	EXP 	instruction_part8: text = 'Sie sind nun bereit, die Abrufdurchgänge zu üben.\n\nNutzen Sie die kurze Pause nach der Bildpräsentation,\num bereits über die Reihenfolge und die Distanz nachzudenken.\n\nDrücken Sie eine beliebige Taste, um die Übung zu starten.'
+65.4882 	EXP 	instruction_part8: autoDraw = True
+65.6051 	EXP 	Device response: <KeyPress from None: t=65.15925670001889, value=r, duration=0.43695770000340417>
+65.7217 	EXP 	Device response: <KeyPress from None: t=65.71604289999232, value=r, duration=None>
+65.7223 	DATA 	Keypress: r
+65.8384 	EXP 	Device response: <KeyPress from None: t=65.47034800000256, value=r, duration=0.36355780001031235>
+65.9552 	EXP 	Device response: <KeyPress from None: t=65.94676219997928, value=r, duration=None>
+65.9557 	DATA 	Keypress: r
+65.9718 	INFO 	Keyboard events cleared
+66.0884 	EXP 	Device response: <KeyPress from None: t=65.71604289999232, value=r, duration=0.35854600003222004>
+66.4881 	EXP 	Device response: <KeyPress from None: t=66.4878444999922, value=r, duration=None>
+66.4944 	EXP 	Imported sequences/retr_trials_prc_03.xlsx as conditions, 3 conditions, 14 params
+66.4946 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'trial_type': 3, 'img_first': 'stimuli/practice_images/cow.jpg', 'img_second': 'stimuli/practice_images/basket.jpg', 'img_third': None, 'opt_left': 'yes', 'opt_right': 'no', 'correct_side': 'left', 'correct_key': 'left', 'distance_correct': 2, 'image_dur_retr': 2, 'fix_dur_retr': 0.5, 'ImageExamplePath': 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg', 'iti_dur_retr': 0.45, 'reflection_win_dur': 1.95, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+66.4978 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+66.5011 	DATA 	Keypress: r
+66.5046 	EXP 	instruction_part8: autoDraw = False
+66.5046 	EXP 	fix_cross_retrbegin: height = 0.03
+66.5046 	EXP 	fix_cross_retrbegin: height = 0.03
+66.5046 	EXP 	fix_cross_retrbegin: height = 0.03
+66.5046 	EXP 	fix_cross_retrbegin: text = '+'
+66.5046 	EXP 	fix_cross_retrbegin: autoDraw = True
+66.6049 	EXP 	Device response: <KeyPress from None: t=65.94676219997928, value=r, duration=0.656760900048539>
+66.9877 	EXP 	fix_cross_retrbegin: autoDraw = False
+66.9877 	EXP 	fix_cross_retrbegin: autoDraw = False
+66.9877 	EXP 	image_1_prc: image = 'stimuli/practice_images/cow.jpg'
+66.9877 	EXP 	info_example_3: image = 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg'
+66.9877 	EXP 	image_1_prc: autoDraw = True
+66.9877 	EXP 	info_example_3: autoDraw = True
+67.4554 	DATA 	Mouse: Left button down, pos=(306,3)
+67.6885 	DATA 	Mouse:  Left button up, pos=(306,3)
+68.4874 	EXP 	image_1_prc: autoDraw = False
+68.4874 	EXP 	info_example_3: autoDraw = False
+68.4874 	EXP 	image_1_prc: autoDraw = False
+68.4874 	EXP 	info_example_3: autoDraw = False
+68.4874 	EXP 	info_example_4: image = 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg'
+68.4874 	EXP 	mask_img1: autoDraw = True
+68.4874 	EXP 	info_example_4: autoDraw = True
+68.7707 	EXP 	mask_img1: autoDraw = False
+68.7707 	EXP 	info_example_4: autoDraw = False
+68.7707 	EXP 	mask_img1: autoDraw = False
+68.7707 	EXP 	info_example_4: autoDraw = False
+68.7707 	EXP 	image_2_prc: image = 'stimuli/practice_images/basket.jpg'
+68.7707 	EXP 	info_example_5: image = 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg'
+68.7707 	EXP 	image_2_prc: autoDraw = True
+68.7707 	EXP 	info_example_5: autoDraw = True
+70.2701 	EXP 	image_2_prc: autoDraw = False
+70.2701 	EXP 	info_example_5: autoDraw = False
+70.2701 	EXP 	image_2_prc: autoDraw = False
+70.2701 	EXP 	info_example_5: autoDraw = False
+70.2701 	EXP 	info_example_6: image = 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg'
+70.2701 	EXP 	mask_img2: autoDraw = True
+70.2701 	EXP 	info_example_6: autoDraw = True
+70.5210 	EXP 	mask_img2: autoDraw = False
+70.5210 	EXP 	info_example_6: autoDraw = False
+70.5210 	EXP 	mask_img2: autoDraw = False
+70.5210 	EXP 	info_example_6: autoDraw = False
+70.5210 	EXP 	fix_cross_reflretr_2: autoDraw = True
+70.5210 	EXP 	text: autoDraw = True
+74.4692 	INFO 	Keyboard events cleared
+74.4771 	INFO 	Keyboard events cleared
+74.4854 	EXP 	fix_cross_reflretr_2: autoDraw = False
+74.4854 	EXP 	text: autoDraw = False
+74.4854 	EXP 	fix_cross_reflretr_2: autoDraw = False
+74.4854 	EXP 	text: autoDraw = False
+74.4854 	EXP 	yes_txt_3: height = 0.03
+74.4854 	EXP 	yes_txt_3: height = 0.03
+74.4854 	EXP 	yes_txt_3: height = 0.03
+74.4854 	EXP 	yes_txt_3: text = 'ja'
+74.4854 	EXP 	no_txt_3: height = 0.03
+74.4854 	EXP 	no_txt_3: height = 0.03
+74.4854 	EXP 	no_txt_3: height = 0.03
+74.4854 	EXP 	no_txt_3: text = 'nein'
+74.4854 	EXP 	info_example_7: image = 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg'
+74.4854 	EXP 	yes_txt_3: autoDraw = True
+74.4854 	EXP 	no_txt_3: autoDraw = True
+74.4854 	EXP 	polygon_9: autoDraw = True
+74.4854 	EXP 	info_example_7: autoDraw = True
+158.1928 	EXP 	Device response: <KeyPress from None: t=158.1828711000271, value=5, duration=None>
+158.2259 	EXP 	Device response: <KeyPress from None: t=158.1828711000271, value=5, duration=0.03187619999516755>
+254.4791 	INFO 	Keyboard events cleared
+254.4836 	INFO 	Keyboard events cleared
+254.4954 	EXP 	yes_txt_3: autoDraw = False
+254.4954 	EXP 	no_txt_3: autoDraw = False
+254.4954 	EXP 	polygon_9: autoDraw = False
+254.4954 	EXP 	info_example_7: autoDraw = False
+254.4954 	EXP 	yes_txt_3: autoDraw = False
+254.4954 	EXP 	no_txt_3: autoDraw = False
+254.4954 	EXP 	polygon_9: autoDraw = False
+254.4954 	EXP 	info_example_7: autoDraw = False
+254.4954 	EXP 	info_example: image = 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg'
+254.4954 	EXP 	opt_2_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+254.4954 	EXP 	opt_3_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+254.4954 	EXP 	opt_4_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+254.4954 	EXP 	opt_5_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+254.4954 	EXP 	info_example: autoDraw = True
+254.4954 	EXP 	opt_2_prc: autoDraw = True
+254.4954 	EXP 	opt_3_prc: autoDraw = True
+254.4954 	EXP 	opt_4_prc: autoDraw = True
+254.4954 	EXP 	opt_5_prc: autoDraw = True
+274.4062 	EXP 	Device response: <KeyPress from None: t=274.39373090001754, value=3, duration=None>
+274.5061 	EXP 	Device response: <KeyPress from None: t=274.39373090001754, value=3, duration=0.09614370000781491>
+290.2511 	EXP 	Device response: <KeyPress from None: t=290.23440200003097, value=1, duration=None>
+290.3009 	EXP 	Device response: <KeyPress from None: t=290.23440200003097, value=1, duration=0.06372589996317402>
+290.6176 	EXP 	Device response: <KeyPress from None: t=290.6022238000296, value=5, duration=None>
+290.6677 	EXP 	Device response: <KeyPress from None: t=290.6022238000296, value=5, duration=0.06426619994454086>
+292.5171 	EXP 	Device response: <KeyPress from None: t=292.5063553000218, value=1, duration=None>
+292.5839 	EXP 	Device response: <KeyPress from None: t=292.5063553000218, value=1, duration=0.06376339995767921>
+292.9002 	EXP 	Device response: <KeyPress from None: t=292.89014049997786, value=5, duration=None>
+292.9670 	EXP 	Device response: <KeyPress from None: t=292.89014049997786, value=5, duration=0.06410930003039539>
+300.6978 	EXP 	Device response: <KeyPress from None: t=300.68233129999135, value=1, duration=None>
+300.7476 	EXP 	Device response: <KeyPress from None: t=300.68233129999135, value=1, duration=0.06422170001314953>
+301.0478 	EXP 	Device response: <KeyPress from None: t=301.034293100005, value=5, duration=None>
+301.1310 	EXP 	Device response: <KeyPress from None: t=301.034293100005, value=5, duration=0.08051840000553057>
+303.6801 	EXP 	Device response: <KeyPress from None: t=303.67443449998973, value=1, duration=None>
+303.7302 	EXP 	Device response: <KeyPress from None: t=303.67443449998973, value=1, duration=0.04791710001882166>
+304.8296 	EXP 	Device response: <KeyPress from None: t=304.8264325999771, value=5, duration=None>
+304.9466 	EXP 	Device response: <KeyPress from None: t=304.8264325999771, value=5, duration=0.11207900004228577>
+316.6431 	EXP 	Device response: <KeyPress from None: t=316.6348124999786, value=1, duration=None>
+316.7261 	EXP 	Device response: <KeyPress from None: t=316.6348124999786, value=1, duration=0.08018940000329167>
+316.9761 	EXP 	Device response: <KeyPress from None: t=316.9708242000197, value=5, duration=None>
+317.0610 	EXP 	Device response: <KeyPress from None: t=316.9708242000197, value=5, duration=0.07988370000384748>
+319.3417 	EXP 	Device response: <KeyPress from None: t=319.33878260001075, value=1, duration=None>
+319.4086 	EXP 	Device response: <KeyPress from None: t=319.33878260001075, value=1, duration=0.06428300001425669>
+319.7250 	EXP 	Device response: <KeyPress from None: t=319.7228059999761, value=5, duration=None>
+319.7917 	EXP 	Device response: <KeyPress from None: t=319.7228059999761, value=5, duration=0.06460990000050515>
+322.3743 	EXP 	Device response: <KeyPress from None: t=322.3629052999895, value=lctrl, duration=None>
+322.8118 	EXP 	Device response: <KeyPress from None: t=322.79488709999714, value=c, duration=None>
+322.9409 	EXP 	Device response: <KeyPress from None: t=322.3629052999895, value=lctrl, duration=0.5760670999879949>
+322.9576 	EXP 	Device response: <KeyPress from None: t=322.79488709999714, value=c, duration=0.1599749000160955>
+331.4880 	EXP 	Device response: <KeyPress from None: t=331.4833552999771, value=lctrl, duration=None>
+331.7550 	EXP 	Device response: <KeyPress from None: t=331.73917810001876, value=v, duration=None>
+331.8713 	EXP 	Device response: <KeyPress from None: t=331.4833552999771, value=lctrl, duration=0.3842182000516914>
+331.8879 	EXP 	Device response: <KeyPress from None: t=331.73917810001876, value=v, duration=0.14421289996244013>
+339.5856 	EXP 	Device response: <KeyPress from None: t=339.5794512000284, value=lctrl, duration=None>
+339.8853 	EXP 	Device response: <KeyPress from None: t=339.8835519999848, value=v, duration=None>
+340.0021 	EXP 	Device response: <KeyPress from None: t=339.5794512000284, value=lctrl, duration=0.4158715999801643>
+340.0187 	EXP 	Device response: <KeyPress from None: t=339.8835519999848, value=v, duration=0.1277608000091277>
+347.9163 	EXP 	Device response: <KeyPress from None: t=347.8998417999828, value=lctrl, duration=None>
+348.2661 	EXP 	Device response: <KeyPress from None: t=348.2515682000085, value=v, duration=None>
+348.3829 	EXP 	Device response: <KeyPress from None: t=347.8998417999828, value=lctrl, duration=0.4798206000123173>
+348.4161 	EXP 	Device response: <KeyPress from None: t=348.2515682000085, value=v, duration=0.15991380001651123>
+355.0308 	EXP 	Device response: <KeyPress from None: t=355.0201299000182, value=lctrl, duration=None>
+355.3474 	EXP 	Device response: <KeyPress from None: t=355.33991500001866, value=v, duration=None>
+355.4973 	EXP 	Device response: <KeyPress from None: t=355.0201299000182, value=lctrl, duration=0.46366379997925833>
+355.4973 	EXP 	Device response: <KeyPress from None: t=355.33991500001866, value=v, duration=0.1442850999883376>
+361.9785 	EXP 	Device response: <KeyPress from None: t=361.9641629999969, value=lctrl, duration=None>
+362.2284 	EXP 	Device response: <KeyPress from None: t=362.21991899999557, value=v, duration=None>
+362.3451 	EXP 	Device response: <KeyPress from None: t=362.21991899999557, value=v, duration=0.11189140001079068>
+362.3785 	EXP 	Device response: <KeyPress from None: t=361.9641629999969, value=lctrl, duration=0.39979350002249703>
+378.8566 	EXP 	Device response: <KeyPress from None: t=378.84433230001014, value=1, duration=None>
+378.9899 	EXP 	Device response: <KeyPress from None: t=378.84433230001014, value=1, duration=0.1443662999663502>
+379.3564 	EXP 	Device response: <KeyPress from None: t=379.34062029997585, value=5, duration=None>
+379.4732 	EXP 	Device response: <KeyPress from None: t=379.34062029997585, value=5, duration=0.13060750003205612>
+381.0392 	EXP 	Device response: <KeyPress from None: t=381.0363746000221, value=1, duration=None>
+381.1893 	EXP 	Device response: <KeyPress from None: t=381.0363746000221, value=1, duration=0.1440178999910131>
+381.4390 	EXP 	Device response: <KeyPress from None: t=381.43648640002357, value=5, duration=None>
+381.5890 	EXP 	Device response: <KeyPress from None: t=381.43648640002357, value=5, duration=0.14427689998410642>
+389.3200 	EXP 	Device response: <KeyPress from None: t=389.3086226999876, value=1, duration=None>
+389.4698 	EXP 	Device response: <KeyPress from None: t=389.3086226999876, value=1, duration=0.16038469999330118>
+389.8198 	EXP 	Device response: <KeyPress from None: t=389.8049718000111, value=5, duration=None>
+389.9697 	EXP 	Device response: <KeyPress from None: t=389.8049718000111, value=5, duration=0.15990839997539297>
+392.4689 	EXP 	Device response: <KeyPress from None: t=392.4606520999805, value=1, duration=None>
+392.6689 	EXP 	Device response: <KeyPress from None: t=392.4606520999805, value=1, duration=0.19213420001324266>
+392.8022 	EXP 	Device response: <KeyPress from None: t=392.79671129997587, value=5, duration=None>
+392.9536 	EXP 	Device response: <KeyPress from None: t=392.79671129997587, value=5, duration=0.14407980005489662>
+426.1119 	EXP 	Device response: <KeyPress from None: t=426.1109008999774, value=r, duration=None>
+426.1289 	EXP 	opt_2_prc: foreColor = 'blue'
+426.2397 	EXP 	Device response: <KeyPress from None: t=66.4878444999922, value=r, duration=359.74251130002085>
+426.2495 	EXP 	info_example: autoDraw = False
+426.2495 	EXP 	opt_2_prc: autoDraw = False
+426.2495 	EXP 	opt_3_prc: autoDraw = False
+426.2495 	EXP 	opt_4_prc: autoDraw = False
+426.2495 	EXP 	opt_5_prc: autoDraw = False
+426.2495 	EXP 	text_feedback: height = 0.025
+426.2495 	EXP 	text_feedback: height = 0.025
+426.2495 	EXP 	text_feedback: height = 0.025
+426.2495 	EXP 	text_feedback: text = 'Gut gemacht! Sie haben Abruf verstanden.'
+426.2495 	EXP 	info_example_2: image = 'stimuli/practice_images/practice_sequence_overview_t3_01.jpg'
+426.2495 	EXP 	text_continue: height = 0.025
+426.2495 	EXP 	text_continue: height = 0.025
+426.2495 	EXP 	text_continue: height = 0.025
+426.2495 	EXP 	text_continue: text = 'Drücken Sie eine beliebige Taste, um weiterzumachen.'
+426.2495 	EXP 	text_feedback: autoDraw = True
+426.2495 	EXP 	text_continue: autoDraw = True
+426.7283 	INFO 	Keyboard events cleared
+428.6450 	EXP 	Device response: <KeyPress from None: t=428.6408973999787, value=r, duration=None>
+428.6518 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'trial_type': 3, 'img_first': 'stimuli/practice_images/cow.jpg', 'img_second': 'stimuli/practice_images/belt.jpg', 'img_third': None, 'opt_left': 'no', 'opt_right': 'yes', 'correct_side': 'right', 'correct_key': 'right', 'distance_correct': 4, 'image_dur_retr': 2, 'fix_dur_retr': 0.5, 'ImageExamplePath': 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg', 'iti_dur_retr': 0.52, 'reflection_win_dur': 1.89, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+428.6582 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+428.6628 	EXP 	text_feedback: autoDraw = False
+428.6628 	EXP 	info_example_2: autoDraw = False
+428.6628 	EXP 	text_continue: autoDraw = False
+428.6628 	EXP 	fix_cross_retrbegin: text = '+'
+428.6628 	EXP 	fix_cross_retrbegin: autoDraw = True
+428.8276 	EXP 	Device response: <KeyPress from None: t=426.1109008999774, value=r, duration=2.705888800031971>
+429.2393 	EXP 	fix_cross_retrbegin: autoDraw = False
+429.2393 	EXP 	fix_cross_retrbegin: autoDraw = False
+429.2393 	EXP 	image_1_prc: image = 'stimuli/practice_images/cow.jpg'
+429.2393 	EXP 	info_example_3: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+429.2393 	EXP 	image_1_prc: autoDraw = True
+429.2393 	EXP 	info_example_3: autoDraw = True
+429.5949 	EXP 	Device response: <KeyPress from None: t=429.59084150003036, value=r, duration=None>
+429.7775 	EXP 	Device response: <KeyPress from None: t=428.6408973999787, value=r, duration=1.1203785000252537>
+430.7434 	EXP 	image_1_prc: autoDraw = False
+430.7434 	EXP 	info_example_3: autoDraw = False
+430.7434 	EXP 	image_1_prc: autoDraw = False
+430.7434 	EXP 	info_example_3: autoDraw = False
+430.7434 	EXP 	info_example_4: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+430.7434 	EXP 	mask_img1: autoDraw = True
+430.7434 	EXP 	info_example_4: autoDraw = True
+431.0319 	EXP 	mask_img1: autoDraw = False
+431.0319 	EXP 	info_example_4: autoDraw = False
+431.0319 	EXP 	mask_img1: autoDraw = False
+431.0319 	EXP 	info_example_4: autoDraw = False
+431.0319 	EXP 	image_2_prc: image = 'stimuli/practice_images/belt.jpg'
+431.0319 	EXP 	info_example_5: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+431.0319 	EXP 	image_2_prc: autoDraw = True
+431.0319 	EXP 	info_example_5: autoDraw = True
+431.5274 	EXP 	Device response: <KeyPress from None: t=431.522206499998, value=r, duration=None>
+431.7102 	EXP 	Device response: <KeyPress from None: t=429.59084150003036, value=r, duration=2.1134178999927826>
+432.5428 	EXP 	image_2_prc: autoDraw = False
+432.5428 	EXP 	info_example_5: autoDraw = False
+432.5428 	EXP 	image_2_prc: autoDraw = False
+432.5428 	EXP 	info_example_5: autoDraw = False
+432.5428 	EXP 	info_example_6: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+432.5428 	EXP 	mask_img2: autoDraw = True
+432.5428 	EXP 	info_example_6: autoDraw = True
+432.7933 	EXP 	mask_img2: autoDraw = False
+432.7933 	EXP 	info_example_6: autoDraw = False
+432.7933 	EXP 	mask_img2: autoDraw = False
+432.7933 	EXP 	info_example_6: autoDraw = False
+432.7933 	EXP 	fix_cross_reflretr_2: autoDraw = True
+432.7933 	EXP 	text: autoDraw = True
+432.8436 	EXP 	Device response: <KeyPress from None: t=432.8353081999812, value=r, duration=None>
+432.9930 	EXP 	Device response: <KeyPress from None: t=431.522206499998, value=r, duration=1.4632159000029787>
+433.6264 	EXP 	Device response: <KeyPress from None: t=433.61980540002696, value=r, duration=None>
+433.7767 	EXP 	Device response: <KeyPress from None: t=432.8353081999812, value=r, duration=0.9409591000294313>
+434.0929 	EXP 	Device response: <KeyPress from None: t=434.0897128999932, value=r, duration=None>
+434.2262 	EXP 	Device response: <KeyPress from None: t=433.61980540002696, value=r, duration=0.6037646000040695>
+434.5767 	EXP 	Device response: <KeyPress from None: t=434.55967540002894, value=r, duration=None>
+434.7099 	EXP 	Device response: <KeyPress from None: t=434.0897128999932, value=r, duration=0.6077336000162177>
+434.8431 	EXP 	Device response: <KeyPress from None: t=434.8388991000247, value=r, duration=None>
+434.9429 	EXP 	Device response: <KeyPress from None: t=434.55967540002894, value=r, duration=0.3764369999989867>
+435.0451 	EXP 	Device response: <KeyPress from None: t=435.027725699998, value=r, duration=None>
+435.1257 	EXP 	Device response: <KeyPress from None: t=434.8388991000247, value=r, duration=0.270683899987489>
+435.2099 	EXP 	Device response: <KeyPress from None: t=435.2031401999993, value=r, duration=None>
+435.3097 	EXP 	Device response: <KeyPress from None: t=435.027725699998, value=r, duration=0.2709651999757625>
+435.3929 	EXP 	Device response: <KeyPress from None: t=435.38924540003063, value=r, duration=None>
+435.4926 	EXP 	Device response: <KeyPress from None: t=435.2031401999993, value=r, duration=0.28104249999159947>
+435.8763 	EXP 	Device response: <KeyPress from None: t=435.8651385999983, value=r, duration=None>
+435.9594 	EXP 	Device response: <KeyPress from None: t=435.38924540003063, value=r, duration=0.5532171999802813>
+436.0928 	EXP 	Device response: <KeyPress from None: t=436.08426909998525, value=r, duration=None>
+436.1593 	EXP 	Device response: <KeyPress from None: t=435.8651385999983, value=r, duration=0.29310379998059943>
+436.3262 	EXP 	Device response: <KeyPress from None: t=436.31590109999524, value=r, duration=None>
+436.4258 	EXP 	Device response: <KeyPress from None: t=436.08426909998525, value=r, duration=0.33332090004114434>
+436.5420 	EXP 	Device response: <KeyPress from None: t=436.53038930002367, value=r, duration=None>
+436.6259 	EXP 	Device response: <KeyPress from None: t=436.31590109999524, value=r, duration=0.30012500000884756>
+436.6758 	INFO 	Keyboard events cleared
+436.6805 	INFO 	Keyboard events cleared
+436.6922 	EXP 	fix_cross_reflretr_2: autoDraw = False
+436.6922 	EXP 	text: autoDraw = False
+436.6922 	EXP 	fix_cross_reflretr_2: autoDraw = False
+436.6922 	EXP 	text: autoDraw = False
+436.6922 	EXP 	yes_txt_3: text = 'ja'
+436.6922 	EXP 	no_txt_3: text = 'nein'
+436.6922 	EXP 	info_example_7: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+436.6922 	EXP 	yes_txt_3: autoDraw = True
+436.6922 	EXP 	no_txt_3: autoDraw = True
+436.6922 	EXP 	polygon_9: autoDraw = True
+436.6922 	EXP 	info_example_7: autoDraw = True
+436.7594 	EXP 	Device response: <KeyPress from None: t=436.74604549998185, value=r, duration=None>
+436.8086 	EXP 	Device response: <KeyPress from None: t=436.53038930002367, value=r, duration=0.26490349997766316>
+436.9264 	EXP 	Device response: <KeyPress from None: t=436.9241369999945, value=r, duration=None>
+437.0086 	EXP 	Device response: <KeyPress from None: t=436.74604549998185, value=r, duration=0.2527233000146225>
+437.1927 	EXP 	Device response: <KeyPress from None: t=437.18966049997834, value=r, duration=None>
+437.2925 	EXP 	Device response: <KeyPress from None: t=436.9241369999945, value=r, duration=0.3508072000113316>
+437.4259 	EXP 	Device response: <KeyPress from None: t=437.41275189997396, value=r, duration=None>
+437.5256 	EXP 	Device response: <KeyPress from None: t=437.18966049997834, value=r, duration=0.3287935000262223>
+437.6420 	EXP 	Device response: <KeyPress from None: t=437.63527420000173, value=r, duration=None>
+437.6922 	EXP 	Device response: <KeyPress from None: t=437.41275189997396, value=r, duration=0.26819550001528114>
+437.8926 	EXP 	Device response: <KeyPress from None: t=437.88721150002675, value=r, duration=None>
+437.9749 	EXP 	Device response: <KeyPress from None: t=437.63527420000173, value=r, duration=0.3358744999859482>
+438.0924 	EXP 	Device response: <KeyPress from None: t=438.0826497999951, value=r, duration=None>
+438.1588 	EXP 	Device response: <KeyPress from None: t=437.88721150002675, value=r, duration=0.25476429995615035>
+438.2589 	EXP 	Device response: <KeyPress from None: t=438.25505540001905, value=r, duration=None>
+438.3255 	EXP 	Device response: <KeyPress from None: t=438.0826497999951, value=r, duration=0.22739529999671504>
+438.4416 	EXP 	Device response: <KeyPress from None: t=438.42807500000345, value=r, duration=None>
+438.5080 	EXP 	Device response: <KeyPress from None: t=438.25505540001905, value=r, duration=0.24430640001082793>
+438.6418 	EXP 	Device response: <KeyPress from None: t=438.6262519999873, value=r, duration=None>
+438.7252 	EXP 	Device response: <KeyPress from None: t=438.42807500000345, value=r, duration=0.28182039997773245>
+438.8584 	EXP 	Device response: <KeyPress from None: t=438.8575869000051, value=r, duration=None>
+438.9412 	EXP 	Device response: <KeyPress from None: t=438.6262519999873, value=r, duration=0.3128525000065565>
+439.1081 	EXP 	Device response: <KeyPress from None: t=439.0997004000237, value=r, duration=None>
+439.1744 	EXP 	Device response: <KeyPress from None: t=438.8575869000051, value=r, duration=0.3096984999720007>
+439.3245 	EXP 	Device response: <KeyPress from None: t=439.31626799999503, value=r, duration=None>
+439.4085 	EXP 	Device response: <KeyPress from None: t=439.0997004000237, value=r, duration=0.30008399998769164>
+439.5419 	EXP 	Device response: <KeyPress from None: t=439.5259997000103, value=r, duration=None>
+439.6244 	EXP 	Device response: <KeyPress from None: t=439.31626799999503, value=r, duration=0.295022499980405>
+439.7416 	EXP 	Device response: <KeyPress from None: t=439.7280677999952, value=r, duration=None>
+439.7909 	EXP 	Device response: <KeyPress from None: t=439.5259997000103, value=r, duration=0.24977120000403374>
+440.9574 	EXP 	Device response: <KeyPress from None: t=440.94766830001026, value=r, duration=None>
+441.0905 	EXP 	Device response: <KeyPress from None: t=439.7280677999952, value=r, duration=1.3537287000217475>
+441.2414 	EXP 	Device response: <KeyPress from None: t=441.2327106000157, value=r, duration=None>
+441.3410 	EXP 	Device response: <KeyPress from None: t=440.94766830001026, value=r, duration=0.3807365999673493>
+441.4572 	EXP 	Device response: <KeyPress from None: t=441.4513203999959, value=r, duration=None>
+441.5409 	EXP 	Device response: <KeyPress from None: t=441.2327106000157, value=r, duration=0.3067064000060782>
+441.6573 	EXP 	Device response: <KeyPress from None: t=441.65182869997807, value=r, duration=None>
+441.7076 	EXP 	Device response: <KeyPress from None: t=441.4513203999959, value=r, duration=0.24570550001226366>
+441.9408 	EXP 	Device response: <KeyPress from None: t=441.9399941000156, value=r, duration=None>
+442.0741 	EXP 	Device response: <KeyPress from None: t=441.65182869997807, value=r, duration=0.42056540003977716>
+442.6406 	EXP 	Device response: <KeyPress from None: t=442.6381814000197, value=r, duration=None>
+442.7399 	EXP 	Device response: <KeyPress from None: t=441.9399941000156, value=r, duration=0.7979178999667056>
+442.9067 	EXP 	Device response: <KeyPress from None: t=442.89252290001605, value=r, duration=None>
+442.9572 	EXP 	Device response: <KeyPress from None: t=442.6381814000197, value=r, duration=0.3117460999637842>
+443.0571 	EXP 	Device response: <KeyPress from None: t=443.0540343999746, value=r, duration=None>
+443.1572 	EXP 	Device response: <KeyPress from None: t=442.89252290001605, value=r, duration=0.2529510000022128>
+443.3066 	EXP 	Device response: <KeyPress from None: t=443.2906184999738, value=r, duration=None>
+443.3903 	EXP 	Device response: <KeyPress from None: t=443.0540343999746, value=r, duration=0.32397430000128224>
+444.3901 	EXP 	Device response: <KeyPress from None: t=444.37700889998814, value=r, duration=None>
+444.5060 	EXP 	Device response: <KeyPress from None: t=443.2906184999738, value=r, duration=1.2083824000437744>
+444.7396 	EXP 	Device response: <KeyPress from None: t=444.7233222000068, value=r, duration=None>
+444.8393 	EXP 	Device response: <KeyPress from None: t=444.37700889998814, value=r, duration=0.4616052000201307>
+446.7559 	EXP 	Device response: <KeyPress from None: t=446.74889300001087, value=t, duration=None>
+446.9392 	EXP 	Device response: <KeyPress from None: t=446.74889300001087, value=t, duration=0.1884054999682121>
+448.1893 	EXP 	Device response: <KeyPress from None: t=448.183130600024, value=h, duration=None>
+448.4048 	EXP 	Device response: <KeyPress from None: t=448.183130600024, value=h, duration=0.20642099995166063>
+449.2717 	EXP 	Device response: <KeyPress from None: t=449.25955979997525, value=r, duration=None>
+449.4396 	EXP 	Device response: <KeyPress from None: t=444.7233222000068, value=r, duration=4.71322269999655>
+451.8709 	EXP 	Device response: <KeyPress from None: t=451.8674298999831, value=t, duration=None>
+452.0541 	EXP 	Device response: <KeyPress from None: t=451.8674298999831, value=t, duration=0.18249060004018247>
+453.8864 	EXP 	Device response: <KeyPress from None: t=453.8857233999879, value=r, duration=None>
+454.0869 	EXP 	Device response: <KeyPress from None: t=449.25955979997525, value=r, duration=4.816575800010469>
+459.2520 	EXP 	Device response: <KeyPress from None: t=459.2433650000021, value=r, duration=None>
+459.4018 	EXP 	Device response: <KeyPress from None: t=453.8857233999879, value=r, duration=5.512125700013712>
+461.2175 	EXP 	Device response: <KeyPress from None: t=461.2105805000174, value=g, duration=None>
+461.3348 	INFO 	Keyboard events cleared
+461.3397 	INFO 	Keyboard events cleared
+461.3498 	EXP 	yes_txt_3: autoDraw = False
+461.3498 	EXP 	no_txt_3: autoDraw = False
+461.3498 	EXP 	polygon_9: autoDraw = False
+461.3498 	EXP 	info_example_7: autoDraw = False
+461.3498 	EXP 	info_example: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+461.3498 	EXP 	opt_2_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+461.3498 	EXP 	opt_3_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+461.3498 	EXP 	opt_4_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+461.3498 	EXP 	opt_5_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+461.3498 	EXP 	info_example: autoDraw = True
+461.3498 	EXP 	opt_2_prc: autoDraw = True
+461.3498 	EXP 	opt_3_prc: autoDraw = True
+461.3498 	EXP 	opt_4_prc: autoDraw = True
+461.3498 	EXP 	opt_5_prc: autoDraw = True
+461.4185 	EXP 	Device response: <KeyPress from None: t=461.2105805000174, value=g, duration=0.19131550000747666>
+464.0505 	EXP 	Device response: <KeyPress from None: t=464.0478338000248, value=r, duration=None>
+464.0668 	EXP 	opt_2_prc: foreColor = 'blue'
+464.1938 	EXP 	info_example: autoDraw = False
+464.1938 	EXP 	opt_2_prc: autoDraw = False
+464.1938 	EXP 	opt_3_prc: autoDraw = False
+464.1938 	EXP 	opt_4_prc: autoDraw = False
+464.1938 	EXP 	opt_5_prc: autoDraw = False
+464.1938 	EXP 	text_feedback: height = 0.025
+464.1938 	EXP 	text_feedback: height = 0.025
+464.1938 	EXP 	text_feedback: height = 0.025
+464.1938 	EXP 	text_feedback: text = 'Ihre Antwort war falsch.\nBitte schauen Sie sich die Hintergrundinformationen noch einmal an. Bestimmen Sie, wie weit die Bilder in der gezeigten Sequenz auseinanderliegen.'
+464.1938 	EXP 	info_example_2: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+464.1938 	EXP 	text_continue: height = 0.025
+464.1938 	EXP 	text_continue: height = 0.025
+464.1938 	EXP 	text_continue: height = 0.025
+464.1938 	EXP 	text_continue: text = 'Wenn Sie die richtige Antwort wissen, drücken Sie eine beliebige Taste, um die Frage noch einmal zu beantworten.'
+464.1938 	EXP 	text_feedback: autoDraw = True
+464.1938 	EXP 	info_example_2: autoDraw = True
+464.1938 	EXP 	text_continue: autoDraw = True
+464.2681 	EXP 	Device response: <KeyPress from None: t=459.2433650000021, value=r, duration=5.0108864000067115>
+464.6668 	INFO 	Keyboard events cleared
+484.0119 	EXP 	Device response: <KeyPress from None: t=483.997750599985, value=backspace, duration=None>
+484.1108 	EXP 	Device response: <KeyPress from None: t=483.997750599985, value=backspace, duration=0.10371320002013817>
+490.8255 	EXP 	Device response: <KeyPress from None: t=490.82488010003, value=backspace, duration=None>
+490.9258 	EXP 	Device response: <KeyPress from None: t=490.82488010003, value=backspace, duration=0.08875369996530935>
+491.0080 	EXP 	Device response: <KeyPress from None: t=491.0036211999832, value=backspace, duration=None>
+491.0917 	EXP 	Device response: <KeyPress from None: t=491.0036211999832, value=backspace, duration=0.08120140002574772>
+491.2752 	EXP 	Device response: <KeyPress from None: t=491.2601454000105, value=backspace, duration=None>
+491.3919 	EXP 	Device response: <KeyPress from None: t=491.2601454000105, value=backspace, duration=0.12802279996685684>
+492.1921 	EXP 	Device response: <KeyPress from None: t=492.17393540003104, value=2, duration=None>
+492.2742 	EXP 	Device response: <KeyPress from None: t=492.17393540003104, value=2, duration=0.09539789997506887>
+492.5074 	EXP 	Device response: <KeyPress from None: t=492.506087900023, value=5, duration=None>
+492.5914 	EXP 	Device response: <KeyPress from None: t=492.506087900023, value=5, duration=0.07744759996421635>
+512.6680 	EXP 	Device response: <KeyPress from None: t=512.6668487000279, value=lctrl, duration=None>
+512.9852 	EXP 	Device response: <KeyPress from None: t=512.9672947999788, value=v, duration=None>
+513.1182 	EXP 	Device response: <KeyPress from None: t=512.9672947999788, value=v, duration=0.14585240004817024>
+513.1561 	EXP 	Device response: <KeyPress from None: t=512.6668487000279, value=lctrl, duration=0.4722988999565132>
+523.9976 	EXP 	Device response: <KeyPress from None: t=523.9861052000197, value=lctrl, duration=None>
+524.3151 	EXP 	Device response: <KeyPress from None: t=524.3108287000214, value=v, duration=None>
+524.4149 	EXP 	Device response: <KeyPress from None: t=524.3108287000214, value=v, duration=0.10161229997174814>
+524.4535 	EXP 	Device response: <KeyPress from None: t=523.9861052000197, value=lctrl, duration=0.45208349998574704>
+534.6110 	EXP 	Device response: <KeyPress from None: t=534.5962533000275, value=lctrl, duration=None>
+534.9107 	EXP 	Device response: <KeyPress from None: t=534.9042867000098, value=v, duration=None>
+534.9946 	EXP 	Device response: <KeyPress from None: t=534.9042867000098, value=v, duration=0.08597529999678954>
+535.0123 	EXP 	Device response: <KeyPress from None: t=534.5962533000275, value=lctrl, duration=0.40003039996372536>
+543.0922 	EXP 	Device response: <KeyPress from None: t=543.0763811999932, value=lctrl, duration=None>
+543.3923 	EXP 	Device response: <KeyPress from None: t=543.3906877000118, value=v, duration=None>
+543.5266 	EXP 	Device response: <KeyPress from None: t=543.0763811999932, value=lctrl, duration=0.43588559998897836>
+543.5267 	EXP 	Device response: <KeyPress from None: t=543.3906877000118, value=v, duration=0.1276664999895729>
+558.4873 	EXP 	Device response: <KeyPress from None: t=558.4793602999998, value=lctrl, duration=None>
+558.9541 	EXP 	Device response: <KeyPress from None: t=558.9467581000063, value=v, duration=None>
+559.1219 	EXP 	Device response: <KeyPress from None: t=558.9467581000063, value=v, duration=0.15820160001749173>
+559.1885 	EXP 	Device response: <KeyPress from None: t=558.4793602999998, value=lctrl, duration=0.695956000010483>
+569.0333 	EXP 	Device response: <KeyPress from None: t=569.0230766999885, value=lctrl, duration=None>
+569.3178 	EXP 	Device response: <KeyPress from None: t=569.3090044999844, value=v, duration=None>
+569.4670 	EXP 	Device response: <KeyPress from None: t=569.3090044999844, value=v, duration=0.15208130003884435>
+569.4670 	EXP 	Device response: <KeyPress from None: t=569.0230766999885, value=lctrl, duration=0.44313520001014695>
+578.6641 	EXP 	Device response: <KeyPress from None: t=578.660422099987, value=lctrl, duration=None>
+578.9976 	EXP 	Device response: <KeyPress from None: t=578.9865112000261, value=v, duration=None>
+579.0477 	EXP 	Device response: <KeyPress from None: t=578.660422099987, value=lctrl, duration=0.37751220003701746>
+579.0988 	EXP 	Device response: <KeyPress from None: t=578.9865112000261, value=v, duration=0.099768599960953>
+591.0104 	EXP 	Device response: <KeyPress from None: t=591.0068921999773, value=lctrl, duration=None>
+591.2438 	EXP 	Device response: <KeyPress from None: t=591.2323064000229, value=v, duration=None>
+591.3450 	EXP 	Device response: <KeyPress from None: t=591.0068921999773, value=lctrl, duration=0.32317670003976673>
+591.3451 	EXP 	Device response: <KeyPress from None: t=591.2323064000229, value=v, duration=0.11071589996572584>
+608.6213 	EXP 	Device response: <KeyPress from None: t=608.6190121999825, value=lctrl, duration=None>
+608.9045 	EXP 	Device response: <KeyPress from None: t=608.8924088000203, value=v, duration=None>
+609.0259 	EXP 	Device response: <KeyPress from None: t=608.8924088000203, value=v, duration=0.11382259998936206>
+609.0259 	EXP 	Device response: <KeyPress from None: t=608.6190121999825, value=lctrl, duration=0.3910676999948919>
+620.5183 	EXP 	Device response: <KeyPress from None: t=620.5017732999986, value=lctrl, duration=None>
+620.7673 	EXP 	Device response: <KeyPress from None: t=620.7534009999945, value=v, duration=None>
+620.9004 	EXP 	Device response: <KeyPress from None: t=620.5017732999986, value=lctrl, duration=0.3962860999745317>
+620.9367 	EXP 	Device response: <KeyPress from None: t=620.7534009999945, value=v, duration=0.18265400000382215>
+630.9645 	EXP 	Device response: <KeyPress from None: t=630.9478565999889, value=lctrl, duration=None>
+631.2646 	EXP 	Device response: <KeyPress from None: t=631.2497561000055, value=v, duration=None>
+631.4324 	EXP 	Device response: <KeyPress from None: t=631.2497561000055, value=v, duration=0.16422089998377487>
+631.4520 	EXP 	Device response: <KeyPress from None: t=630.9478565999889, value=lctrl, duration=0.4846519000129774>
+641.4605 	EXP 	Device response: <KeyPress from None: t=641.4443861999898, value=lctrl, duration=None>
+641.7447 	EXP 	Device response: <KeyPress from None: t=641.7300537999836, value=v, duration=None>
+641.8444 	EXP 	Device response: <KeyPress from None: t=641.7300537999836, value=v, duration=0.11014960001921281>
+641.8446 	EXP 	Device response: <KeyPress from None: t=641.4443861999898, value=lctrl, duration=0.39968600001884624>
+644.1930 	EXP 	text_feedback: autoDraw = False
+644.1930 	EXP 	info_example_2: autoDraw = False
+644.1930 	EXP 	text_continue: autoDraw = False
+644.1994 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+644.2101 	EXP 	text_feedback: autoDraw = False
+644.2101 	EXP 	info_example_2: autoDraw = False
+644.2101 	EXP 	text_continue: autoDraw = False
+644.2101 	EXP 	fix_cross_retrbegin: text = '+'
+644.2101 	EXP 	fix_cross_retrbegin: autoDraw = True
+644.7810 	EXP 	fix_cross_retrbegin: autoDraw = False
+644.7810 	EXP 	fix_cross_retrbegin: autoDraw = False
+644.7810 	EXP 	image_1_prc: image = 'stimuli/practice_images/cow.jpg'
+644.7810 	EXP 	info_example_3: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+644.7810 	EXP 	image_1_prc: autoDraw = True
+644.7810 	EXP 	info_example_3: autoDraw = True
+646.2921 	EXP 	image_1_prc: autoDraw = False
+646.2921 	EXP 	info_example_3: autoDraw = False
+646.2921 	EXP 	image_1_prc: autoDraw = False
+646.2921 	EXP 	info_example_3: autoDraw = False
+646.2921 	EXP 	info_example_4: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+646.2921 	EXP 	mask_img1: autoDraw = True
+646.2921 	EXP 	info_example_4: autoDraw = True
+646.5792 	EXP 	mask_img1: autoDraw = False
+646.5792 	EXP 	info_example_4: autoDraw = False
+646.5792 	EXP 	mask_img1: autoDraw = False
+646.5792 	EXP 	info_example_4: autoDraw = False
+646.5792 	EXP 	image_2_prc: image = 'stimuli/practice_images/belt.jpg'
+646.5792 	EXP 	info_example_5: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+646.5792 	EXP 	image_2_prc: autoDraw = True
+646.5792 	EXP 	info_example_5: autoDraw = True
+648.0917 	EXP 	image_2_prc: autoDraw = False
+648.0917 	EXP 	info_example_5: autoDraw = False
+648.0917 	EXP 	image_2_prc: autoDraw = False
+648.0917 	EXP 	info_example_5: autoDraw = False
+648.0917 	EXP 	info_example_6: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+648.0917 	EXP 	mask_img2: autoDraw = True
+648.0917 	EXP 	info_example_6: autoDraw = True
+648.3424 	EXP 	mask_img2: autoDraw = False
+648.3424 	EXP 	info_example_6: autoDraw = False
+648.3424 	EXP 	mask_img2: autoDraw = False
+648.3424 	EXP 	info_example_6: autoDraw = False
+648.3424 	EXP 	fix_cross_reflretr_2: autoDraw = True
+648.3424 	EXP 	text: autoDraw = True
+652.2239 	INFO 	Keyboard events cleared
+652.2272 	INFO 	Keyboard events cleared
+652.2410 	EXP 	fix_cross_reflretr_2: autoDraw = False
+652.2410 	EXP 	text: autoDraw = False
+652.2410 	EXP 	fix_cross_reflretr_2: autoDraw = False
+652.2410 	EXP 	text: autoDraw = False
+652.2410 	EXP 	yes_txt_3: text = 'ja'
+652.2410 	EXP 	no_txt_3: text = 'nein'
+652.2410 	EXP 	info_example_7: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+652.2410 	EXP 	yes_txt_3: autoDraw = True
+652.2410 	EXP 	no_txt_3: autoDraw = True
+652.2410 	EXP 	polygon_9: autoDraw = True
+652.2410 	EXP 	info_example_7: autoDraw = True
+832.2339 	INFO 	Keyboard events cleared
+832.2386 	INFO 	Keyboard events cleared
+832.2506 	EXP 	yes_txt_3: autoDraw = False
+832.2506 	EXP 	no_txt_3: autoDraw = False
+832.2506 	EXP 	polygon_9: autoDraw = False
+832.2506 	EXP 	info_example_7: autoDraw = False
+832.2506 	EXP 	yes_txt_3: autoDraw = False
+832.2506 	EXP 	no_txt_3: autoDraw = False
+832.2506 	EXP 	polygon_9: autoDraw = False
+832.2506 	EXP 	info_example_7: autoDraw = False
+832.2506 	EXP 	info_example: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+832.2506 	EXP 	opt_2_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+832.2506 	EXP 	opt_3_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+832.2506 	EXP 	opt_4_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+832.2506 	EXP 	opt_5_prc: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+832.2506 	EXP 	info_example: autoDraw = True
+832.2506 	EXP 	opt_2_prc: autoDraw = True
+832.2506 	EXP 	opt_3_prc: autoDraw = True
+832.2506 	EXP 	opt_4_prc: autoDraw = True
+832.2506 	EXP 	opt_5_prc: autoDraw = True
+852.6781 	EXP 	Device response: <KeyPress from None: t=852.6644994000089, value=backspace, duration=None>
+852.7291 	EXP 	Device response: <KeyPress from None: t=852.6644994000089, value=backspace, duration=0.06408749998081475>
+853.3773 	EXP 	Device response: <KeyPress from None: t=853.3683012999827, value=7, duration=None>
+853.4449 	EXP 	Device response: <KeyPress from None: t=853.3683012999827, value=7, duration=0.06447889999253675>
+870.7058 	EXP 	Device response: <KeyPress from None: t=870.6966709999833, value=7, duration=None>
+870.8228 	EXP 	Device response: <KeyPress from None: t=870.6966709999833, value=7, duration=0.11240010004257783>
+911.3088 	EXP 	Device response: <KeyPress from None: t=911.3079543000204, value=s, duration=None>
+911.4086 	EXP 	Device response: <KeyPress from None: t=911.3079543000204, value=s, duration=0.09744330000830814>
+911.5756 	EXP 	Device response: <KeyPress from None: t=911.5706936999923, value=h, duration=None>
+911.6592 	EXP 	Device response: <KeyPress from None: t=911.5706936999923, value=h, duration=0.08365029998822138>
+911.8422 	EXP 	Device response: <KeyPress from None: t=911.8313283000025, value=p, duration=None>
+911.8926 	EXP 	Device response: <KeyPress from None: t=911.8313283000025, value=p, duration=0.05340470001101494>
+912.2424 	EXP 	Device response: <KeyPress from None: t=912.2311977000209, value=backspace, duration=None>
+912.3417 	EXP 	Device response: <KeyPress from None: t=912.2311977000209, value=backspace, duration=0.10575309995329008>
+912.4755 	EXP 	Device response: <KeyPress from None: t=912.4608171000145, value=o, duration=None>
+912.5750 	EXP 	Device response: <KeyPress from None: t=912.4608171000145, value=o, duration=0.09796250000363216>
+912.6085 	EXP 	Device response: <KeyPress from None: t=912.5997535000206, value=w, duration=None>
+912.7255 	EXP 	Device response: <KeyPress from None: t=912.5997535000206, value=w, duration=0.11985529999947175>
+913.7586 	EXP 	Device response: <KeyPress from None: t=913.7412371999817, value=lshift, duration=None>
+914.0414 	EXP 	Device response: <KeyPress from None: t=914.0252069000271, value=minus, duration=None>
+914.1412 	EXP 	Device response: <KeyPress from None: t=914.0252069000271, value=minus, duration=0.10943449998740107>
+914.1745 	EXP 	Device response: <KeyPress from None: t=913.7412371999817, value=lshift, duration=0.4298255000030622>
+914.5948 	EXP 	Device response: <KeyPress from None: t=914.5849160000216, value=c, duration=None>
+914.6583 	EXP 	Device response: <KeyPress from None: t=914.5849160000216, value=c, duration=0.06731949996901676>
+914.6919 	EXP 	Device response: <KeyPress from None: t=914.683526000008, value=o, duration=None>
+914.7582 	EXP 	Device response: <KeyPress from None: t=914.683526000008, value=o, duration=0.07158729998627678>
+914.8742 	EXP 	Device response: <KeyPress from None: t=914.870960899978, value=n, duration=None>
+914.9742 	EXP 	Device response: <KeyPress from None: t=914.870960899978, value=n, duration=0.08773070003371686>
+914.9917 	EXP 	Device response: <KeyPress from None: t=914.9795598000055, value=t, duration=None>
+915.0743 	EXP 	Device response: <KeyPress from None: t=914.9795598000055, value=t, duration=0.08560539997415617>
+915.1742 	EXP 	Device response: <KeyPress from None: t=915.1679608999984, value=e, duration=None>
+915.2581 	EXP 	Device response: <KeyPress from None: t=915.1679608999984, value=e, duration=0.0734968000324443>
+915.3580 	EXP 	Device response: <KeyPress from None: t=915.3525552999927, value=x, duration=None>
+915.4408 	EXP 	Device response: <KeyPress from None: t=915.3525552999927, value=x, duration=0.08558369998354465>
+915.5579 	EXP 	Device response: <KeyPress from None: t=915.546676900005, value=t, duration=None>
+915.6421 	EXP 	Device response: <KeyPress from None: t=915.546676900005, value=t, duration=0.0787508999928832>
+915.8081 	EXP 	Device response: <KeyPress from None: t=915.7908490999835, value=lshift, duration=None>
+915.9579 	EXP 	Device response: <KeyPress from None: t=915.9418665000121, value=minus, duration=None>
+916.0410 	EXP 	Device response: <KeyPress from None: t=915.9418665000121, value=minus, duration=0.09742930001812056>
+916.1078 	EXP 	Device response: <KeyPress from None: t=915.7908490999835, value=lshift, duration=0.3047093999921344>
+916.4241 	EXP 	Device response: <KeyPress from None: t=916.412773100019, value=2, duration=None>
+916.4904 	EXP 	Device response: <KeyPress from None: t=916.412773100019, value=2, duration=0.0715347999939695>
+980.2539 	EXP 	Device response: <KeyPress from None: t=980.2517949999892, value=backspace, duration=None>
+980.3204 	EXP 	Device response: <KeyPress from None: t=980.2517949999892, value=backspace, duration=0.06377549999160692>
+980.3712 	EXP 	Device response: <KeyPress from None: t=980.3634878000012, value=backspace, duration=None>
+980.4710 	EXP 	Device response: <KeyPress from None: t=980.3634878000012, value=backspace, duration=0.09597349999239668>
+980.9074 	EXP 	Device response: <KeyPress from None: t=980.8755113999941, value=return, duration=None>
+980.9537 	EXP 	Device response: <KeyPress from None: t=980.8755113999941, value=return, duration=0.06432840001070872>
+994.4502 	EXP 	Device response: <KeyPress from None: t=994.4440780000295, value=backspace, duration=None>
+994.5170 	EXP 	Device response: <KeyPress from None: t=994.4440780000295, value=backspace, duration=0.0637035999679938>
+994.6169 	EXP 	Device response: <KeyPress from None: t=994.6039010999957, value=backspace, duration=None>
+994.6862 	EXP 	Device response: <KeyPress from None: t=994.6039010999957, value=backspace, duration=0.0642496999935247>
+1012.2606 	EXP 	info_example: autoDraw = False
+1012.2606 	EXP 	opt_2_prc: autoDraw = False
+1012.2606 	EXP 	opt_3_prc: autoDraw = False
+1012.2606 	EXP 	opt_4_prc: autoDraw = False
+1012.2606 	EXP 	opt_5_prc: autoDraw = False
+1012.2606 	EXP 	info_example: autoDraw = False
+1012.2606 	EXP 	opt_2_prc: autoDraw = False
+1012.2606 	EXP 	opt_3_prc: autoDraw = False
+1012.2606 	EXP 	opt_4_prc: autoDraw = False
+1012.2606 	EXP 	opt_5_prc: autoDraw = False
+1012.2606 	EXP 	text_feedback: text = 'Ihre Antwort war falsch.\nBitte schauen Sie sich die Hintergrundinformationen noch einmal an. Bestimmen Sie, wie weit die Bilder in der gezeigten Sequenz auseinanderliegen.'
+1012.2606 	EXP 	info_example_2: image = 'stimuli/practice_images/practice_sequence_overview_t3_02.jpg'
+1012.2606 	EXP 	text_continue: text = 'Wenn Sie die richtige Antwort wissen, drücken Sie eine beliebige Taste, um die Frage noch einmal zu beantworten.'
+1012.2606 	EXP 	text_feedback: autoDraw = True
+1012.2606 	EXP 	info_example_2: autoDraw = True
+1012.2606 	EXP 	text_continue: autoDraw = True
+1012.7479 	INFO 	Keyboard events cleared
+1022.3080 	EXP 	Device response: <KeyPress from None: t=1022.3006192999892, value=backspace, duration=None>
+1022.3905 	EXP 	Device response: <KeyPress from None: t=1022.3006192999892, value=backspace, duration=0.07995980000123382>
+1022.4947 	EXP 	Device response: <KeyPress from None: t=1022.4774852999835, value=backspace, duration=None>
+1022.5743 	EXP 	Device response: <KeyPress from None: t=1022.4774852999835, value=backspace, duration=0.08092939999187365>
+1029.4948 	DATA 	Mouse: Left button down, pos=(970,368)
+1029.6194 	DATA 	Mouse:  Left button up, pos=(970,368)
+1029.7184 	EXP 	Device response: <KeyPress from None: t=1029.7086551000248, value=escape, duration=None>
+1029.7200 	DATA 	Keypress: escape
+1029.8185 	EXP 	Device response: <KeyPress from None: t=1029.7086551000248, value=escape, duration=0.10359899996547028>
+1029.8186 	EXP 	TSRlearn_main-blocks: status = STOPPED
+1029.8346 	EXP 	text_feedback: autoDraw = False
+1029.8346 	EXP 	info_example_2: autoDraw = False
+1029.8346 	EXP 	text_continue: autoDraw = False
+1029.8353 	EXP 	TSRlearn_main-blocks: status = STOPPED
+1029.8777 	INFO 	saved data to 'C:\\sync_folder\\TSRlearn-task\\psychopy_exp_files\\data\\3_TSRlearn_main-blocks_2026-08-10_14h12.47.694.csv'
+1029.8809 	INFO 	saved data to C:\sync_folder\TSRlearn-task\psychopy_exp_files\data\3_TSRlearn_main-blocks_2026-08-10_14h12.47.694.psydat
+1030.2230 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3209 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3209 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3210 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1030.3211 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
