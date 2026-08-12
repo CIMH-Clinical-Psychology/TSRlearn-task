@@ -1,3 +1,0 @@
-subject	trial_type	block_name	sequence_name	route_num	trial_num	component_label	concept_label	concept_exemplar	onset	duration	type_of_stimulus	trigger_value	trigger_onset	trigger_delay	response_time	press_onset_est	response	response_meaning	expected_response	correct	distance_correct
-3	instruction	n/a	n/a	n/a	n/a	instruction_part1	n/a	n/a	0.03288150002481416	7.065304499992635	instruction_text	255	0.03291280003031716	3.130000550299883e-05	n/a	n/a	n/a	n/a	n/a	n/a	n/a
-3	n/a	n/a	n/a	n/a	n/a	exp_start	n/a	n/a	0.03291280003031716	0.0	trigger	255	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
