@@ -71,7 +71,7 @@
     <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
     <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
     <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
-    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
     <Param val="False" valType="bool" updates="None" name="rush"/>
     <Param val="alphabetical" valType="str" updates="None" name="sortColumns"/>
     <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
@@ -120,8 +120,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="current_trial_number = ((trials.thisN + 1) + buffer_num);&amp;#10;if ((current_trial_number === 1)) {&amp;#10;    block_num = 1;&amp;#10;} else {&amp;#10;    if ((((current_trial_number - 1) % break_interval) === 0)) {&amp;#10;        block_num = (Number.parseInt(((current_trial_number - 1) / break_interval)) + 1);&amp;#10;    } else {&amp;#10;        block_num = block_num;&amp;#10;    }&amp;#10;}&amp;#10;trial_num = current_trial_number;&amp;#10;Math.log(&quot;Block number: &quot;, block_num);&amp;#10;Math.log(&quot;Trial number: &quot;, trial_num);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="&amp;#10;current_trial_number = trials.thisN + 1 + buffer_num # make it start at 1&amp;#10;# avoid the 4 buffer trials in beginning&amp;#10;# block number should increase one trial AFTER a break_interval trial&amp;#10;if current_trial_number == 1:&amp;#10;    block_num = 1&amp;#10;elif (current_trial_number - 1) % break_interval == 0:&amp;#10;    block_num = int((current_trial_number - 1) / break_interval) + 1&amp;#10;else:&amp;#10;    # otherwise keep previous value&amp;#10;    block_num = block_num&amp;#10;    &amp;#10;trial_num = current_trial_number&amp;#10;&amp;#10;log(&quot;Block number: &quot;, block_num)&amp;#10;log(&quot;Trial number: &quot;, trial_num)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="current_trial_number = ((trials.thisN + 1) - buffer_num);&amp;#10;if ((current_trial_number === 1)) {&amp;#10;    block_num = 1;&amp;#10;} else {&amp;#10;    if ((((current_trial_number - 1) % break_interval) === 0)) {&amp;#10;        block_num = (Number.parseInt(((current_trial_number - 1) / break_interval)) + 1);&amp;#10;    } else {&amp;#10;        if ((current_trial_number &gt; 1)) {&amp;#10;            block_num = block_num;&amp;#10;        } else {&amp;#10;            if ((current_trial_number &lt; 1)) {&amp;#10;                block_num = 0;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;trial_num = current_trial_number;&amp;#10;Math.log(&quot;Block number: &quot;, block_num);&amp;#10;Math.log(&quot;Trial number: &quot;, trial_num);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;current_trial_number = trials.thisN + 1 - buffer_num # make it start at 1&amp;#10;# avoid the 4 buffer trials in beginning&amp;#10;# block number should increase one trial AFTER a break_interval trial&amp;#10;if current_trial_number == 1:&amp;#10;    block_num = 1&amp;#10;elif (current_trial_number - 1) % break_interval == 0:&amp;#10;    block_num = int((current_trial_number - 1) / break_interval) + 1&amp;#10;elif current_trial_number &gt; 1:&amp;#10;    block_num = block_num&amp;#10;    # otherwise keep previous value&amp;#10;elif current_trial_number &lt; 1:&amp;#10;    block_num = 0&amp;#10;    &amp;#10;trial_num = current_trial_number&amp;#10;&amp;#10;log(&quot;Block number: &quot;, block_num)&amp;#10;log(&quot;Trial number: &quot;, trial_num)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -159,7 +159,7 @@
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="$ &quot;stimuli\\&quot; + image_shown" valType="file" updates="set every repeat" name="image"/>
+        <Param val="$ r&quot;stimuli/&quot; + image_shown" valType="file" updates="set every repeat" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="image" valType="code" updates="None" name="name"/>
@@ -677,8 +677,8 @@
       <CodeComponent name="set_cond_file" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# zero-pad participant number for 0–9&amp;#10;p_num = int(expInfo['participant'])&amp;#10;conditions_file = f&quot;sequences/localizer_conditions_things_0{p_num}.xlsx&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="p_num = Number.parseInt(expInfo[&quot;participant&quot;]);&amp;#10;conditions_file = `sequences/localizer_conditions_things_0${p_num}.xlsx`;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="# zero-pad participant number for 0–9&amp;#10;p_num = int(expInfo['participant'])&amp;#10;conditions_file = f&quot;sequences/localizer_conditions_0{p_num}.xlsx&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="p_num = Number.parseInt(expInfo[&quot;participant&quot;]);&amp;#10;conditions_file = `sequences/localizer_conditions_0${p_num}.xlsx`;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -1137,8 +1137,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((trials.thisN === 0)) {&amp;#10;    continueRoutine = false;&amp;#10;} else {&amp;#10;    if (((current_trial_number % break_interval) !== 0)) {&amp;#10;        continueRoutine = false;&amp;#10;    } else {&amp;#10;        if ((block_num === total_block_number)) {&amp;#10;            continueRoutine = false;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if trials.thisN == 0:&amp;#10;   continueRoutine = False&amp;#10;elif current_trial_number % break_interval!= 0:&amp;#10;    continueRoutine = False&amp;#10;elif block_num == total_block_number:&amp;#10;     continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="if ((current_trial_number === 0)) {&amp;#10;    continueRoutine = false;&amp;#10;} else {&amp;#10;    if (((current_trial_number % break_interval) !== 0)) {&amp;#10;        continueRoutine = false;&amp;#10;    } else {&amp;#10;        if ((block_num === total_block_number)) {&amp;#10;            continueRoutine = false;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if current_trial_number == 0:&amp;#10;   continueRoutine = False&amp;#10;elif current_trial_number % break_interval!= 0:&amp;#10;    continueRoutine = False&amp;#10;elif block_num == total_block_number:&amp;#10;     continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
