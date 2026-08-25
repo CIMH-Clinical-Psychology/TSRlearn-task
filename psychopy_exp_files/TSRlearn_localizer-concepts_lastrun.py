@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on August 24, 2026, at 21:21
+    on August 25, 2026, at 09:49
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -75,7 +75,7 @@ nonmatch_key = center_key
 possible_keys = [left_key, right_key, center_key, down_key]
 
 # language for instruction
-language = 'german' # 'english', 'french' or 'german' 
+language = 'english' # 'english', 'french' or 'german' 
 
 # match /non-match responses or just non-match
 match_responses = 0 # [no "match" responses = 0, match and nonmatch responses = 1]
@@ -733,7 +733,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Experiment' code from set_cond_file
     # zero-pad participant number for 0–9
     p_num = int(expInfo['participant'])
-    conditions_file = f"sequences/localizer_conditions_0{p_num}.xlsx"
+    conditions_file = f"sequences/localizer_conditions_objects-things_0{p_num}.xlsx"
     
     # --- Initialize components for Routine "instructions" ---
     instruction_part1 = visual.TextStim(win=win, name='instruction_part1',
