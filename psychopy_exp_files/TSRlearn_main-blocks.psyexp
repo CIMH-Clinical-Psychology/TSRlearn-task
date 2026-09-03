@@ -3058,7 +3058,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="practice_choice_display" valType="code" updates="None" name="name"/>
@@ -3336,7 +3336,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="practice_feedback" valType="code" updates="None" name="name"/>
@@ -3629,7 +3629,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="retrieval_type1_practice" valType="code" updates="None" name="name"/>
@@ -3710,7 +3710,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="first_image_prc" valType="code" updates="None" name="name"/>
@@ -3786,7 +3786,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="second_image_prc" valType="code" updates="None" name="name"/>
@@ -4447,7 +4447,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="retr_response_feedback" valType="code" updates="None" name="name"/>
@@ -4701,7 +4701,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="mask_retr1_prc" valType="code" updates="None" name="name"/>
@@ -4777,7 +4777,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="mask_retr2_prc" valType="code" updates="None" name="name"/>
@@ -4853,7 +4853,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="reflection_period" valType="code" updates="None" name="name"/>
@@ -4925,7 +4925,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="retr_response_order_prc" valType="code" updates="None" name="name"/>
@@ -5170,7 +5170,7 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="retr_response_distance_prc" valType="code" updates="None" name="name"/>
@@ -6173,8 +6173,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="if (resp_4.keys) {&amp;#10;    chosen_num = chosenDis;&amp;#10;    is_correct = (chosen_num === distance_correct);&amp;#10;}&amp;#10;bids.add_instant(&quot;choice&quot;, {&quot;onset&quot;: dist_press_onset, &quot;distance_correct&quot;: distance_correct, &quot;trial_type&quot;: &quot;retr_distance&quot;, &quot;block_name&quot;: block, &quot;sequence_name&quot;: learningSeq, &quot;trial_num&quot;: retrieval_trials.thisN, &quot;response&quot;: (responded_retr_slider ? chosenDis : &quot;m&quot;), &quot;response_time&quot;: (responded_retr_slider ? resp_4.rt : null), &quot;correct&quot;: is_correct, &quot;expected_response&quot;: distance_correct, &quot;response_meaning&quot;: chosenDis});&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="&amp;#10;# response neeeds to be saved at end of trial&amp;#10;if resp_4.keys:&amp;#10;    &amp;#10;    chosen_num = chosenDis&amp;#10;    is_correct = (chosen_num == distance_correct)&amp;#10;&amp;#10;bids.add_instant(&amp;#10;&quot;choice&quot;,&amp;#10;onset=dist_press_onset,&amp;#10;distance_correct=distance_correct,&amp;#10;trial_type=&quot;retr_distance&quot;,&amp;#10;block_name=block,&amp;#10;sequence_name=learningSeq,&amp;#10;trial_num=retrieval_trials.thisN,&amp;#10;response=(chosenDis if responded_retr_slider else &quot;m&quot;),&amp;#10;response_time=(resp_4.rt if responded_retr_slider else None),&amp;#10;correct=is_correct,&amp;#10;expected_response = distance_correct, &amp;#10;response_meaning = chosenDis&amp;#10;)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="pressed = resp_4.keys;&amp;#10;if ((pressed instanceof list)) {&amp;#10;    pressed = (pressed ? pressed.slice((- 1))[0] : &quot;m&quot;);&amp;#10;    is_correct = (chosenDis === distance_correct);&amp;#10;}&amp;#10;bids.add_instant(&quot;choice&quot;, {&quot;distance_correct&quot;: distance_correct, &quot;trial_type&quot;: &quot;retr_distance&quot;, &quot;block_name&quot;: block, &quot;sequence_name&quot;: learningSeq, &quot;trial_num&quot;: retrieval_trials.thisN, &quot;response&quot;: (chosenDis ? chosenDis : &quot;m&quot;), &quot;response_time&quot;: (responded_retr_slider ? resp_4.rt : null), &quot;correct&quot;: (is_correct ? is_correct : &quot;m&quot;), &quot;expected_response&quot;: distance_correct, &quot;response_meaning&quot;: (chosenDis ? chosenDis : &quot;m&quot;)});&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;# response neeeds to be saved at end of trial&amp;#10;pressed = resp_4.keys&amp;#10;if isinstance(pressed, list):&amp;#10;    pressed = pressed[-1] if pressed else &quot;m&quot;&amp;#10;&amp;#10;    is_correct = (chosenDis == distance_correct)&amp;#10;&amp;#10;bids.add_instant(&amp;#10;&quot;choice&quot;,&amp;#10;distance_correct = distance_correct,&amp;#10;trial_type = &quot;retr_distance&quot;,&amp;#10;block_name=block,&amp;#10;sequence_name=learningSeq,&amp;#10;trial_num=retrieval_trials.thisN,&amp;#10;response=(chosenDis if chosenDis else &quot;m&quot;),&amp;#10;response_time=(resp_4.rt if responded_retr_slider else None),&amp;#10;correct=(is_correct if is_correct else &quot;m&quot;),&amp;#10;expected_response = distance_correct, &amp;#10;response_meaning=(chosenDis if chosenDis else &quot;m&quot;),&amp;#10;&amp;#10;)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="bids_retr_response_2" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -7050,48 +7050,6 @@
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
     </Routine>
-    <PavloviaSurveyRoutine name="navigation_questionnaire">
-      <Param name="disabled" updates="None" val="False" valType="bool"/>
-      <Param name="name" updates="None" val="navigation_questionnaire" valType="code"/>
-      <Param name="surveyId" updates="None" val="0de7a7de-e9ac-44d2-9398-866c0bd18dc7" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="dream_questionnaire">
-      <Param name="disabled" updates="None" val="False" valType="bool"/>
-      <Param name="name" updates="None" val="dream_questionnaire" valType="code"/>
-      <Param name="surveyId" updates="None" val="4499d6a1-b422-480c-a305-f440a53994bf" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="stanford_sleepiness">
-      <Param name="disabled" updates="None" val="False" valType="bool"/>
-      <Param name="name" updates="None" val="stanford_sleepiness" valType="code"/>
-      <Param name="surveyId" updates="None" val="bde6c016-22d5-428b-9ef2-a3c2c9cf7c35" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="consent_form_tsrlearn">
-      <Param name="disabled" updates="None" val="True" valType="bool"/>
-      <Param name="name" updates="None" val="consent_form_tsrlearn" valType="code"/>
-      <Param name="surveyId" updates="None" val="eda19275-997a-457e-a29d-f41391593141" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="Demographics_Survey">
-      <Param name="disabled" updates="None" val="True" valType="bool"/>
-      <Param name="name" updates="None" val="Demographics_Survey" valType="code"/>
-      <Param name="surveyId" updates="None" val="0444fbd5-4304-4137-9662-752b56f98500" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
-    <PavloviaSurveyRoutine name="retrieval_questions_survey">
-      <Param name="disabled" updates="None" val="True" valType="bool"/>
-      <Param name="name" updates="None" val="retrieval_questions_survey" valType="code"/>
-      <Param name="surveyId" updates="None" val="8f317ce8-b71a-4e79-b5f1-4c69a712b0a4" valType="str"/>
-      <Param name="surveyJson" updates="None" val="" valType="str"/>
-      <Param name="surveyType" updates="None" val="id" valType="code"/>
-    </PavloviaSurveyRoutine>
     <Routine name="after_block_rest">
       <RoutineSettingsComponent name="after_block_rest" plugin="None">
         <Param val="none" valType="str" updates="None" name="backgroundFit"/>
@@ -7172,6 +7130,22 @@
       </CodeComponent>
     </Routine>
     <Routine name="after_block_break">
+      <RoutineSettingsComponent name="after_block_break" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="after_block_break" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <CodeComponent name="determine_break_start_2" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
@@ -7189,22 +7163,6 @@
         <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="determine_break_start_2" valType="code" updates="None" name="name"/>
       </CodeComponent>
-      <RoutineSettingsComponent name="after_block_break" plugin="None">
-        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
-        <Param val="" valType="str" updates="None" name="backgroundImg"/>
-        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
-        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
-        <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
-        <Param val="after_block_break" valType="code" updates="None" name="name"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="constant" name="skipIf"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="" valType="code" updates="constant" name="stopVal"/>
-        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
-      </RoutineSettingsComponent>
       <CodeComponent name="bids_longbreak_logging_2" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
@@ -7234,8 +7192,8 @@
         <Param val="break_start_trig = trigger_dict[&quot;task_break_begin&quot;];&amp;#10;if ((frameN === 0)) {&amp;#10;    bids.trigger(break_start_trig, {&quot;stim&quot;: text_break_block, &quot;label&quot;: &quot;instruction_break_block&quot;});&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="break_end_trig = trigger_dict[&quot;task_break_end&quot;];&amp;#10;if ((run_break &amp;&amp; (! end_trig_send))) {&amp;#10;    bids.trigger(break_end_trig, {&quot;label&quot;: &quot;end_break_block&quot;, &quot;on_flip&quot;: false});&amp;#10;    end_trig_send = true;&amp;#10;    core.wait(0.01);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="# send trigger for end break&amp;#10;break_end_trig = trigger_dict[&quot;task_break_end&quot;]&amp;#10;if run_break and not end_trig_send:&amp;#10;    bids.trigger(break_end_trig, label=&quot;end_break_block&quot;, on_flip=False)&amp;#10;    end_trig_send = True&amp;#10;    core.wait(0.01) # wait so no overlap with next img trigger&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="break_end_trig = trigger_dict[&quot;task_break_end&quot;];&amp;#10;if ((! end_trig_send)) {&amp;#10;    bids.trigger(break_end_trig, {&quot;label&quot;: &quot;end_break_block&quot;, &quot;on_flip&quot;: false});&amp;#10;    end_trig_send = true;&amp;#10;    core.wait(0.01);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# send trigger for end break&amp;#10;break_end_trig = trigger_dict[&quot;task_break_end&quot;]&amp;#10;if not end_trig_send:&amp;#10;    bids.trigger(break_end_trig, label=&quot;end_break_block&quot;, on_flip=False)&amp;#10;    end_trig_send = True&amp;#10;    core.wait(0.01) # wait so no overlap with next img trigger&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="trigger_long_break_start_2" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -7304,6 +7262,48 @@
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
     </Routine>
+    <PavloviaSurveyRoutine name="navigation_questionnaire">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="navigation_questionnaire" valType="code"/>
+      <Param name="surveyId" updates="None" val="0de7a7de-e9ac-44d2-9398-866c0bd18dc7" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="dream_questionnaire">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="dream_questionnaire" valType="code"/>
+      <Param name="surveyId" updates="None" val="4499d6a1-b422-480c-a305-f440a53994bf" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="stanford_sleepiness">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="stanford_sleepiness" valType="code"/>
+      <Param name="surveyId" updates="None" val="bde6c016-22d5-428b-9ef2-a3c2c9cf7c35" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="consent_form_tsrlearn">
+      <Param name="disabled" updates="None" val="True" valType="bool"/>
+      <Param name="name" updates="None" val="consent_form_tsrlearn" valType="code"/>
+      <Param name="surveyId" updates="None" val="eda19275-997a-457e-a29d-f41391593141" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="Demographics_Survey">
+      <Param name="disabled" updates="None" val="True" valType="bool"/>
+      <Param name="name" updates="None" val="Demographics_Survey" valType="code"/>
+      <Param name="surveyId" updates="None" val="0444fbd5-4304-4137-9662-752b56f98500" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="retrieval_questions_survey">
+      <Param name="disabled" updates="None" val="True" valType="bool"/>
+      <Param name="name" updates="None" val="retrieval_questions_survey" valType="code"/>
+      <Param name="surveyId" updates="None" val="8f317ce8-b71a-4e79-b5f1-4c69a712b0a4" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
   </Routines>
   <Flow>
     <Routine name="startup_settings"/>
