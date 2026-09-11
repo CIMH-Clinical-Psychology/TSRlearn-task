@@ -1,0 +1,17 @@
+subject	block_num	trial_num	component_label	onset	duration	type_of_stimulus	concept_label	concept_examplar	trigger_value	trigger_onset	trigger_delay	response_time	press_onset_est	response	expected_response	wrd_img_match	correct
+1	n/a	n/a	exp_start	0.0010119000071426854	0.0	trigger	n/a	n/a	255	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part1	0.030136300003505312	3.852174899991951	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part2	3.8962006000074325	1.7850780000007944	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part3	5.711679700005334	0.535540700002457	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part4	6.261547900008736	1.0185696999978973	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_start	44.18326770000567	11.48181779999868	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_start_2	55.679473700001836	n/a	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	1	image	56.96547609999834	0.7634667666755064	image	ball	ball_06.png	8	56.965568300001905	9.220000356435776e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	56.965568300001905	0.0	trigger	n/a	n/a	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	1	word	57.72963139999774	0.7822654666708928	word	Ball_german	n/a	108	57.72967050000443	3.91000066883862e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	57.72967050000443	0.0	trigger	n/a	n/a	108	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	1	possible_button_press	59.23108900000807	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	1	fix_cross_after_trial	59.24525680000079	1.2331191666637693	fixation cross	n/a	n/a	94	59.2452864000079	2.9600007110275328e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	59.2452864000079	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_end	60.694737600002554	3.9351783000020077	instructions	n/a	n/a	255	60.694776899996214	3.929999365936965e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	exp_end	60.694776899996214	0.0	trigger	n/a	n/a	255	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
