@@ -1,0 +1,365 @@
+subject	block_num	trial_num	component_label	onset	duration	type_of_stimulus	concept_label	concept_examplar	trigger_value	trigger_onset	trigger_delay	response_time	press_onset_est	response	expected_response	wrd_img_match	correct
+1	n/a	n/a	exp_start	0.0014356000000361746	0.0	trigger	n/a	n/a	255	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part1	0.04633280000001605	1.9216005999999766	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part2	1.9813045000000216	0.700512099999969	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part3	2.7131284000000164	0.7020577000000117	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_part4	3.4295462000000043	0.685712599999988	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_start	41.0504765	1.652806499999997	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	instruction_start_2	42.73359350000004	n/a	instructions	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	1	image	43.76290449999999	0.7537972666666661	image	lavender	lavender_12.png	4	43.76299180000001	8.730000001833105e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	43.76299180000001	0.0	trigger	n/a	n/a	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	1	word	44.51686090000004	0.9997373666666505	word	Lavendel_german	n/a	104	44.5168994	3.849999995964026e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	44.5168994	0.0	trigger	n/a	n/a	104	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	1	possible_button_press	46.01903850000002	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	1	fix_cross_after_trial	46.032504500000016	1.0833681666666877	fixation cross	n/a	n/a	94	46.03252359999999	1.9099999974514503e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	46.03252359999999	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	2	image	47.188209700000016	0.7615445666666716	image	polar_bear	polar_bear_12.png	7	47.188286800000014	7.709999999860884e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	47.188286800000014	0.0	trigger	n/a	n/a	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	2	word	47.94882310000003	0.999787566666626	word	Eisbär_german	n/a	107	47.9488475	2.4399999972501973e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	47.9488475	0.0	trigger	n/a	n/a	107	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	2	possible_button_press	49.451033800000005	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	2	fix_cross_after_trial	49.465557200000035	0.9993596666666491	fixation cross	n/a	n/a	94	49.46558350000004	2.6300000001810986e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	49.46558350000004	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	3	image	50.5343833	0.7661456666666737	image	cookie	cookie_10.png	2	50.53450040000001	0.00011710000001130538	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	50.53450040000001	0.0	trigger	n/a	n/a	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	3	word	51.29799360000004	0.9527924666666223	word	Keks_german	n/a	102	51.29802380000001	3.0199999969227065e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	51.29802380000001	0.0	trigger	n/a	n/a	102	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	3	possible_button_press	52.80188720000001	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	3	fix_cross_after_trial	52.81753100000003	0.8493352666666425	fixation cross	n/a	n/a	94	52.8175804	4.939999996622646e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	52.8175804	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	4	image	53.89325009999999	0.7549556666666746	image	tree	tree_10.png	10	53.89337929999999	0.0001292000000034932	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	53.89337929999999	0.0	trigger	n/a	n/a	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	4	word	54.650575300000014	0.8298068666666865	word	Baum_german	n/a	110	54.65063280000004	5.750000002535671e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	54.65063280000004	0.0	trigger	n/a	n/a	110	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	4	possible_button_press	56.15144190000001	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	4	fix_cross_after_trial	56.16324069999996	1.083456766666714	fixation cross	n/a	n/a	94	56.1632846	4.3900000036956044e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	56.1632846	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	5	image	57.320185400000014	0.7590618666666984	image	seagull	seagull_01.png	9	57.32030629999997	0.00012089999995623657	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	57.32030629999997	0.0	trigger	n/a	n/a	9	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	5	word	58.079215100000056	0.932354366666587	word	Möve_german	n/a	109	58.07926459999999	4.949999993186793e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	58.07926459999999	0.0	trigger	n/a	n/a	109	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	5	possible_button_press	59.58152270000005	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	5	fix_cross_after_trial	59.59536400000002	1.1164113666666395	fixation cross	n/a	n/a	94	59.595405700000015	4.1699999997035775e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	59.595405700000015	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	6	image	60.768803899999966	0.7598012666667415	image	helicopter	helicopter_13.png	3	60.768890899999974	8.700000000771979e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	60.768890899999974	0.0	trigger	n/a	n/a	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	6	word	61.52838589999999	1.0496807666667252	word	Hubschrauber_german	n/a	103	61.52842820000001	4.230000001825829e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	61.52842820000001	0.0	trigger	n/a	n/a	103	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	6	possible_button_press	63.03252880000002	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	6	fix_cross_after_trial	63.04548090000003	1.0819475666666136	fixation cross	n/a	n/a	94	63.045527900000025	4.6999999995023245e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	63.045527900000025	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	7	image	64.183854	0.7606439666666489	image	pin	pin_14.png	6	64.18395310000005	9.910000005675101e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	64.18395310000005	0.0	trigger	n/a	n/a	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	7	word	64.94411950000006	0.8988997666666734	word	Nadel_german	n/a	106	64.94418070000006	6.120000000464643e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	64.94418070000006	0.0	trigger	n/a	n/a	106	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	7	possible_button_press	66.43142450000005	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	7	fix_cross_after_trial	66.44494159999999	1.0655048666666431	fixation cross	n/a	n/a	94	66.44499619999999	5.459999999857246e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	66.44499619999999	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	8	image	67.53139529999999	0.7615805666666944	image	seagull	seagull_11.png	9	67.53154570000004	0.0001504000000522865	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	image	67.53154570000004	0.0	trigger	n/a	n/a	9	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	8	word	68.293002	1.015764766666635	word	Erdnuss_german	n/a	105	68.29305769999996	5.569999996168917e-05	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	word	68.29305769999996	0.0	trigger	n/a	n/a	105	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	8	feedback	69.8090211	0.0	trigger	n/a	n/a	96	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	8	possible_button_press	70.01115500000003	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	r	0	0
+1	1	8	fix_cross_after_trial	70.02517420000004	0.9834168666666443	fixation cross	n/a	n/a	94	70.0252008	2.6599999955578824e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	70.0252008	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	9	image	71.09993910000003	0.7588628666666324	image	boat	boat_04.png	8	71.10003719999997	9.809999994558893e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	71.10003719999997	0.0	trigger	n/a	n/a	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	9	word	71.85815500000001	0.882374566666627	word	Boot_german	n/a	108	71.85819170000002	3.670000000965956e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	71.85819170000002	0.0	trigger	n/a	n/a	108	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	9	possible_button_press	73.34667190000005	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	9	fix_cross_after_trial	73.35782100000006	1.0334694666666024	fixation cross	n/a	n/a	94	73.35785280000005	3.179999998792482e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	73.35785280000005	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	10	image	74.44729430000007	0.7600798666666293	image	peanut	peanut_08.png	5	74.44747789999997	0.00018359999990025244	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	74.44747789999997	0.0	trigger	n/a	n/a	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	10	word	75.20733949999999	1.0322325666667354	word	Erdnuss_german	n/a	105	75.2073785	3.90000000152213e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	75.2073785	0.0	trigger	n/a	n/a	105	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	10	possible_button_press	76.70935980000002	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	10	fix_cross_after_trial	76.72338730000001	0.8000226666666919	fixation cross	n/a	n/a	94	76.72343390000003	4.6600000018770515e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	76.72343390000003	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	11	image	77.54182390000005	0.7646368666666064	image	knife	knife_09.png	1	77.54190089999997	7.699999991928053e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	77.54190089999997	0.0	trigger	n/a	n/a	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	11	word	78.30620469999997	0.8990367666666685	word	Messer_german	n/a	101	78.30624720000003	4.250000006322807e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	78.30624720000003	0.0	trigger	n/a	n/a	101	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	11	possible_button_press	79.79392910000001	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	11	fix_cross_after_trial	79.80835109999998	1.130641366666751	fixation cross	n/a	n/a	94	79.80838640000002	3.530000003593159e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	79.80838640000002	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	12	image	80.99469870000007	0.7604805666666294	image	lavender	lavender_02.png	4	80.99480260000007	0.00010389999999915744	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	80.99480260000007	0.0	trigger	n/a	n/a	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	12	word	81.7578287	0.9990908666666343	word	Lavendel_german	n/a	104	81.75786540000001	3.670000000965956e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	81.75786540000001	0.0	trigger	n/a	n/a	104	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	12	possible_button_press	83.24244959999999	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	12	fix_cross_after_trial	83.25507370000003	0.899973166666669	fixation cross	n/a	n/a	94	83.25511430000006	4.060000003391906e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	83.25511430000006	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	13	image	84.26669530000004	0.7546220666666983	image	boat	boat_10.png	8	84.26679460000003	9.929999998803396e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	84.26679460000003	0.0	trigger	n/a	n/a	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	13	word	85.02149059999999	0.88249476666671	word	Boot_german	n/a	108	85.02154029999997	4.9699999976837717e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	85.02154029999997	0.0	trigger	n/a	n/a	108	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	13	possible_button_press	86.52476999999999	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	13	fix_cross_after_trial	86.53967880000005	0.8643748666666085	fixation cross	n/a	n/a	94	86.53972529999999	4.6499999939442205e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	86.53972529999999	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	14	image	87.45860909999999	0.7614678666666492	image	pin	pin_11.png	6	87.45870430000002	9.520000003249152e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	87.45870430000002	0.0	trigger	n/a	n/a	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	14	word	88.22026500000004	0.8986483666666487	word	Nadel_german	n/a	106	88.22030389999998	3.889999993589299e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	88.22030389999998	0.0	trigger	n/a	n/a	106	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	14	possible_button_press	89.72225019999996	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	14	fix_cross_after_trial	89.73574959999996	1.2003305666667217	fixation cross	n/a	n/a	94	89.73578929999996	3.970000000208529e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	89.73578929999996	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	15	image	90.95479030000001	0.7649666666666377	image	knife	knife_10.png	1	90.95488450000005	9.420000003501627e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	90.95488450000005	0.0	trigger	n/a	n/a	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	15	word	91.71850200000006	0.900257866666621	word	Messer_german	n/a	101	91.71855430000005	5.2299999993010715e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	91.71855430000005	0.0	trigger	n/a	n/a	101	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	15	possible_button_press	93.21996730000001	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	15	fix_cross_after_trial	93.23598019999997	0.7818229666667236	fixation cross	n/a	n/a	94	93.23600740000006	2.7200000090488174e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	93.23600740000006	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	16	image	94.0730916	0.76129646666665	image	peanut	peanut_12.png	5	94.07320270000002	0.00011110000002645393	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	94.07320270000002	0.0	trigger	n/a	n/a	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	16	word	94.83443669999997	1.0329380666667163	word	Erdnuss_german	n/a	105	94.83447339999998	3.670000000965956e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	94.83447339999998	0.0	trigger	n/a	n/a	105	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	16	possible_button_press	96.3361582	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	16	fix_cross_after_trial	96.35027249999996	0.8837797666667626	fixation cross	n/a	n/a	94	96.35029900000006	2.650000010362419e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	96.35029900000006	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	17	image	97.27116369999999	0.7622484666667475	image	tree	tree_04.png	10	97.27125039999999	8.669999999710853e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	97.27125039999999	0.0	trigger	n/a	n/a	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	17	word	98.03305450000005	0.8164995666666215	word	Baum_german	n/a	110	98.03308909999998	3.4599999935380765e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	98.03308909999998	0.0	trigger	n/a	n/a	110	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	17	possible_button_press	99.53671689999999	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	17	fix_cross_after_trial	99.54970349999996	0.9496528666667388	fixation cross	n/a	n/a	94	99.54973989999996	3.6399999999048305e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	99.54973989999996	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	18	image	100.55402720000006	0.7624382666665639	image	peanut	peanut_04.png	5	100.55412120000005	9.399999999004649e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	100.55412120000005	0.0	trigger	n/a	n/a	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	18	word	101.31617530000005	1.016033566666593	word	Erdnuss_german	n/a	105	101.3162274	5.209999994804093e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	101.3162274	0.0	trigger	n/a	n/a	105	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	18	possible_button_press	102.80368910000004	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	18	fix_cross_after_trial	102.81513559999996	0.7831536666667631	fixation cross	n/a	n/a	94	102.81516750000003	3.190000006725313e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	102.81516750000003	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	19	image	103.97006840000006	0.7617050666666643	image	helicopter	helicopter_02.png	3	103.97016680000002	9.839999995620019e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	103.97016680000002	0.0	trigger	n/a	n/a	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	19	word	104.7313034	1.049363466666719	word	Hubschrauber_german	n/a	103	104.73134149999998	3.8099999983387534e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	104.73134149999998	0.0	trigger	n/a	n/a	103	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	19	possible_button_press	106.23573169999997	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	19	fix_cross_after_trial	106.24736870000004	1.1831563666666085	fixation cross	n/a	n/a	94	106.24740670000006	3.800000001774606e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	106.24740670000006	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	20	image	107.48732229999996	0.7596600666667115	image	cookie	cookie_01.png	2	107.48743160000004	0.00010930000007647322	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	image	107.48743160000004	0.0	trigger	n/a	n/a	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	20	word	108.24703320000003	0.9325854666666515	word	Möve_german	n/a	109	108.24708840000005	5.520000001979497e-05	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	word	108.24708840000005	0.0	trigger	n/a	n/a	109	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	20	feedback	109.74640180000006	0.0	trigger	n/a	n/a	96	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	20	possible_button_press	109.94911079999997	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	r	0	0
+1	1	20	fix_cross_after_trial	109.96377430000007	0.9154358666666127	fixation cross	n/a	n/a	94	109.96381010000005	3.579999997782579e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	109.96381010000005	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	21	image	110.88029630000005	0.7668710666665817	image	polar_bear	polar_bear_01.png	7	110.88040420000004	0.00010789999998905841	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	110.88040420000004	0.0	trigger	n/a	n/a	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	21	word	111.648053	0.9995122666666845	word	Eisbär_german	n/a	107	111.6480904	3.739999999652355e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	111.6480904	0.0	trigger	n/a	n/a	107	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	21	possible_button_press	113.13404179999998	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	21	fix_cross_after_trial	113.14619170000003	0.834785466666645	fixation cross	n/a	n/a	94	113.14623030000007	3.8600000038968574e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	113.14623030000007	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	22	image	114.05007120000005	0.7641866666666743	image	lavender	lavender_06.png	4	114.05018900000005	0.00011779999999816937	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	114.05018900000005	0.0	trigger	n/a	n/a	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	22	word	114.81170540000005	1.002146966666615	word	Lavendel_german	n/a	104	114.81174080000005	3.540000000157306e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	114.81174080000005	0.0	trigger	n/a	n/a	104	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	22	possible_button_press	116.31336929999998	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	22	fix_cross_after_trial	116.32735479999997	1.1833844666666806	fixation cross	n/a	n/a	94	116.32738040000004	2.560000007179042e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	116.32738040000004	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	23	image	117.56331269999998	0.7650822666667096	image	cookie	cookie_12.png	2	117.56340290000003	9.02000000451153e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	117.56340290000003	0.0	trigger	n/a	n/a	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	23	word	118.32726230000003	0.949637666666618	word	Keks_german	n/a	102	118.3272991	3.6799999975301034e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	118.3272991	0.0	trigger	n/a	n/a	102	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	23	possible_button_press	119.8296037	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	23	fix_cross_after_trial	119.8432732	1.0995115666667203	fixation cross	n/a	n/a	94	119.84330280000006	2.960000006169139e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	119.84330280000006	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	24	image	121.40912739999999	0.7502534666666776	image	helicopter	helicopter_10.png	3	121.40923759999998	0.00011019999999462016	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	121.40923759999998	0.0	trigger	n/a	n/a	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	24	word	122.15871720000007	1.0498667666665966	word	Hubschrauber_german	n/a	103	122.15876850000006	5.129999999553547e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	122.15876850000006	0.0	trigger	n/a	n/a	103	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	24	possible_button_press	123.66104430000007	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	24	fix_cross_after_trial	123.67559930000004	1.149709266666619	fixation cross	n/a	n/a	94	123.67564519999996	4.589999991821969e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	123.67564519999996	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	25	image	124.93895710000004	0.7531094666666291	image	boat	boat_08.png	8	124.93906179999999	0.0001046999999516629	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	124.93906179999999	0.0	trigger	n/a	n/a	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	25	word	125.69127209999999	0.8825579666667096	word	Boot_german	n/a	108	125.69132009999998	4.799999999249849e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	125.69132009999998	0.0	trigger	n/a	n/a	108	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	25	possible_button_press	127.19320549999998	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	25	fix_cross_after_trial	127.20744920000004	0.9496277666666231	fixation cross	n/a	n/a	94	127.20747570000003	2.649999998993735e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	127.20747570000003	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	26	image	128.2130184	0.7612218666667161	image	lavender	lavender_05.png	4	128.21311390000005	9.550000004310277e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	128.21311390000005	0.0	trigger	n/a	n/a	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	26	word	128.97403470000006	0.9994427666665899	word	Lavendel_german	n/a	104	128.97407610000005	4.139999998642452e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	128.97407610000005	0.0	trigger	n/a	n/a	104	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	26	possible_button_press	130.46149990000004	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	26	fix_cross_after_trial	130.47433079999996	1.114828866666727	fixation cross	n/a	n/a	94	130.47438580000005	5.5000000088512024e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	130.47438580000005	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	27	image	131.62645699999996	0.7633187666666856	image	tree	tree_06.png	10	131.62655340000003	9.640000007493654e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	131.62655340000003	0.0	trigger	n/a	n/a	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	27	word	132.38911870000004	0.8168349666666757	word	Baum_german	n/a	110	132.3891731	5.4399999953602673e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	132.3891731	0.0	trigger	n/a	n/a	110	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	27	possible_button_press	133.8907785	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	27	fix_cross_after_trial	133.90500780000002	0.9166923666666946	fixation cross	n/a	n/a	94	133.90504550000003	3.7700000007134804e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	133.90504550000003	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	28	image	134.95450500000004	0.7502253666666832	image	boat	boat_05.png	8	134.95461060000002	0.00010559999998349667	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	134.95461060000002	0.0	trigger	n/a	n/a	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	28	word	135.70470639999996	0.8823553666667578	word	Boot_german	n/a	108	135.70474030000003	3.390000006220362e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	135.70474030000003	0.0	trigger	n/a	n/a	108	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	28	possible_button_press	137.19080789999998	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	28	fix_cross_after_trial	137.20551639999996	1.1821969666666803	fixation cross	n/a	n/a	94	137.20555539999998	3.90000000152213e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	137.20555539999998	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	29	image	138.44191790000002	0.761723066666633	image	polar_bear	polar_bear_05.png	7	138.44202410000003	0.00010620000000471919	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	image	138.44202410000003	0.0	trigger	n/a	n/a	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	29	word	139.20379000000003	0.9992190666667113	word	Lavendel_german	n/a	104	139.2038344	4.4399999978850246e-05	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	word	139.2038344	0.0	trigger	n/a	n/a	104	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	29	feedback	140.72208839999996	0.0	trigger	n/a	n/a	96	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	29	possible_button_press	140.92354890000001	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	r	0	0
+1	1	29	fix_cross_after_trial	140.93695890000004	0.7662099666667075	fixation cross	n/a	n/a	94	140.93698770000003	2.8799999995499093e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	140.93698770000003	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	30	image	141.74119659999997	0.7618886666666924	image	knife	knife_04.png	1	141.74128730000007	9.070000010069634e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	141.74128730000007	0.0	trigger	n/a	n/a	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	30	word	142.5028446	0.9018696666667267	word	Messer_german	n/a	101	142.5028797	3.5099999990961805e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	142.5028797	0.0	trigger	n/a	n/a	101	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	30	possible_button_press	143.9901923	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	30	fix_cross_after_trial	144.0021795	0.8164132666667285	fixation cross	n/a	n/a	94	144.00221310000006	3.360000005159236e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	144.00221310000006	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	31	image	144.88618900000006	0.7543471666666903	image	pin	pin_15.png	6	144.88635399999998	0.00016499999992447556	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	image	144.88635399999998	0.0	trigger	n/a	n/a	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	31	word	145.63778350000007	0.9301824666665937	word	Möve_german	n/a	109	145.6378337	5.019999991873192e-05	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	word	145.6378337	0.0	trigger	n/a	n/a	109	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	31	feedback	147.15116139999998	0.0	trigger	n/a	n/a	96	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	31	possible_button_press	147.3558299	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	r	0	0
+1	1	31	fix_cross_after_trial	147.36821010000006	0.9996621666666954	fixation cross	n/a	n/a	94	147.36824850000005	3.839999999399879e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	147.36824850000005	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	32	image	148.43701729999998	0.763948866666766	image	cookie	cookie_14.png	2	148.43710380000005	8.650000006582559e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	148.43710380000005	0.0	trigger	n/a	n/a	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	32	word	149.20099860000005	0.9522870666666279	word	Keks_german	n/a	102	149.20104800000001	4.939999996622646e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	149.20104800000001	0.0	trigger	n/a	n/a	102	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	32	possible_button_press	150.68865700000003	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	32	fix_cross_after_trial	150.7033341	0.9496711666667181	fixation cross	n/a	n/a	94	150.7033788	4.46999999894615e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	150.7033788	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	33	image	151.68796910000003	0.7639252666666891	image	seagull	seagull_07.png	9	151.68807820000006	0.00010910000003150344	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	151.68807820000006	0.0	trigger	n/a	n/a	9	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	33	word	152.4551791	0.927712866666667	word	Möve_german	n/a	109	152.4552344	5.529999998543644e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	152.4552344	0.0	trigger	n/a	n/a	109	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	33	possible_button_press	153.95252949999997	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	33	fix_cross_after_trial	153.96593459999997	0.8833835666667085	fixation cross	n/a	n/a	94	153.96598140000003	4.68000000637403e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	153.96598140000003	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	34	image	154.90396740000006	0.7616440666666051	image	lavender	lavender_11.png	4	154.90405210000006	8.470000000215805e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	154.90405210000006	0.0	trigger	n/a	n/a	4	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	34	word	155.66540970000005	0.9991347666666854	word	Lavendel_german	n/a	104	155.6654592	4.949999993186793e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	155.6654592	0.0	trigger	n/a	n/a	104	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	34	possible_button_press	157.16750790000003	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	34	fix_cross_after_trial	157.1831472	1.2314089666666916	fixation cross	n/a	n/a	94	157.18319359999998	4.639999997380073e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	157.18319359999998	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	35	image	158.8415311	0.7560980666667376	image	helicopter	helicopter_08.png	3	158.84166060000007	0.00012950000007094786	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	158.84166060000007	0.0	trigger	n/a	n/a	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	35	word	159.59812829999998	1.0318698666666535	word	Hubschrauber_german	n/a	103	159.59818259999997	5.42999999879612e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	159.59818259999997	0.0	trigger	n/a	n/a	103	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	35	possible_button_press	161.08545319999996	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	35	fix_cross_after_trial	161.09803780000004	1.0989250666666806	fixation cross	n/a	n/a	94	161.09807339999998	3.559999993285601e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	161.09807339999998	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	36	image	162.2169695	0.7628401666667344	image	knife	knife_05.png	1	162.2170562	8.669999999710853e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	162.2170562	0.0	trigger	n/a	n/a	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	36	word	162.97968379999998	0.8993935666667596	word	Messer_german	n/a	101	162.97973520000005	5.140000007486378e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	162.97973520000005	0.0	trigger	n/a	n/a	101	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	36	possible_button_press	164.48234980000007	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	36	fix_cross_after_trial	164.49600110000006	1.149508266666686	fixation cross	n/a	n/a	94	164.49604239999996	4.129999990709621e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	164.49604239999996	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	37	image	165.7186686	0.7599701666667045	image	cookie	cookie_15.png	2	165.7187556	8.700000000771979e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	165.7187556	0.0	trigger	n/a	n/a	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	37	word	166.478612	0.9332999666667376	word	Keks_german	n/a	102	166.4786553	4.330000001573353e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	166.4786553	0.0	trigger	n/a	n/a	102	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	37	possible_button_press	167.98025659999996	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	37	fix_cross_after_trial	167.99520110000003	1.14962216666666	fixation cross	n/a	n/a	94	167.99523869999996	3.759999992780649e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	167.99523869999996	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	38	image	169.19700410000007	0.7642178666666553	image	pin	pin_13.png	6	169.19707879999999	7.469999991371878e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	169.19707879999999	0.0	trigger	n/a	n/a	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	38	word	169.96077220000006	0.8990632666666727	word	Nadel_german	n/a	106	169.96083540000006	6.319999999959691e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	169.96083540000006	0.0	trigger	n/a	n/a	106	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	38	possible_button_press	171.4628298	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	38	fix_cross_after_trial	171.47790510000004	0.9000364666666485	fixation cross	n/a	n/a	94	171.47794940000006	4.4300000013208773e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	171.47794940000006	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	39	image	172.4544965	0.7573283666667123	image	helicopter	helicopter_09.png	3	172.45463840000002	0.0001419000000169035	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	172.45463840000002	0.0	trigger	n/a	n/a	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	39	word	173.23060610000005	1.029895266666614	word	Hubschrauber_german	n/a	103	173.23068090000004	7.47999999930471e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	173.23068090000004	0.0	trigger	n/a	n/a	103	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	39	possible_button_press	174.71199050000007	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	39	fix_cross_after_trial	174.72752490000005	0.8317390666666427	fixation cross	n/a	n/a	94	174.72757650000005	5.160000000614673e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	174.72757650000005	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	40	image	175.61594000000002	0.7601071666666996	image	peanut	peanut_10.png	5	175.6160665	0.0001264999999648353	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	175.6160665	0.0	trigger	n/a	n/a	5	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	40	word	176.37984640000002	1.0115433666666434	word	Erdnuss_german	n/a	105	176.37988859999996	4.219999993892998e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	176.37988859999996	0.0	trigger	n/a	n/a	105	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	40	possible_button_press	177.87930440000002	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	40	fix_cross_after_trial	177.89199859999997	0.8003109666667854	fixation cross	n/a	n/a	94	177.89204949999998	5.090000001928274e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	177.89204949999998	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	41	image	178.84069699999998	0.7502486666667494	image	boat	boat_01.png	8	178.84081909999998	0.0001220999999986816	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	178.84081909999998	0.0	trigger	n/a	n/a	8	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	41	word	179.59084919999998	0.8837407666667616	word	Boot_german	n/a	108	179.59091250000006	6.330000007892522e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	179.59091250000006	0.0	trigger	n/a	n/a	108	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	41	possible_button_press	181.07839669999998	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	41	fix_cross_after_trial	181.09098170000004	1.216075166666684	fixation cross	n/a	n/a	94	181.09103530000004	5.3600000001097214e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	181.09103530000004	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	42	image	182.44476010000005	0.7632803666666916	image	tree	tree_08.png	10	182.44489970000006	0.00013960000001134176	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	182.44489970000006	0.0	trigger	n/a	n/a	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	42	word	183.20840210000006	0.8322607666666784	word	Baum_german	n/a	110	183.20848030000002	7.819999996172555e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	183.20848030000002	0.0	trigger	n/a	n/a	110	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	42	possible_button_press	184.71013449999998	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	42	fix_cross_after_trial	184.72382089999996	1.048646366666759	fixation cross	n/a	n/a	94	184.7238635	4.2600000028869545e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	184.7238635	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	43	image	185.85352550000005	0.7534756666666738	image	helicopter	helicopter_14.png	3	185.853657	0.0001314999999522115	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	185.853657	0.0	trigger	n/a	n/a	3	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	43	word	186.60584530000006	1.0506214666666267	word	Hubschrauber_german	n/a	103	186.60589719999996	5.189999990307115e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	186.60589719999996	0.0	trigger	n/a	n/a	103	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	43	possible_button_press	188.10998159999997	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	43	fix_cross_after_trial	188.1221716	1.0831051666666838	fixation cross	n/a	n/a	94	188.1222226	5.0999999984924216e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	188.1222226	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	44	image	189.2420174	0.7631293666667318	image	polar_bear	polar_bear_04.png	7	189.24217169999997	0.00015429999996285915	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	189.24217169999997	0.0	trigger	n/a	n/a	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	44	word	190.00497859999996	1.0001945666666927	word	Eisbär_german	n/a	107	190.0050301	5.1500000040505256e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	190.0050301	0.0	trigger	n/a	n/a	107	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	44	possible_button_press	191.50907789999997	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	44	fix_cross_after_trial	191.52242050000007	1.083686366666626	fixation cross	n/a	n/a	94	191.52251609999996	9.559999989505741e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	191.52251609999996	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	45	image	192.6411726	0.7619062666666707	image	seagull	seagull_06.png	9	192.64131020000002	0.00013760000001639128	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	192.64131020000002	0.0	trigger	n/a	n/a	9	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	45	word	193.40392580000002	0.9336075666666659	word	Möve_german	n/a	109	193.4039762	5.03999999637017e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	193.4039762	0.0	trigger	n/a	n/a	109	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	45	possible_button_press	194.90547790000005	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	45	fix_cross_after_trial	194.9195307	0.983171766666743	fixation cross	n/a	n/a	94	194.9195856	5.4900000009183714e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	194.9195856	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	46	image	195.92092220000006	0.7649781666666797	image	pin	pin_01.png	6	195.92103529999997	0.00011309999990771757	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	195.92103529999997	0.0	trigger	n/a	n/a	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	46	word	196.6858125	0.8998299666666583	word	Nadel_german	n/a	106	196.68587160000004	5.910000004405447e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	196.68587160000004	0.0	trigger	n/a	n/a	106	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	46	possible_button_press	198.1872664	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	46	fix_cross_after_trial	198.20180719999996	1.1493150666667873	fixation cross	n/a	n/a	94	198.20184440000003	3.72000000652406e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	198.20184440000003	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	47	image	199.42343519999997	0.7637835666667172	image	polar_bear	polar_bear_11.png	7	199.42352979999998	9.4600000011269e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	199.42352979999998	0.0	trigger	n/a	n/a	7	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	47	word	200.18515890000003	1.0016816666666557	word	Eisbär_german	n/a	107	200.18523170000003	7.279999999809661e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	200.18523170000003	0.0	trigger	n/a	n/a	107	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	47	possible_button_press	201.6860322	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	47	fix_cross_after_trial	201.7003628	0.9829997666667225	fixation cross	n/a	n/a	94	201.70040389999997	4.109999997581326e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	201.70040389999997	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	48	image	202.7368093	0.7644937666666749	image	cookie	cookie_04.png	2	202.73692890000007	0.00011960000006183691	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	202.73692890000007	0.0	trigger	n/a	n/a	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	48	word	203.50337209999998	0.9459354666667252	word	Keks_german	n/a	102	203.50341660000004	4.450000005817856e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	203.50341660000004	0.0	trigger	n/a	n/a	102	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	48	possible_button_press	205.00532469999996	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	48	fix_cross_after_trial	205.01633849999996	1.0825819666667087	fixation cross	n/a	n/a	94	205.0163768	3.830000002835732e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	205.0163768	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	49	image	206.26724990000002	0.765680266666692	image	tree	tree_11.png	10	206.2673648	0.00011489999997138511	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	image	206.2673648	0.0	trigger	n/a	n/a	10	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	49	word	207.0326096	0.9990689666666697	word	Lavendel_german	n/a	104	207.03265020000003	4.060000003391906e-05	n/a	n/a	n/a	n/a	0	n/a
+1	n/a	n/a	word	207.03265020000003	0.0	trigger	n/a	n/a	104	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	49	feedback	208.54832190000002	0.0	trigger	n/a	n/a	96	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	49	possible_button_press	208.73398800000007	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	r	0	0
+1	1	49	fix_cross_after_trial	208.74833190000004	1.1659736666667015	fixation cross	n/a	n/a	94	208.74838669999997	5.47999999298554e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	208.74838669999997	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	50	image	209.97038770000006	0.7612316666666459	image	pin	pin_07.png	6	209.9704686	8.089999994354002e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	image	209.9704686	0.0	trigger	n/a	n/a	6	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	50	word	210.73078910000004	0.9000047666666262	word	Nadel_german	n/a	106	210.7308263	3.7199999951553764e-05	n/a	n/a	n/a	n/a	1	n/a
+1	n/a	n/a	word	210.7308263	0.0	trigger	n/a	n/a	106	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	50	possible_button_press	212.23316469999997	0.0	response	n/a	n/a	n/a	n/a	n/a	n/a	n/a	m	m	1	1
+1	1	50	fix_cross_after_trial	212.24716309999997	1.0169837666667547	fixation cross	n/a	n/a	94	212.24720860000002	4.55000000556538e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	fix_cross_iti	212.24720860000002	0.0	trigger	n/a	n/a	94	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1	1	50	break_instruction	213.39557209999998	n/a	break	n/a	n/a	81	213.39561500000002	4.29000000394808e-05	n/a	n/a	n/a	n/a	n/a	n/a
+1	n/a	n/a	break_start	213.39561500000002	0.0	trigger	n/a	n/a	81	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
