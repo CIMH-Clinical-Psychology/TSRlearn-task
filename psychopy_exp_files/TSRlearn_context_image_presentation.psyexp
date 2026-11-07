@@ -1,0 +1,1070 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.1.1">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="TSRlearn_context_image_presentation" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="exp_settings">
+      <RoutineSettingsComponent name="exp_settings" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="exp_settings" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="set_variables" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="font_name = &quot;Open Sans&quot;&amp;#10;font_size = 0.03&amp;#10;&amp;#10;language = &quot;german&quot; &amp;#10;left_key =&quot;g&quot;&amp;#10;up_key = &quot;r&quot;&amp;#10;right_key = &quot;b&quot;&amp;#10;down_key = &quot;y&quot;&amp;#10;&amp;#10;allowed_keys = [left_key, up_key, right_key, down_key]&amp;#10;&amp;#10;fast_img_dur = 0.112 # [s]&amp;#10;mask_dur = 0.048 # [s]&amp;#10;fast_img_repetitions = 30" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="font_name = &quot;Open Sans&quot;;&amp;#10;font_size = 0.03;&amp;#10;language = &quot;german&quot;;&amp;#10;left_key = &quot;g&quot;;&amp;#10;up_key = &quot;r&quot;;&amp;#10;right_key = &quot;b&quot;;&amp;#10;down_key = &quot;y&quot;;&amp;#10;allowed_keys = [left_key, up_key, right_key, down_key];&amp;#10;fast_img_dur = 0.112;&amp;#10;mask_dur = 0.048;&amp;#10;fast_img_repetitions = 30;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_variables" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="set_trigger_numbers" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;# define which trigger numbers to send&amp;#10;trigger_numbers_dict = {&amp;#10;&quot;start/end&quot;: 255,&amp;#10;&quot;context image presentation&quot;: 166,&amp;#10;&quot;fixation cross&quot;: 94,&amp;#10;&quot;question remember&quot;: 95,&amp;#10;&quot;break_start&quot;: 81, &amp;#10;&quot;break_end&quot;: 82&amp;#10;}" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="trigger_numbers_dict = {&quot;start/end&quot;: 255, &quot;context image presentation&quot;: 166, &quot;fixation cross&quot;: 94, &quot;question remember&quot;: 95, &quot;break_start&quot;: 81, &quot;break_end&quot;: 82};&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_trigger_numbers" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="functions_imports" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;# log function that saves variables to log file&amp;#10;def log(*msgs, sep=' ', end='\n'):&amp;#10;    log_file = u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'] + '_print.log')&amp;#10;    print(*msgs, sep=sep, end=end, flush=True)&amp;#10;&amp;#10;    # Append to log file&amp;#10;    with open(log_file, 'a') as f:&amp;#10;        f.write(sep.join(str(msg) for msg in msgs) + end)&amp;#10;&amp;#10;&amp;#10;import meg_triggers&amp;#10;from meg_triggers import send_trigger&amp;#10;meg_triggers.set_default_duration(0.005)&amp;#10;meg_triggers.set_default_reset_value(0)  # set the value the trigger channel returns to for neutral state&amp;#10;# meg_triggers.enable_printing()     " valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="functions_imports" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="bids_logging_functions" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# --- BIDS event logger (no Builder BIDS components needed) ---&amp;#10;from pathlib import Path&amp;#10;import csv&amp;#10;import numpy as np&amp;#10;import atexit&amp;#10;&amp;#10;class BIDSLogger:&amp;#10;    def __init__(self, win, clock, default_cols=None):&amp;#10;        self.win = win&amp;#10;        self.clock = clock&amp;#10;        self.rows = []          # list of dicts -&gt; will become events.tsv&amp;#10;        self.active = {}        # stim -&gt; row index (for duration)&amp;#10;        self.defaults = default_cols or {}&amp;#10;&amp;#10;        # fixed column order (add any you want to see in the TSV)&amp;#10;        self.col_order = [&amp;#10;            &quot;subject&quot;, &quot;trial_num&quot;,&amp;#10;            &quot;component_label&quot;, &quot;onset&quot;, &quot;duration&quot;,&amp;#10;            &quot;type_of_stimulus&quot;, &amp;#10;            &quot;response_time&quot;, &quot;response&quot;,&amp;#10;            &quot;expected_response&quot;, &amp;#10;        ]&amp;#10;&amp;#10;    # schedule logging of onset on the *next* flip (exactly when the stim appears)&amp;#10;    def schedule_onset(self, stim, **extra_cols):&amp;#10;         # Onset: first frame it is STARTED&amp;#10;        if getattr(stim, &quot;status&quot;, None) == STARTED and stim not in self.active:&amp;#10;            # Builder already records exact onset on flip into tStartRefresh;&amp;#10;            # fall back to current clock if that isn't available.&amp;#10;            t_on = getattr(stim, &quot;tStartRefresh&quot;, None)&amp;#10;            if t_on is None:&amp;#10;                t_on = self.clock.getTime()&amp;#10;            row = {&amp;#10;                &quot;onset&quot;: float(t_on),&amp;#10;                &quot;duration&quot;: np.nan,&amp;#10;            }&amp;#10;            row.update(self.defaults)&amp;#10;            row.update(extra_cols)&amp;#10;            self.rows.append(row)&amp;#10;            self.active[stim] = len(self.rows) - 1&amp;#10;    &amp;#10;    # to log the offset and therefore compute durations of components&amp;#10;    def mark_offset(self, stim):&amp;#10;        if getattr(stim, &quot;status&quot;, None) == FINISHED and stim in self.active:&amp;#10;            idx = self.active.pop(stim)&amp;#10;            t_off = getattr(stim, &quot;tStopRefresh&quot;, None)&amp;#10;            if t_off is None:&amp;#10;                t_off = self.clock.getTime()&amp;#10;            self.rows[idx][&quot;duration&quot;] = float(t_off - self.rows[idx][&quot;onset&quot;])&amp;#10;            &amp;#10;    # log a one-shot event right now (no duration), e.g., button press&amp;#10;    def add_instant(self, trial_type, **extra_cols):&amp;#10;        row = {&quot;onset&quot;: float(self.clock.getTime()), &quot;duration&quot;: 0.0,&amp;#10;               &quot;type_of_stimulus&quot;: trial_type}&amp;#10;        row.update(self.defaults)&amp;#10;        row.update(extra_cols)&amp;#10;        self.rows.append(row)&amp;#10;&amp;#10;    # write out a BIDS-like events.tsv&amp;#10;    def save(self, filename_base):&amp;#10;        out = Path(filename_base).with_suffix(&quot;&quot;)  # strip .csv/.log if present&amp;#10;        out = out.parent / (out.name + &quot;_events.tsv&quot;)&amp;#10;&amp;#10;        # union of all keys, but keep preferred order first&amp;#10;        all_keys = list(self.col_order)&amp;#10;        for r in self.rows:&amp;#10;            for k in r.keys():&amp;#10;                if k not in all_keys:&amp;#10;                    all_keys.append(k)&amp;#10;&amp;#10;        with open(out, &quot;w&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;            w = csv.DictWriter(f, fieldnames=all_keys, delimiter=&quot;\t&quot;, extrasaction=&quot;ignore&quot;)&amp;#10;            w.writeheader()&amp;#10;            for r in self.rows:&amp;#10;                # convert Nones to &quot;n/a&quot; for BIDS friendliness&amp;#10;                out_row = {k: (&quot;n/a&quot; if (r.get(k) is None or (isinstance(r.get(k), float) and np.isnan(r.get(k)))) else r.get(k))&amp;#10;                           for k in all_keys}&amp;#10;                w.writerow(out_row)&amp;#10;&amp;#10;        return str(out)&amp;#10;# set global clock as default because we need it for timing&amp;#10;bids = None&amp;#10;&amp;#10;# atexit autosave: runs on normal finish AND on ESC (core.quit)&amp;#10;def _bids_autosave():&amp;#10;    try:&amp;#10;        if bids and hasattr(bids, &quot;rows&quot;):&amp;#10;            out = bids.save(thisExp.dataFileName)&amp;#10;            print(f&quot;[autosave] BIDS events written to: {out}&quot;)&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;[autosave] Failed to save BIDS events: {e}&quot;)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="bids = new BIDSLogger({&quot;win&quot;: psychoJS.window, &quot;clock&quot;: globalClock, &quot;default_cols&quot;: dict({&quot;subject&quot;: expInfo.get(&quot;participant&quot;)})});&amp;#10;_ = bids.save(psychoJS.experiment.dataFileName);&amp;#10;atexit.register(_bids_autosave);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# ---- Create the logger once ----&amp;#10;bids = BIDSLogger(&amp;#10;    win=win,&amp;#10;    clock=globalClock,&amp;#10;    default_cols=dict(&amp;#10;        subject=expInfo.get(&quot;participant&quot;)&amp;#10;    )&amp;#10;)&amp;#10;&amp;#10;# write a header-only file immediately so each start creates a file&amp;#10;_ = bids.save(thisExp.dataFileName)&amp;#10;&amp;#10;# atexit autosave: runs on normal finish AND on ESC (core.quit)&amp;#10;atexit.register(_bids_autosave)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_logging_functions" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="set_ppt_id" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="ppt_id = expInfo[&quot;participant&quot;];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="ppt_id = expInfo[&quot;participant&quot;]" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_ppt_id" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="beginning_instruction">
+      <RoutineSettingsComponent name="beginning_instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="beginning_instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="set_trigger_startexp" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="send_trigger({&quot;value&quot;: trigger_numbers_dict[&quot;start/end&quot;]});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;send_trigger(value=trigger_numbers_dict[&quot;start/end&quot;])" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_trigger_startexp" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="instruction_begin" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_begin" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="set_instruction_begin" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;german&quot;)) {&amp;#10;    instruction_begin.text = &quot;Sie sehen nun die Hintergrundbilder aus der Aufgabe noch einmal. Jedes Hintergrundbild wird 5 Sekunden lang gezeigt. Solange das Bild zu sehen ist, denken Sie bitte an die Bildsequenz, die zu diesem Hintergrundbild geh\u00f6rt.\n[Dr\u00fccken Sie eine beliebige Taste, wenn Sie bereit sind.]&quot;;&amp;#10;} else {&amp;#10;    if ((language === &quot;english&quot;)) {&amp;#10;        instruction_begin.text = &quot;You will now see the background images from the task again. Each background image is shown for 5 seconds. While the image is on screen, think of the image sequence that belongs to this background image.\n[Press any key when you are ready.]&quot;;&amp;#10;    } else {&amp;#10;        if ((language === &quot;french&quot;)) {&amp;#10;            instruction_begin.text = &quot;Vous allez revoir les images de fond de la t\u00e2che. Chaque image de fond est affich\u00e9e pendant 5 secondes. Tant que l\u2019image est affich\u00e9e, pensez \u00e0 la s\u00e9quence d\u2019images associ\u00e9e \u00e0 cette image de fond.\n[Appuyez sur une touche lorsque vous \u00eates pr\u00eat(e).]&quot;;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;german&quot;:&amp;#10;    instruction_begin.text = (&amp;#10;        &quot;Sie sehen nun die Hintergrundbilder aus der Aufgabe noch einmal. &quot;&amp;#10;        &quot;Jedes Hintergrundbild wird 5 Sekunden lang gezeigt. &quot;&amp;#10;        &quot;Solange das Bild zu sehen ist, denken Sie bitte an die Bildsequenz, &quot;&amp;#10;        &quot;die zu diesem Hintergrundbild gehört.\n&quot;&amp;#10;        &quot;[Drücken Sie eine beliebige Taste, wenn Sie bereit sind.]&quot;&amp;#10;    )&amp;#10;elif language == &quot;english&quot;:&amp;#10;    instruction_begin.text = (&amp;#10;        &quot;You will now see the background images from the task again. &quot;&amp;#10;        &quot;Each background image is shown for 5 seconds. &quot;&amp;#10;        &quot;While the image is on screen, think of the image sequence &quot;&amp;#10;        &quot;that belongs to this background image.\n&quot;&amp;#10;        &quot;[Press any key when you are ready.]&quot;&amp;#10;    )&amp;#10;elif language == &quot;french&quot;:&amp;#10;    instruction_begin.text = (&amp;#10;        &quot;Vous allez revoir les images de fond de la tâche. &quot;&amp;#10;        &quot;Chaque image de fond est affichée pendant 5 secondes. &quot;&amp;#10;        &quot;Tant que l’image est affichée, pensez à la séquence d’images &quot;&amp;#10;        &quot;associée à cette image de fond.\n&quot;&amp;#10;        &quot;[Appuyez sur une touche lorsque vous êtes prêt(e).]&quot;&amp;#10;    )" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_instruction_begin" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="bids_instruc_01" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="## schedule bids trigger setting&amp;#10;&amp;#10;bids.schedule_onset(instruction_begin,&amp;#10;                        type_of_stimulus=&quot;instructions&quot;,&amp;#10;                        component_label=&quot;instruction_general_remembering&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="bids.schedule_onset(instruction_begin, {&quot;type_of_stimulus&quot;: &quot;instructions&quot;, &quot;component_label&quot;: &quot;instruction_general_remembering&quot;});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="bids.mark_offset(instruction_begin);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# log offset at last frame of routine&amp;#10;&amp;#10;bids.mark_offset(instruction_begin)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_instruc_01" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button" plugin="None">
+        <Param val="allowed_keys" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button" valType="code" updates="None" name="name"/>
+        <Param val="release" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="fixation">
+      <CodeComponent name="set_trigger_fix_cross" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="send_trigger({&quot;value&quot;: trigger_numbers_dict[&quot;question remember&quot;]});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;send_trigger(value=trigger_numbers_dict[&quot;question remember&quot;])" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_trigger_fix_cross" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <RoutineSettingsComponent name="fixation" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_which_sequence" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_which_sequence" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="bids_fixation" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;&amp;#10;bids.schedule_onset(text_which_sequence,&amp;#10;                        type_of_stimulus=&quot;prompt&quot;,&amp;#10;                        component_label=&quot;prompt_remember_sequence&quot;,&amp;#10;trial_num = trials_presentation.thisN)&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="bids.schedule_onset(text_which_sequence, {&quot;type_of_stimulus&quot;: &quot;prompt&quot;, &quot;component_label&quot;: &quot;prompt_remember_sequence&quot;, &quot;trial_num&quot;: trials_presentation.thisN});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="bids.mark_offset(text_which_sequence);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;bids.mark_offset(text_which_sequence)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_fixation" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="set_text_question_sequence" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    text_which_sequence.text = &quot;Think about the associated image sequence!&quot;;&amp;#10;} else {&amp;#10;    if ((language === &quot;german&quot;)) {&amp;#10;        text_which_sequence.text = &quot;Denken Sie an die zugeh\u00f6rige Bildsequenz!&quot;;&amp;#10;    } else {&amp;#10;        if ((language === &quot;french&quot;)) {&amp;#10;            text_which_sequence.text = &quot;Pensez \u00e0 la s\u00e9quence d\u2019images associ\u00e9e !&quot;;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;:&amp;#10;    text_which_sequence.text = &quot;Think about the associated image sequence!&quot;&amp;#10;elif language == &quot;german&quot;:&amp;#10;    text_which_sequence.text = &quot;Denken Sie an die zugehörige Bildsequenz!&quot;&amp;#10;elif language == &quot;french&quot;:&amp;#10;    text_which_sequence.text = &quot;Pensez à la séquence d’images associée !&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_text_question_sequence" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="remember_story_instruction">
+      <RoutineSettingsComponent name="remember_story_instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="remember_story_instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="story_whole_instruction" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="story_instr = {&quot;german&quot;: [&quot;Sie sehen nun die Hintergrundbilder aus der Aufgabe noch einmal. Jedes Hintergrundbild wird einmal gezeigt, danach erscheint ein Fixationskreuz.\n\nSolange das Kreuz zu sehen ist (15 Sekunden), erinnern Sie sich bitte an die Geschichte, die Sie sich beim Lernen ausgedacht haben, um sich die Bildsequenz zu diesem Hintergrundbild zu merken.\n\n[Dr\u00fccken Sie eine beliebige Taste, um fortzufahren.]&quot;, &quot;W\u00e4hrend der 15 Sekunden:\n\n\u2022 Gehen Sie die Geschichte vom Anfang bis zum Ende durch, in der Reihenfolge der Bilder.\n\n\u2022 Wenn Sie am Ende angekommen sind, bevor das Kreuz verschwindet, beginnen Sie die Geschichte wieder von vorn.\n\n[Dr\u00fccken Sie eine beliebige Taste, um fortzufahren.]&quot;, &quot;\u2022 Wenn Ihnen ein Teil der Geschichte nicht einf\u00e4llt, machen Sie mit dem n\u00e4chsten Teil weiter, an den Sie sich erinnern.\n\nSchauen Sie dabei auf das Kreuz und denken Sie an nichts anderes.\n\n[Dr\u00fccken Sie eine beliebige Taste, wenn Sie bereit sind.]&quot;], &quot;english&quot;: [&quot;You will now see the background images from the task again. Each background image is shown once, followed by a fixation cross.\n\nWhile the cross is on screen (15 seconds), recall the story you made up during learning to remember the image sequence for this background image.\n\n[Press any key to continue.]&quot;, &quot;During the 15 seconds:\n\n\u2022 Go through the story from beginning to end, in the order of the images.\n\n\u2022 If you reach the end before the cross disappears, start the story again from the beginning.\n\n[Press any key to continue.]&quot;, &quot;\u2022 If you cannot remember part of the story, continue with the next part you remember.\n\nKeep your eyes on the cross and do not think about anything else.\n\n[Press any key when you are ready.]&quot;], &quot;french&quot;: [&quot;Vous allez revoir les images de fond de la t\u00e2che. Chaque image de fond est pr\u00e9sent\u00e9e une fois, puis une croix de fixation appara\u00eet.\n\nTant que la croix est affich\u00e9e (15 secondes), rappelez-vous l\u2019histoire que vous avez invent\u00e9e pendant l\u2019apprentissage pour m\u00e9moriser la s\u00e9quence d\u2019images associ\u00e9e \u00e0 cette image de fond.\n\n[Appuyez sur une touche pour continuer.]&quot;, &quot;Pendant les 15 secondes :\n\n\u2022 Parcourez l\u2019histoire du d\u00e9but \u00e0 la fin, dans l\u2019ordre des images.\n\n\u2022 Si vous arrivez \u00e0 la fin avant que la croix ne disparaisse, recommencez l\u2019histoire depuis le d\u00e9but.\n\n[Appuyez sur une touche pour continuer.]&quot;, &quot;\u2022 Si vous ne vous souvenez plus d\u2019une partie de l\u2019histoire, continuez avec la partie suivante dont vous vous souvenez.\n\nGardez les yeux sur la croix et ne pensez \u00e0 rien d\u2019autre.\n\n[Appuyez sur une touche lorsque vous \u00eates pr\u00eat(e).]&quot;]};&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="story_instr = {&amp;#10;    &quot;german&quot;: [&amp;#10;        &quot;Sie sehen nun die Hintergrundbilder aus der Aufgabe noch einmal. &quot;&amp;#10;        &quot;Jedes Hintergrundbild wird einmal gezeigt, danach erscheint ein Fixationskreuz.\n\n&quot;&amp;#10;        &quot;Solange das Kreuz zu sehen ist (15 Sekunden), erinnern Sie sich bitte an die Geschichte, &quot;&amp;#10;        &quot;die Sie sich beim Lernen ausgedacht haben, um sich die Bildsequenz zu diesem &quot;&amp;#10;        &quot;Hintergrundbild zu merken.\n\n&quot;&amp;#10;        &quot;[Drücken Sie eine beliebige Taste, um fortzufahren.]&quot;,&amp;#10;&amp;#10;        &quot;Während der 15 Sekunden:\n\n&quot;&amp;#10;        &quot;• Gehen Sie die Geschichte vom Anfang bis zum Ende durch, in der Reihenfolge der Bilder.\n\n&quot;&amp;#10;        &quot;• Wenn Sie am Ende angekommen sind, bevor das Kreuz verschwindet, beginnen Sie die &quot;&amp;#10;        &quot;Geschichte wieder von vorn.\n\n&quot;&amp;#10;        &quot;[Drücken Sie eine beliebige Taste, um fortzufahren.]&quot;,&amp;#10;&amp;#10;        &amp;#10;        &quot;• Wenn Ihnen ein Teil der Geschichte nicht einfällt, machen Sie mit dem nächsten Teil &quot;&amp;#10;        &quot;weiter, an den Sie sich erinnern.\n\n&quot;&amp;#10;        &quot;Schauen Sie dabei auf das Kreuz und denken Sie an nichts anderes.\n\n&quot;&amp;#10;        &quot;[Drücken Sie eine beliebige Taste, wenn Sie bereit sind.]&quot;,&amp;#10;    ],&amp;#10;    &quot;english&quot;: [&amp;#10;        &quot;You will now see the background images from the task again. &quot;&amp;#10;        &quot;Each background image is shown once, followed by a fixation cross.\n\n&quot;&amp;#10;        &quot;While the cross is on screen (15 seconds), recall the story you made up during learning &quot;&amp;#10;        &quot;to remember the image sequence for this background image.\n\n&quot;&amp;#10;        &quot;[Press any key to continue.]&quot;,&amp;#10;&amp;#10;        &quot;During the 15 seconds:\n\n&quot;&amp;#10;        &quot;• Go through the story from beginning to end, in the order of the images.\n\n&quot;&amp;#10;        &quot;• If you reach the end before the cross disappears, start the story again from the beginning.\n\n&quot;&amp;#10;        &quot;[Press any key to continue.]&quot;,&amp;#10;&amp;#10;        &quot;• If you cannot remember part of the story, continue with the next part you remember.\n\n&quot;&amp;#10;        &quot;Keep your eyes on the cross and do not think about anything else.\n\n&quot;&amp;#10;        &quot;[Press any key when you are ready.]&quot;,&amp;#10;    ],&amp;#10;    &quot;french&quot;: [&amp;#10;        &quot;Vous allez revoir les images de fond de la tâche. &quot;&amp;#10;        &quot;Chaque image de fond est présentée une fois, puis une croix de fixation apparaît.\n\n&quot;&amp;#10;        &quot;Tant que la croix est affichée (15 secondes), rappelez-vous l’histoire que vous avez &quot;&amp;#10;        &quot;inventée pendant l’apprentissage pour mémoriser la séquence d’images associée à cette &quot;&amp;#10;        &quot;image de fond.\n\n&quot;&amp;#10;        &quot;[Appuyez sur une touche pour continuer.]&quot;,&amp;#10;&amp;#10;        &quot;Pendant les 15 secondes :\n\n&quot;&amp;#10;        &quot;• Parcourez l’histoire du début à la fin, dans l’ordre des images.\n\n&quot;&amp;#10;       &quot;• Si vous arrivez à la fin avant que la croix ne disparaisse, recommencez l’histoire &quot;&amp;#10;        &quot;depuis le début.\n\n&quot;&amp;#10;        &quot;[Appuyez sur une touche pour continuer.]&quot;,&amp;#10;&amp;#10;&amp;#10;        &quot;• Si vous ne vous souvenez plus d’une partie de l’histoire, continuez avec la partie &quot;&amp;#10;        &quot;suivante dont vous vous souvenez.\n\n&quot;&amp;#10;        &quot;Gardez les yeux sur la croix et ne pensez à rien d’autre.\n\n&quot;&amp;#10;        &quot;[Appuyez sur une touche lorsque vous êtes prêt(e).]&quot;,&amp;#10;    ],&amp;#10;}" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="story_whole_instruction" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="instruction_story1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_story1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="set_text_instruction_story1" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="instruction_story1.text = story_instr[language][0];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="instruction_story1.text = story_instr[language][0]   # routine 1: what happens&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_text_instruction_story1" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_2" plugin="None">
+        <Param val="allowed_keys" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_2" valType="code" updates="None" name="name"/>
+        <Param val="release" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="bids_instruc" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="## schedule bids trigger setting&amp;#10;&amp;#10;bids.schedule_onset(instruction_story1,&amp;#10;                        type_of_stimulus=&quot;instructions&quot;,&amp;#10;                        component_label=&quot;instruction_story_remembering&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="bids.schedule_onset(instruction_story1, {&quot;type_of_stimulus&quot;: &quot;instructions&quot;, &quot;component_label&quot;: &quot;instruction_story_remembering&quot;});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="bids.mark_offset(instruction_story1);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# log offset at last frame of routine&amp;#10;&amp;#10;bids.mark_offset(instruction_story1)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_instruc" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instruction_end">
+      <RoutineSettingsComponent name="instruction_end" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction_end" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="set_trigger_end" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="send_trigger({&quot;value&quot;: trigger_numbers_dict[&quot;start/end&quot;]});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="send_trigger(value=trigger_numbers_dict[&quot;start/end&quot;])" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_trigger_end" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="instruction_part7" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_part7" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="bids_instruc_7" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="bids.schedule_onset(instruction_part7,&amp;#10;                        type_of_stimulus=&quot;instructions&quot;,&amp;#10;                        component_label=&quot;instruction_part7&quot;)" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="bids.schedule_onset(instruction_part7, {&quot;type_of_stimulus&quot;: &quot;instructions&quot;, &quot;component_label&quot;: &quot;instruction_part7&quot;});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="bids.mark_offset(instruction_part7);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="bids.mark_offset(instruction_part7) " valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_instruc_7" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="instruction_part7_text" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((language === &quot;english&quot;)) {&amp;#10;    instruction_part7.text = &quot;You finished the last task block. Good job!\nPress any key to end this part of the experiment. &quot;;&amp;#10;}&amp;#10;if ((language === &quot;german&quot;)) {&amp;#10;    instruction_part7.text = &quot;Sie haben den letzten Aufgabenblock abgeschlossen. Gut gemacht!\nDr\u00fccken Sie eine beliebige Taste, um diesen Teil des Experiments zu beenden.&quot;;&amp;#10;}&amp;#10;if ((language === &quot;french&quot;)) {&amp;#10;    instruction_part7.text = &quot;Vous avez termin\u00e9 la derni\u00e8re partie des exercices. Bravo!\nAppuyez sur une touche pour terminer cette partie de l'exp\u00e9rience. &quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if language == &quot;english&quot;: &amp;#10;    instruction_part7.text = (&amp;#10;    &quot;You finished the last task block. Good job!\n&quot;&amp;#10;    &quot;Press any key to end this part of the experiment. &quot;&amp;#10;    )&amp;#10;&amp;#10;if language == &quot;german&quot;: &amp;#10;    instruction_part7.text = (&amp;#10;    &quot;Sie haben den letzten Aufgabenblock abgeschlossen. Gut gemacht!\n&quot;&amp;#10;    &quot;Drücken Sie eine beliebige Taste, um diesen Teil des Experiments zu beenden.&quot; )&amp;#10;&amp;#10;if language == &quot;french&quot;:&amp;#10;    instruction_part7.text = (&amp;#10;    &quot;Vous avez terminé la dernière partie des exercices. Bravo!\n&quot;&amp;#10;    &quot;Appuyez sur une touche pour terminer cette partie de l'expérience. &quot;&amp;#10;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="instruction_part7_text" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_5" plugin="None">
+        <Param val="allowed_keys" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_5" valType="code" updates="None" name="name"/>
+        <Param val="release" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="remember_story_instruction2">
+      <RoutineSettingsComponent name="remember_story_instruction2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="remember_story_instruction2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruction_story2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_story2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="set_text_instruction_story2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="instruction_story2.text = story_instr[language][1];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="instruction_story2.text = story_instr[language][1]   &amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_text_instruction_story2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_3" plugin="None">
+        <Param val="allowed_keys" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_3" valType="code" updates="None" name="name"/>
+        <Param val="release" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="remember_story_instruction3">
+      <RoutineSettingsComponent name="remember_story_instruction3" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="remember_story_instruction3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruction_story3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="$font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruction_story3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="set_text_instruction_story3" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="instruction_story3.text = story_instr[language][2];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="instruction_story3.text = story_instr[language][2]   # routine 1: what happens&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_text_instruction_story3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_button_4" plugin="None">
+        <Param val="allowed_keys" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="continue_button_4" valType="code" updates="None" name="name"/>
+        <Param val="release" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="context_img_presentation">
+      <CodeComponent name="set_trigger_image" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="send_trigger({&quot;value&quot;: image_seq_trigger});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;&amp;#10;send_trigger(value=image_seq_trigger) " valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_trigger_image" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <RoutineSettingsComponent name="context_img_presentation" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="context_img_presentation" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$image_file_context" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <CodeComponent name="bids_image" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;&amp;#10;bids.schedule_onset(image,&amp;#10;                        type_of_stimulus=&quot;image&quot;,&amp;#10;                        component_label=&quot;image_context_remember&quot;,&amp;#10;trial_num = trials_presentation.thisN)&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="bids.schedule_onset(image, {&quot;type_of_stimulus&quot;: &quot;image&quot;, &quot;component_label&quot;: &quot;image_context_remember&quot;, &quot;trial_num&quot;: trials_presentation.thisN});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="bids.mark_offset(image);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;bids.mark_offset(image)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_image" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="context_image_story">
+      <RoutineSettingsComponent name="context_image_story" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="context_image_story" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="set_trigger_image_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="send_trigger({&quot;value&quot;: image_seq_trigger});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;&amp;#10;send_trigger(value=image_seq_trigger) " valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_trigger_image_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="image_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$image_file_context" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <CodeComponent name="bids_image_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;&amp;#10;bids.schedule_onset(image_2,&amp;#10;                        type_of_stimulus=&quot;image&quot;,&amp;#10;                        component_label=&quot;image_context_story&quot;,&amp;#10;trial_num = trials_retell_story.thisN)&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="bids.schedule_onset(image_2, {&quot;type_of_stimulus&quot;: &quot;image&quot;, &quot;component_label&quot;: &quot;image_context_story&quot;, &quot;trial_num&quot;: trials_retell_story.thisN});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="bids.mark_offset(image_2);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;bids.mark_offset(image_2)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_image_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="fixation_story">
+      <RoutineSettingsComponent name="fixation_story" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="fixation_story" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="set_trigger_fix_cross_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="send_trigger({&quot;value&quot;: trigger_numbers_dict[&quot;fixation cross&quot;]});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;send_trigger(value=trigger_numbers_dict[&quot;fixation cross&quot;])" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_trigger_fix_cross_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="fix_cross_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="font_name" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fix_cross_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="bids_fixation_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;&amp;#10;bids.schedule_onset(fix_cross_2,&amp;#10;                        type_of_stimulus=&quot;fix_cross&quot;,&amp;#10;                        component_label=&quot;fix_cross_remember&quot;,&amp;#10;trial_num = trials_retell_story.thisN)&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="bids.schedule_onset(fix_cross_2, {&quot;type_of_stimulus&quot;: &quot;fix_cross&quot;, &quot;component_label&quot;: &quot;fix_cross_remember&quot;, &quot;trial_num&quot;: trials_retell_story.thisN});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="bids.mark_offset(fix_cross_2);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;bids.mark_offset(fix_cross_2)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="bids_fixation_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="exp_settings"/>
+    <Routine name="beginning_instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_presentation">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'image_file_context': 'stimuli\\context_images\\sea_01.jpg', 'image_seq_trigger': 1}, {'image_file_context': 'stimuli\\context_images\\forest_01.jpg', 'image_seq_trigger': 2}, {'image_file_context': 'stimuli\\context_images\\desert_01.jpg', 'image_seq_trigger': 3}, {'image_file_context': 'stimuli\\context_images\\snow_01.jpg', 'image_seq_trigger': 4}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="sequences/context_image_order.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_presentation" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fixation"/>
+    <Routine name="context_img_presentation"/>
+    <LoopTerminator name="trials_presentation"/>
+    <Routine name="remember_story_instruction"/>
+    <Routine name="remember_story_instruction2"/>
+    <Routine name="remember_story_instruction3"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_retell_story">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'image_file_context': 'stimuli\\context_images\\sea_01.jpg', 'image_seq_trigger': 1}, {'image_file_context': 'stimuli\\context_images\\forest_01.jpg', 'image_seq_trigger': 2}, {'image_file_context': 'stimuli\\context_images\\desert_01.jpg', 'image_seq_trigger': 3}, {'image_file_context': 'stimuli\\context_images\\snow_01.jpg', 'image_seq_trigger': 4}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="sequences/context_image_order.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_retell_story" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="context_image_story"/>
+    <Routine name="fixation_story"/>
+    <LoopTerminator name="trials_retell_story"/>
+    <Routine name="instruction_end"/>
+  </Flow>
+</PsychoPy2experiment>
